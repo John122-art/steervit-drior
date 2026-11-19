@@ -9,3 +9,7 @@
 PDFs and raw NumPy feature archives (`*.npz`) use Git LFS. Install Git LFS, clone this repository, then run `git lfs pull` to retrieve them. PNG/JPEG images, reports, and scripts are stored directly in Git.
 
 The reports contain the original local dataset and checkpoint paths for reproducibility. Those paths must be adapted to your environment before running the launcher. Model checkpoints and private keys are not included. The recorded statistics describe probability mass inside automatically generated reference masks, not planning performance or dataset-wide localization accuracy.
+
+## Latest color-word controls (2026-11-19)
+
+[White/red and white/black four-camera comparisons](steer_stage2_tokens_test_20261119/COLOR_PROMPT_PAIRS.md), including PNGs, 7-page PDFs, raw features, scripts, and measured distribution changes. Neither example shows a clear color-conditioned target switch; no downstream planning evaluation was run.

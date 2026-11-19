@@ -1,0 +1,147 @@
+{
+  "complete": true,
+  "scene_token": "166b654c0db95953",
+  "camera": "cam_f0",
+  "image": "/mnt/data/navsim/test_sensor_blobs/test/2021.09.09.18.29.25_veh-39_00427_00556/CAM_F0/262870c171365b8e.jpg",
+  "prompts": [
+    "the white car",
+    "the black car"
+  ],
+  "checkpoint": "/mnt/zhaozc_workspace/project/LQH/Drivor-orial/DrivoR-main/exp/ke/steer_stage2_capatch_vitb_8gpu_b16_12ep/11.13_05.07/lightning_logs/version_0/checkpoints/best-epoch=10-step=8866.ckpt",
+  "epoch": 10,
+  "global_step": 8866,
+  "strict_load": true,
+  "model_keys_loaded": 509,
+  "missing_keys": [],
+  "unexpected_keys": [],
+  "saved_config": "/mnt/zhaozc_workspace/project/LQH/Drivor-orial/DrivoR-main/exp/ke/steer_stage2_capatch_vitb_8gpu_b16_12ep/11.13_05.07/code/hydra/config.yaml",
+  "seed": 2,
+  "grid_shape": [
+    48,
+    82
+  ],
+  "patch_start_index": 17,
+  "ca_on_registers": false,
+  "gate_scale": 1.0,
+  "precision": "FP16 autocast; text and attention reconstruction FP32",
+  "inference_batch_size": 1,
+  "cameras_per_sample": 4,
+  "camera_order": [
+    "cam_f0",
+    "cam_b0",
+    "cam_l0",
+    "cam_r0"
+  ],
+  "original_texts": {
+    "cam_f0": "a pedestrian on the left side of the crosswalk, a crosswalk in the foreground, a black car in the center lane, a yellow pedestrian crossing sign on the right, a white SUV on the right",
+    "cam_b0": "a white van in the center of the image, a white car on the right side of the image, a white car on the left side of the image, a crosswalk in the lower right of the image",
+    "cam_l0": "a pedestrian wearing dark clothing on the crosswalk on the right, a crosswalk in the foreground, a black car on the right, a white car on the left",
+    "cam_r0": "a yellow pedestrian crossing sign on the left"
+  },
+  "scope": "Native four-camera image_backbone.forward, B=1 N=4; no downstream planning evaluation",
+  "pca": false,
+  "device": "PPU-ZW810E",
+  "condition_texts": [
+    {
+      "cam_f0": "the white car",
+      "cam_b0": "a white van in the center of the image, a white car on the right side of the image, a white car on the left side of the image, a crosswalk in the lower right of the image",
+      "cam_l0": "a pedestrian wearing dark clothing on the crosswalk on the right, a crosswalk in the foreground, a black car on the right, a white car on the left",
+      "cam_r0": "a yellow pedestrian crossing sign on the left"
+    },
+    {
+      "cam_f0": "the black car",
+      "cam_b0": "a white van in the center of the image, a white car on the right side of the image, a white car on the left side of the image, a crosswalk in the lower right of the image",
+      "cam_l0": "a pedestrian wearing dark clothing on the crosswalk on the right, a crosswalk in the foreground, a black car on the right, a white car on the left",
+      "cam_r0": "a yellow pedestrian crossing sign on the left"
+    }
+  ],
+  "distribution_comparison": {
+    "patch_grounding_total_variation": 0.08018719404935837,
+    "mean_register_attention_total_variation": 0.05212090164422989,
+    "per_register_attention_total_variation": [
+      0.05502638593316078,
+      0.06099938601255417,
+      0.060533829033374786,
+      0.03682975471019745,
+      0.059826791286468506,
+      0.05325615778565407,
+      0.0524151511490345,
+      0.05245518684387207,
+      0.06086292117834091,
+      0.05210220813751221,
+      0.05773109942674637,
+      0.059785109013319016,
+      0.06077096611261368,
+      0.05259550362825394,
+      0.05275672674179077,
+      0.05603540688753128
+    ],
+    "patch_peak_row_col": [
+      [
+        27,
+        0
+      ],
+      [
+        27,
+        0
+      ]
+    ]
+  },
+  "display": {
+    "patch_vmax": 0.008853254839777946,
+    "register_mean_vmax": 0.004207925521768582,
+    "per_register_vmax": [
+      0.004077373219188288,
+      0.005061125617939871,
+      0.005256251001264782,
+      0.0013434858981054227,
+      0.005012937558349153,
+      0.0042723335977643715,
+      0.0024845312512479555,
+      0.004103180407546432,
+      0.005047555542550965,
+      0.0038444163976237107,
+      0.004766562052536713,
+      0.005449758071918017,
+      0.00514954757178198,
+      0.004109102985821633,
+      0.004166611544787869,
+      0.0052987956348805555
+    ],
+    "percentile": 99.5,
+    "alpha": 0.55,
+    "normalization": "Shared between both prompts for each map type/token; patch-only conditional register attention"
+  },
+  "elapsed_seconds": 156.52965002099518,
+  "validation": {
+    "finite_arrays": true,
+    "probabilities_sum_to_one": true,
+    "image_files_decode": true,
+    "other_camera_max_absolute_change": {
+      "patches": 0.0,
+      "scene": 0.0,
+      "neck": 0.0,
+      "prob": 0.0,
+      "attn": 0.0
+    },
+    "four_camera_shapes_and_front_extraction": true,
+    "saved_logits_match_probabilities": true,
+    "pdf_pages_verified": 7
+  },
+  "pdf_pages": 7,
+  "input_images": {
+    "cam_f0": "/mnt/data/navsim/test_sensor_blobs/test/2021.09.09.18.29.25_veh-39_00427_00556/CAM_F0/262870c171365b8e.jpg",
+    "cam_b0": "/mnt/data/navsim/test_sensor_blobs/test/2021.09.09.18.29.25_veh-39_00427_00556/CAM_B0/1bfc55765e235037.jpg",
+    "cam_l0": "/mnt/data/navsim/test_sensor_blobs/test/2021.09.09.18.29.25_veh-39_00427_00556/CAM_L0/14c0ef574fa7559d.jpg",
+    "cam_r0": "/mnt/data/navsim/test_sensor_blobs/test/2021.09.09.18.29.25_veh-39_00427_00556/CAM_R0/951ac36591fb5fb6.jpg"
+  },
+  "output_images": [
+    "comparison.png",
+    "register_tokens_prompt_1.png",
+    "register_tokens_prompt_2.png",
+    "register_pair_00_03.png",
+    "register_pair_04_07.png",
+    "register_pair_08_11.png",
+    "register_pair_12_15.png"
+  ]
+}

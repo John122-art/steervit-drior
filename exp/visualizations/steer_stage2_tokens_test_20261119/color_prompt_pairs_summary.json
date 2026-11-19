@@ -1,0 +1,249 @@
+{
+  "cases": [
+    {
+      "scene_token": "4109b79d84ea5053",
+      "prompts": [
+        "the white car",
+        "the red car"
+      ],
+      "complete": true,
+      "checkpoint": "/mnt/zhaozc_workspace/project/LQH/Drivor-orial/DrivoR-main/exp/ke/steer_stage2_capatch_vitb_8gpu_b16_12ep/11.13_05.07/lightning_logs/version_0/checkpoints/best-epoch=10-step=8866.ckpt",
+      "epoch": 10,
+      "global_step": 8866,
+      "scope": "Native four-camera image_backbone.forward, B=1 N=4; no downstream planning evaluation",
+      "distribution_comparison": {
+        "patch_grounding_total_variation": 0.04109323024749756,
+        "mean_register_attention_total_variation": 0.060780927538871765,
+        "per_register_attention_total_variation": [
+          0.06251515448093414,
+          0.0691632628440857,
+          0.06931345909833908,
+          0.04038054496049881,
+          0.06705765426158905,
+          0.06181444972753525,
+          0.04862044006586075,
+          0.060887716710567474,
+          0.06885381042957306,
+          0.06001956760883331,
+          0.06471804529428482,
+          0.07046186923980713,
+          0.06855615228414536,
+          0.06097675859928131,
+          0.061048880219459534,
+          0.07178608328104019
+        ],
+        "patch_peak_row_col": [
+          [
+            25,
+            22
+          ],
+          [
+            32,
+            29
+          ]
+        ]
+      }
+    },
+    {
+      "scene_token": "166b654c0db95953",
+      "prompts": [
+        "the white car",
+        "the black car"
+      ],
+      "complete": true,
+      "checkpoint": "/mnt/zhaozc_workspace/project/LQH/Drivor-orial/DrivoR-main/exp/ke/steer_stage2_capatch_vitb_8gpu_b16_12ep/11.13_05.07/lightning_logs/version_0/checkpoints/best-epoch=10-step=8866.ckpt",
+      "epoch": 10,
+      "global_step": 8866,
+      "scope": "Native four-camera image_backbone.forward, B=1 N=4; no downstream planning evaluation",
+      "distribution_comparison": {
+        "patch_grounding_total_variation": 0.08018719404935837,
+        "mean_register_attention_total_variation": 0.05212090164422989,
+        "per_register_attention_total_variation": [
+          0.05502638593316078,
+          0.06099938601255417,
+          0.060533829033374786,
+          0.03682975471019745,
+          0.059826791286468506,
+          0.05325615778565407,
+          0.0524151511490345,
+          0.05245518684387207,
+          0.06086292117834091,
+          0.05210220813751221,
+          0.05773109942674637,
+          0.059785109013319016,
+          0.06077096611261368,
+          0.05259550362825394,
+          0.05275672674179077,
+          0.05603540688753128
+        ],
+        "patch_peak_row_col": [
+          [
+            27,
+            0
+          ],
+          [
+            27,
+            0
+          ]
+        ]
+      }
+    }
+  ],
+  "copied_source_files": [
+    {
+      "path": "exp/visualizations/steer_stage2_tokens_test_20261119/4109b79d84ea5053/cam_f0_white_red_car_4cam/index.html",
+      "bytes": 1231,
+      "sha256": "843232c604e95816ecaafe9020d4fcc991ea26f4f08b85ab31aa810c545e3393"
+    },
+    {
+      "path": "exp/visualizations/steer_stage2_tokens_test_20261119/4109b79d84ea5053/cam_f0_white_red_car_4cam/inference.log",
+      "bytes": 2758,
+      "sha256": "93055a6b99f19435fcb14eee6fad8240351e5bb6fffdd11d38bc64e654fa9681"
+    },
+    {
+      "path": "exp/visualizations/steer_stage2_tokens_test_20261119/4109b79d84ea5053/cam_f0_white_red_car_4cam/register_pair_04_07.png",
+      "bytes": 2867243,
+      "sha256": "523233a80221cfe256c42713d53932bfa4865a53d8a15ea304f1466071838edb"
+    },
+    {
+      "path": "exp/visualizations/steer_stage2_tokens_test_20261119/4109b79d84ea5053/cam_f0_white_red_car_4cam/prompt_comparison.pdf",
+      "bytes": 15973433,
+      "sha256": "692636d950ca61f542a2250904312ae49ba626eb0bc98a314775703815801468"
+    },
+    {
+      "path": "exp/visualizations/steer_stage2_tokens_test_20261119/4109b79d84ea5053/cam_f0_white_red_car_4cam/comparison.png",
+      "bytes": 2018840,
+      "sha256": "d53386b96eaa03eb3cad6a90a053c9fd3013eb6f5ca83f9891ece1e056007645"
+    },
+    {
+      "path": "exp/visualizations/steer_stage2_tokens_test_20261119/4109b79d84ea5053/cam_f0_white_red_car_4cam/four_camera_features.npz",
+      "bytes": 46933957,
+      "sha256": "9ee402e10a8511db75cb0ecd182b58bd17fa6d4cac9cc1ea650eb710e14a24e2"
+    },
+    {
+      "path": "exp/visualizations/steer_stage2_tokens_test_20261119/4109b79d84ea5053/cam_f0_white_red_car_4cam/register_tokens_prompt_1.png",
+      "bytes": 2532021,
+      "sha256": "bedb651640fc79fadcd1e13aeedb6c4b120f952bfe9d2f34234382359a91306f"
+    },
+    {
+      "path": "exp/visualizations/steer_stage2_tokens_test_20261119/4109b79d84ea5053/cam_f0_white_red_car_4cam/image.jpg",
+      "bytes": 186944,
+      "sha256": "516bf5be8237b423911d5210620624838830590e4dea20c9c85ec87b35a71327"
+    },
+    {
+      "path": "exp/visualizations/steer_stage2_tokens_test_20261119/4109b79d84ea5053/cam_f0_white_red_car_4cam/register_pair_12_15.png",
+      "bytes": 2773057,
+      "sha256": "8aa32031f11e8ab81faa874eabf315c109740972183eb845dbd6933c6c9af157"
+    },
+    {
+      "path": "exp/visualizations/steer_stage2_tokens_test_20261119/4109b79d84ea5053/cam_f0_white_red_car_4cam/register_tokens_prompt_2.png",
+      "bytes": 2531487,
+      "sha256": "335b4147038497e6cb02b54ccb3dda704ca4ff31c763ee7ae2426b3003673bd6"
+    },
+    {
+      "path": "exp/visualizations/steer_stage2_tokens_test_20261119/4109b79d84ea5053/cam_f0_white_red_car_4cam/run.json",
+      "bytes": 5762,
+      "sha256": "9daaac53d01688161ce103ecc0b4feb88e2f8518637c701f07f56372375c9d8d"
+    },
+    {
+      "path": "exp/visualizations/steer_stage2_tokens_test_20261119/4109b79d84ea5053/cam_f0_white_red_car_4cam/features.npz",
+      "bytes": 11748021,
+      "sha256": "5c1bdf828a3fb7a858bddeb6e67651f3bbd3e63c8223b1adc0b84a3cfe11be5f"
+    },
+    {
+      "path": "exp/visualizations/steer_stage2_tokens_test_20261119/4109b79d84ea5053/cam_f0_white_red_car_4cam/register_pair_00_03.png",
+      "bytes": 2874412,
+      "sha256": "21722573baf1312c7cb80dffded4498f787b4b4f64fde8d39a5b2f772e5b14d6"
+    },
+    {
+      "path": "exp/visualizations/steer_stage2_tokens_test_20261119/4109b79d84ea5053/cam_f0_white_red_car_4cam/visualize_steer_prompt_pair.py",
+      "bytes": 12396,
+      "sha256": "f7ea26507dbf0c67e9425b412e417d35f084258ef8ed1917d77ffc966c6cbbe5"
+    },
+    {
+      "path": "exp/visualizations/steer_stage2_tokens_test_20261119/4109b79d84ea5053/cam_f0_white_red_car_4cam/register_pair_08_11.png",
+      "bytes": 2764878,
+      "sha256": "1d0ace14b9b08f94d726afd5c70e8d767dfd12011c5cd24cd3e923f0fc53df5d"
+    },
+    {
+      "path": "exp/visualizations/steer_stage2_tokens_test_20261119/166b654c0db95953/cam_f0_white_black_car_4cam/index.html",
+      "bytes": 1235,
+      "sha256": "74b7eb766dada8cbc6284e654f78aa070cbea47913438bc1ed0609e8c9af8770"
+    },
+    {
+      "path": "exp/visualizations/steer_stage2_tokens_test_20261119/166b654c0db95953/cam_f0_white_black_car_4cam/inference.log",
+      "bytes": 2464,
+      "sha256": "3437f2b8edaf09b38656b6a5f909becb0ae8e155a304f9c200ed99fef2221e95"
+    },
+    {
+      "path": "exp/visualizations/steer_stage2_tokens_test_20261119/166b654c0db95953/cam_f0_white_black_car_4cam/register_pair_04_07.png",
+      "bytes": 2390184,
+      "sha256": "786f0e55180b9bc9177fb4f941f8d8415405657a788cc2103cff1777b0bdf1ce"
+    },
+    {
+      "path": "exp/visualizations/steer_stage2_tokens_test_20261119/166b654c0db95953/cam_f0_white_black_car_4cam/prompt_comparison.pdf",
+      "bytes": 13965464,
+      "sha256": "95d8453f56a9b8094dd921bfc660dc0e05e8204a24e8070daa37ab30af3781ca"
+    },
+    {
+      "path": "exp/visualizations/steer_stage2_tokens_test_20261119/166b654c0db95953/cam_f0_white_black_car_4cam/comparison.png",
+      "bytes": 1684970,
+      "sha256": "01497f1527c1660d451eba3e81ae3c1e50e4341f11988d9d3fe0be224978b20e"
+    },
+    {
+      "path": "exp/visualizations/steer_stage2_tokens_test_20261119/166b654c0db95953/cam_f0_white_black_car_4cam/four_camera_features.npz",
+      "bytes": 46923222,
+      "sha256": "a6ad7796a97c21f15a8e6c9b5d56c1e49ada29d5a73ffc571b2628619a251559"
+    },
+    {
+      "path": "exp/visualizations/steer_stage2_tokens_test_20261119/166b654c0db95953/cam_f0_white_black_car_4cam/register_tokens_prompt_1.png",
+      "bytes": 2204374,
+      "sha256": "c7e10eae8b7e3251468b571d719d24531d988a7f728de3809305713bd3a6a776"
+    },
+    {
+      "path": "exp/visualizations/steer_stage2_tokens_test_20261119/166b654c0db95953/cam_f0_white_black_car_4cam/image.jpg",
+      "bytes": 156843,
+      "sha256": "592c6cd00cf9793fce4d2cff75a367d5ad32791fc73cc6bf5c65a590d3118965"
+    },
+    {
+      "path": "exp/visualizations/steer_stage2_tokens_test_20261119/166b654c0db95953/cam_f0_white_black_car_4cam/register_pair_12_15.png",
+      "bytes": 2290417,
+      "sha256": "059d3b6b19a7e7d56c39b4dc16c52bacc97d516ef173c73e48388883988829f7"
+    },
+    {
+      "path": "exp/visualizations/steer_stage2_tokens_test_20261119/166b654c0db95953/cam_f0_white_black_car_4cam/register_tokens_prompt_2.png",
+      "bytes": 2233343,
+      "sha256": "021ea145783a7e91f48ed3cd1b89bf3f12582d98de7340ca9f061828c31bd07b"
+    },
+    {
+      "path": "exp/visualizations/steer_stage2_tokens_test_20261119/166b654c0db95953/cam_f0_white_black_car_4cam/run.json",
+      "bytes": 5576,
+      "sha256": "b4b4e6fc27fecec5ebd33769c4b373f3920a6c56a9dcd267d7cad3979f3f1107"
+    },
+    {
+      "path": "exp/visualizations/steer_stage2_tokens_test_20261119/166b654c0db95953/cam_f0_white_black_car_4cam/features.npz",
+      "bytes": 11745392,
+      "sha256": "3d584a9133dbd223ca0daf86337055efbebd6d8eab459bca591127c1d004c3a1"
+    },
+    {
+      "path": "exp/visualizations/steer_stage2_tokens_test_20261119/166b654c0db95953/cam_f0_white_black_car_4cam/README.md",
+      "bytes": 3542,
+      "sha256": "faa55ea2bba835632b4cece44ae3885af8e24aa42d6cca11275c863909f21a1d"
+    },
+    {
+      "path": "exp/visualizations/steer_stage2_tokens_test_20261119/166b654c0db95953/cam_f0_white_black_car_4cam/register_pair_00_03.png",
+      "bytes": 2420380,
+      "sha256": "7f1f1b52b2cf74e173b144fe0a38feaf579598dd7a5ceb88c64a24b40793bb6f"
+    },
+    {
+      "path": "exp/visualizations/steer_stage2_tokens_test_20261119/166b654c0db95953/cam_f0_white_black_car_4cam/visualize_steer_prompt_pair.py",
+      "bytes": 12357,
+      "sha256": "8725299d430dc6ed4cad1c7519dfc3a7c7d23e2592d07a329136aad694474421"
+    },
+    {
+      "path": "exp/visualizations/steer_stage2_tokens_test_20261119/166b654c0db95953/cam_f0_white_black_car_4cam/register_pair_08_11.png",
+      "bytes": 2294703,
+      "sha256": "98dc7f0ca07b4bfbd9df21d95bf9c088a32ed530eee589d0953a12035039396f"
+    }
+  ]
+}

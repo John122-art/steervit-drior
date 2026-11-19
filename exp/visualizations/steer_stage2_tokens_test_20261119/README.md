@@ -73,3 +73,7 @@ metrics.csv/metrics.json 保存逐图统计；run.json 保存加载、精度、�
 ```bash
 bash /mnt/zhaozc_workspace/project/LQH/Drivor-orial/DrivoR-main/scripts/viz/run_steer_tokens_test.sh --scene-count 30 --seed 2
 ```
+
+## 最新补充：同图颜色词对照
+
+[白车/红车与白车/黑车四相机对照](COLOR_PROMPT_PAIRS.md)：包含 PNG、7 页 PDF、原始特征、运行记录及复现脚本。两例均未显示明确的按颜色切换目标，本次未执行下游规划评估。

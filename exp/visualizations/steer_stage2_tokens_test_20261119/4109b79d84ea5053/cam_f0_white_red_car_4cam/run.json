@@ -1,0 +1,137 @@
+{
+  "complete": true,
+  "scene_token": "4109b79d84ea5053",
+  "camera": "cam_f0",
+  "image": "/mnt/data/navsim/test_sensor_blobs/test/2021.08.30.14.54.34_veh-40_00439_00835/CAM_F0/7af4a2f29e3c5aeb.jpg",
+  "prompts": [
+    "the white car",
+    "the red car"
+  ],
+  "checkpoint": "/mnt/zhaozc_workspace/project/LQH/Drivor-orial/DrivoR-main/exp/ke/steer_stage2_capatch_vitb_8gpu_b16_12ep/11.13_05.07/lightning_logs/version_0/checkpoints/best-epoch=10-step=8866.ckpt",
+  "epoch": 10,
+  "global_step": 8866,
+  "strict_load": true,
+  "model_keys_loaded": 509,
+  "missing_keys": [],
+  "unexpected_keys": [],
+  "saved_config": "/mnt/zhaozc_workspace/project/LQH/Drivor-orial/DrivoR-main/exp/ke/steer_stage2_capatch_vitb_8gpu_b16_12ep/11.13_05.07/code/hydra/config.yaml",
+  "seed": 2,
+  "grid_shape": [
+    48,
+    82
+  ],
+  "patch_start_index": 17,
+  "ca_on_registers": false,
+  "gate_scale": 1.0,
+  "precision": "FP16 autocast; text and attention reconstruction FP32",
+  "inference_batch_size": 1,
+  "cameras_per_sample": 4,
+  "camera_order": [
+    "cam_f0",
+    "cam_b0",
+    "cam_l0",
+    "cam_r0"
+  ],
+  "input_images": {
+    "cam_f0": "/mnt/data/navsim/test_sensor_blobs/test/2021.08.30.14.54.34_veh-40_00439_00835/CAM_F0/7af4a2f29e3c5aeb.jpg",
+    "cam_b0": "/mnt/data/navsim/test_sensor_blobs/test/2021.08.30.14.54.34_veh-40_00439_00835/CAM_B0/c47e651eb2ea5172.jpg",
+    "cam_l0": "/mnt/data/navsim/test_sensor_blobs/test/2021.08.30.14.54.34_veh-40_00439_00835/CAM_L0/37094c908eac5129.jpg",
+    "cam_r0": "/mnt/data/navsim/test_sensor_blobs/test/2021.08.30.14.54.34_veh-40_00439_00835/CAM_R0/995c23d7eb4258b0.jpg"
+  },
+  "original_texts": {
+    "cam_f0": "a green traffic light at the intersection, a white SUV in the left adjacent lane, a red sedan on the left side of the road, pedestrians on the sidewalk to the right, white dashed lane markings on the road",
+    "cam_b0": "red traffic lights at the intersection, white truck in the center lane, bike lane markings on the road, double yellow lines separating traffic",
+    "cam_l0": "a red pickup truck in the center of the image, a red car on the right side of the image, a white car in the background on the left, a traffic light at the intersection, a crosswalk in the lower left of the image",
+    "cam_r0": "red traffic lights at the intersection, white SUV near the crosswalk, pedestrian on the sidewalk, white painted crosswalk markings, white painted turn arrow"
+  },
+  "scope": "Native four-camera image_backbone.forward, B=1 N=4; no downstream planning evaluation",
+  "pca": false,
+  "device": "PPU-ZW810E",
+  "condition_texts": [
+    {
+      "cam_f0": "the white car",
+      "cam_b0": "red traffic lights at the intersection, white truck in the center lane, bike lane markings on the road, double yellow lines separating traffic",
+      "cam_l0": "a red pickup truck in the center of the image, a red car on the right side of the image, a white car in the background on the left, a traffic light at the intersection, a crosswalk in the lower left of the image",
+      "cam_r0": "red traffic lights at the intersection, white SUV near the crosswalk, pedestrian on the sidewalk, white painted crosswalk markings, white painted turn arrow"
+    },
+    {
+      "cam_f0": "the red car",
+      "cam_b0": "red traffic lights at the intersection, white truck in the center lane, bike lane markings on the road, double yellow lines separating traffic",
+      "cam_l0": "a red pickup truck in the center of the image, a red car on the right side of the image, a white car in the background on the left, a traffic light at the intersection, a crosswalk in the lower left of the image",
+      "cam_r0": "red traffic lights at the intersection, white SUV near the crosswalk, pedestrian on the sidewalk, white painted crosswalk markings, white painted turn arrow"
+    }
+  ],
+  "distribution_comparison": {
+    "patch_grounding_total_variation": 0.04109323024749756,
+    "mean_register_attention_total_variation": 0.060780927538871765,
+    "per_register_attention_total_variation": [
+      0.06251515448093414,
+      0.0691632628440857,
+      0.06931345909833908,
+      0.04038054496049881,
+      0.06705765426158905,
+      0.06181444972753525,
+      0.04862044006586075,
+      0.060887716710567474,
+      0.06885381042957306,
+      0.06001956760883331,
+      0.06471804529428482,
+      0.07046186923980713,
+      0.06855615228414536,
+      0.06097675859928131,
+      0.061048880219459534,
+      0.07178608328104019
+    ],
+    "patch_peak_row_col": [
+      [
+        25,
+        22
+      ],
+      [
+        32,
+        29
+      ]
+    ]
+  },
+  "display": {
+    "patch_vmax": 0.0059273624792695045,
+    "register_mean_vmax": 0.004582636964041737,
+    "per_register_vmax": [
+      0.0046331386291421335,
+      0.005640079881995879,
+      0.005811218894086644,
+      0.0012432577292201916,
+      0.005556003830861171,
+      0.004769605929031895,
+      0.002197732356144095,
+      0.004548373029101616,
+      0.005644367774948368,
+      0.004396258415654301,
+      0.005378950850572354,
+      0.005697413810994468,
+      0.005629590987227814,
+      0.004645874125417265,
+      0.00464996855705973,
+      0.005508831227198203
+    ],
+    "percentile": 99.5,
+    "alpha": 0.55,
+    "normalization": "Shared between both prompts for each map type/token; patch-only conditional register attention"
+  },
+  "elapsed_seconds": 156.30751083494397,
+  "validation": {
+    "finite_arrays": true,
+    "probabilities_sum_to_one": true,
+    "image_files_decode": true
+  },
+  "output_images": [
+    "comparison.png",
+    "register_tokens_prompt_1.png",
+    "register_tokens_prompt_2.png",
+    "register_pair_00_03.png",
+    "register_pair_04_07.png",
+    "register_pair_08_11.png",
+    "register_pair_12_15.png"
+  ],
+  "pdf_pages": 7
+}

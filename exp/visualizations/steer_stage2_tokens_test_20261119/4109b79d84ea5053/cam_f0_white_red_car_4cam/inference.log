@@ -1,0 +1,41 @@
+Building model and strictly loading complete checkpoint...
+loading  timm/vit_base_patch14_dinov2.lvd142m
+/mnt/zhaozc_workspace/envs/drivorpython/lib/python3.10/site-packages/transformers/tokenization_utils_base.py:1601: FutureWarning: `clean_up_tokenization_spaces` was not set. It will be set to `True` by default. This behavior will be depracted in transformers v4.45, and will be then set to `False` by default. For more details check this issue: https://github.com/huggingface/transformers/issues/31884
+  warnings.warn(
+Some weights of RobertaModel were not initialized from the model checkpoint at /mnt/zhaozc_workspace/project/LQH/RoBERTa and are newly initialized: ['roberta.pooler.dense.bias', 'roberta.pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Four-camera inference complete: ['the white car', 'red traffic lights at the intersection, white truck in the center lane, bike lane markings on the road, double yellow lines separating traffic', 'a red pickup truck in the center of the image, a red car on the right side of the image, a white car in the background on the left, a traffic light at the intersection, a crosswalk in the lower left of the image', 'red traffic lights at the intersection, white SUV near the crosswalk, pedestrian on the sidewalk, white painted crosswalk markings, white painted turn arrow']
+Four-camera inference complete: ['the red car', 'red traffic lights at the intersection, white truck in the center lane, bike lane markings on the road, double yellow lines separating traffic', 'a red pickup truck in the center of the image, a red car on the right side of the image, a white car in the background on the left, a traffic light at the intersection, a crosswalk in the lower left of the image', 'red traffic lights at the intersection, white SUV near the crosswalk, pedestrian on the sidewalk, white painted crosswalk markings, white painted turn arrow']
+{
+  "patch_grounding_total_variation": 0.04109323024749756,
+  "mean_register_attention_total_variation": 0.060780927538871765,
+  "per_register_attention_total_variation": [
+    0.06251515448093414,
+    0.0691632628440857,
+    0.06931345909833908,
+    0.04038054496049881,
+    0.06705765426158905,
+    0.06181444972753525,
+    0.04862044006586075,
+    0.060887716710567474,
+    0.06885381042957306,
+    0.06001956760883331,
+    0.06471804529428482,
+    0.07046186923980713,
+    0.06855615228414536,
+    0.06097675859928131,
+    0.061048880219459534,
+    0.07178608328104019
+  ],
+  "patch_peak_row_col": [
+    [
+      25,
+      22
+    ],
+    [
+      32,
+      29
+    ]
+  ]
+}
+DONE exp/visualizations/steer_stage2_tokens_test_20261119/4109b79d84ea5053/cam_f0_white_red_car_4cam

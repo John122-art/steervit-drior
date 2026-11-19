@@ -1,0 +1,41 @@
+Building model and strictly loading complete checkpoint...
+loading  timm/vit_base_patch14_dinov2.lvd142m
+/mnt/zhaozc_workspace/envs/drivorpython/lib/python3.10/site-packages/transformers/tokenization_utils_base.py:1601: FutureWarning: `clean_up_tokenization_spaces` was not set. It will be set to `True` by default. This behavior will be depracted in transformers v4.45, and will be then set to `False` by default. For more details check this issue: https://github.com/huggingface/transformers/issues/31884
+  warnings.warn(
+Some weights of RobertaModel were not initialized from the model checkpoint at /mnt/zhaozc_workspace/project/LQH/RoBERTa and are newly initialized: ['roberta.pooler.dense.bias', 'roberta.pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Four-camera inference complete: ['the white car', 'a white van in the center of the image, a white car on the right side of the image, a white car on the left side of the image, a crosswalk in the lower right of the image', 'a pedestrian wearing dark clothing on the crosswalk on the right, a crosswalk in the foreground, a black car on the right, a white car on the left', 'a yellow pedestrian crossing sign on the left']
+Four-camera inference complete: ['the black car', 'a white van in the center of the image, a white car on the right side of the image, a white car on the left side of the image, a crosswalk in the lower right of the image', 'a pedestrian wearing dark clothing on the crosswalk on the right, a crosswalk in the foreground, a black car on the right, a white car on the left', 'a yellow pedestrian crossing sign on the left']
+{
+  "patch_grounding_total_variation": 0.08018719404935837,
+  "mean_register_attention_total_variation": 0.05212090164422989,
+  "per_register_attention_total_variation": [
+    0.05502638593316078,
+    0.06099938601255417,
+    0.060533829033374786,
+    0.03682975471019745,
+    0.059826791286468506,
+    0.05325615778565407,
+    0.0524151511490345,
+    0.05245518684387207,
+    0.06086292117834091,
+    0.05210220813751221,
+    0.05773109942674637,
+    0.059785109013319016,
+    0.06077096611261368,
+    0.05259550362825394,
+    0.05275672674179077,
+    0.05603540688753128
+  ],
+  "patch_peak_row_col": [
+    [
+      27,
+      0
+    ],
+    [
+      27,
+      0
+    ]
+  ]
+}
+DONE exp/visualizations/steer_stage2_tokens_test_20261119/166b654c0db95953/cam_f0_white_black_car_4cam
