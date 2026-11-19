@@ -1,0 +1,336 @@
+Setup environment for PPU
+Selected 30 scenes, 120 views; all inputs exist.
+Building saved model...
+loading  timm/vit_base_patch14_dinov2.lvd142m
+/mnt/zhaozc_workspace/envs/drivorpython/lib/python3.10/site-packages/transformers/tokenization_utils_base.py:1601: FutureWarning: `clean_up_tokenization_spaces` was not set. It will be set to `True` by default. This behavior will be depracted in transformers v4.45, and will be then set to `False` by default. For more details check this issue: https://github.com/huggingface/transformers/issues/31884
+  warnings.warn(
+Some weights of RobertaModel were not initialized from the model checkpoint at /mnt/zhaozc_workspace/project/LQH/RoBERTa and are newly initialized: ['roberta.pooler.dense.bias', 'roberta.pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Batch vs single TV: 0.0006165934028103948
+Inference 1/30 cam_f0: all 3 conditions finite
+Inference 1/30 cam_b0: all 3 conditions finite
+Inference 1/30 cam_l0: all 3 conditions finite
+Inference 1/30 cam_r0: all 3 conditions finite
+Rendered 1/120 views
+Inference 2/30 cam_f0: all 3 conditions finite
+Rendered 2/120 views
+Inference 2/30 cam_b0: all 3 conditions finite
+Rendered 3/120 views
+Inference 2/30 cam_l0: all 3 conditions finite
+Rendered 4/120 views
+Inference 2/30 cam_r0: all 3 conditions finite
+Rendered 5/120 views
+Inference 3/30 cam_f0: all 3 conditions finite
+Rendered 6/120 views
+Inference 3/30 cam_b0: all 3 conditions finite
+Rendered 7/120 views
+Inference 3/30 cam_l0: all 3 conditions finite
+Rendered 8/120 views
+Inference 3/30 cam_r0: all 3 conditions finite
+Rendered 9/120 views
+Inference 4/30 cam_f0: all 3 conditions finite
+Rendered 10/120 views
+Inference 4/30 cam_b0: all 3 conditions finite
+Rendered 11/120 views
+Inference 4/30 cam_l0: all 3 conditions finite
+Rendered 12/120 views
+Inference 4/30 cam_r0: all 3 conditions finite
+Rendered 13/120 views
+Inference 5/30 cam_f0: all 3 conditions finite
+Rendered 14/120 views
+Inference 5/30 cam_b0: all 3 conditions finite
+Rendered 15/120 views
+Inference 5/30 cam_l0: all 3 conditions finite
+Rendered 16/120 views
+Inference 5/30 cam_r0: all 3 conditions finite
+Rendered 17/120 views
+Inference 6/30 cam_f0: all 3 conditions finite
+Rendered 18/120 views
+Inference 6/30 cam_b0: all 3 conditions finite
+Rendered 19/120 views
+Inference 6/30 cam_l0: all 3 conditions finite
+Rendered 20/120 views
+Inference 6/30 cam_r0: all 3 conditions finite
+Rendered 21/120 views
+Inference 7/30 cam_f0: all 3 conditions finite
+Rendered 22/120 views
+Inference 7/30 cam_b0: all 3 conditions finite
+Rendered 23/120 views
+Inference 7/30 cam_l0: all 3 conditions finite
+Rendered 24/120 views
+Inference 7/30 cam_r0: all 3 conditions finite
+Rendered 25/120 views
+Inference 8/30 cam_f0: all 3 conditions finite
+Rendered 26/120 views
+Inference 8/30 cam_b0: all 3 conditions finite
+Rendered 27/120 views
+Inference 8/30 cam_l0: all 3 conditions finite
+Rendered 28/120 views
+Inference 8/30 cam_r0: all 3 conditions finite
+Rendered 29/120 views
+Inference 9/30 cam_f0: all 3 conditions finite
+Rendered 30/120 views
+Inference 9/30 cam_b0: all 3 conditions finite
+Rendered 31/120 views
+Inference 9/30 cam_l0: all 3 conditions finite
+Rendered 32/120 views
+Inference 9/30 cam_r0: all 3 conditions finite
+Rendered 33/120 views
+Inference 10/30 cam_f0: all 3 conditions finite
+Rendered 34/120 views
+Inference 10/30 cam_b0: all 3 conditions finite
+Rendered 35/120 views
+Inference 10/30 cam_l0: all 3 conditions finite
+Rendered 36/120 views
+Inference 10/30 cam_r0: all 3 conditions finite
+Rendered 37/120 views
+Inference 11/30 cam_f0: all 3 conditions finite
+Rendered 38/120 views
+Inference 11/30 cam_b0: all 3 conditions finite
+Rendered 39/120 views
+Inference 11/30 cam_l0: all 3 conditions finite
+Rendered 40/120 views
+Inference 11/30 cam_r0: all 3 conditions finite
+Rendered 41/120 views
+Inference 12/30 cam_f0: all 3 conditions finite
+Rendered 42/120 views
+Inference 12/30 cam_b0: all 3 conditions finite
+Rendered 43/120 views
+Inference 12/30 cam_l0: all 3 conditions finite
+Rendered 44/120 views
+Inference 12/30 cam_r0: all 3 conditions finite
+Rendered 45/120 views
+Inference 13/30 cam_f0: all 3 conditions finite
+Rendered 46/120 views
+Inference 13/30 cam_b0: all 3 conditions finite
+Rendered 47/120 views
+Inference 13/30 cam_l0: all 3 conditions finite
+Rendered 48/120 views
+Inference 13/30 cam_r0: all 3 conditions finite
+Rendered 49/120 views
+Inference 14/30 cam_f0: all 3 conditions finite
+Rendered 50/120 views
+Inference 14/30 cam_b0: all 3 conditions finite
+Rendered 51/120 views
+Inference 14/30 cam_l0: all 3 conditions finite
+Rendered 52/120 views
+Inference 14/30 cam_r0: all 3 conditions finite
+Rendered 53/120 views
+Inference 15/30 cam_f0: all 3 conditions finite
+Rendered 54/120 views
+Inference 15/30 cam_b0: all 3 conditions finite
+Rendered 55/120 views
+Inference 15/30 cam_l0: all 3 conditions finite
+Rendered 56/120 views
+Inference 15/30 cam_r0: all 3 conditions finite
+Rendered 57/120 views
+Inference 16/30 cam_f0: all 3 conditions finite
+Rendered 58/120 views
+Inference 16/30 cam_b0: all 3 conditions finite
+Rendered 59/120 views
+Inference 16/30 cam_l0: all 3 conditions finite
+Rendered 60/120 views
+Inference 16/30 cam_r0: all 3 conditions finite
+Rendered 61/120 views
+Inference 17/30 cam_f0: all 3 conditions finite
+Rendered 62/120 views
+Inference 17/30 cam_b0: all 3 conditions finite
+Rendered 63/120 views
+Inference 17/30 cam_l0: all 3 conditions finite
+Rendered 64/120 views
+Inference 17/30 cam_r0: all 3 conditions finite
+Rendered 65/120 views
+Inference 18/30 cam_f0: all 3 conditions finite
+Rendered 66/120 views
+Inference 18/30 cam_b0: all 3 conditions finite
+Rendered 67/120 views
+Inference 18/30 cam_l0: all 3 conditions finite
+Rendered 68/120 views
+Inference 18/30 cam_r0: all 3 conditions finite
+Rendered 69/120 views
+Inference 19/30 cam_f0: all 3 conditions finite
+Rendered 70/120 views
+Inference 19/30 cam_b0: all 3 conditions finite
+Rendered 71/120 views
+Inference 19/30 cam_l0: all 3 conditions finite
+Rendered 72/120 views
+Inference 19/30 cam_r0: all 3 conditions finite
+Rendered 73/120 views
+Inference 20/30 cam_f0: all 3 conditions finite
+Rendered 74/120 views
+Inference 20/30 cam_b0: all 3 conditions finite
+Rendered 75/120 views
+Inference 20/30 cam_l0: all 3 conditions finite
+Rendered 76/120 views
+Inference 20/30 cam_r0: all 3 conditions finite
+Rendered 77/120 views
+Inference 21/30 cam_f0: all 3 conditions finite
+Rendered 78/120 views
+Inference 21/30 cam_b0: all 3 conditions finite
+Rendered 79/120 views
+Inference 21/30 cam_l0: all 3 conditions finite
+Rendered 80/120 views
+Inference 21/30 cam_r0: all 3 conditions finite
+Rendered 81/120 views
+Inference 22/30 cam_f0: all 3 conditions finite
+Rendered 82/120 views
+Inference 22/30 cam_b0: all 3 conditions finite
+Rendered 83/120 views
+Inference 22/30 cam_l0: all 3 conditions finite
+Rendered 84/120 views
+Inference 22/30 cam_r0: all 3 conditions finite
+Rendered 85/120 views
+Inference 23/30 cam_f0: all 3 conditions finite
+Rendered 86/120 views
+Inference 23/30 cam_b0: all 3 conditions finite
+Rendered 87/120 views
+Inference 23/30 cam_l0: all 3 conditions finite
+Rendered 88/120 views
+Inference 23/30 cam_r0: all 3 conditions finite
+Rendered 89/120 views
+Inference 24/30 cam_f0: all 3 conditions finite
+Rendered 90/120 views
+Inference 24/30 cam_b0: all 3 conditions finite
+Rendered 91/120 views
+Inference 24/30 cam_l0: all 3 conditions finite
+Rendered 92/120 views
+Inference 24/30 cam_r0: all 3 conditions finite
+Rendered 93/120 views
+Inference 25/30 cam_f0: all 3 conditions finite
+Rendered 94/120 views
+Inference 25/30 cam_b0: all 3 conditions finite
+Rendered 95/120 views
+Inference 25/30 cam_l0: all 3 conditions finite
+Rendered 96/120 views
+Inference 25/30 cam_r0: all 3 conditions finite
+Rendered 97/120 views
+Inference 26/30 cam_f0: all 3 conditions finite
+Rendered 98/120 views
+Inference 26/30 cam_b0: all 3 conditions finite
+Rendered 99/120 views
+Inference 26/30 cam_l0: all 3 conditions finite
+Rendered 100/120 views
+Inference 26/30 cam_r0: all 3 conditions finite
+Rendered 101/120 views
+Inference 27/30 cam_f0: all 3 conditions finite
+Rendered 102/120 views
+Inference 27/30 cam_b0: all 3 conditions finite
+Rendered 103/120 views
+Inference 27/30 cam_l0: all 3 conditions finite
+Rendered 104/120 views
+Inference 27/30 cam_r0: all 3 conditions finite
+Rendered 105/120 views
+Inference 28/30 cam_f0: all 3 conditions finite
+Rendered 106/120 views
+Inference 28/30 cam_b0: all 3 conditions finite
+Rendered 107/120 views
+Inference 28/30 cam_l0: all 3 conditions finite
+Rendered 108/120 views
+Inference 28/30 cam_r0: all 3 conditions finite
+Rendered 109/120 views
+Inference 29/30 cam_f0: all 3 conditions finite
+Rendered 110/120 views
+Inference 29/30 cam_b0: all 3 conditions finite
+Rendered 111/120 views
+Inference 29/30 cam_l0: all 3 conditions finite
+Rendered 112/120 views
+Inference 29/30 cam_r0: all 3 conditions finite
+Rendered 113/120 views
+Inference 30/30 cam_f0: all 3 conditions finite
+Rendered 114/120 views
+Inference 30/30 cam_b0: all 3 conditions finite
+Rendered 115/120 views
+Inference 30/30 cam_l0: all 3 conditions finite
+Rendered 116/120 views
+Inference 30/30 cam_r0: all 3 conditions finite
+Rendered 117/120 views
+Rendered 118/120 views
+Rendered 119/120 views
+Rendered 120/120 views
+PDF: 6233d1b3e62a5772
+PDF: 93b50a6df30b5453
+PDF: 3b56d2b022d25026
+PDF: 09a004a6ded55f7e
+PDF: 7602906d3c785da3
+PDF: 9577987ee2e85304
+PDF: 4c9a89b8cd2853d6
+PDF: 99e900e2392c5e87
+PDF: 9f521d00c3ef55b7
+PDF: 84a832f4cdbc5aef
+PDF: 3dfa374651035868
+PDF: 57b605b889505738
+PDF: 7fcd06d455d55572
+PDF: 535e19c081ec5c28
+PDF: 166b654c0db95953
+PDF: 3721b675d426567c
+PDF: 9369b11c1f5857e8
+PDF: 4109b79d84ea5053
+PDF: 16dbc607f5f75479
+PDF: bdff1d80a75e5307
+PDF: 9dc5a17094e0569d
+PDF: b42d7dc2a3975573
+PDF: 95329718628e5f7f
+PDF: c95d7e81eec75f65
+PDF: fc0d202904585a6a
+PDF: 45935e0787fd5a31
+PDF: cc63d140e4285f30
+PDF: daaa1858309c5938
+PDF: a354ac8030d55e5e
+PDF: 8bc0584436b25488
+{
+  "correct": {
+    "valid_views": 96,
+    "valid_scenes": 30,
+    "mean_target_mass": 0.7635543495416641,
+    "mean_per_scene_target_mass": 0.7693493771884178,
+    "peak_hits": 91,
+    "mean_register_target_mass": 0.12021219224940675,
+    "mean_entropy_normalized": 0.7232326827216046,
+    "mean_ground_tv_from_correct": 0.0
+  },
+  "empty": {
+    "valid_views": 96,
+    "valid_scenes": 30,
+    "mean_target_mass": 0.229241827968508,
+    "mean_per_scene_target_mass": 0.2322542917655988,
+    "peak_hits": 47,
+    "mean_register_target_mass": 0.10546354723192053,
+    "mean_entropy_normalized": 0.9154553579875859,
+    "mean_ground_tv_from_correct": 0.6913699340075254
+  },
+  "unrelated": {
+    "valid_views": 96,
+    "valid_scenes": 30,
+    "mean_target_mass": 0.5256441673651958,
+    "mean_per_scene_target_mass": 0.542335177688963,
+    "peak_hits": 66,
+    "mean_register_target_mass": 0.09499856595842478,
+    "mean_entropy_normalized": 0.7986853084537818,
+    "mean_ground_tv_from_correct": 0.3928091708415498
+  },
+  "paired_correct_minus_control": {
+    "empty": {
+      "better": 95,
+      "tied": 0,
+      "worse": 1,
+      "mean_difference": 0.5343125215731561,
+      "mean_per_scene_difference": 0.5370950854228188,
+      "scene_bootstrap_95ci": [
+        0.5007449608431974,
+        0.5734597092979433
+      ]
+    },
+    "unrelated": {
+      "better": 85,
+      "tied": 0,
+      "worse": 11,
+      "mean_difference": 0.23791018217646828,
+      "mean_per_scene_difference": 0.22701419949945478,
+      "scene_bootstrap_95ci": [
+        0.1704874342592019,
+        0.28946892550836006
+      ]
+    }
+  }
+}
+DONE exp/visualizations/steer_stage2_tokens_test_20261119_expanded30_work/index.html

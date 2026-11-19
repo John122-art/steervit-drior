@@ -1,0 +1,2529 @@
+[
+  {
+    "scene_token": "6233d1b3e62a5772",
+    "log_name": "2021.05.25.15.59.03_veh-30_01478_01643",
+    "partition": "test",
+    "camera_order": [
+      "cam_f0",
+      "cam_b0",
+      "cam_l0",
+      "cam_r0"
+    ],
+    "images": {
+      "cam_f0": "/mnt/data/navsim/test_sensor_blobs/test/2021.05.25.15.59.03_veh-30_01478_01643/CAM_F0/72f03ff350ba5130.jpg",
+      "cam_b0": "/mnt/data/navsim/test_sensor_blobs/test/2021.05.25.15.59.03_veh-30_01478_01643/CAM_B0/63b8f29eea20570b.jpg",
+      "cam_l0": "/mnt/data/navsim/test_sensor_blobs/test/2021.05.25.15.59.03_veh-30_01478_01643/CAM_L0/bf6bc9941a8c57f5.jpg",
+      "cam_r0": "/mnt/data/navsim/test_sensor_blobs/test/2021.05.25.15.59.03_veh-30_01478_01643/CAM_R0/84c49cd38b3c5960.jpg"
+    },
+    "driving_command": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "navigation_text": "go straight",
+    "scene_text": {
+      "cam_f0": {
+        "text": "a white minivan in the center of the image, a white taxi on the right side of the image, a grey sedan on the right side of the image, traffic lights showing green in the upper center of the image, pedestrians standing on the sidewalk to the left of the image",
+        "categories": [
+          "vehicle",
+          "vehicle",
+          "vehicle",
+          "traffic_light",
+          "pedestrian"
+        ]
+      },
+      "cam_b0": {
+        "text": "a silver SUV in the foreground, a white car on the left, a grey minivan on the left, a white arrow painted on the road",
+        "categories": [
+          "vehicle",
+          "vehicle",
+          "vehicle",
+          "lane_boundary"
+        ]
+      },
+      "cam_l0": {
+        "text": "a group of pedestrians standing near the curb, a dark sedan near the pedestrians, a white car in the background near the intersection, a traffic light suspended over the intersection",
+        "categories": [
+          "pedestrian",
+          "vehicle",
+          "vehicle",
+          "traffic_light"
+        ]
+      },
+      "cam_r0": {
+        "text": "a red minivan in the right foreground, a grey sedan in the left foreground, a group of pedestrians standing on the sidewalk, a green traffic sign on a pole",
+        "categories": [
+          "vehicle",
+          "vehicle",
+          "pedestrian",
+          "traffic_sign"
+        ]
+      }
+    },
+    "scene_context": {
+      "cam_f0": "a signalized intersection",
+      "cam_b0": "a paved urban street",
+      "cam_l0": "a signalized intersection",
+      "cam_r0": "a busy urban intersection"
+    },
+    "caption_cache": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0000/captions/scenes/6233d1b3e62a5772.json",
+    "caption_status": "passed",
+    "text_fallback": false,
+    "text_fallback_cameras": [],
+    "empty_text_cameras": [],
+    "view_status": {
+      "cam_f0": "ok",
+      "cam_b0": "ok",
+      "cam_l0": "ok",
+      "cam_r0": "ok"
+    },
+    "grounding_npz": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0000/grounding/masks/6233d1b3e62a5772.npz",
+    "boxes_json": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0000/grounding/scenes/6233d1b3e62a5772.json",
+    "grounding_valid": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "grounding_role": "audit_only"
+  },
+  {
+    "scene_token": "93b50a6df30b5453",
+    "log_name": "2021.09.16.14.39.34_veh-42_00297_00935",
+    "partition": "test",
+    "camera_order": [
+      "cam_f0",
+      "cam_b0",
+      "cam_l0",
+      "cam_r0"
+    ],
+    "images": {
+      "cam_f0": "/mnt/data/navsim/test_sensor_blobs/test/2021.09.16.14.39.34_veh-42_00297_00935/CAM_F0/7a2b25f156cc581e.jpg",
+      "cam_b0": "/mnt/data/navsim/test_sensor_blobs/test/2021.09.16.14.39.34_veh-42_00297_00935/CAM_B0/ae0557485d905620.jpg",
+      "cam_l0": "/mnt/data/navsim/test_sensor_blobs/test/2021.09.16.14.39.34_veh-42_00297_00935/CAM_L0/425248d4395b50bb.jpg",
+      "cam_r0": "/mnt/data/navsim/test_sensor_blobs/test/2021.09.16.14.39.34_veh-42_00297_00935/CAM_R0/1eb617c7d59e566e.jpg"
+    },
+    "driving_command": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "navigation_text": "go straight",
+    "scene_text": {
+      "cam_f0": {
+        "text": "a cyclist on the right side of the image, a traffic sign on the right side of the image, double yellow lines in the center of the image",
+        "categories": [
+          "bicycle",
+          "traffic_sign",
+          "lane_boundary"
+        ]
+      },
+      "cam_b0": {
+        "text": "a silver SUV in the right lane, a red SUV in the background, traffic lights at the intersection, a crosswalk at the intersection, double yellow lines in the center",
+        "categories": [
+          "vehicle",
+          "vehicle",
+          "traffic_light",
+          "crosswalk",
+          "lane_boundary"
+        ]
+      },
+      "cam_l0": {
+        "text": "a pedestrian standing near the building entrance",
+        "categories": [
+          "pedestrian"
+        ]
+      },
+      "cam_r0": {
+        "text": "a cyclist riding on the sidewalk to the left",
+        "categories": [
+          "bicycle"
+        ]
+      }
+    },
+    "scene_context": {
+      "cam_f0": "a straight two-lane road",
+      "cam_b0": "a signalized intersection",
+      "cam_l0": "a paved road next to a grassy area",
+      "cam_r0": "a sidewalk next to a building"
+    },
+    "caption_cache": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0000/captions/scenes/93b50a6df30b5453.json",
+    "caption_status": "passed",
+    "text_fallback": false,
+    "text_fallback_cameras": [],
+    "empty_text_cameras": [],
+    "view_status": {
+      "cam_f0": "ok",
+      "cam_b0": "ok",
+      "cam_l0": "ok",
+      "cam_r0": "ok"
+    },
+    "grounding_npz": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0000/grounding/masks/93b50a6df30b5453.npz",
+    "boxes_json": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0000/grounding/scenes/93b50a6df30b5453.json",
+    "grounding_valid": [
+      true,
+      true,
+      false,
+      true
+    ],
+    "grounding_role": "audit_only"
+  },
+  {
+    "scene_token": "3b56d2b022d25026",
+    "log_name": "2021.09.09.14.18.22_veh-48_01298_01492",
+    "partition": "test",
+    "camera_order": [
+      "cam_f0",
+      "cam_b0",
+      "cam_l0",
+      "cam_r0"
+    ],
+    "images": {
+      "cam_f0": "/mnt/data/navsim/test_sensor_blobs/test/2021.09.09.14.18.22_veh-48_01298_01492/CAM_F0/35dc717973d05651.jpg",
+      "cam_b0": "/mnt/data/navsim/test_sensor_blobs/test/2021.09.09.14.18.22_veh-48_01298_01492/CAM_B0/c51b13bc246c5f5a.jpg",
+      "cam_l0": "/mnt/data/navsim/test_sensor_blobs/test/2021.09.09.14.18.22_veh-48_01298_01492/CAM_L0/a838c5a3cd7c5c68.jpg",
+      "cam_r0": "/mnt/data/navsim/test_sensor_blobs/test/2021.09.09.14.18.22_veh-48_01298_01492/CAM_R0/769d9bb996c55162.jpg"
+    },
+    "driving_command": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "navigation_text": "turn left",
+    "scene_text": {
+      "cam_f0": {
+        "text": "a white sedan in the right middle ground, green traffic lights suspended overhead, white lane markings and crosswalks, orange traffic cones lining the left side",
+        "categories": [
+          "vehicle",
+          "traffic_light",
+          "lane_boundary",
+          "traffic_cone"
+        ]
+      },
+      "cam_b0": {
+        "text": "a white van on the right side, a black pickup truck on the right, a brown pickup truck on the left, a silver SUV on the left",
+        "categories": [
+          "vehicle",
+          "vehicle",
+          "vehicle",
+          "vehicle"
+        ]
+      },
+      "cam_l0": {
+        "text": "a pedestrian holding an umbrella on the sidewalk, a white van on the left, a crosswalk marked with white stripes, a traffic light showing a red hand symbol",
+        "categories": [
+          "pedestrian",
+          "vehicle",
+          "crosswalk",
+          "traffic_light"
+        ]
+      },
+      "cam_r0": {
+        "text": "a pedestrian on the sidewalk to the right, a traffic light showing red in the background, a crosswalk marked with white stripes on the left, a white car partially visible on the far left",
+        "categories": [
+          "pedestrian",
+          "traffic_light",
+          "crosswalk",
+          "vehicle"
+        ]
+      }
+    },
+    "scene_context": {
+      "cam_f0": "a signalized urban intersection",
+      "cam_b0": "",
+      "cam_l0": "a signalized urban intersection",
+      "cam_r0": "a signalized urban intersection"
+    },
+    "caption_cache": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0001/captions/scenes/3b56d2b022d25026.json",
+    "caption_status": "passed",
+    "text_fallback": false,
+    "text_fallback_cameras": [],
+    "empty_text_cameras": [],
+    "view_status": {
+      "cam_f0": "ok",
+      "cam_b0": "ok",
+      "cam_l0": "ok",
+      "cam_r0": "ok"
+    },
+    "grounding_npz": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0001/grounding/masks/3b56d2b022d25026.npz",
+    "boxes_json": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0001/grounding/scenes/3b56d2b022d25026.json",
+    "grounding_valid": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "grounding_role": "audit_only"
+  },
+  {
+    "scene_token": "09a004a6ded55f7e",
+    "log_name": "2021.05.25.16.37.23_veh-25_00005_00217",
+    "partition": "test",
+    "camera_order": [
+      "cam_f0",
+      "cam_b0",
+      "cam_l0",
+      "cam_r0"
+    ],
+    "images": {
+      "cam_f0": "/mnt/data/navsim/test_sensor_blobs/test/2021.05.25.16.37.23_veh-25_00005_00217/CAM_F0/172b3194dc3d5989.jpg",
+      "cam_b0": "/mnt/data/navsim/test_sensor_blobs/test/2021.05.25.16.37.23_veh-25_00005_00217/CAM_B0/c7b484c9481854ff.jpg",
+      "cam_l0": "/mnt/data/navsim/test_sensor_blobs/test/2021.05.25.16.37.23_veh-25_00005_00217/CAM_L0/f3bc44ae21a75757.jpg",
+      "cam_r0": "/mnt/data/navsim/test_sensor_blobs/test/2021.05.25.16.37.23_veh-25_00005_00217/CAM_R0/4173d4f127525c62.jpg"
+    },
+    "driving_command": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "navigation_text": "go straight",
+    "scene_text": {
+      "cam_f0": {
+        "text": "two pedestrians on the right curb, a white truck in the left lane, a black car in the left lane, a speed limit sign on the right",
+        "categories": [
+          "pedestrian",
+          "vehicle",
+          "vehicle",
+          "traffic_sign"
+        ]
+      },
+      "cam_b0": {
+        "text": "traffic lights at the intersection, vehicles in the adjacent right lanes, crosswalk markings on the road surface",
+        "categories": [
+          "traffic_light",
+          "vehicle",
+          "crosswalk"
+        ]
+      },
+      "cam_l0": {
+        "text": "a black car in the parking lot",
+        "categories": [
+          "vehicle"
+        ]
+      },
+      "cam_r0": {
+        "text": "a pedestrian on the sidewalk to the left",
+        "categories": [
+          "pedestrian"
+        ]
+      }
+    },
+    "scene_context": {
+      "cam_f0": "a straight multi-lane road",
+      "cam_b0": "a signalized intersection",
+      "cam_l0": "a parking lot adjacent to a road",
+      "cam_r0": "a parking lot adjacent to a road"
+    },
+    "caption_cache": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0011/captions/scenes/09a004a6ded55f7e.json",
+    "caption_status": "passed",
+    "text_fallback": false,
+    "text_fallback_cameras": [],
+    "empty_text_cameras": [],
+    "view_status": {
+      "cam_f0": "ok",
+      "cam_b0": "ok",
+      "cam_l0": "ok",
+      "cam_r0": "ok"
+    },
+    "grounding_npz": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0011/grounding/masks/09a004a6ded55f7e.npz",
+    "boxes_json": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0011/grounding/scenes/09a004a6ded55f7e.json",
+    "grounding_valid": [
+      true,
+      true,
+      false,
+      false
+    ],
+    "grounding_role": "audit_only"
+  },
+  {
+    "scene_token": "7602906d3c785da3",
+    "log_name": "2021.06.03.12.02.06_veh-35_01100_01227",
+    "partition": "test",
+    "camera_order": [
+      "cam_f0",
+      "cam_b0",
+      "cam_l0",
+      "cam_r0"
+    ],
+    "images": {
+      "cam_f0": "/mnt/data/navsim/test_sensor_blobs/test/2021.06.03.12.02.06_veh-35_01100_01227/CAM_F0/665f9c225c955c3c.jpg",
+      "cam_b0": "/mnt/data/navsim/test_sensor_blobs/test/2021.06.03.12.02.06_veh-35_01100_01227/CAM_B0/b548f4bf146f58d8.jpg",
+      "cam_l0": "/mnt/data/navsim/test_sensor_blobs/test/2021.06.03.12.02.06_veh-35_01100_01227/CAM_L0/e98edf2c31a651e6.jpg",
+      "cam_r0": "/mnt/data/navsim/test_sensor_blobs/test/2021.06.03.12.02.06_veh-35_01100_01227/CAM_R0/3e43ec9b959e563d.jpg"
+    },
+    "driving_command": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "navigation_text": "go straight",
+    "scene_text": {
+      "cam_f0": {
+        "text": "a white utility truck in the center lane, orange traffic cones lining the left side of the lane, a silver SUV in the left lane, red traffic lights at the intersection in the background",
+        "categories": [
+          "vehicle",
+          "traffic_cone",
+          "vehicle",
+          "traffic_light"
+        ]
+      },
+      "cam_b0": {
+        "text": "a dark sedan in the right foreground, a cyclist in the left lane, a black SUV in the center lane, a white car in the right lane, faint lane markings on the road surface",
+        "categories": [
+          "vehicle",
+          "bicycle",
+          "vehicle",
+          "vehicle",
+          "lane_boundary"
+        ]
+      },
+      "cam_l0": {
+        "text": "a grey SUV on the right side of the road, orange traffic cones lining the right side of the lane, a large black electronic sign on a trailer, a red car in the distance near the center, a white truck on the far left side",
+        "categories": [
+          "vehicle",
+          "traffic_cone",
+          "traffic_sign",
+          "vehicle",
+          "vehicle"
+        ]
+      },
+      "cam_r0": {
+        "text": "a pedestrian wearing a yellow backpack",
+        "categories": [
+          "pedestrian"
+        ]
+      }
+    },
+    "scene_context": {
+      "cam_f0": "a straight multi-lane road",
+      "cam_b0": "a straight multi-lane road",
+      "cam_l0": "a signalized intersection",
+      "cam_r0": "a paved road next to a landscaped median"
+    },
+    "caption_cache": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0016/captions/scenes/7602906d3c785da3.json",
+    "caption_status": "passed",
+    "text_fallback": false,
+    "text_fallback_cameras": [],
+    "empty_text_cameras": [],
+    "view_status": {
+      "cam_f0": "ok",
+      "cam_b0": "ok",
+      "cam_l0": "ok",
+      "cam_r0": "ok"
+    },
+    "grounding_npz": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0016/grounding/masks/7602906d3c785da3.npz",
+    "boxes_json": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0016/grounding/scenes/7602906d3c785da3.json",
+    "grounding_valid": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "grounding_role": "audit_only"
+  },
+  {
+    "scene_token": "9577987ee2e85304",
+    "log_name": "2021.05.25.18.38.25_veh-25_04058_04186",
+    "partition": "test",
+    "camera_order": [
+      "cam_f0",
+      "cam_b0",
+      "cam_l0",
+      "cam_r0"
+    ],
+    "images": {
+      "cam_f0": "/mnt/data/navsim/test_sensor_blobs/test/2021.05.25.18.38.25_veh-25_04058_04186/CAM_F0/aab0e2889e5d5fd3.jpg",
+      "cam_b0": "/mnt/data/navsim/test_sensor_blobs/test/2021.05.25.18.38.25_veh-25_04058_04186/CAM_B0/801ca6c45bb45475.jpg",
+      "cam_l0": "/mnt/data/navsim/test_sensor_blobs/test/2021.05.25.18.38.25_veh-25_04058_04186/CAM_L0/8b3471d599f05050.jpg",
+      "cam_r0": "/mnt/data/navsim/test_sensor_blobs/test/2021.05.25.18.38.25_veh-25_04058_04186/CAM_R0/58008437f35e541d.jpg"
+    },
+    "driving_command": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "navigation_text": "go straight",
+    "scene_text": {
+      "cam_f0": {
+        "text": "yellow traffic lights suspended over the intersection, white pickup truck in the center lane, silver SUV in the left lane, black sedan in the right lane, crosswalk markings on the road surface",
+        "categories": [
+          "traffic_light",
+          "vehicle",
+          "vehicle",
+          "vehicle",
+          "crosswalk"
+        ]
+      },
+      "cam_b0": {
+        "text": "a white car in the center of the image, a yellow pedestrian crossing sign on the right",
+        "categories": [
+          "vehicle",
+          "traffic_sign"
+        ]
+      },
+      "cam_l0": {
+        "text": "a silver SUV on the right side, a white car in the distance, a row of black bollards",
+        "categories": [
+          "vehicle",
+          "vehicle",
+          "barrier"
+        ]
+      },
+      "cam_r0": {
+        "text": "a dark sedan in the foreground, a traffic light on the left, a pedestrian crossing sign on the right, a black SUV in the middle ground, a black minivan in the background",
+        "categories": [
+          "vehicle",
+          "traffic_light",
+          "traffic_sign",
+          "vehicle",
+          "vehicle"
+        ]
+      }
+    },
+    "scene_context": {
+      "cam_f0": "a signalized intersection",
+      "cam_b0": "a straight multi-lane road",
+      "cam_l0": "a straight multi-lane road",
+      "cam_r0": "a signalized intersection"
+    },
+    "caption_cache": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0019/captions/scenes/9577987ee2e85304.json",
+    "caption_status": "passed",
+    "text_fallback": false,
+    "text_fallback_cameras": [],
+    "empty_text_cameras": [],
+    "view_status": {
+      "cam_f0": "ok",
+      "cam_b0": "ok",
+      "cam_l0": "ok",
+      "cam_r0": "ok"
+    },
+    "grounding_npz": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0019/grounding/masks/9577987ee2e85304.npz",
+    "boxes_json": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0019/grounding/scenes/9577987ee2e85304.json",
+    "grounding_valid": [
+      true,
+      true,
+      true,
+      false
+    ],
+    "grounding_role": "audit_only"
+  },
+  {
+    "scene_token": "4c9a89b8cd2853d6",
+    "log_name": "2021.09.16.19.12.04_veh-42_01221_01380",
+    "partition": "test",
+    "camera_order": [
+      "cam_f0",
+      "cam_b0",
+      "cam_l0",
+      "cam_r0"
+    ],
+    "images": {
+      "cam_f0": "/mnt/data/navsim/test_sensor_blobs/test/2021.09.16.19.12.04_veh-42_01221_01380/CAM_F0/b3ff79b329285c75.jpg",
+      "cam_b0": "/mnt/data/navsim/test_sensor_blobs/test/2021.09.16.19.12.04_veh-42_01221_01380/CAM_B0/9b161ba8d9eb5104.jpg",
+      "cam_l0": "/mnt/data/navsim/test_sensor_blobs/test/2021.09.16.19.12.04_veh-42_01221_01380/CAM_L0/81eb6e1ed1c95293.jpg",
+      "cam_r0": "/mnt/data/navsim/test_sensor_blobs/test/2021.09.16.19.12.04_veh-42_01221_01380/CAM_R0/2f973186f19f55d1.jpg"
+    },
+    "driving_command": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "navigation_text": "go straight",
+    "scene_text": {
+      "cam_f0": {
+        "text": "a grey SUV in the center of the image, a silver SUV in the left lane, orange traffic cones on the right sidewalk, a parking sign on a pole on the right",
+        "categories": [
+          "vehicle",
+          "vehicle",
+          "traffic_cone",
+          "traffic_sign"
+        ]
+      },
+      "cam_b0": {
+        "text": "a red fire truck in the center of the image, a cyclist on the right side of the road, a pedestrian on the right sidewalk",
+        "categories": [
+          "vehicle",
+          "bicycle",
+          "pedestrian"
+        ]
+      },
+      "cam_l0": {
+        "text": "a red SUV on the right side, a black van on the left side, a green van on the right side, a street sign indicating a one way direction",
+        "categories": [
+          "vehicle",
+          "vehicle",
+          "vehicle",
+          "traffic_sign"
+        ]
+      },
+      "cam_r0": {
+        "text": "a red car in the middle ground, a white car in the middle ground, a blue car in the middle ground, an orange traffic cone in the foreground, a pedestrian in the background",
+        "categories": [
+          "vehicle",
+          "vehicle",
+          "vehicle",
+          "traffic_cone",
+          "pedestrian"
+        ]
+      }
+    },
+    "scene_context": {
+      "cam_f0": "a straight urban street with buildings on both sides",
+      "cam_b0": "a straight urban street",
+      "cam_l0": "",
+      "cam_r0": "a parking lot"
+    },
+    "caption_cache": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0013/captions/scenes/4c9a89b8cd2853d6.json",
+    "caption_status": "passed",
+    "text_fallback": false,
+    "text_fallback_cameras": [],
+    "empty_text_cameras": [],
+    "view_status": {
+      "cam_f0": "ok",
+      "cam_b0": "ok",
+      "cam_l0": "ok",
+      "cam_r0": "ok"
+    },
+    "grounding_npz": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0013/grounding/masks/4c9a89b8cd2853d6.npz",
+    "boxes_json": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0013/grounding/scenes/4c9a89b8cd2853d6.json",
+    "grounding_valid": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "grounding_role": "audit_only"
+  },
+  {
+    "scene_token": "99e900e2392c5e87",
+    "log_name": "2021.06.28.16.57.59_veh-26_00016_00484",
+    "partition": "test",
+    "camera_order": [
+      "cam_f0",
+      "cam_b0",
+      "cam_l0",
+      "cam_r0"
+    ],
+    "images": {
+      "cam_f0": "/mnt/data/navsim/test_sensor_blobs/test/2021.06.28.16.57.59_veh-26_00016_00484/CAM_F0/d8928359210e526c.jpg",
+      "cam_b0": "/mnt/data/navsim/test_sensor_blobs/test/2021.06.28.16.57.59_veh-26_00016_00484/CAM_B0/ad63563bb26f53bc.jpg",
+      "cam_l0": "/mnt/data/navsim/test_sensor_blobs/test/2021.06.28.16.57.59_veh-26_00016_00484/CAM_L0/fc0c9224e1bf56d8.jpg",
+      "cam_r0": "/mnt/data/navsim/test_sensor_blobs/test/2021.06.28.16.57.59_veh-26_00016_00484/CAM_R0/22812dc2077558a7.jpg"
+    },
+    "driving_command": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "navigation_text": "go straight",
+    "scene_text": {
+      "cam_f0": {
+        "text": "a white SUV in the center lane, red traffic lights at the intersection, a silver SUV in the right lane, dashed white lane lines",
+        "categories": [
+          "vehicle",
+          "traffic_light",
+          "vehicle",
+          "lane_boundary"
+        ]
+      },
+      "cam_b0": {
+        "text": "a black car in the right lane, a red car in the center lane, a white car in the center lane",
+        "categories": [
+          "vehicle",
+          "vehicle",
+          "vehicle"
+        ]
+      },
+      "cam_l0": {
+        "text": "a white van on the right side of the road",
+        "categories": [
+          "vehicle"
+        ]
+      },
+      "cam_r0": {
+        "text": "a white and black vehicle in the foreground, two pedestrians on the sidewalk",
+        "categories": [
+          "vehicle",
+          "pedestrian"
+        ]
+      }
+    },
+    "scene_context": {
+      "cam_f0": "a straight multi-lane road",
+      "cam_b0": "a straight multi-lane road",
+      "cam_l0": "a straight multi-lane road",
+      "cam_r0": "a straight urban road with a sidewalk"
+    },
+    "caption_cache": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0019/captions/scenes/99e900e2392c5e87.json",
+    "caption_status": "passed",
+    "text_fallback": false,
+    "text_fallback_cameras": [],
+    "empty_text_cameras": [],
+    "view_status": {
+      "cam_f0": "ok",
+      "cam_b0": "ok",
+      "cam_l0": "ok",
+      "cam_r0": "ok"
+    },
+    "grounding_npz": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0019/grounding/masks/99e900e2392c5e87.npz",
+    "boxes_json": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0019/grounding/scenes/99e900e2392c5e87.json",
+    "grounding_valid": [
+      true,
+      true,
+      true,
+      false
+    ],
+    "grounding_role": "audit_only"
+  },
+  {
+    "scene_token": "9f521d00c3ef55b7",
+    "log_name": "2021.09.16.13.53.10_veh-42_00077_00153",
+    "partition": "test",
+    "camera_order": [
+      "cam_f0",
+      "cam_b0",
+      "cam_l0",
+      "cam_r0"
+    ],
+    "images": {
+      "cam_f0": "/mnt/data/navsim/test_sensor_blobs/test/2021.09.16.13.53.10_veh-42_00077_00153/CAM_F0/dd8b4791fc185375.jpg",
+      "cam_b0": "/mnt/data/navsim/test_sensor_blobs/test/2021.09.16.13.53.10_veh-42_00077_00153/CAM_B0/b7d85b9d79375e94.jpg",
+      "cam_l0": "/mnt/data/navsim/test_sensor_blobs/test/2021.09.16.13.53.10_veh-42_00077_00153/CAM_L0/955a10d7d4f159f8.jpg",
+      "cam_r0": "/mnt/data/navsim/test_sensor_blobs/test/2021.09.16.13.53.10_veh-42_00077_00153/CAM_R0/a7de5b6a31c25113.jpg"
+    },
+    "driving_command": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "navigation_text": "go straight",
+    "scene_text": {
+      "cam_f0": {
+        "text": "a yellow and black striped sign on the right, a white crosswalk in the distance, double yellow lines in the center",
+        "categories": [
+          "traffic_sign",
+          "crosswalk",
+          "lane_boundary"
+        ]
+      },
+      "cam_b0": {
+        "text": "a white car on the right side of the road, a dark car on the right side of the road, double yellow lines in the center of the road",
+        "categories": [
+          "vehicle",
+          "vehicle",
+          "lane_boundary"
+        ]
+      },
+      "cam_l0": {
+        "text": "a white SUV on the left side of the image",
+        "categories": [
+          "vehicle"
+        ]
+      },
+      "cam_r0": {
+        "text": "",
+        "categories": []
+      }
+    },
+    "scene_context": {
+      "cam_f0": "",
+      "cam_b0": "a straight multi-lane road",
+      "cam_l0": "an open paved area",
+      "cam_r0": ""
+    },
+    "caption_cache": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0006/captions/scenes/9f521d00c3ef55b7.json",
+    "caption_status": "passed",
+    "text_fallback": false,
+    "text_fallback_cameras": [],
+    "empty_text_cameras": [
+      "cam_r0"
+    ],
+    "view_status": {
+      "cam_f0": "ok",
+      "cam_b0": "ok",
+      "cam_l0": "ok",
+      "cam_r0": "empty_scene"
+    },
+    "grounding_npz": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0006/grounding/masks/9f521d00c3ef55b7.npz",
+    "boxes_json": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0006/grounding/scenes/9f521d00c3ef55b7.json",
+    "grounding_valid": [
+      false,
+      true,
+      true,
+      false
+    ],
+    "grounding_role": "audit_only"
+  },
+  {
+    "scene_token": "84a832f4cdbc5aef",
+    "log_name": "2021.06.03.17.06.58_veh-35_02943_03220",
+    "partition": "test",
+    "camera_order": [
+      "cam_f0",
+      "cam_b0",
+      "cam_l0",
+      "cam_r0"
+    ],
+    "images": {
+      "cam_f0": "/mnt/data/navsim/test_sensor_blobs/test/2021.06.03.17.06.58_veh-35_02943_03220/CAM_F0/90f28fa605f1542b.jpg",
+      "cam_b0": "/mnt/data/navsim/test_sensor_blobs/test/2021.06.03.17.06.58_veh-35_02943_03220/CAM_B0/86e4edf0dcd55072.jpg",
+      "cam_l0": "/mnt/data/navsim/test_sensor_blobs/test/2021.06.03.17.06.58_veh-35_02943_03220/CAM_L0/31afd808f38a50d7.jpg",
+      "cam_r0": "/mnt/data/navsim/test_sensor_blobs/test/2021.06.03.17.06.58_veh-35_02943_03220/CAM_R0/c79bb016cc985bac.jpg"
+    },
+    "driving_command": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "navigation_text": "turn left",
+    "scene_text": {
+      "cam_f0": {
+        "text": "a white minivan in the center of the image, a pedestrian standing on the right side of the image, a white car on the right side of the image, a black SUV on the left side of the image, a white SUV in the left background of the image",
+        "categories": [
+          "vehicle",
+          "pedestrian",
+          "vehicle",
+          "vehicle",
+          "vehicle"
+        ]
+      },
+      "cam_b0": {
+        "text": "a white SUV on the right side, white SUV in the background on the right",
+        "categories": [
+          "vehicle",
+          "vehicle"
+        ]
+      },
+      "cam_l0": {
+        "text": "a black SUV in the right lane, a white SUV in the right lane, a black SUV in the background, a no entry sign on the left",
+        "categories": [
+          "vehicle",
+          "vehicle",
+          "vehicle",
+          "traffic_sign"
+        ]
+      },
+      "cam_r0": {
+        "text": "a white taxi on the left side of the image, a pedestrian standing near the taxi on the left",
+        "categories": [
+          "vehicle",
+          "pedestrian"
+        ]
+      }
+    },
+    "scene_context": {
+      "cam_f0": "a wide paved area with multiple lanes",
+      "cam_b0": "a paved open plaza area",
+      "cam_l0": "a paved urban road with landscaped islands",
+      "cam_r0": "a hotel entrance drop-off area"
+    },
+    "caption_cache": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0013/captions/scenes/84a832f4cdbc5aef.json",
+    "caption_status": "passed",
+    "text_fallback": false,
+    "text_fallback_cameras": [],
+    "empty_text_cameras": [],
+    "view_status": {
+      "cam_f0": "ok",
+      "cam_b0": "ok",
+      "cam_l0": "ok",
+      "cam_r0": "ok"
+    },
+    "grounding_npz": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0013/grounding/masks/84a832f4cdbc5aef.npz",
+    "boxes_json": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0013/grounding/scenes/84a832f4cdbc5aef.json",
+    "grounding_valid": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "grounding_role": "audit_only"
+  },
+  {
+    "scene_token": "3dfa374651035868",
+    "log_name": "2021.09.09.18.29.25_veh-39_01622_01766",
+    "partition": "test",
+    "camera_order": [
+      "cam_f0",
+      "cam_b0",
+      "cam_l0",
+      "cam_r0"
+    ],
+    "images": {
+      "cam_f0": "/mnt/data/navsim/test_sensor_blobs/test/2021.09.09.18.29.25_veh-39_01622_01766/CAM_F0/0d180018962b51e6.jpg",
+      "cam_b0": "/mnt/data/navsim/test_sensor_blobs/test/2021.09.09.18.29.25_veh-39_01622_01766/CAM_B0/a57267c3e6065ae8.jpg",
+      "cam_l0": "/mnt/data/navsim/test_sensor_blobs/test/2021.09.09.18.29.25_veh-39_01622_01766/CAM_L0/782e00be808d516a.jpg",
+      "cam_r0": "/mnt/data/navsim/test_sensor_blobs/test/2021.09.09.18.29.25_veh-39_01622_01766/CAM_R0/6c86c0e354e357cc.jpg"
+    },
+    "driving_command": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "navigation_text": "go straight",
+    "scene_text": {
+      "cam_f0": {
+        "text": "a red car in the center of the image",
+        "categories": [
+          "vehicle"
+        ]
+      },
+      "cam_b0": {
+        "text": "a black SUV in the right lane, double yellow lines dividing the lanes, a white van in the distance",
+        "categories": [
+          "vehicle",
+          "lane_boundary",
+          "vehicle"
+        ]
+      },
+      "cam_l0": {
+        "text": "",
+        "categories": []
+      },
+      "cam_r0": {
+        "text": "a stop sign on a pole in the foreground, a dark blue SUV on the right, a white car behind the SUV, a pedestrian standing near the white car",
+        "categories": [
+          "traffic_sign",
+          "vehicle",
+          "vehicle",
+          "pedestrian"
+        ]
+      }
+    },
+    "scene_context": {
+      "cam_f0": "a wet multi-lane road",
+      "cam_b0": "a straight multi-lane road",
+      "cam_l0": "a wet urban street",
+      "cam_r0": "a parking area adjacent to a building"
+    },
+    "caption_cache": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0015/captions/scenes/3dfa374651035868.json",
+    "caption_status": "needs_review",
+    "text_fallback": false,
+    "text_fallback_cameras": [],
+    "empty_text_cameras": [
+      "cam_l0"
+    ],
+    "view_status": {
+      "cam_f0": "ok",
+      "cam_b0": "ok",
+      "cam_l0": "empty_scene",
+      "cam_r0": "ok"
+    },
+    "grounding_npz": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0015/grounding/masks/3dfa374651035868.npz",
+    "boxes_json": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0015/grounding/scenes/3dfa374651035868.json",
+    "grounding_valid": [
+      true,
+      true,
+      false,
+      true
+    ],
+    "grounding_role": "audit_only"
+  },
+  {
+    "scene_token": "57b605b889505738",
+    "log_name": "2021.06.03.13.55.17_veh-35_02419_02561",
+    "partition": "test",
+    "camera_order": [
+      "cam_f0",
+      "cam_b0",
+      "cam_l0",
+      "cam_r0"
+    ],
+    "images": {
+      "cam_f0": "/mnt/data/navsim/test_sensor_blobs/test/2021.06.03.13.55.17_veh-35_02419_02561/CAM_F0/7d9290ae04405720.jpg",
+      "cam_b0": "/mnt/data/navsim/test_sensor_blobs/test/2021.06.03.13.55.17_veh-35_02419_02561/CAM_B0/399c1b29a3ba54ae.jpg",
+      "cam_l0": "/mnt/data/navsim/test_sensor_blobs/test/2021.06.03.13.55.17_veh-35_02419_02561/CAM_L0/f630af031e435428.jpg",
+      "cam_r0": "/mnt/data/navsim/test_sensor_blobs/test/2021.06.03.13.55.17_veh-35_02419_02561/CAM_R0/364a4aed7ac05b41.jpg"
+    },
+    "driving_command": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "navigation_text": "turn left",
+    "scene_text": {
+      "cam_f0": {
+        "text": "a white SUV on the left side of the image",
+        "categories": [
+          "vehicle"
+        ]
+      },
+      "cam_b0": {
+        "text": "a white car in the lower left foreground",
+        "categories": [
+          "vehicle"
+        ]
+      },
+      "cam_l0": {
+        "text": "a white SUV on the right side of the image",
+        "categories": [
+          "vehicle"
+        ]
+      },
+      "cam_r0": {
+        "text": "a white utility truck on the right",
+        "categories": [
+          "vehicle"
+        ]
+      }
+    },
+    "scene_context": {
+      "cam_f0": "a paved driveway area",
+      "cam_b0": "a paved road with landscaping",
+      "cam_l0": "a curved road",
+      "cam_r0": "a building entrance driveway"
+    },
+    "caption_cache": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0020/captions/scenes/57b605b889505738.json",
+    "caption_status": "passed",
+    "text_fallback": false,
+    "text_fallback_cameras": [],
+    "empty_text_cameras": [],
+    "view_status": {
+      "cam_f0": "ok",
+      "cam_b0": "ok",
+      "cam_l0": "ok",
+      "cam_r0": "ok"
+    },
+    "grounding_npz": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0020/grounding/masks/57b605b889505738.npz",
+    "boxes_json": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0020/grounding/scenes/57b605b889505738.json",
+    "grounding_valid": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "grounding_role": "audit_only"
+  },
+  {
+    "scene_token": "7fcd06d455d55572",
+    "log_name": "2021.10.06.07.26.10_veh-52_02208_02394",
+    "partition": "test",
+    "camera_order": [
+      "cam_f0",
+      "cam_b0",
+      "cam_l0",
+      "cam_r0"
+    ],
+    "images": {
+      "cam_f0": "/mnt/data/navsim/test_sensor_blobs/test/2021.10.06.07.26.10_veh-52_02208_02394/CAM_F0/3dc57f65e49e51ca.jpg",
+      "cam_b0": "/mnt/data/navsim/test_sensor_blobs/test/2021.10.06.07.26.10_veh-52_02208_02394/CAM_B0/4e113b425b675e86.jpg",
+      "cam_l0": "/mnt/data/navsim/test_sensor_blobs/test/2021.10.06.07.26.10_veh-52_02208_02394/CAM_L0/c11f9c66c0795acc.jpg",
+      "cam_r0": "/mnt/data/navsim/test_sensor_blobs/test/2021.10.06.07.26.10_veh-52_02208_02394/CAM_R0/986bc8e46f815b41.jpg"
+    },
+    "driving_command": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "navigation_text": "turn left",
+    "scene_text": {
+      "cam_f0": {
+        "text": "a white truck on the right side of the image, a motorcyclist in the middle of the image, a yield sign on the right side of the image, a crosswalk in the lower part of the image, white lane markings on the road surface",
+        "categories": [
+          "vehicle",
+          "bicycle",
+          "traffic_sign",
+          "crosswalk",
+          "lane_boundary"
+        ]
+      },
+      "cam_b0": {
+        "text": "a white truck in the left lane, a left turn arrow painted on the road",
+        "categories": [
+          "vehicle",
+          "lane_boundary"
+        ]
+      },
+      "cam_l0": {
+        "text": "",
+        "categories": []
+      },
+      "cam_r0": {
+        "text": "a green traffic light on the right, a pedestrian on the left sidewalk, a blue turn arrow sign in the foreground, yellow lane boundary lines at the intersection",
+        "categories": [
+          "traffic_light",
+          "pedestrian",
+          "lane_boundary",
+          "lane_boundary"
+        ]
+      }
+    },
+    "scene_context": {
+      "cam_f0": "a signalized intersection",
+      "cam_b0": "a straight multi-lane road",
+      "cam_l0": "a curved road with a grassy median",
+      "cam_r0": "a signalized intersection"
+    },
+    "caption_cache": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0009/captions/scenes/7fcd06d455d55572.json",
+    "caption_status": "passed",
+    "text_fallback": false,
+    "text_fallback_cameras": [],
+    "empty_text_cameras": [
+      "cam_l0"
+    ],
+    "view_status": {
+      "cam_f0": "ok",
+      "cam_b0": "ok",
+      "cam_l0": "empty_scene",
+      "cam_r0": "ok"
+    },
+    "grounding_npz": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0009/grounding/masks/7fcd06d455d55572.npz",
+    "boxes_json": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0009/grounding/scenes/7fcd06d455d55572.json",
+    "grounding_valid": [
+      true,
+      true,
+      false,
+      true
+    ],
+    "grounding_role": "audit_only"
+  },
+  {
+    "scene_token": "535e19c081ec5c28",
+    "log_name": "2021.05.25.14.16.10_veh-35_03373_03550",
+    "partition": "test",
+    "camera_order": [
+      "cam_f0",
+      "cam_b0",
+      "cam_l0",
+      "cam_r0"
+    ],
+    "images": {
+      "cam_f0": "/mnt/data/navsim/test_sensor_blobs/test/2021.05.25.14.16.10_veh-35_03373_03550/CAM_F0/a4916beda2c65899.jpg",
+      "cam_b0": "/mnt/data/navsim/test_sensor_blobs/test/2021.05.25.14.16.10_veh-35_03373_03550/CAM_B0/6847028f2e975bfc.jpg",
+      "cam_l0": "/mnt/data/navsim/test_sensor_blobs/test/2021.05.25.14.16.10_veh-35_03373_03550/CAM_L0/8f9d444cdc8b5450.jpg",
+      "cam_r0": "/mnt/data/navsim/test_sensor_blobs/test/2021.05.25.14.16.10_veh-35_03373_03550/CAM_R0/9efbb1bcc64f5907.jpg"
+    },
+    "driving_command": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "navigation_text": "go straight",
+    "scene_text": {
+      "cam_f0": {
+        "text": "a red traffic light at the intersection, a white SUV in the left lane, a white SUV in the right lane, a red car in the center lane",
+        "categories": [
+          "traffic_light",
+          "vehicle",
+          "vehicle",
+          "vehicle"
+        ]
+      },
+      "cam_b0": {
+        "text": "a white SUV in the right lane, a grey SUV in the center lane, a silver minivan in the right lane, dashed white lane markings",
+        "categories": [
+          "vehicle",
+          "vehicle",
+          "vehicle",
+          "lane_boundary"
+        ]
+      },
+      "cam_l0": {
+        "text": "a maroon sedan in the center of the image",
+        "categories": [
+          "vehicle"
+        ]
+      },
+      "cam_r0": {
+        "text": "",
+        "categories": []
+      }
+    },
+    "scene_context": {
+      "cam_f0": "a signalized intersection on a straight multi-lane road",
+      "cam_b0": "a straight multi-lane road",
+      "cam_l0": "a straight multi-lane road",
+      "cam_r0": ""
+    },
+    "caption_cache": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0022/captions/scenes/535e19c081ec5c28.json",
+    "caption_status": "needs_review",
+    "text_fallback": false,
+    "text_fallback_cameras": [],
+    "empty_text_cameras": [
+      "cam_r0"
+    ],
+    "view_status": {
+      "cam_f0": "ok",
+      "cam_b0": "ok",
+      "cam_l0": "ok",
+      "cam_r0": "empty_scene"
+    },
+    "grounding_npz": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0022/grounding/masks/535e19c081ec5c28.npz",
+    "boxes_json": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0022/grounding/scenes/535e19c081ec5c28.json",
+    "grounding_valid": [
+      true,
+      true,
+      true,
+      false
+    ],
+    "grounding_role": "audit_only"
+  },
+  {
+    "scene_token": "166b654c0db95953",
+    "log_name": "2021.09.09.18.29.25_veh-39_00427_00556",
+    "partition": "test",
+    "camera_order": [
+      "cam_f0",
+      "cam_b0",
+      "cam_l0",
+      "cam_r0"
+    ],
+    "images": {
+      "cam_f0": "/mnt/data/navsim/test_sensor_blobs/test/2021.09.09.18.29.25_veh-39_00427_00556/CAM_F0/262870c171365b8e.jpg",
+      "cam_b0": "/mnt/data/navsim/test_sensor_blobs/test/2021.09.09.18.29.25_veh-39_00427_00556/CAM_B0/1bfc55765e235037.jpg",
+      "cam_l0": "/mnt/data/navsim/test_sensor_blobs/test/2021.09.09.18.29.25_veh-39_00427_00556/CAM_L0/14c0ef574fa7559d.jpg",
+      "cam_r0": "/mnt/data/navsim/test_sensor_blobs/test/2021.09.09.18.29.25_veh-39_00427_00556/CAM_R0/951ac36591fb5fb6.jpg"
+    },
+    "driving_command": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "navigation_text": "go straight",
+    "scene_text": {
+      "cam_f0": {
+        "text": "a pedestrian on the left side of the crosswalk, a crosswalk in the foreground, a black car in the center lane, a yellow pedestrian crossing sign on the right, a white SUV on the right",
+        "categories": [
+          "pedestrian",
+          "crosswalk",
+          "vehicle",
+          "traffic_sign",
+          "vehicle"
+        ]
+      },
+      "cam_b0": {
+        "text": "a white van in the center of the image, a white car on the right side of the image, a white car on the left side of the image, a crosswalk in the lower right of the image",
+        "categories": [
+          "vehicle",
+          "vehicle",
+          "vehicle",
+          "crosswalk"
+        ]
+      },
+      "cam_l0": {
+        "text": "a pedestrian wearing dark clothing on the crosswalk on the right, a crosswalk in the foreground, a black car on the right, a white car on the left",
+        "categories": [
+          "pedestrian",
+          "crosswalk",
+          "vehicle",
+          "vehicle"
+        ]
+      },
+      "cam_r0": {
+        "text": "a yellow pedestrian crossing sign on the left",
+        "categories": [
+          "traffic_sign"
+        ]
+      }
+    },
+    "scene_context": {
+      "cam_f0": "a wet urban street with buildings on both sides",
+      "cam_b0": "a wet multi-lane urban road",
+      "cam_l0": "a wet urban intersection",
+      "cam_r0": "a waterfront street"
+    },
+    "caption_cache": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0023/captions/scenes/166b654c0db95953.json",
+    "caption_status": "passed",
+    "text_fallback": false,
+    "text_fallback_cameras": [],
+    "empty_text_cameras": [],
+    "view_status": {
+      "cam_f0": "ok",
+      "cam_b0": "ok",
+      "cam_l0": "ok",
+      "cam_r0": "ok"
+    },
+    "grounding_npz": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0023/grounding/masks/166b654c0db95953.npz",
+    "boxes_json": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0023/grounding/scenes/166b654c0db95953.json",
+    "grounding_valid": [
+      true,
+      true,
+      true,
+      false
+    ],
+    "grounding_role": "audit_only"
+  },
+  {
+    "scene_token": "3721b675d426567c",
+    "log_name": "2021.09.16.15.47.30_veh-45_01199_01391",
+    "partition": "test",
+    "camera_order": [
+      "cam_f0",
+      "cam_b0",
+      "cam_l0",
+      "cam_r0"
+    ],
+    "images": {
+      "cam_f0": "/mnt/data/navsim/test_sensor_blobs/test/2021.09.16.15.47.30_veh-45_01199_01391/CAM_F0/8eb51866c10d567e.jpg",
+      "cam_b0": "/mnt/data/navsim/test_sensor_blobs/test/2021.09.16.15.47.30_veh-45_01199_01391/CAM_B0/367419c21e3c59bd.jpg",
+      "cam_l0": "/mnt/data/navsim/test_sensor_blobs/test/2021.09.16.15.47.30_veh-45_01199_01391/CAM_L0/e52993aec64854ca.jpg",
+      "cam_r0": "/mnt/data/navsim/test_sensor_blobs/test/2021.09.16.15.47.30_veh-45_01199_01391/CAM_R0/78b09fafb71e5297.jpg"
+    },
+    "driving_command": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "navigation_text": "go straight",
+    "scene_text": {
+      "cam_f0": {
+        "text": "a crosswalk in the foreground, a black SUV on the left, a stop sign on the right, a pickup truck in the distance",
+        "categories": [
+          "crosswalk",
+          "vehicle",
+          "traffic_sign",
+          "vehicle"
+        ]
+      },
+      "cam_b0": {
+        "text": "a black car in the center of the image, a silver car on the left side of the image, a double yellow line dividing the lanes",
+        "categories": [
+          "vehicle",
+          "vehicle",
+          "lane_boundary"
+        ]
+      },
+      "cam_l0": {
+        "text": "a crosswalk in the lower right foreground, a truck on the right side, a do not enter sign on the left",
+        "categories": [
+          "crosswalk",
+          "vehicle",
+          "traffic_sign"
+        ]
+      },
+      "cam_r0": {
+        "text": "a stop sign on a pole, a crosswalk in the lower left, a black SUV in the background",
+        "categories": [
+          "traffic_sign",
+          "crosswalk",
+          "vehicle"
+        ]
+      }
+    },
+    "scene_context": {
+      "cam_f0": "an intersection with crosswalks",
+      "cam_b0": "a straight residential street",
+      "cam_l0": "an urban intersection",
+      "cam_r0": "an urban intersection"
+    },
+    "caption_cache": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0003/captions/scenes/3721b675d426567c.json",
+    "caption_status": "needs_review",
+    "text_fallback": false,
+    "text_fallback_cameras": [],
+    "empty_text_cameras": [],
+    "view_status": {
+      "cam_f0": "ok",
+      "cam_b0": "ok",
+      "cam_l0": "ok",
+      "cam_r0": "ok"
+    },
+    "grounding_npz": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0003/grounding/masks/3721b675d426567c.npz",
+    "boxes_json": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0003/grounding/scenes/3721b675d426567c.json",
+    "grounding_valid": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "grounding_role": "audit_only"
+  },
+  {
+    "scene_token": "9369b11c1f5857e8",
+    "log_name": "2021.05.25.17.54.41_veh-35_04967_05098",
+    "partition": "test",
+    "camera_order": [
+      "cam_f0",
+      "cam_b0",
+      "cam_l0",
+      "cam_r0"
+    ],
+    "images": {
+      "cam_f0": "/mnt/data/navsim/test_sensor_blobs/test/2021.05.25.17.54.41_veh-35_04967_05098/CAM_F0/36499fef7e0b5335.jpg",
+      "cam_b0": "/mnt/data/navsim/test_sensor_blobs/test/2021.05.25.17.54.41_veh-35_04967_05098/CAM_B0/494256a9f10d5e2f.jpg",
+      "cam_l0": "/mnt/data/navsim/test_sensor_blobs/test/2021.05.25.17.54.41_veh-35_04967_05098/CAM_L0/62ec8a3cdc2e5357.jpg",
+      "cam_r0": "/mnt/data/navsim/test_sensor_blobs/test/2021.05.25.17.54.41_veh-35_04967_05098/CAM_R0/66ea286c0d995d2d.jpg"
+    },
+    "driving_command": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "navigation_text": "go straight",
+    "scene_text": {
+      "cam_f0": {
+        "text": "a white sedan in the center lane, a white pickup truck on the right, a pedestrian bridge spanning the road, pedestrians on the bridge",
+        "categories": [
+          "vehicle",
+          "vehicle",
+          "pedestrian",
+          "pedestrian"
+        ]
+      },
+      "cam_b0": {
+        "text": "a silver SUV in the center foreground, a black sedan to the right, a black SUV to the left",
+        "categories": [
+          "vehicle",
+          "vehicle",
+          "vehicle"
+        ]
+      },
+      "cam_l0": {
+        "text": "a black limousine in the left foreground, a silver SUV in the right foreground, a white SUV in the right background",
+        "categories": [
+          "vehicle",
+          "vehicle",
+          "vehicle"
+        ]
+      },
+      "cam_r0": {
+        "text": "a white pickup truck in the lower left",
+        "categories": [
+          "vehicle"
+        ]
+      }
+    },
+    "scene_context": {
+      "cam_f0": "a straight multi-lane road",
+      "cam_b0": "a busy multi-lane urban street",
+      "cam_l0": "a busy urban street with heavy traffic",
+      "cam_r0": "a street with a curb"
+    },
+    "caption_cache": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0005/captions/scenes/9369b11c1f5857e8.json",
+    "caption_status": "passed",
+    "text_fallback": false,
+    "text_fallback_cameras": [],
+    "empty_text_cameras": [],
+    "view_status": {
+      "cam_f0": "ok",
+      "cam_b0": "ok",
+      "cam_l0": "ok",
+      "cam_r0": "ok"
+    },
+    "grounding_npz": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0005/grounding/masks/9369b11c1f5857e8.npz",
+    "boxes_json": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0005/grounding/scenes/9369b11c1f5857e8.json",
+    "grounding_valid": [
+      true,
+      false,
+      false,
+      true
+    ],
+    "grounding_role": "audit_only"
+  },
+  {
+    "scene_token": "4109b79d84ea5053",
+    "log_name": "2021.08.30.14.54.34_veh-40_00439_00835",
+    "partition": "test",
+    "camera_order": [
+      "cam_f0",
+      "cam_b0",
+      "cam_l0",
+      "cam_r0"
+    ],
+    "images": {
+      "cam_f0": "/mnt/data/navsim/test_sensor_blobs/test/2021.08.30.14.54.34_veh-40_00439_00835/CAM_F0/7af4a2f29e3c5aeb.jpg",
+      "cam_b0": "/mnt/data/navsim/test_sensor_blobs/test/2021.08.30.14.54.34_veh-40_00439_00835/CAM_B0/c47e651eb2ea5172.jpg",
+      "cam_l0": "/mnt/data/navsim/test_sensor_blobs/test/2021.08.30.14.54.34_veh-40_00439_00835/CAM_L0/37094c908eac5129.jpg",
+      "cam_r0": "/mnt/data/navsim/test_sensor_blobs/test/2021.08.30.14.54.34_veh-40_00439_00835/CAM_R0/995c23d7eb4258b0.jpg"
+    },
+    "driving_command": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "navigation_text": "turn left",
+    "scene_text": {
+      "cam_f0": {
+        "text": "a green traffic light at the intersection, a white SUV in the left adjacent lane, a red sedan on the left side of the road, pedestrians on the sidewalk to the right, white dashed lane markings on the road",
+        "categories": [
+          "traffic_light",
+          "vehicle",
+          "vehicle",
+          "pedestrian",
+          "lane_boundary"
+        ]
+      },
+      "cam_b0": {
+        "text": "red traffic lights at the intersection, white truck in the center lane, bike lane markings on the road, double yellow lines separating traffic",
+        "categories": [
+          "traffic_light",
+          "vehicle",
+          "bicycle",
+          "lane_boundary"
+        ]
+      },
+      "cam_l0": {
+        "text": "a red pickup truck in the center of the image, a red car on the right side of the image, a white car in the background on the left, a traffic light at the intersection, a crosswalk in the lower left of the image",
+        "categories": [
+          "vehicle",
+          "vehicle",
+          "vehicle",
+          "traffic_light",
+          "crosswalk"
+        ]
+      },
+      "cam_r0": {
+        "text": "red traffic lights at the intersection, white SUV near the crosswalk, pedestrian on the sidewalk, white painted crosswalk markings, white painted turn arrow",
+        "categories": [
+          "traffic_light",
+          "vehicle",
+          "pedestrian",
+          "crosswalk",
+          "lane_boundary"
+        ]
+      }
+    },
+    "scene_context": {
+      "cam_f0": "a signalized urban intersection",
+      "cam_b0": "a signalized intersection",
+      "cam_l0": "a signalized intersection",
+      "cam_r0": "a signalized intersection"
+    },
+    "caption_cache": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0020/captions/scenes/4109b79d84ea5053.json",
+    "caption_status": "passed",
+    "text_fallback": false,
+    "text_fallback_cameras": [],
+    "empty_text_cameras": [],
+    "view_status": {
+      "cam_f0": "ok",
+      "cam_b0": "ok",
+      "cam_l0": "ok",
+      "cam_r0": "ok"
+    },
+    "grounding_npz": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0020/grounding/masks/4109b79d84ea5053.npz",
+    "boxes_json": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0020/grounding/scenes/4109b79d84ea5053.json",
+    "grounding_valid": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "grounding_role": "audit_only"
+  },
+  {
+    "scene_token": "16dbc607f5f75479",
+    "log_name": "2021.09.16.13.53.10_veh-42_00860_01069",
+    "partition": "test",
+    "camera_order": [
+      "cam_f0",
+      "cam_b0",
+      "cam_l0",
+      "cam_r0"
+    ],
+    "images": {
+      "cam_f0": "/mnt/data/navsim/test_sensor_blobs/test/2021.09.16.13.53.10_veh-42_00860_01069/CAM_F0/fb88125d866353ea.jpg",
+      "cam_b0": "/mnt/data/navsim/test_sensor_blobs/test/2021.09.16.13.53.10_veh-42_00860_01069/CAM_B0/d351d998378853c4.jpg",
+      "cam_l0": "/mnt/data/navsim/test_sensor_blobs/test/2021.09.16.13.53.10_veh-42_00860_01069/CAM_L0/415583db9f705c3c.jpg",
+      "cam_r0": "/mnt/data/navsim/test_sensor_blobs/test/2021.09.16.13.53.10_veh-42_00860_01069/CAM_R0/9e2d59791ff758ca.jpg"
+    },
+    "driving_command": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "navigation_text": "go straight",
+    "scene_text": {
+      "cam_f0": {
+        "text": "a green traffic light at the intersection, a red truck in the left lane, white lane markings defining the driving path, a blue SUV on the right, a pedestrian standing on the left sidewalk",
+        "categories": [
+          "traffic_light",
+          "vehicle",
+          "lane_boundary",
+          "vehicle",
+          "pedestrian"
+        ]
+      },
+      "cam_b0": {
+        "text": "a black pickup truck on the left, two pedestrians on the sidewalk to the left, distant traffic lights at the intersection in the background, white lane markings defining the driving path",
+        "categories": [
+          "vehicle",
+          "pedestrian",
+          "traffic_light",
+          "lane_boundary"
+        ]
+      },
+      "cam_l0": {
+        "text": "a pedestrian standing on the sidewalk to the right, a red truck on the far right, a traffic light at the intersection, double yellow lines in the lower right",
+        "categories": [
+          "pedestrian",
+          "vehicle",
+          "traffic_light",
+          "lane_boundary"
+        ]
+      },
+      "cam_r0": {
+        "text": "a white car on the left side of the image",
+        "categories": [
+          "vehicle"
+        ]
+      }
+    },
+    "scene_context": {
+      "cam_f0": "a signalized intersection",
+      "cam_b0": "a straight multi-lane road",
+      "cam_l0": "a street corner with an intersection",
+      "cam_r0": "a city street with a sidewalk"
+    },
+    "caption_cache": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0011/captions/scenes/16dbc607f5f75479.json",
+    "caption_status": "passed",
+    "text_fallback": false,
+    "text_fallback_cameras": [],
+    "empty_text_cameras": [],
+    "view_status": {
+      "cam_f0": "ok",
+      "cam_b0": "ok",
+      "cam_l0": "ok",
+      "cam_r0": "ok"
+    },
+    "grounding_npz": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0011/grounding/masks/16dbc607f5f75479.npz",
+    "boxes_json": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0011/grounding/scenes/16dbc607f5f75479.json",
+    "grounding_valid": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "grounding_role": "audit_only"
+  },
+  {
+    "scene_token": "bdff1d80a75e5307",
+    "log_name": "2021.08.30.13.45.25_veh-40_00610_00771",
+    "partition": "test",
+    "camera_order": [
+      "cam_f0",
+      "cam_b0",
+      "cam_l0",
+      "cam_r0"
+    ],
+    "images": {
+      "cam_f0": "/mnt/data/navsim/test_sensor_blobs/test/2021.08.30.13.45.25_veh-40_00610_00771/CAM_F0/aac1cf9669535c05.jpg",
+      "cam_b0": "/mnt/data/navsim/test_sensor_blobs/test/2021.08.30.13.45.25_veh-40_00610_00771/CAM_B0/c11d53c771e05e99.jpg",
+      "cam_l0": "/mnt/data/navsim/test_sensor_blobs/test/2021.08.30.13.45.25_veh-40_00610_00771/CAM_L0/9f49923774235d89.jpg",
+      "cam_r0": "/mnt/data/navsim/test_sensor_blobs/test/2021.08.30.13.45.25_veh-40_00610_00771/CAM_R0/f114486786145f43.jpg"
+    },
+    "driving_command": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "navigation_text": "turn left",
+    "scene_text": {
+      "cam_f0": {
+        "text": "a red SUV on the right, double yellow lines curving on the left",
+        "categories": [
+          "vehicle",
+          "lane_boundary"
+        ]
+      },
+      "cam_b0": {
+        "text": "a crosswalk in the lower right of the image",
+        "categories": [
+          "crosswalk"
+        ]
+      },
+      "cam_l0": {
+        "text": "a blue car on the right side, a white car on the left side, a curved lane boundary line on the road",
+        "categories": [
+          "vehicle",
+          "vehicle",
+          "lane_boundary"
+        ]
+      },
+      "cam_r0": {
+        "text": "a red SUV on the left",
+        "categories": [
+          "vehicle"
+        ]
+      }
+    },
+    "scene_context": {
+      "cam_f0": "an industrial area with a curved road",
+      "cam_b0": "a straight two-lane road",
+      "cam_l0": "",
+      "cam_r0": "an industrial area with a chain-link fence"
+    },
+    "caption_cache": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0003/captions/scenes/bdff1d80a75e5307.json",
+    "caption_status": "passed",
+    "text_fallback": false,
+    "text_fallback_cameras": [],
+    "empty_text_cameras": [],
+    "view_status": {
+      "cam_f0": "ok",
+      "cam_b0": "ok",
+      "cam_l0": "ok",
+      "cam_r0": "ok"
+    },
+    "grounding_npz": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0003/grounding/masks/bdff1d80a75e5307.npz",
+    "boxes_json": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0003/grounding/scenes/bdff1d80a75e5307.json",
+    "grounding_valid": [
+      true,
+      false,
+      true,
+      true
+    ],
+    "grounding_role": "audit_only"
+  },
+  {
+    "scene_token": "9dc5a17094e0569d",
+    "log_name": "2021.09.29.14.44.26_veh-28_01202_01296",
+    "partition": "test",
+    "camera_order": [
+      "cam_f0",
+      "cam_b0",
+      "cam_l0",
+      "cam_r0"
+    ],
+    "images": {
+      "cam_f0": "/mnt/data/navsim/test_sensor_blobs/test/2021.09.29.14.44.26_veh-28_01202_01296/CAM_F0/74c02b34bc8f5bce.jpg",
+      "cam_b0": "/mnt/data/navsim/test_sensor_blobs/test/2021.09.29.14.44.26_veh-28_01202_01296/CAM_B0/b8df367919eb5c58.jpg",
+      "cam_l0": "/mnt/data/navsim/test_sensor_blobs/test/2021.09.29.14.44.26_veh-28_01202_01296/CAM_L0/ae52801d3f355331.jpg",
+      "cam_r0": "/mnt/data/navsim/test_sensor_blobs/test/2021.09.29.14.44.26_veh-28_01202_01296/CAM_R0/61c3efdb92e65767.jpg"
+    },
+    "driving_command": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "navigation_text": "go straight",
+    "scene_text": {
+      "cam_f0": {
+        "text": "a black car in the center of the image, a yellow car on the right side of the image, a white truck on the left side of the image, green traffic lights at the intersection",
+        "categories": [
+          "vehicle",
+          "vehicle",
+          "vehicle",
+          "traffic_light"
+        ]
+      },
+      "cam_b0": {
+        "text": "a black pickup truck on the right, orange traffic cones lining the right side, a dark SUV in the lower left foreground, a double yellow line dividing the road",
+        "categories": [
+          "vehicle",
+          "traffic_cone",
+          "vehicle",
+          "lane_boundary"
+        ]
+      },
+      "cam_l0": {
+        "text": "a white pickup truck on the left, a black SUV on the right, a cyclist riding in the lane",
+        "categories": [
+          "vehicle",
+          "vehicle",
+          "bicycle"
+        ]
+      },
+      "cam_r0": {
+        "text": "a black SUV in the foreground, a yellow car on the left",
+        "categories": [
+          "vehicle",
+          "vehicle"
+        ]
+      }
+    },
+    "scene_context": {
+      "cam_f0": "a straight multi-lane road",
+      "cam_b0": "a straight urban street with construction",
+      "cam_l0": "",
+      "cam_r0": "a straight urban street"
+    },
+    "caption_cache": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0010/captions/scenes/9dc5a17094e0569d.json",
+    "caption_status": "passed",
+    "text_fallback": false,
+    "text_fallback_cameras": [],
+    "empty_text_cameras": [],
+    "view_status": {
+      "cam_f0": "ok",
+      "cam_b0": "ok",
+      "cam_l0": "ok",
+      "cam_r0": "ok"
+    },
+    "grounding_npz": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0010/grounding/masks/9dc5a17094e0569d.npz",
+    "boxes_json": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0010/grounding/scenes/9dc5a17094e0569d.json",
+    "grounding_valid": [
+      true,
+      true,
+      false,
+      false
+    ],
+    "grounding_role": "audit_only"
+  },
+  {
+    "scene_token": "b42d7dc2a3975573",
+    "log_name": "2021.10.06.08.16.17_veh-52_00922_01296",
+    "partition": "test",
+    "camera_order": [
+      "cam_f0",
+      "cam_b0",
+      "cam_l0",
+      "cam_r0"
+    ],
+    "images": {
+      "cam_f0": "/mnt/data/navsim/test_sensor_blobs/test/2021.10.06.08.16.17_veh-52_00922_01296/CAM_F0/7483a0fca5d4560d.jpg",
+      "cam_b0": "/mnt/data/navsim/test_sensor_blobs/test/2021.10.06.08.16.17_veh-52_00922_01296/CAM_B0/9a592591d08452bb.jpg",
+      "cam_l0": "/mnt/data/navsim/test_sensor_blobs/test/2021.10.06.08.16.17_veh-52_00922_01296/CAM_L0/05123641f5c853b1.jpg",
+      "cam_r0": "/mnt/data/navsim/test_sensor_blobs/test/2021.10.06.08.16.17_veh-52_00922_01296/CAM_R0/f613d9536085582d.jpg"
+    },
+    "driving_command": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "navigation_text": "turn left",
+    "scene_text": {
+      "cam_f0": {
+        "text": "a blue car on the right side of the image, a blue circular sign with a white arrow pointing down and left, white dashed lane markings on the road surface",
+        "categories": [
+          "vehicle",
+          "traffic_sign",
+          "lane_boundary"
+        ]
+      },
+      "cam_b0": {
+        "text": "a group of pedestrians standing on the right side, a white directional arrow painted on the road surface",
+        "categories": [
+          "pedestrian",
+          "lane_boundary"
+        ]
+      },
+      "cam_l0": {
+        "text": "",
+        "categories": []
+      },
+      "cam_r0": {
+        "text": "a pedestrian in the road, a blue car on the left, a yellow vehicle in the distance, a white arrow painted on the road",
+        "categories": [
+          "pedestrian",
+          "vehicle",
+          "vehicle",
+          "lane_boundary"
+        ]
+      }
+    },
+    "scene_context": {
+      "cam_f0": "a curved road with a grassy embankment",
+      "cam_b0": "a paved road curving to the right",
+      "cam_l0": "",
+      "cam_r0": "a paved intersection"
+    },
+    "caption_cache": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0009/captions/scenes/b42d7dc2a3975573.json",
+    "caption_status": "passed",
+    "text_fallback": false,
+    "text_fallback_cameras": [],
+    "empty_text_cameras": [
+      "cam_l0"
+    ],
+    "view_status": {
+      "cam_f0": "ok",
+      "cam_b0": "ok",
+      "cam_l0": "empty_scene",
+      "cam_r0": "ok"
+    },
+    "grounding_npz": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0009/grounding/masks/b42d7dc2a3975573.npz",
+    "boxes_json": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0009/grounding/scenes/b42d7dc2a3975573.json",
+    "grounding_valid": [
+      true,
+      true,
+      false,
+      true
+    ],
+    "grounding_role": "audit_only"
+  },
+  {
+    "scene_token": "95329718628e5f7f",
+    "log_name": "2021.09.29.18.19.40_veh-28_00844_01218",
+    "partition": "test",
+    "camera_order": [
+      "cam_f0",
+      "cam_b0",
+      "cam_l0",
+      "cam_r0"
+    ],
+    "images": {
+      "cam_f0": "/mnt/data/navsim/test_sensor_blobs/test/2021.09.29.18.19.40_veh-28_00844_01218/CAM_F0/d84e840553605695.jpg",
+      "cam_b0": "/mnt/data/navsim/test_sensor_blobs/test/2021.09.29.18.19.40_veh-28_00844_01218/CAM_B0/51ef4c6a61aa5a34.jpg",
+      "cam_l0": "/mnt/data/navsim/test_sensor_blobs/test/2021.09.29.18.19.40_veh-28_00844_01218/CAM_L0/4c8b499f75ed5d3c.jpg",
+      "cam_r0": "/mnt/data/navsim/test_sensor_blobs/test/2021.09.29.18.19.40_veh-28_00844_01218/CAM_R0/9b63825df4695994.jpg"
+    },
+    "driving_command": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "navigation_text": "go straight",
+    "scene_text": {
+      "cam_f0": {
+        "text": "a cyclist riding in the bike lane on the right, a pedestrian on the sidewalk to the right, a white sedan in the center lane, a white truck in the lane to the left",
+        "categories": [
+          "bicycle",
+          "pedestrian",
+          "vehicle",
+          "vehicle"
+        ]
+      },
+      "cam_b0": {
+        "text": "a black SUV in the center of the image, a white truck on the right side of the image, a silver car behind the black SUV, a pedestrian on the sidewalk to the left",
+        "categories": [
+          "vehicle",
+          "vehicle",
+          "vehicle",
+          "pedestrian"
+        ]
+      },
+      "cam_l0": {
+        "text": "a dark SUV in the foreground, a dark SUV to the left, a blue car on the right",
+        "categories": [
+          "vehicle",
+          "vehicle",
+          "vehicle"
+        ]
+      },
+      "cam_r0": {
+        "text": "a pedestrian on the left side of the image, a green directional sign on the left side of the image, a bike lane sign on the right side of the image, a crosswalk marked with white stripes across the image",
+        "categories": [
+          "pedestrian",
+          "traffic_sign",
+          "bicycle",
+          "crosswalk"
+        ]
+      }
+    },
+    "scene_context": {
+      "cam_f0": "a signalized intersection",
+      "cam_b0": "a straight multi-lane road",
+      "cam_l0": "a straight multi-lane road",
+      "cam_r0": ""
+    },
+    "caption_cache": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0005/captions/scenes/95329718628e5f7f.json",
+    "caption_status": "needs_review",
+    "text_fallback": false,
+    "text_fallback_cameras": [],
+    "empty_text_cameras": [],
+    "view_status": {
+      "cam_f0": "ok",
+      "cam_b0": "ok",
+      "cam_l0": "ok",
+      "cam_r0": "ok"
+    },
+    "grounding_npz": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0005/grounding/masks/95329718628e5f7f.npz",
+    "boxes_json": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0005/grounding/scenes/95329718628e5f7f.json",
+    "grounding_valid": [
+      true,
+      true,
+      false,
+      true
+    ],
+    "grounding_role": "audit_only"
+  },
+  {
+    "scene_token": "c95d7e81eec75f65",
+    "log_name": "2021.09.09.17.18.51_veh-48_00574_00646",
+    "partition": "test",
+    "camera_order": [
+      "cam_f0",
+      "cam_b0",
+      "cam_l0",
+      "cam_r0"
+    ],
+    "images": {
+      "cam_f0": "/mnt/data/navsim/test_sensor_blobs/test/2021.09.09.17.18.51_veh-48_00574_00646/CAM_F0/74469b73b5445079.jpg",
+      "cam_b0": "/mnt/data/navsim/test_sensor_blobs/test/2021.09.09.17.18.51_veh-48_00574_00646/CAM_B0/111b909609685540.jpg",
+      "cam_l0": "/mnt/data/navsim/test_sensor_blobs/test/2021.09.09.17.18.51_veh-48_00574_00646/CAM_L0/7ef6b639b4645e58.jpg",
+      "cam_r0": "/mnt/data/navsim/test_sensor_blobs/test/2021.09.09.17.18.51_veh-48_00574_00646/CAM_R0/297136a4970b556f.jpg"
+    },
+    "driving_command": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "navigation_text": "go straight",
+    "scene_text": {
+      "cam_f0": {
+        "text": "a dark grey car in the center of the image, a white car on the left side of the image, a dark grey car on the left side of the image",
+        "categories": [
+          "vehicle",
+          "vehicle",
+          "vehicle"
+        ]
+      },
+      "cam_b0": {
+        "text": "a black car in the center of the image, a silver minivan on the right side of the image, a grey SUV on the right side of the image",
+        "categories": [
+          "vehicle",
+          "vehicle",
+          "vehicle"
+        ]
+      },
+      "cam_l0": {
+        "text": "a dark sedan on the right",
+        "categories": [
+          "vehicle"
+        ]
+      },
+      "cam_r0": {
+        "text": "",
+        "categories": []
+      }
+    },
+    "scene_context": {
+      "cam_f0": "a narrow urban street",
+      "cam_b0": "a narrow urban street",
+      "cam_l0": "",
+      "cam_r0": ""
+    },
+    "caption_cache": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0022/captions/scenes/c95d7e81eec75f65.json",
+    "caption_status": "passed",
+    "text_fallback": false,
+    "text_fallback_cameras": [],
+    "empty_text_cameras": [
+      "cam_r0"
+    ],
+    "view_status": {
+      "cam_f0": "ok",
+      "cam_b0": "ok",
+      "cam_l0": "ok",
+      "cam_r0": "empty_scene"
+    },
+    "grounding_npz": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0022/grounding/masks/c95d7e81eec75f65.npz",
+    "boxes_json": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0022/grounding/scenes/c95d7e81eec75f65.json",
+    "grounding_valid": [
+      true,
+      true,
+      true,
+      false
+    ],
+    "grounding_role": "audit_only"
+  },
+  {
+    "scene_token": "fc0d202904585a6a",
+    "log_name": "2021.06.28.21.16.05_veh-14_00957_01198",
+    "partition": "test",
+    "camera_order": [
+      "cam_f0",
+      "cam_b0",
+      "cam_l0",
+      "cam_r0"
+    ],
+    "images": {
+      "cam_f0": "/mnt/data/navsim/test_sensor_blobs/test/2021.06.28.21.16.05_veh-14_00957_01198/CAM_F0/c27233c8496554af.jpg",
+      "cam_b0": "/mnt/data/navsim/test_sensor_blobs/test/2021.06.28.21.16.05_veh-14_00957_01198/CAM_B0/da4ca7e87a095bea.jpg",
+      "cam_l0": "/mnt/data/navsim/test_sensor_blobs/test/2021.06.28.21.16.05_veh-14_00957_01198/CAM_L0/32747f6f3ff1553b.jpg",
+      "cam_r0": "/mnt/data/navsim/test_sensor_blobs/test/2021.06.28.21.16.05_veh-14_00957_01198/CAM_R0/bc2b387ff0c550af.jpg"
+    },
+    "driving_command": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "navigation_text": "go straight",
+    "scene_text": {
+      "cam_f0": {
+        "text": "a white SUV on the left side of the image, a crosswalk in the lower center of the image, traffic lights suspended over the road in the background, a pedestrian on the sidewalk to the right",
+        "categories": [
+          "vehicle",
+          "crosswalk",
+          "traffic_light",
+          "pedestrian"
+        ]
+      },
+      "cam_b0": {
+        "text": "a dark grey SUV in the center of the image, a red car on the right side of the image, a stop sign on the right side of the image",
+        "categories": [
+          "vehicle",
+          "vehicle",
+          "traffic_sign"
+        ]
+      },
+      "cam_l0": {
+        "text": "a pedestrian crossing sign on the right, a silver SUV on the right, a red car on the left, a crosswalk in the foreground",
+        "categories": [
+          "traffic_sign",
+          "vehicle",
+          "vehicle",
+          "crosswalk"
+        ]
+      },
+      "cam_r0": {
+        "text": "",
+        "categories": []
+      }
+    },
+    "scene_context": {
+      "cam_f0": "a straight multi-lane road",
+      "cam_b0": "a straight multi-lane road",
+      "cam_l0": "a straight multi-lane road",
+      "cam_r0": ""
+    },
+    "caption_cache": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0013/captions/scenes/fc0d202904585a6a.json",
+    "caption_status": "passed",
+    "text_fallback": false,
+    "text_fallback_cameras": [],
+    "empty_text_cameras": [
+      "cam_r0"
+    ],
+    "view_status": {
+      "cam_f0": "ok",
+      "cam_b0": "ok",
+      "cam_l0": "ok",
+      "cam_r0": "empty_scene"
+    },
+    "grounding_npz": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0013/grounding/masks/fc0d202904585a6a.npz",
+    "boxes_json": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0013/grounding/scenes/fc0d202904585a6a.json",
+    "grounding_valid": [
+      true,
+      true,
+      true,
+      false
+    ],
+    "grounding_role": "audit_only"
+  },
+  {
+    "scene_token": "45935e0787fd5a31",
+    "log_name": "2021.09.09.17.18.51_veh-48_01248_01450",
+    "partition": "test",
+    "camera_order": [
+      "cam_f0",
+      "cam_b0",
+      "cam_l0",
+      "cam_r0"
+    ],
+    "images": {
+      "cam_f0": "/mnt/data/navsim/test_sensor_blobs/test/2021.09.09.17.18.51_veh-48_01248_01450/CAM_F0/92145e97a4625ce7.jpg",
+      "cam_b0": "/mnt/data/navsim/test_sensor_blobs/test/2021.09.09.17.18.51_veh-48_01248_01450/CAM_B0/167e7ab6ad155df9.jpg",
+      "cam_l0": "/mnt/data/navsim/test_sensor_blobs/test/2021.09.09.17.18.51_veh-48_01248_01450/CAM_L0/ca1c2f06bbbd58a3.jpg",
+      "cam_r0": "/mnt/data/navsim/test_sensor_blobs/test/2021.09.09.17.18.51_veh-48_01248_01450/CAM_R0/c480f46f93975633.jpg"
+    },
+    "driving_command": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "navigation_text": "go straight",
+    "scene_text": {
+      "cam_f0": {
+        "text": "a crosswalk in the foreground, a black car in the left lane, a pedestrian crossing sign on the right, a white SUV on the right, dashed lane markings in the center",
+        "categories": [
+          "crosswalk",
+          "vehicle",
+          "traffic_sign",
+          "vehicle",
+          "lane_boundary"
+        ]
+      },
+      "cam_b0": {
+        "text": "a silver sedan in the center of the image, a bicycle symbol painted on the road",
+        "categories": [
+          "vehicle",
+          "bicycle"
+        ]
+      },
+      "cam_l0": {
+        "text": "a black SUV in the foreground on the left, a white crosswalk marking on the road, a traffic sign on the right side",
+        "categories": [
+          "vehicle",
+          "crosswalk",
+          "traffic_sign"
+        ]
+      },
+      "cam_r0": {
+        "text": "a crosswalk in the foreground, a black SUV on the right, a yellow traffic sign on the right",
+        "categories": [
+          "crosswalk",
+          "vehicle",
+          "traffic_sign"
+        ]
+      }
+    },
+    "scene_context": {
+      "cam_f0": "a straight urban street with crosswalks",
+      "cam_b0": "",
+      "cam_l0": "an urban intersection with crosswalks",
+      "cam_r0": ""
+    },
+    "caption_cache": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0003/captions/scenes/45935e0787fd5a31.json",
+    "caption_status": "needs_review",
+    "text_fallback": false,
+    "text_fallback_cameras": [],
+    "empty_text_cameras": [],
+    "view_status": {
+      "cam_f0": "ok",
+      "cam_b0": "ok",
+      "cam_l0": "ok",
+      "cam_r0": "ok"
+    },
+    "grounding_npz": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0003/grounding/masks/45935e0787fd5a31.npz",
+    "boxes_json": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0003/grounding/scenes/45935e0787fd5a31.json",
+    "grounding_valid": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "grounding_role": "audit_only"
+  },
+  {
+    "scene_token": "cc63d140e4285f30",
+    "log_name": "2021.08.30.14.54.34_veh-40_00885_00986",
+    "partition": "test",
+    "camera_order": [
+      "cam_f0",
+      "cam_b0",
+      "cam_l0",
+      "cam_r0"
+    ],
+    "images": {
+      "cam_f0": "/mnt/data/navsim/test_sensor_blobs/test/2021.08.30.14.54.34_veh-40_00885_00986/CAM_F0/740ba3748ff3527d.jpg",
+      "cam_b0": "/mnt/data/navsim/test_sensor_blobs/test/2021.08.30.14.54.34_veh-40_00885_00986/CAM_B0/628a24ee62b2583e.jpg",
+      "cam_l0": "/mnt/data/navsim/test_sensor_blobs/test/2021.08.30.14.54.34_veh-40_00885_00986/CAM_L0/d6ed9135d29a5f9d.jpg",
+      "cam_r0": "/mnt/data/navsim/test_sensor_blobs/test/2021.08.30.14.54.34_veh-40_00885_00986/CAM_R0/871d4b1f7f015065.jpg"
+    },
+    "driving_command": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "navigation_text": "go straight",
+    "scene_text": {
+      "cam_f0": {
+        "text": "a blue semi-truck with a trailer on the right, a white sign with black text in the center, a white truck cab on the left, a curved yellow lane boundary line",
+        "categories": [
+          "vehicle",
+          "traffic_sign",
+          "vehicle",
+          "lane_boundary"
+        ]
+      },
+      "cam_b0": {
+        "text": "a white van in the center of the image, a solid yellow line on the right side, a dashed white line on the left side, a white truck in the background, a black car on the right side",
+        "categories": [
+          "vehicle",
+          "lane_boundary",
+          "lane_boundary",
+          "vehicle",
+          "vehicle"
+        ]
+      },
+      "cam_l0": {
+        "text": "a white truck on the right, a yellow barrel in the foreground, a pedestrian near the building entrance, white lane markings on the road",
+        "categories": [
+          "vehicle",
+          "traffic_cone",
+          "pedestrian",
+          "lane_boundary"
+        ]
+      },
+      "cam_r0": {
+        "text": "a blue truck on the left side of the image, a crosswalk in the lower center of the image, a traffic sign on the left side of the image, lane boundary lines on the road surface",
+        "categories": [
+          "vehicle",
+          "crosswalk",
+          "traffic_sign",
+          "lane_boundary"
+        ]
+      }
+    },
+    "scene_context": {
+      "cam_f0": "a roundabout junction",
+      "cam_b0": "a straight multi-lane road",
+      "cam_l0": "a paved road with a building on the left",
+      "cam_r0": "a paved intersection"
+    },
+    "caption_cache": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0021/captions/scenes/cc63d140e4285f30.json",
+    "caption_status": "passed",
+    "text_fallback": false,
+    "text_fallback_cameras": [],
+    "empty_text_cameras": [],
+    "view_status": {
+      "cam_f0": "ok",
+      "cam_b0": "ok",
+      "cam_l0": "ok",
+      "cam_r0": "ok"
+    },
+    "grounding_npz": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0021/grounding/masks/cc63d140e4285f30.npz",
+    "boxes_json": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0021/grounding/scenes/cc63d140e4285f30.json",
+    "grounding_valid": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "grounding_role": "audit_only"
+  },
+  {
+    "scene_token": "daaa1858309c5938",
+    "log_name": "2021.09.09.17.18.51_veh-48_00098_00328",
+    "partition": "test",
+    "camera_order": [
+      "cam_f0",
+      "cam_b0",
+      "cam_l0",
+      "cam_r0"
+    ],
+    "images": {
+      "cam_f0": "/mnt/data/navsim/test_sensor_blobs/test/2021.09.09.17.18.51_veh-48_00098_00328/CAM_F0/ebee1da760fd530c.jpg",
+      "cam_b0": "/mnt/data/navsim/test_sensor_blobs/test/2021.09.09.17.18.51_veh-48_00098_00328/CAM_B0/18796f30eb8e5cf6.jpg",
+      "cam_l0": "/mnt/data/navsim/test_sensor_blobs/test/2021.09.09.17.18.51_veh-48_00098_00328/CAM_L0/35d11864468857a9.jpg",
+      "cam_r0": "/mnt/data/navsim/test_sensor_blobs/test/2021.09.09.17.18.51_veh-48_00098_00328/CAM_R0/b614f90e354a5656.jpg"
+    },
+    "driving_command": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "navigation_text": "go straight",
+    "scene_text": {
+      "cam_f0": {
+        "text": "a grey SUV in the center of the image, red traffic lights in the upper center of the image, a pedestrian on the left side of the image, double yellow lines on the lower left of the image, a crosswalk in the lower left of the image",
+        "categories": [
+          "vehicle",
+          "traffic_light",
+          "pedestrian",
+          "lane_boundary",
+          "crosswalk"
+        ]
+      },
+      "cam_b0": {
+        "text": "a white truck in the center of the image, a blue SUV on the left side of the image, a double yellow line in the lower right of the image, a pedestrian crossing sign on the right side of the image",
+        "categories": [
+          "vehicle",
+          "vehicle",
+          "lane_boundary",
+          "traffic_sign"
+        ]
+      },
+      "cam_l0": {
+        "text": "a white SUV on the left side, a pedestrian on the right sidewalk, pedestrians near the storefront entrance, white lane markings on the wet road surface, a traffic light suspended over the intersection",
+        "categories": [
+          "vehicle",
+          "pedestrian",
+          "pedestrian",
+          "lane_boundary",
+          "traffic_light"
+        ]
+      },
+      "cam_r0": {
+        "text": "a black SUV in the right foreground, a black SUV in the center, a pedestrian behind the center SUV, white lane boundary lines on the wet road",
+        "categories": [
+          "vehicle",
+          "vehicle",
+          "pedestrian",
+          "lane_boundary"
+        ]
+      }
+    },
+    "scene_context": {
+      "cam_f0": "a signalized intersection",
+      "cam_b0": "a wet multi-lane urban street",
+      "cam_l0": "a wet urban intersection",
+      "cam_r0": ""
+    },
+    "caption_cache": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0008/captions/scenes/daaa1858309c5938.json",
+    "caption_status": "passed",
+    "text_fallback": false,
+    "text_fallback_cameras": [],
+    "empty_text_cameras": [],
+    "view_status": {
+      "cam_f0": "ok",
+      "cam_b0": "ok",
+      "cam_l0": "ok",
+      "cam_r0": "ok"
+    },
+    "grounding_npz": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0008/grounding/masks/daaa1858309c5938.npz",
+    "boxes_json": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0008/grounding/scenes/daaa1858309c5938.json",
+    "grounding_valid": [
+      true,
+      true,
+      true,
+      false
+    ],
+    "grounding_role": "audit_only"
+  },
+  {
+    "scene_token": "a354ac8030d55e5e",
+    "log_name": "2021.06.03.18.47.39_veh-35_00123_00246",
+    "partition": "test",
+    "camera_order": [
+      "cam_f0",
+      "cam_b0",
+      "cam_l0",
+      "cam_r0"
+    ],
+    "images": {
+      "cam_f0": "/mnt/data/navsim/test_sensor_blobs/test/2021.06.03.18.47.39_veh-35_00123_00246/CAM_F0/7095855b094a5d3c.jpg",
+      "cam_b0": "/mnt/data/navsim/test_sensor_blobs/test/2021.06.03.18.47.39_veh-35_00123_00246/CAM_B0/a784844bca2a564f.jpg",
+      "cam_l0": "/mnt/data/navsim/test_sensor_blobs/test/2021.06.03.18.47.39_veh-35_00123_00246/CAM_L0/8cf8d05e40435d21.jpg",
+      "cam_r0": "/mnt/data/navsim/test_sensor_blobs/test/2021.06.03.18.47.39_veh-35_00123_00246/CAM_R0/0dc3851e69aa5606.jpg"
+    },
+    "driving_command": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "navigation_text": "go straight",
+    "scene_text": {
+      "cam_f0": {
+        "text": "a white minivan in the center lane, a brown sedan in the left lane, a green van on the far left, a traffic light showing green in the background",
+        "categories": [
+          "vehicle",
+          "vehicle",
+          "vehicle",
+          "traffic_light"
+        ]
+      },
+      "cam_b0": {
+        "text": "a grey sedan in the foreground, a white SUV in the right lane, a dark pickup truck on the far right, a white car in the center lane",
+        "categories": [
+          "vehicle",
+          "vehicle",
+          "vehicle",
+          "vehicle"
+        ]
+      },
+      "cam_l0": {
+        "text": "a grey sedan in the foreground on the left, a green van on the right side, a dark SUV in the center, a white sedan behind the green van",
+        "categories": [
+          "vehicle",
+          "vehicle",
+          "vehicle",
+          "vehicle"
+        ]
+      },
+      "cam_r0": {
+        "text": "pedestrians riding the escalator in the upper right",
+        "categories": [
+          "pedestrian"
+        ]
+      }
+    },
+    "scene_context": {
+      "cam_f0": "a straight multi-lane road",
+      "cam_b0": "a busy multi-lane urban road",
+      "cam_l0": "a multi-lane urban road under an overpass",
+      "cam_r0": "a street with a large escalator structure"
+    },
+    "caption_cache": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0004/captions/scenes/a354ac8030d55e5e.json",
+    "caption_status": "passed",
+    "text_fallback": false,
+    "text_fallback_cameras": [],
+    "empty_text_cameras": [],
+    "view_status": {
+      "cam_f0": "ok",
+      "cam_b0": "ok",
+      "cam_l0": "ok",
+      "cam_r0": "ok"
+    },
+    "grounding_npz": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0004/grounding/masks/a354ac8030d55e5e.npz",
+    "boxes_json": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0004/grounding/scenes/a354ac8030d55e5e.json",
+    "grounding_valid": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "grounding_role": "audit_only"
+  },
+  {
+    "scene_token": "8bc0584436b25488",
+    "log_name": "2021.10.06.07.26.10_veh-52_00772_00917",
+    "partition": "test",
+    "camera_order": [
+      "cam_f0",
+      "cam_b0",
+      "cam_l0",
+      "cam_r0"
+    ],
+    "images": {
+      "cam_f0": "/mnt/data/navsim/test_sensor_blobs/test/2021.10.06.07.26.10_veh-52_00772_00917/CAM_F0/c558d17c64ae5390.jpg",
+      "cam_b0": "/mnt/data/navsim/test_sensor_blobs/test/2021.10.06.07.26.10_veh-52_00772_00917/CAM_B0/2416bf8430ae5871.jpg",
+      "cam_l0": "/mnt/data/navsim/test_sensor_blobs/test/2021.10.06.07.26.10_veh-52_00772_00917/CAM_L0/d689e7a2742e549d.jpg",
+      "cam_r0": "/mnt/data/navsim/test_sensor_blobs/test/2021.10.06.07.26.10_veh-52_00772_00917/CAM_R0/6c1efd77fad558af.jpg"
+    },
+    "driving_command": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "navigation_text": "turn left",
+    "scene_text": {
+      "cam_f0": {
+        "text": "",
+        "categories": []
+      },
+      "cam_b0": {
+        "text": "a silver car in the left foreground, a white turn arrow on the road",
+        "categories": [
+          "vehicle",
+          "lane_boundary"
+        ]
+      },
+      "cam_l0": {
+        "text": "an orange caution sign on the grass verge, double yellow lines marking the road edge",
+        "categories": [
+          "traffic_sign",
+          "lane_boundary"
+        ]
+      },
+      "cam_r0": {
+        "text": "a traffic sign on the right side of the road",
+        "categories": [
+          "traffic_sign"
+        ]
+      }
+    },
+    "scene_context": {
+      "cam_f0": "",
+      "cam_b0": "a curved urban road",
+      "cam_l0": "a curved road with a grassy median",
+      "cam_r0": "a curved road"
+    },
+    "caption_cache": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0017/captions/scenes/8bc0584436b25488.json",
+    "caption_status": "passed",
+    "text_fallback": false,
+    "text_fallback_cameras": [],
+    "empty_text_cameras": [
+      "cam_f0"
+    ],
+    "view_status": {
+      "cam_f0": "empty_scene",
+      "cam_b0": "ok",
+      "cam_l0": "ok",
+      "cam_r0": "ok"
+    },
+    "grounding_npz": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0017/grounding/masks/8bc0584436b25488.npz",
+    "boxes_json": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0017/grounding/scenes/8bc0584436b25488.json",
+    "grounding_valid": [
+      false,
+      true,
+      false,
+      false
+    ],
+    "grounding_role": "audit_only"
+  }
+]

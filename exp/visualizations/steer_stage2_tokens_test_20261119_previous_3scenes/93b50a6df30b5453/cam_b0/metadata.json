@@ -1,0 +1,58 @@
+{
+  "scene_token": "93b50a6df30b5453",
+  "camera": "cam_b0",
+  "image": "/mnt/data/navsim/test_sensor_blobs/test/2021.09.16.14.39.34_veh-42_00297_00935/CAM_B0/ae0557485d905620.jpg",
+  "grounding_npz": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0000/grounding/masks/93b50a6df30b5453.npz",
+  "boxes_json": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0000/grounding/scenes/93b50a6df30b5453.json",
+  "donor_scene": "3b56d2b022d25026",
+  "metrics": [
+    {
+      "scene_token": "93b50a6df30b5453",
+      "camera": "cam_b0",
+      "mode": "correct",
+      "text": "a silver SUV in the right lane, a red SUV in the background, traffic lights at the intersection, a crosswalk at the intersection, double yellow lines in the center",
+      "grounding_valid": true,
+      "target_area_fraction": 0.018800813008130083,
+      "target_mass": 0.8949095010757446,
+      "peak_in_target": true,
+      "soft_target_ce": 4.591004371643066,
+      "register_mean_target_mass": 0.05640123784542084,
+      "ground_tv_from_correct": 0.0,
+      "register_mean_tv_from_correct": 0.0,
+      "patch_mean_cosine_change_from_correct": -3.423935623914076e-08,
+      "scene_output_relative_l2_from_correct": 0.0
+    },
+    {
+      "scene_token": "93b50a6df30b5453",
+      "camera": "cam_b0",
+      "mode": "empty",
+      "text": "",
+      "grounding_valid": true,
+      "target_area_fraction": 0.018800813008130083,
+      "target_mass": 0.31896719336509705,
+      "peak_in_target": true,
+      "soft_target_ce": 5.689846992492676,
+      "register_mean_target_mass": 0.043703485280275345,
+      "ground_tv_from_correct": 0.6359660625457764,
+      "register_mean_tv_from_correct": 0.2581537365913391,
+      "patch_mean_cosine_change_from_correct": 0.3203831613063812,
+      "scene_output_relative_l2_from_correct": 0.7264314889907837
+    },
+    {
+      "scene_token": "93b50a6df30b5453",
+      "camera": "cam_b0",
+      "mode": "shuffled",
+      "text": "a white van on the right side, a black pickup truck on the right, a brown pickup truck on the left, a silver SUV on the left",
+      "grounding_valid": true,
+      "target_area_fraction": 0.018800813008130083,
+      "target_mass": 0.8084811568260193,
+      "peak_in_target": true,
+      "soft_target_ce": 4.622481822967529,
+      "register_mean_target_mass": 0.057013772428035736,
+      "ground_tv_from_correct": 0.13082772493362427,
+      "register_mean_tv_from_correct": 0.1102365180850029,
+      "patch_mean_cosine_change_from_correct": 0.07117144018411636,
+      "scene_output_relative_l2_from_correct": 0.3723290264606476
+    }
+  ]
+}

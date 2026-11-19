@@ -1,0 +1,32 @@
+{
+  "previous": {
+    "correct": {
+      "valid_views": 11,
+      "mean_target_mass": 0.8421769358895042
+    },
+    "empty": {
+      "valid_views": 11,
+      "mean_target_mass": 0.27468185567043046
+    },
+    "shuffled": {
+      "valid_views": 11,
+      "mean_target_mass": 0.7849251113154672
+    }
+  },
+  "updated": {
+    "correct": {
+      "valid_views": 11,
+      "mean_target_mass": 0.8421829993074591
+    },
+    "empty": {
+      "valid_views": 11,
+      "mean_target_mass": 0.27468185567043046
+    },
+    "unrelated": {
+      "valid_views": 11,
+      "mean_target_mass": 0.5947426367889751
+    }
+  },
+  "scope": "Same original 3 scenes and images. Wrong input intentionally changed from other driving captions to absurd unrelated descriptions.",
+  "identical_reference_masks": 12
+}

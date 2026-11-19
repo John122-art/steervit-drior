@@ -1,0 +1,58 @@
+{
+  "scene_token": "6233d1b3e62a5772",
+  "camera": "cam_b0",
+  "image": "/mnt/data/navsim/test_sensor_blobs/test/2021.05.25.15.59.03_veh-30_01478_01643/CAM_B0/63b8f29eea20570b.jpg",
+  "grounding_npz": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0000/grounding/masks/6233d1b3e62a5772.npz",
+  "boxes_json": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0000/grounding/scenes/6233d1b3e62a5772.json",
+  "donor_scene": "93b50a6df30b5453",
+  "metrics": [
+    {
+      "scene_token": "6233d1b3e62a5772",
+      "camera": "cam_b0",
+      "mode": "correct",
+      "text": "a silver SUV in the foreground, a white car on the left, a grey minivan on the left, a white arrow painted on the road",
+      "grounding_valid": true,
+      "target_area_fraction": 0.3554369918699187,
+      "target_mass": 0.9559698104858398,
+      "peak_in_target": true,
+      "soft_target_ce": 7.338971138000488,
+      "register_mean_target_mass": 0.26199179887771606,
+      "ground_tv_from_correct": 0.0,
+      "register_mean_tv_from_correct": 0.0,
+      "patch_mean_cosine_change_from_correct": -3.3436752033821904e-08,
+      "scene_output_relative_l2_from_correct": 0.0
+    },
+    {
+      "scene_token": "6233d1b3e62a5772",
+      "camera": "cam_b0",
+      "mode": "empty",
+      "text": "",
+      "grounding_valid": true,
+      "target_area_fraction": 0.3554369918699187,
+      "target_mass": 0.572545051574707,
+      "peak_in_target": false,
+      "soft_target_ce": 8.0498046875,
+      "register_mean_target_mass": 0.2617696523666382,
+      "ground_tv_from_correct": 0.46913015842437744,
+      "register_mean_tv_from_correct": 0.25062665343284607,
+      "patch_mean_cosine_change_from_correct": 0.5256086587905884,
+      "scene_output_relative_l2_from_correct": 0.9091182351112366
+    },
+    {
+      "scene_token": "6233d1b3e62a5772",
+      "camera": "cam_b0",
+      "mode": "shuffled",
+      "text": "a silver SUV in the right lane, a red SUV in the background, traffic lights at the intersection, a crosswalk at the intersection, double yellow lines in the center",
+      "grounding_valid": true,
+      "target_area_fraction": 0.3554369918699187,
+      "target_mass": 0.9401050209999084,
+      "peak_in_target": true,
+      "soft_target_ce": 7.3908257484436035,
+      "register_mean_target_mass": 0.24233819544315338,
+      "ground_tv_from_correct": 0.05055822432041168,
+      "register_mean_tv_from_correct": 0.08101051300764084,
+      "patch_mean_cosine_change_from_correct": 0.05380057916045189,
+      "scene_output_relative_l2_from_correct": 0.3665603697299957
+    }
+  ]
+}

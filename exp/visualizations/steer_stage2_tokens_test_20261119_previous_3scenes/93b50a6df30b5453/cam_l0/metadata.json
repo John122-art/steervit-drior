@@ -1,0 +1,58 @@
+{
+  "scene_token": "93b50a6df30b5453",
+  "camera": "cam_l0",
+  "image": "/mnt/data/navsim/test_sensor_blobs/test/2021.09.16.14.39.34_veh-42_00297_00935/CAM_L0/425248d4395b50bb.jpg",
+  "grounding_npz": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0000/grounding/masks/93b50a6df30b5453.npz",
+  "boxes_json": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0000/grounding/scenes/93b50a6df30b5453.json",
+  "donor_scene": "3b56d2b022d25026",
+  "metrics": [
+    {
+      "scene_token": "93b50a6df30b5453",
+      "camera": "cam_l0",
+      "mode": "correct",
+      "text": "a pedestrian standing near the building entrance",
+      "grounding_valid": false,
+      "target_area_fraction": null,
+      "target_mass": null,
+      "peak_in_target": null,
+      "soft_target_ce": null,
+      "register_mean_target_mass": null,
+      "ground_tv_from_correct": 0.0,
+      "register_mean_tv_from_correct": 0.0,
+      "patch_mean_cosine_change_from_correct": -1.720296616269934e-08,
+      "scene_output_relative_l2_from_correct": 0.0
+    },
+    {
+      "scene_token": "93b50a6df30b5453",
+      "camera": "cam_l0",
+      "mode": "empty",
+      "text": "",
+      "grounding_valid": false,
+      "target_area_fraction": null,
+      "target_mass": null,
+      "peak_in_target": null,
+      "soft_target_ce": null,
+      "register_mean_target_mass": null,
+      "ground_tv_from_correct": 0.7341110110282898,
+      "register_mean_tv_from_correct": 0.3576206564903259,
+      "patch_mean_cosine_change_from_correct": 0.4168042540550232,
+      "scene_output_relative_l2_from_correct": 0.537509024143219
+    },
+    {
+      "scene_token": "93b50a6df30b5453",
+      "camera": "cam_l0",
+      "mode": "shuffled",
+      "text": "a pedestrian holding an umbrella on the sidewalk, a white van on the left, a crosswalk marked with white stripes, a traffic light showing a red hand symbol",
+      "grounding_valid": false,
+      "target_area_fraction": null,
+      "target_mass": null,
+      "peak_in_target": null,
+      "soft_target_ce": null,
+      "register_mean_target_mass": null,
+      "ground_tv_from_correct": 0.4794519543647766,
+      "register_mean_tv_from_correct": 0.22513893246650696,
+      "patch_mean_cosine_change_from_correct": 0.1714535802602768,
+      "scene_output_relative_l2_from_correct": 0.388634592294693
+    }
+  ]
+}

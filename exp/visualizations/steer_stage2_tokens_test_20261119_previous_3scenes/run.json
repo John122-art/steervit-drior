@@ -1,0 +1,51 @@
+{
+  "checkpoint": "/mnt/workspace/project/LQH/Drivor-orial/DrivoR-main/exp/ke/steer_stage2_capatch_vitb_8gpu_b16_12ep/11.13_05.07/lightning_logs/version_0/checkpoints/best-epoch=10-step=8866.ckpt",
+  "checkpoint_bytes": 853190433,
+  "epoch": 10,
+  "global_step": 8866,
+  "saved_config": "/mnt/workspace/project/LQH/Drivor-orial/DrivoR-main/exp/ke/steer_stage2_capatch_vitb_8gpu_b16_12ep/11.13_05.07/code/hydra/config.yaml",
+  "model_keys_loaded": 509,
+  "strict_load": true,
+  "missing_keys": [],
+  "unexpected_keys": [],
+  "ca_on_registers": false,
+  "gate_scale": 1.0,
+  "grid_shape": [
+    48,
+    82
+  ],
+  "patch_start_index": 17,
+  "scene_tokens_per_camera": 16,
+  "model_name": "timm/vit_base_patch14_dinov2.lvd142m",
+  "text_encoder": "/mnt/zhaozc_workspace/project/LQH/RoBERTa",
+  "device": "PPU-ZW810E",
+  "precision": "FP16 autocast; RoBERTa and attention reconstruction FP32",
+  "seed": 2,
+  "selection": "Fixed 3 distinct logs and caption categories, chosen before inference; all 4 cameras shown",
+  "scope": "Native per-camera image/text encoder inference; full checkpoint strictly loaded; no planner scoring or training",
+  "complete": true,
+  "elapsed_seconds": 170.07622771302704,
+  "summary": {
+    "correct": {
+      "valid_views": 11,
+      "mean_target_mass": 0.8421769358895042,
+      "peak_hits": 10,
+      "mean_register_target_mass": 0.16753869605335323
+    },
+    "empty": {
+      "valid_views": 11,
+      "mean_target_mass": 0.27468185567043046,
+      "peak_hits": 6,
+      "mean_register_target_mass": 0.14093819015066733
+    },
+    "shuffled": {
+      "valid_views": 11,
+      "mean_target_mass": 0.7849251113154672,
+      "peak_hits": 10,
+      "mean_register_target_mass": 0.1625350568104874
+    }
+  },
+  "views": 12,
+  "forward_passes": 36,
+  "peak_allocated_mib": 2035.392578125
+}

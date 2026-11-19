@@ -1,0 +1,58 @@
+{
+  "scene_token": "3b56d2b022d25026",
+  "camera": "cam_b0",
+  "image": "/mnt/data/navsim/test_sensor_blobs/test/2021.09.09.14.18.22_veh-48_01298_01492/CAM_B0/c51b13bc246c5f5a.jpg",
+  "grounding_npz": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0001/grounding/masks/3b56d2b022d25026.npz",
+  "boxes_json": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0001/grounding/scenes/3b56d2b022d25026.json",
+  "donor_scene": "6233d1b3e62a5772",
+  "metrics": [
+    {
+      "scene_token": "3b56d2b022d25026",
+      "camera": "cam_b0",
+      "mode": "correct",
+      "text": "a white van on the right side, a black pickup truck on the right, a brown pickup truck on the left, a silver SUV on the left",
+      "grounding_valid": true,
+      "target_area_fraction": 0.21671747967479674,
+      "target_mass": 0.7870967984199524,
+      "peak_in_target": true,
+      "soft_target_ce": 7.01248836517334,
+      "register_mean_target_mass": 0.06695767492055893,
+      "ground_tv_from_correct": 0.0,
+      "register_mean_tv_from_correct": 0.0,
+      "patch_mean_cosine_change_from_correct": -2.4865554948405588e-08,
+      "scene_output_relative_l2_from_correct": 0.0
+    },
+    {
+      "scene_token": "3b56d2b022d25026",
+      "camera": "cam_b0",
+      "mode": "empty",
+      "text": "",
+      "grounding_valid": true,
+      "target_area_fraction": 0.21671747967479674,
+      "target_mass": 0.2377566397190094,
+      "peak_in_target": false,
+      "soft_target_ce": 8.476129531860352,
+      "register_mean_target_mass": 0.05490606278181076,
+      "ground_tv_from_correct": 0.6708574891090393,
+      "register_mean_tv_from_correct": 0.27256929874420166,
+      "patch_mean_cosine_change_from_correct": 0.5108420252799988,
+      "scene_output_relative_l2_from_correct": 0.7504112720489502
+    },
+    {
+      "scene_token": "3b56d2b022d25026",
+      "camera": "cam_b0",
+      "mode": "shuffled",
+      "text": "a silver SUV in the foreground, a white car on the left, a grey minivan on the left, a white arrow painted on the road",
+      "grounding_valid": true,
+      "target_area_fraction": 0.21671747967479674,
+      "target_mass": 0.8171112537384033,
+      "peak_in_target": true,
+      "soft_target_ce": 7.0344953536987305,
+      "register_mean_target_mass": 0.07330562174320221,
+      "ground_tv_from_correct": 0.07387794554233551,
+      "register_mean_tv_from_correct": 0.11591044068336487,
+      "patch_mean_cosine_change_from_correct": 0.040124136954545975,
+      "scene_output_relative_l2_from_correct": 0.28471866250038147
+    }
+  ]
+}

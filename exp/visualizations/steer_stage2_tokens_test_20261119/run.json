@@ -1,0 +1,215 @@
+{
+  "complete": true,
+  "checkpoint": "/mnt/zhaozc_workspace/project/LQH/Drivor-orial/DrivoR-main/exp/ke/steer_stage2_capatch_vitb_8gpu_b16_12ep/11.13_05.07/lightning_logs/version_0/checkpoints/best-epoch=10-step=8866.ckpt",
+  "checkpoint_bytes": 853190433,
+  "epoch": 10,
+  "global_step": 8866,
+  "saved_config": "/mnt/zhaozc_workspace/project/LQH/Drivor-orial/DrivoR-main/exp/ke/steer_stage2_capatch_vitb_8gpu_b16_12ep/11.13_05.07/code/hydra/config.yaml",
+  "model_keys_loaded": 509,
+  "strict_load": true,
+  "missing_keys": [],
+  "unexpected_keys": [],
+  "ca_on_registers": false,
+  "gate_scale": 1.0,
+  "model_name": "timm/vit_base_patch14_dinov2.lvd142m",
+  "text_encoder": "/mnt/zhaozc_workspace/project/LQH/RoBERTa",
+  "grid_shape": [
+    48,
+    82
+  ],
+  "patch_start_index": 17,
+  "scene_tokens_per_camera": 16,
+  "seed": 2,
+  "selection": {
+    "seed": 2,
+    "scene_count": 30,
+    "distinct_logs": 30,
+    "original_tokens": [
+      "6233d1b3e62a5772",
+      "93b50a6df30b5453",
+      "3b56d2b022d25026"
+    ],
+    "method": "Original three scenes plus uniformly sampled distinct remaining logs, one randomly selected test scene per log; selected before inference, no quality filtering",
+    "wrong_language": "Fixed absurd out-of-domain captions, round-robin assignment before inference",
+    "wrong_prompt_catalog": [
+      "A giant purple dragon breathes green fire above an ice castle on a floating island.",
+      "Three astronauts play chess on the surface of Jupiter beneath two glowing moons.",
+      "A mermaid with golden hair opens a sunken pirate treasure chest deep underwater.",
+      "A wizard levitates a crystal teapot inside a dungeon filled with glowing mushrooms.",
+      "An enormous pink octopus knits a wool sweater inside a submarine kitchen.",
+      "A winged unicorn sleeps on a cloud made of candy beside a rainbow waterfall.",
+      "A microscopic kingdom of dancing bacteria surrounds a golden throne inside a soap bubble.",
+      "A royal penguin conducts an orchestra of singing jellyfish on an iceberg in outer space.",
+      "A silver phoenix hatches from a ruby egg in the heart of an active volcano.",
+      "A dinosaur wearing a crown eats a mountain of chocolate cake inside a marble palace.",
+      "A tiny elf rides a flying mushroom through a galaxy of sparkling diamonds.",
+      "A magical whale floats above a lavender ocean while carrying a castle of glass."
+    ],
+    "test_index": "/mnt/workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/dataset_index.jsonl"
+  },
+  "scene_count": 30,
+  "views": 120,
+  "conditions": [
+    "correct",
+    "empty",
+    "unrelated"
+  ],
+  "pca": false,
+  "device": "PPU-ZW810E",
+  "precision": "FP16 autocast; RoBERTa and reconstructed attention FP32",
+  "scope": "Native per-camera encoder inference only; full checkpoint strict load; no planner scoring/training",
+  "inference_batch_size": 3,
+  "render_workers": 2,
+  "batch_vs_single_check": {
+    "ground_probability_tv": 0.0006165934028103948,
+    "passed": true,
+    "tolerance": 0.01
+  },
+  "summary": {
+    "correct": {
+      "valid_views": 96,
+      "valid_scenes": 30,
+      "mean_target_mass": 0.7635543495416641,
+      "mean_per_scene_target_mass": 0.7693493771884178,
+      "peak_hits": 91,
+      "mean_register_target_mass": 0.12021219224940675,
+      "mean_entropy_normalized": 0.7232326827216046,
+      "mean_ground_tv_from_correct": 0.0
+    },
+    "empty": {
+      "valid_views": 96,
+      "valid_scenes": 30,
+      "mean_target_mass": 0.229241827968508,
+      "mean_per_scene_target_mass": 0.2322542917655988,
+      "peak_hits": 47,
+      "mean_register_target_mass": 0.10546354723192053,
+      "mean_entropy_normalized": 0.9154553579875859,
+      "mean_ground_tv_from_correct": 0.6913699340075254
+    },
+    "unrelated": {
+      "valid_views": 96,
+      "valid_scenes": 30,
+      "mean_target_mass": 0.5256441673651958,
+      "mean_per_scene_target_mass": 0.542335177688963,
+      "peak_hits": 66,
+      "mean_register_target_mass": 0.09499856595842478,
+      "mean_entropy_normalized": 0.7986853084537818,
+      "mean_ground_tv_from_correct": 0.3928091708415498
+    },
+    "paired_correct_minus_control": {
+      "empty": {
+        "better": 95,
+        "tied": 0,
+        "worse": 1,
+        "mean_difference": 0.5343125215731561,
+        "mean_per_scene_difference": 0.5370950854228188,
+        "scene_bootstrap_95ci": [
+          0.5007449608431974,
+          0.5734597092979433
+        ]
+      },
+      "unrelated": {
+        "better": 85,
+        "tied": 0,
+        "worse": 11,
+        "mean_difference": 0.23791018217646828,
+        "mean_per_scene_difference": 0.22701419949945478,
+        "scene_bootstrap_95ci": [
+          0.1704874342592019,
+          0.28946892550836006
+        ]
+      }
+    }
+  },
+  "condition_forwards": 360,
+  "diagnostic_extra_single_forward": 1,
+  "peak_allocated_mib": 2280.28662109375,
+  "validation": {
+    "passed": true,
+    "views": 120,
+    "comparison_images": 120,
+    "scene_token_grids": 360,
+    "scene_pdfs": 30,
+    "overview_pdf_pages": 120,
+    "feature_shapes_finite": true,
+    "probabilities_sum_to_one": true,
+    "saved_logits_match_probabilities": true,
+    "no_pca_arrays": true,
+    "all_image_files_decode": true,
+    "gallery_links_exist": true,
+    "actual_pdf_page_counts": {
+      "token_comparison.pdf": 120,
+      "6233d1b3e62a5772/scene_comparison.pdf": 8,
+      "93b50a6df30b5453/scene_comparison.pdf": 8,
+      "3b56d2b022d25026/scene_comparison.pdf": 8,
+      "09a004a6ded55f7e/scene_comparison.pdf": 8,
+      "7602906d3c785da3/scene_comparison.pdf": 8,
+      "9577987ee2e85304/scene_comparison.pdf": 8,
+      "4c9a89b8cd2853d6/scene_comparison.pdf": 8,
+      "99e900e2392c5e87/scene_comparison.pdf": 8,
+      "9f521d00c3ef55b7/scene_comparison.pdf": 8,
+      "84a832f4cdbc5aef/scene_comparison.pdf": 8,
+      "3dfa374651035868/scene_comparison.pdf": 8,
+      "57b605b889505738/scene_comparison.pdf": 8,
+      "7fcd06d455d55572/scene_comparison.pdf": 8,
+      "535e19c081ec5c28/scene_comparison.pdf": 8,
+      "166b654c0db95953/scene_comparison.pdf": 8,
+      "3721b675d426567c/scene_comparison.pdf": 8,
+      "9369b11c1f5857e8/scene_comparison.pdf": 8,
+      "4109b79d84ea5053/scene_comparison.pdf": 8,
+      "16dbc607f5f75479/scene_comparison.pdf": 8,
+      "bdff1d80a75e5307/scene_comparison.pdf": 8,
+      "9dc5a17094e0569d/scene_comparison.pdf": 8,
+      "b42d7dc2a3975573/scene_comparison.pdf": 8,
+      "95329718628e5f7f/scene_comparison.pdf": 8,
+      "c95d7e81eec75f65/scene_comparison.pdf": 8,
+      "fc0d202904585a6a/scene_comparison.pdf": 8,
+      "45935e0787fd5a31/scene_comparison.pdf": 8,
+      "cc63d140e4285f30/scene_comparison.pdf": 8,
+      "daaa1858309c5938/scene_comparison.pdf": 8,
+      "a354ac8030d55e5e/scene_comparison.pdf": 8,
+      "8bc0584436b25488/scene_comparison.pdf": 8
+    },
+    "unrelated_prompt_inputs_match_manifest": true,
+    "original_reference_masks_unchanged": 12,
+    "empty_original_equals_empty_control_views": 8,
+    "completed_scene_count": 30,
+    "completed_condition_forwards": 360
+  },
+  "elapsed_seconds": 981.8842826079926,
+  "published_output": "/mnt/zhaozc_workspace/project/LQH/Drivor-orial/DrivoR-main/exp/visualizations/steer_stage2_tokens_test_20261119",
+  "previous_version_directory": "/mnt/zhaozc_workspace/project/LQH/Drivor-orial/DrivoR-main/exp/visualizations/steer_stage2_tokens_test_20261119_previous_3scenes",
+  "source_sha256": "61a3b6dfd05aa2fb58566c677a6bf6a365ea822b5188a853a11e0b96c1ba6960",
+  "matched_original_three": {
+    "previous": {
+      "correct": {
+        "valid_views": 11,
+        "mean_target_mass": 0.8421769358895042
+      },
+      "empty": {
+        "valid_views": 11,
+        "mean_target_mass": 0.27468185567043046
+      },
+      "shuffled": {
+        "valid_views": 11,
+        "mean_target_mass": 0.7849251113154672
+      }
+    },
+    "updated": {
+      "correct": {
+        "valid_views": 11,
+        "mean_target_mass": 0.8421829993074591
+      },
+      "empty": {
+        "valid_views": 11,
+        "mean_target_mass": 0.27468185567043046
+      },
+      "unrelated": {
+        "valid_views": 11,
+        "mean_target_mass": 0.5947426367889751
+      }
+    },
+    "scope": "Same original 3 scenes and images. Wrong input intentionally changed from other driving captions to absurd unrelated descriptions.",
+    "identical_reference_masks": 12
+  }
+}

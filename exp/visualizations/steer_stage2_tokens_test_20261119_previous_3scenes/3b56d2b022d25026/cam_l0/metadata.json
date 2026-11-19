@@ -1,0 +1,58 @@
+{
+  "scene_token": "3b56d2b022d25026",
+  "camera": "cam_l0",
+  "image": "/mnt/data/navsim/test_sensor_blobs/test/2021.09.09.14.18.22_veh-48_01298_01492/CAM_L0/a838c5a3cd7c5c68.jpg",
+  "grounding_npz": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0001/grounding/masks/3b56d2b022d25026.npz",
+  "boxes_json": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0001/grounding/scenes/3b56d2b022d25026.json",
+  "donor_scene": "6233d1b3e62a5772",
+  "metrics": [
+    {
+      "scene_token": "3b56d2b022d25026",
+      "camera": "cam_l0",
+      "mode": "correct",
+      "text": "a pedestrian holding an umbrella on the sidewalk, a white van on the left, a crosswalk marked with white stripes, a traffic light showing a red hand symbol",
+      "grounding_valid": true,
+      "target_area_fraction": 0.2774390243902439,
+      "target_mass": 0.8785197734832764,
+      "peak_in_target": true,
+      "soft_target_ce": 7.3085618019104,
+      "register_mean_target_mass": 0.36486929655075073,
+      "ground_tv_from_correct": 0.0,
+      "register_mean_tv_from_correct": 0.0,
+      "patch_mean_cosine_change_from_correct": -3.055949449048967e-08,
+      "scene_output_relative_l2_from_correct": 0.0
+    },
+    {
+      "scene_token": "3b56d2b022d25026",
+      "camera": "cam_l0",
+      "mode": "empty",
+      "text": "",
+      "grounding_valid": true,
+      "target_area_fraction": 0.2774390243902439,
+      "target_mass": 0.3325420618057251,
+      "peak_in_target": true,
+      "soft_target_ce": 8.740445137023926,
+      "register_mean_target_mass": 0.2614286541938782,
+      "ground_tv_from_correct": 0.6674932241439819,
+      "register_mean_tv_from_correct": 0.2693888545036316,
+      "patch_mean_cosine_change_from_correct": 0.46216750144958496,
+      "scene_output_relative_l2_from_correct": 0.521012544631958
+    },
+    {
+      "scene_token": "3b56d2b022d25026",
+      "camera": "cam_l0",
+      "mode": "shuffled",
+      "text": "a group of pedestrians standing near the curb, a dark sedan near the pedestrians, a white car in the background near the intersection, a traffic light suspended over the intersection",
+      "grounding_valid": true,
+      "target_area_fraction": 0.2774390243902439,
+      "target_mass": 0.8131805658340454,
+      "peak_in_target": false,
+      "soft_target_ce": 7.390056133270264,
+      "register_mean_target_mass": 0.3687886893749237,
+      "ground_tv_from_correct": 0.11308453977108002,
+      "register_mean_tv_from_correct": 0.08170788735151291,
+      "patch_mean_cosine_change_from_correct": 0.03763532638549805,
+      "scene_output_relative_l2_from_correct": 0.23319204151630402
+    }
+  ]
+}

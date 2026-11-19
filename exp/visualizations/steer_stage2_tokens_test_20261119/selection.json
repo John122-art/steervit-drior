@@ -1,0 +1,27 @@
+{
+  "seed": 2,
+  "scene_count": 30,
+  "distinct_logs": 30,
+  "original_tokens": [
+    "6233d1b3e62a5772",
+    "93b50a6df30b5453",
+    "3b56d2b022d25026"
+  ],
+  "method": "Original three scenes plus uniformly sampled distinct remaining logs, one randomly selected test scene per log; selected before inference, no quality filtering",
+  "wrong_language": "Fixed absurd out-of-domain captions, round-robin assignment before inference",
+  "wrong_prompt_catalog": [
+    "A giant purple dragon breathes green fire above an ice castle on a floating island.",
+    "Three astronauts play chess on the surface of Jupiter beneath two glowing moons.",
+    "A mermaid with golden hair opens a sunken pirate treasure chest deep underwater.",
+    "A wizard levitates a crystal teapot inside a dungeon filled with glowing mushrooms.",
+    "An enormous pink octopus knits a wool sweater inside a submarine kitchen.",
+    "A winged unicorn sleeps on a cloud made of candy beside a rainbow waterfall.",
+    "A microscopic kingdom of dancing bacteria surrounds a golden throne inside a soap bubble.",
+    "A royal penguin conducts an orchestra of singing jellyfish on an iceberg in outer space.",
+    "A silver phoenix hatches from a ruby egg in the heart of an active volcano.",
+    "A dinosaur wearing a crown eats a mountain of chocolate cake inside a marble palace.",
+    "A tiny elf rides a flying mushroom through a galaxy of sparkling diamonds.",
+    "A magical whale floats above a lavender ocean while carrying a castle of glass."
+  ],
+  "test_index": "/mnt/workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/dataset_index.jsonl"
+}

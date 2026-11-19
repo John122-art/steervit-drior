@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "feature_files": [
+    "3b56d2b022d25026/cam_b0/features.npz",
+    "3b56d2b022d25026/cam_f0/features.npz",
+    "3b56d2b022d25026/cam_l0/features.npz",
+    "3b56d2b022d25026/cam_r0/features.npz",
+    "6233d1b3e62a5772/cam_b0/features.npz",
+    "6233d1b3e62a5772/cam_f0/features.npz",
+    "6233d1b3e62a5772/cam_l0/features.npz",
+    "6233d1b3e62a5772/cam_r0/features.npz",
+    "93b50a6df30b5453/cam_b0/features.npz",
+    "93b50a6df30b5453/cam_f0/features.npz",
+    "93b50a6df30b5453/cam_l0/features.npz",
+    "93b50a6df30b5453/cam_r0/features.npz"
+  ],
+  "feature_shapes_finite": true,
+  "probabilities_sum_to_one": true,
+  "saved_logits_match_probabilities": true,
+  "gallery_links_exist": true,
+  "comparison_images": 12,
+  "scene_token_grids": 36
+}

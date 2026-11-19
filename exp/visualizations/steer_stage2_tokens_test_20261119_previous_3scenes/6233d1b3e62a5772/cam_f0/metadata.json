@@ -1,0 +1,58 @@
+{
+  "scene_token": "6233d1b3e62a5772",
+  "camera": "cam_f0",
+  "image": "/mnt/data/navsim/test_sensor_blobs/test/2021.05.25.15.59.03_veh-30_01478_01643/CAM_F0/72f03ff350ba5130.jpg",
+  "grounding_npz": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0000/grounding/masks/6233d1b3e62a5772.npz",
+  "boxes_json": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0000/grounding/scenes/6233d1b3e62a5772.json",
+  "donor_scene": "93b50a6df30b5453",
+  "metrics": [
+    {
+      "scene_token": "6233d1b3e62a5772",
+      "camera": "cam_f0",
+      "mode": "correct",
+      "text": "a white minivan in the center of the image, a white taxi on the right side of the image, a grey sedan on the right side of the image, traffic lights showing green in the upper center of the image, pedestrians standing on the sidewalk to the left of the image",
+      "grounding_valid": true,
+      "target_area_fraction": 0.22052845528455284,
+      "target_mass": 0.9250278472900391,
+      "peak_in_target": true,
+      "soft_target_ce": 6.8995866775512695,
+      "register_mean_target_mass": 0.454202264547348,
+      "ground_tv_from_correct": 0.0,
+      "register_mean_tv_from_correct": 0.0,
+      "patch_mean_cosine_change_from_correct": -2.754594774501129e-08,
+      "scene_output_relative_l2_from_correct": 0.0
+    },
+    {
+      "scene_token": "6233d1b3e62a5772",
+      "camera": "cam_f0",
+      "mode": "empty",
+      "text": "",
+      "grounding_valid": true,
+      "target_area_fraction": 0.22052845528455284,
+      "target_mass": 0.5260937213897705,
+      "peak_in_target": true,
+      "soft_target_ce": 7.917386531829834,
+      "register_mean_target_mass": 0.37745195627212524,
+      "ground_tv_from_correct": 0.508586585521698,
+      "register_mean_tv_from_correct": 0.229814812541008,
+      "patch_mean_cosine_change_from_correct": 0.49216046929359436,
+      "scene_output_relative_l2_from_correct": 0.7695714831352234
+    },
+    {
+      "scene_token": "6233d1b3e62a5772",
+      "camera": "cam_f0",
+      "mode": "shuffled",
+      "text": "a cyclist on the right side of the image, a traffic sign on the right side of the image, double yellow lines in the center of the image",
+      "grounding_valid": true,
+      "target_area_fraction": 0.22052845528455284,
+      "target_mass": 0.7967677116394043,
+      "peak_in_target": true,
+      "soft_target_ce": 7.361871719360352,
+      "register_mean_target_mass": 0.45174306631088257,
+      "ground_tv_from_correct": 0.34460264444351196,
+      "register_mean_tv_from_correct": 0.13057774305343628,
+      "patch_mean_cosine_change_from_correct": 0.12054870277643204,
+      "scene_output_relative_l2_from_correct": 0.44079652428627014
+    }
+  ]
+}

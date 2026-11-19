@@ -3,7 +3,8 @@ __pycache__
 /weights/
 logs
 Bench2Drive/leaderboard/data
-/exp/
+/exp/*
+!/exp/visualizations/
 /pad_workspace/
 /dataset/
 /Bench2DriveZoo/data/

@@ -1,0 +1,58 @@
+{
+  "scene_token": "6233d1b3e62a5772",
+  "camera": "cam_l0",
+  "image": "/mnt/data/navsim/test_sensor_blobs/test/2021.05.25.15.59.03_veh-30_01478_01643/CAM_L0/bf6bc9941a8c57f5.jpg",
+  "grounding_npz": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0000/grounding/masks/6233d1b3e62a5772.npz",
+  "boxes_json": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0000/grounding/scenes/6233d1b3e62a5772.json",
+  "donor_scene": "93b50a6df30b5453",
+  "metrics": [
+    {
+      "scene_token": "6233d1b3e62a5772",
+      "camera": "cam_l0",
+      "mode": "correct",
+      "text": "a group of pedestrians standing near the curb, a dark sedan near the pedestrians, a white car in the background near the intersection, a traffic light suspended over the intersection",
+      "grounding_valid": true,
+      "target_area_fraction": 0.03353658536585366,
+      "target_mass": 0.6439298391342163,
+      "peak_in_target": true,
+      "soft_target_ce": 6.0202107429504395,
+      "register_mean_target_mass": 0.12334255874156952,
+      "ground_tv_from_correct": 0.0,
+      "register_mean_tv_from_correct": 0.0,
+      "patch_mean_cosine_change_from_correct": -2.5895310784562753e-08,
+      "scene_output_relative_l2_from_correct": 0.0
+    },
+    {
+      "scene_token": "6233d1b3e62a5772",
+      "camera": "cam_l0",
+      "mode": "empty",
+      "text": "",
+      "grounding_valid": true,
+      "target_area_fraction": 0.03353658536585366,
+      "target_mass": 0.16715699434280396,
+      "peak_in_target": false,
+      "soft_target_ce": 7.435615062713623,
+      "register_mean_target_mass": 0.06267741322517395,
+      "ground_tv_from_correct": 0.7351948022842407,
+      "register_mean_tv_from_correct": 0.29882094264030457,
+      "patch_mean_cosine_change_from_correct": 0.352033406496048,
+      "scene_output_relative_l2_from_correct": 0.4405198395252228
+    },
+    {
+      "scene_token": "6233d1b3e62a5772",
+      "camera": "cam_l0",
+      "mode": "shuffled",
+      "text": "a pedestrian standing near the building entrance",
+      "grounding_valid": true,
+      "target_area_fraction": 0.03353658536585366,
+      "target_mass": 0.5281426906585693,
+      "peak_in_target": true,
+      "soft_target_ce": 6.511675834655762,
+      "register_mean_target_mass": 0.08742329478263855,
+      "ground_tv_from_correct": 0.39955151081085205,
+      "register_mean_tv_from_correct": 0.16728024184703827,
+      "patch_mean_cosine_change_from_correct": 0.11073749512434006,
+      "scene_output_relative_l2_from_correct": 0.27231287956237793
+    }
+  ]
+}

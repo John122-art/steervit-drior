@@ -1,0 +1,58 @@
+{
+  "scene_token": "6233d1b3e62a5772",
+  "camera": "cam_r0",
+  "image": "/mnt/data/navsim/test_sensor_blobs/test/2021.05.25.15.59.03_veh-30_01478_01643/CAM_R0/84c49cd38b3c5960.jpg",
+  "grounding_npz": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0000/grounding/masks/6233d1b3e62a5772.npz",
+  "boxes_json": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0000/grounding/scenes/6233d1b3e62a5772.json",
+  "donor_scene": "93b50a6df30b5453",
+  "metrics": [
+    {
+      "scene_token": "6233d1b3e62a5772",
+      "camera": "cam_r0",
+      "mode": "correct",
+      "text": "a red minivan in the right foreground, a grey sedan in the left foreground, a group of pedestrians standing on the sidewalk, a green traffic sign on a pole",
+      "grounding_valid": true,
+      "target_area_fraction": 0.3391768292682927,
+      "target_mass": 0.7611729502677917,
+      "peak_in_target": false,
+      "soft_target_ce": 7.61751651763916,
+      "register_mean_target_mass": 0.3361886739730835,
+      "ground_tv_from_correct": 0.0,
+      "register_mean_tv_from_correct": 0.0,
+      "patch_mean_cosine_change_from_correct": 2.3972091867108247e-08,
+      "scene_output_relative_l2_from_correct": 0.0
+    },
+    {
+      "scene_token": "6233d1b3e62a5772",
+      "camera": "cam_r0",
+      "mode": "empty",
+      "text": "",
+      "grounding_valid": true,
+      "target_area_fraction": 0.3391768292682927,
+      "target_mass": 0.47044602036476135,
+      "peak_in_target": true,
+      "soft_target_ce": 7.96918249130249,
+      "register_mean_target_mass": 0.33738571405410767,
+      "ground_tv_from_correct": 0.3999987840652466,
+      "register_mean_tv_from_correct": 0.023442160338163376,
+      "patch_mean_cosine_change_from_correct": 0.11858348548412323,
+      "scene_output_relative_l2_from_correct": 0.12234357744455338
+    },
+    {
+      "scene_token": "6233d1b3e62a5772",
+      "camera": "cam_r0",
+      "mode": "shuffled",
+      "text": "a cyclist riding on the sidewalk to the left",
+      "grounding_valid": true,
+      "target_area_fraction": 0.3391768292682927,
+      "target_mass": 0.80915367603302,
+      "peak_in_target": true,
+      "soft_target_ce": 7.788430213928223,
+      "register_mean_target_mass": 0.33550944924354553,
+      "ground_tv_from_correct": 0.22352182865142822,
+      "register_mean_tv_from_correct": 0.006224090699106455,
+      "patch_mean_cosine_change_from_correct": 0.0176385547965765,
+      "scene_output_relative_l2_from_correct": 0.11061994731426239
+    }
+  ]
+}

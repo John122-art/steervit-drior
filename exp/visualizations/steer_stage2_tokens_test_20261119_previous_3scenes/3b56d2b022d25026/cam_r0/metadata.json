@@ -1,0 +1,58 @@
+{
+  "scene_token": "3b56d2b022d25026",
+  "camera": "cam_r0",
+  "image": "/mnt/data/navsim/test_sensor_blobs/test/2021.09.09.14.18.22_veh-48_01298_01492/CAM_R0/769d9bb996c55162.jpg",
+  "grounding_npz": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0001/grounding/masks/3b56d2b022d25026.npz",
+  "boxes_json": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage2_focus_v2_full_p3/test/shards/rank_0001/grounding/scenes/3b56d2b022d25026.json",
+  "donor_scene": "6233d1b3e62a5772",
+  "metrics": [
+    {
+      "scene_token": "3b56d2b022d25026",
+      "camera": "cam_r0",
+      "mode": "correct",
+      "text": "a pedestrian on the sidewalk to the right, a traffic light showing red in the background, a crosswalk marked with white stripes on the left, a white car partially visible on the far left",
+      "grounding_valid": true,
+      "target_area_fraction": 0.030741869918699188,
+      "target_mass": 0.600017249584198,
+      "peak_in_target": true,
+      "soft_target_ce": 5.492497444152832,
+      "register_mean_target_mass": 0.03220834210515022,
+      "ground_tv_from_correct": 0.0,
+      "register_mean_tv_from_correct": 0.0,
+      "patch_mean_cosine_change_from_correct": 3.030205775189643e-08,
+      "scene_output_relative_l2_from_correct": 0.0
+    },
+    {
+      "scene_token": "3b56d2b022d25026",
+      "camera": "cam_r0",
+      "mode": "empty",
+      "text": "",
+      "grounding_valid": true,
+      "target_area_fraction": 0.030741869918699188,
+      "target_mass": 0.03811577335000038,
+      "peak_in_target": true,
+      "soft_target_ce": 8.0816068649292,
+      "register_mean_target_mass": 0.03129326179623604,
+      "ground_tv_from_correct": 0.8064935207366943,
+      "register_mean_tv_from_correct": 0.018405552953481674,
+      "patch_mean_cosine_change_from_correct": 0.1336253434419632,
+      "scene_output_relative_l2_from_correct": 0.15435022115707397
+    },
+    {
+      "scene_token": "3b56d2b022d25026",
+      "camera": "cam_r0",
+      "mode": "shuffled",
+      "text": "a red minivan in the right foreground, a grey sedan in the left foreground, a group of pedestrians standing on the sidewalk, a green traffic sign on a pole",
+      "grounding_valid": true,
+      "target_area_fraction": 0.030741869918699188,
+      "target_mass": 0.47107574343681335,
+      "peak_in_target": true,
+      "soft_target_ce": 5.854635715484619,
+      "register_mean_target_mass": 0.03209279850125313,
+      "ground_tv_from_correct": 0.17341074347496033,
+      "register_mean_tv_from_correct": 0.003397304331883788,
+      "patch_mean_cosine_change_from_correct": 0.004406093154102564,
+      "scene_output_relative_l2_from_correct": 0.018344538286328316
+    }
+  ]
+}

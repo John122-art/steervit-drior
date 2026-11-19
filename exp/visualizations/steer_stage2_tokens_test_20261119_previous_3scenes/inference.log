@@ -1,0 +1,95 @@
+Setup environment for PPU
+Building model from saved configuration...
+loading  timm/vit_base_patch14_dinov2.lvd142m
+/mnt/zhaozc_workspace/envs/drivorpython/lib/python3.10/site-packages/transformers/tokenization_utils_base.py:1601: FutureWarning: `clean_up_tokenization_spaces` was not set. It will be set to `True` by default. This behavior will be depracted in transformers v4.45, and will be then set to `False` by default. For more details check this issue: https://github.com/huggingface/transformers/issues/31884
+  warnings.warn(
+Some weights of RobertaModel were not initialized from the model checkpoint at /mnt/zhaozc_workspace/project/LQH/RoBERTa and are newly initialized: ['roberta.pooler.dense.bias', 'roberta.pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+1/3 cam_f0 correct: finite tokens (1, 3953, 768)
+1/3 cam_f0 empty: finite tokens (1, 3953, 768)
+1/3 cam_f0 shuffled: finite tokens (1, 3953, 768)
+1/3 cam_b0 correct: finite tokens (1, 3953, 768)
+1/3 cam_b0 empty: finite tokens (1, 3953, 768)
+1/3 cam_b0 shuffled: finite tokens (1, 3953, 768)
+1/3 cam_l0 correct: finite tokens (1, 3953, 768)
+1/3 cam_l0 empty: finite tokens (1, 3953, 768)
+1/3 cam_l0 shuffled: finite tokens (1, 3953, 768)
+1/3 cam_r0 correct: finite tokens (1, 3953, 768)
+1/3 cam_r0 empty: finite tokens (1, 3953, 768)
+1/3 cam_r0 shuffled: finite tokens (1, 3953, 768)
+2/3 cam_f0 correct: finite tokens (1, 3953, 768)
+2/3 cam_f0 empty: finite tokens (1, 3953, 768)
+2/3 cam_f0 shuffled: finite tokens (1, 3953, 768)
+2/3 cam_b0 correct: finite tokens (1, 3953, 768)
+2/3 cam_b0 empty: finite tokens (1, 3953, 768)
+2/3 cam_b0 shuffled: finite tokens (1, 3953, 768)
+2/3 cam_l0 correct: finite tokens (1, 3953, 768)
+2/3 cam_l0 empty: finite tokens (1, 3953, 768)
+2/3 cam_l0 shuffled: finite tokens (1, 3953, 768)
+2/3 cam_r0 correct: finite tokens (1, 3953, 768)
+2/3 cam_r0 empty: finite tokens (1, 3953, 768)
+2/3 cam_r0 shuffled: finite tokens (1, 3953, 768)
+3/3 cam_f0 correct: finite tokens (1, 3953, 768)
+3/3 cam_f0 empty: finite tokens (1, 3953, 768)
+3/3 cam_f0 shuffled: finite tokens (1, 3953, 768)
+3/3 cam_b0 correct: finite tokens (1, 3953, 768)
+3/3 cam_b0 empty: finite tokens (1, 3953, 768)
+3/3 cam_b0 shuffled: finite tokens (1, 3953, 768)
+3/3 cam_l0 correct: finite tokens (1, 3953, 768)
+3/3 cam_l0 empty: finite tokens (1, 3953, 768)
+3/3 cam_l0 shuffled: finite tokens (1, 3953, 768)
+3/3 cam_r0 correct: finite tokens (1, 3953, 768)
+3/3 cam_r0 empty: finite tokens (1, 3953, 768)
+3/3 cam_r0 shuffled: finite tokens (1, 3953, 768)
+{
+  "checkpoint": "/mnt/workspace/project/LQH/Drivor-orial/DrivoR-main/exp/ke/steer_stage2_capatch_vitb_8gpu_b16_12ep/11.13_05.07/lightning_logs/version_0/checkpoints/best-epoch=10-step=8866.ckpt",
+  "checkpoint_bytes": 853190433,
+  "epoch": 10,
+  "global_step": 8866,
+  "saved_config": "/mnt/workspace/project/LQH/Drivor-orial/DrivoR-main/exp/ke/steer_stage2_capatch_vitb_8gpu_b16_12ep/11.13_05.07/code/hydra/config.yaml",
+  "model_keys_loaded": 509,
+  "strict_load": true,
+  "missing_keys": [],
+  "unexpected_keys": [],
+  "ca_on_registers": false,
+  "gate_scale": 1.0,
+  "grid_shape": [
+    48,
+    82
+  ],
+  "patch_start_index": 17,
+  "scene_tokens_per_camera": 16,
+  "model_name": "timm/vit_base_patch14_dinov2.lvd142m",
+  "text_encoder": "/mnt/zhaozc_workspace/project/LQH/RoBERTa",
+  "device": "PPU-ZW810E",
+  "precision": "FP16 autocast; RoBERTa and attention reconstruction FP32",
+  "seed": 2,
+  "selection": "Fixed 3 distinct logs and caption categories, chosen before inference; all 4 cameras shown",
+  "scope": "Native per-camera image/text encoder inference; full checkpoint strictly loaded; no planner scoring or training",
+  "complete": true,
+  "elapsed_seconds": 170.07622771302704,
+  "summary": {
+    "correct": {
+      "valid_views": 11,
+      "mean_target_mass": 0.8421769358895042,
+      "peak_hits": 10,
+      "mean_register_target_mass": 0.16753869605335323
+    },
+    "empty": {
+      "valid_views": 11,
+      "mean_target_mass": 0.27468185567043046,
+      "peak_hits": 6,
+      "mean_register_target_mass": 0.14093819015066733
+    },
+    "shuffled": {
+      "valid_views": 11,
+      "mean_target_mass": 0.7849251113154672,
+      "peak_hits": 10,
+      "mean_register_target_mass": 0.1625350568104874
+    }
+  },
+  "views": 12,
+  "forward_passes": 36,
+  "peak_allocated_mib": 2035.392578125
+}
+DONE exp/visualizations/steer_stage2_tokens_test_20261119/index.html
