@@ -1,0 +1,902 @@
+{
+  "official": {
+    "grid": [
+      24,
+      24
+    ],
+    "box_patches": {
+      "black car": 8,
+      "white SUV": 12,
+      "dark car left": 2
+    },
+    "columns": [
+      {
+        "text": "(no text)",
+        "seg_peak_xy": [
+          0.4792,
+          0.5208
+        ],
+        "cls_peak_xy": [
+          0.4792,
+          0.4375
+        ],
+        "seg_box_mass": {
+          "black car": 0.029263483360409737,
+          "white SUV": 0.07660802453756332,
+          "dark car left": 0.009439585730433464
+        },
+        "cls_box_share": {
+          "black car": 0.04618125408887863,
+          "white SUV": 0.03864724561572075,
+          "dark car left": 0.0038911132141947746
+        }
+      },
+      {
+        "text": "the white car",
+        "seg_peak_xy": [
+          0.6875,
+          0.6042
+        ],
+        "cls_peak_xy": [
+          0.6875,
+          0.5625
+        ],
+        "seg_box_mass": {
+          "black car": 0.043585117906332016,
+          "white SUV": 0.7472578287124634,
+          "dark car left": 0.002750131767243147
+        },
+        "cls_box_share": {
+          "black car": 0.04866600036621094,
+          "white SUV": 0.49280616641044617,
+          "dark car left": 0.007964042015373707
+        }
+      },
+      {
+        "text": "the black car",
+        "seg_peak_xy": [
+          0.5625,
+          0.5625
+        ],
+        "cls_peak_xy": [
+          0.4792,
+          0.6042
+        ],
+        "seg_box_mass": {
+          "black car": 0.5622143745422363,
+          "white SUV": 0.00556965172290802,
+          "dark car left": 0.00022821553284302354
+        },
+        "cls_box_share": {
+          "black car": 0.18441560864448547,
+          "white SUV": 0.09493312239646912,
+          "dark car left": 0.008201990276575089
+        }
+      },
+      {
+        "text": "the white SUV on the right",
+        "seg_peak_xy": [
+          0.6875,
+          0.5625
+        ],
+        "cls_peak_xy": [
+          0.6458,
+          0.5208
+        ],
+        "seg_box_mass": {
+          "black car": 0.024463843554258347,
+          "white SUV": 0.7828912138938904,
+          "dark car left": 0.0012323565315455198
+        },
+        "cls_box_share": {
+          "black car": 0.024001469835639,
+          "white SUV": 0.5277791023254395,
+          "dark car left": 0.03129474073648453
+        }
+      },
+      {
+        "text": "the black car in the center",
+        "seg_peak_xy": [
+          0.5208,
+          0.5625
+        ],
+        "cls_peak_xy": [
+          0.5208,
+          0.6042
+        ],
+        "seg_box_mass": {
+          "black car": 0.5494865775108337,
+          "white SUV": 0.009931945241987705,
+          "dark car left": 5.471365511766635e-05
+        },
+        "cls_box_share": {
+          "black car": 0.42494693398475647,
+          "white SUV": 0.0396384559571743,
+          "dark car left": 0.0034679267555475235
+        }
+      }
+    ],
+    "pairs": [
+      {
+        "a": "(no text)",
+        "b": "the white car",
+        "seg_tv": 0.8229211568832397,
+        "cls_tv": 0.5795607566833496
+      },
+      {
+        "a": "(no text)",
+        "b": "the black car",
+        "seg_tv": 0.8511279225349426,
+        "cls_tv": 0.533521294593811
+      },
+      {
+        "a": "(no text)",
+        "b": "the white SUV on the right",
+        "seg_tv": 0.8669911026954651,
+        "cls_tv": 0.6254118084907532
+      },
+      {
+        "a": "(no text)",
+        "b": "the black car in the center",
+        "seg_tv": 0.8424076437950134,
+        "cls_tv": 0.6647663712501526
+      },
+      {
+        "a": "the white car",
+        "b": "the black car",
+        "seg_tv": 0.9303678870201111,
+        "cls_tv": 0.5107958912849426
+      },
+      {
+        "a": "the white car",
+        "b": "the white SUV on the right",
+        "seg_tv": 0.07250122725963593,
+        "cls_tv": 0.16037243604660034
+      },
+      {
+        "a": "the white car",
+        "b": "the black car in the center",
+        "seg_tv": 0.9271979928016663,
+        "cls_tv": 0.6481162905693054
+      },
+      {
+        "a": "the black car",
+        "b": "the white SUV on the right",
+        "seg_tv": 0.9590870141983032,
+        "cls_tv": 0.536518394947052
+      },
+      {
+        "a": "the black car",
+        "b": "the black car in the center",
+        "seg_tv": 0.04393749311566353,
+        "cls_tv": 0.30023127794265747
+      },
+      {
+        "a": "the white SUV on the right",
+        "b": "the black car in the center",
+        "seg_tv": 0.955752968788147,
+        "cls_tv": 0.693128764629364
+      }
+    ]
+  },
+  "pure": {
+    "grid": [
+      48,
+      82
+    ],
+    "box_patches": {
+      "black car": 56,
+      "white SUV": 56,
+      "dark car left": 16
+    },
+    "columns": [
+      {
+        "text": "(no text)",
+        "seg_peak_xy": [
+          0.4451,
+          0.5104
+        ],
+        "cls_peak_xy": [
+          0.0183,
+          0.0104
+        ],
+        "seg_box_mass": {
+          "black car": 0.02609284222126007,
+          "white SUV": 0.025858942419290543,
+          "dark car left": 0.005008205305784941
+        },
+        "cls_box_share": {
+          "black car": 0.029194697737693787,
+          "white SUV": 0.024415137246251106,
+          "dark car left": 0.0021573053672909737
+        }
+      },
+      {
+        "text": "the white car",
+        "seg_peak_xy": [
+          0.6037,
+          0.5312
+        ],
+        "cls_peak_xy": [
+          0.6524,
+          0.5312
+        ],
+        "seg_box_mass": {
+          "black car": 0.07648962736129761,
+          "white SUV": 0.5588887333869934,
+          "dark car left": 0.0008201778982765973
+        },
+        "cls_box_share": {
+          "black car": 0.06013339012861252,
+          "white SUV": 0.36985039710998535,
+          "dark car left": 0.007089200895279646
+        }
+      },
+      {
+        "text": "the black car",
+        "seg_peak_xy": [
+          0.5427,
+          0.5521
+        ],
+        "cls_peak_xy": [
+          0.0061,
+          0.0312
+        ],
+        "seg_box_mass": {
+          "black car": 0.6056495904922485,
+          "white SUV": 0.02288014627993107,
+          "dark car left": 0.03917746990919113
+        },
+        "cls_box_share": {
+          "black car": 0.21699568629264832,
+          "white SUV": 0.09400474280118942,
+          "dark car left": 0.04631226509809494
+        }
+      },
+      {
+        "text": "the white SUV on the right",
+        "seg_peak_xy": [
+          0.6037,
+          0.5312
+        ],
+        "cls_peak_xy": [
+          0.6524,
+          0.5312
+        ],
+        "seg_box_mass": {
+          "black car": 0.06180533021688461,
+          "white SUV": 0.5962606072425842,
+          "dark car left": 0.0005801013903692365
+        },
+        "cls_box_share": {
+          "black car": 0.0321689173579216,
+          "white SUV": 0.39803236722946167,
+          "dark car left": 0.012945503927767277
+        }
+      },
+      {
+        "text": "the black car in the center",
+        "seg_peak_xy": [
+          0.5427,
+          0.5521
+        ],
+        "cls_peak_xy": [
+          0.5427,
+          0.5938
+        ],
+        "seg_box_mass": {
+          "black car": 0.6716139316558838,
+          "white SUV": 0.017761042341589928,
+          "dark car left": 0.0009202517103403807
+        },
+        "cls_box_share": {
+          "black car": 0.2920224964618683,
+          "white SUV": 0.0789894387125969,
+          "dark car left": 0.01587674207985401
+        }
+      }
+    ],
+    "pairs": [
+      {
+        "a": "(no text)",
+        "b": "the white car",
+        "seg_tv": 0.8770334124565125,
+        "cls_tv": 0.5582217574119568
+      },
+      {
+        "a": "(no text)",
+        "b": "the black car",
+        "seg_tv": 0.8498782515525818,
+        "cls_tv": 0.5402623414993286
+      },
+      {
+        "a": "(no text)",
+        "b": "the white SUV on the right",
+        "seg_tv": 0.9126243591308594,
+        "cls_tv": 0.592513918876648
+      },
+      {
+        "a": "(no text)",
+        "b": "the black car in the center",
+        "seg_tv": 0.8689348697662354,
+        "cls_tv": 0.6295819282531738
+      },
+      {
+        "a": "the white car",
+        "b": "the black car",
+        "seg_tv": 0.8251112103462219,
+        "cls_tv": 0.40719616413116455
+      },
+      {
+        "a": "the white car",
+        "b": "the white SUV on the right",
+        "seg_tv": 0.06483106315135956,
+        "cls_tv": 0.15681107342243195
+      },
+      {
+        "a": "the white car",
+        "b": "the black car in the center",
+        "seg_tv": 0.8429876565933228,
+        "cls_tv": 0.492725670337677
+      },
+      {
+        "a": "the black car",
+        "b": "the white SUV on the right",
+        "seg_tv": 0.8689987659454346,
+        "cls_tv": 0.4440799951553345
+      },
+      {
+        "a": "the black car",
+        "b": "the black car in the center",
+        "seg_tv": 0.1465274542570114,
+        "cls_tv": 0.20545758306980133
+      },
+      {
+        "a": "the white SUV on the right",
+        "b": "the black car in the center",
+        "seg_tv": 0.8732089400291443,
+        "cls_tv": 0.5101516246795654
+      }
+    ]
+  },
+  "init": {
+    "grid": [
+      48,
+      82
+    ],
+    "box_patches": {
+      "black car": 56,
+      "white SUV": 56,
+      "dark car left": 16
+    },
+    "columns": [
+      {
+        "text": "(no text)",
+        "seg_peak_xy": [
+          0.5061,
+          0.5104
+        ],
+        "cls_peak_xy": [
+          0.0183,
+          0.0104
+        ],
+        "seg_box_mass": {
+          "black car": 0.09571719169616699,
+          "white SUV": 0.021128322929143906,
+          "dark car left": 0.007478418760001659
+        },
+        "cls_box_share": {
+          "black car": 0.1029592901468277,
+          "white SUV": 0.016550855711102486,
+          "dark car left": 0.0010074661113321781
+        }
+      },
+      {
+        "text": "the white car",
+        "seg_peak_xy": [
+          0.6037,
+          0.5104
+        ],
+        "cls_peak_xy": [
+          0.0061,
+          0.0104
+        ],
+        "seg_box_mass": {
+          "black car": 0.06021535396575928,
+          "white SUV": 0.27593037486076355,
+          "dark car left": 0.0015730822924524546
+        },
+        "cls_box_share": {
+          "black car": 0.06958743929862976,
+          "white SUV": 0.13322538137435913,
+          "dark car left": 0.002418131334707141
+        }
+      },
+      {
+        "text": "the black car",
+        "seg_peak_xy": [
+          0.5793,
+          0.5938
+        ],
+        "cls_peak_xy": [
+          0.5671,
+          0.6354
+        ],
+        "seg_box_mass": {
+          "black car": 0.6217789053916931,
+          "white SUV": 0.002826989395543933,
+          "dark car left": 0.009239237755537033
+        },
+        "cls_box_share": {
+          "black car": 0.3833848834037781,
+          "white SUV": 0.054987967014312744,
+          "dark car left": 0.012433145195245743
+        }
+      },
+      {
+        "text": "the white SUV on the right",
+        "seg_peak_xy": [
+          0.6037,
+          0.5312
+        ],
+        "cls_peak_xy": [
+          0.6524,
+          0.5312
+        ],
+        "seg_box_mass": {
+          "black car": 0.06136483699083328,
+          "white SUV": 0.5625451803207397,
+          "dark car left": 0.00026467774296179414
+        },
+        "cls_box_share": {
+          "black car": 0.03173832595348358,
+          "white SUV": 0.34195080399513245,
+          "dark car left": 0.002709392225369811
+        }
+      },
+      {
+        "text": "the black car in the center",
+        "seg_peak_xy": [
+          0.5549,
+          0.5312
+        ],
+        "cls_peak_xy": [
+          0.5671,
+          0.6354
+        ],
+        "seg_box_mass": {
+          "black car": 0.6712542176246643,
+          "white SUV": 0.0019433759152889252,
+          "dark car left": 0.00013573953765444458
+        },
+        "cls_box_share": {
+          "black car": 0.3994414508342743,
+          "white SUV": 0.030218832194805145,
+          "dark car left": 0.003906393423676491
+        }
+      }
+    ],
+    "pairs": [
+      {
+        "a": "(no text)",
+        "b": "the white car",
+        "seg_tv": 0.7808663845062256,
+        "cls_tv": 0.3543877899646759
+      },
+      {
+        "a": "(no text)",
+        "b": "the black car",
+        "seg_tv": 0.7090569734573364,
+        "cls_tv": 0.5091744661331177
+      },
+      {
+        "a": "(no text)",
+        "b": "the white SUV on the right",
+        "seg_tv": 0.9085802435874939,
+        "cls_tv": 0.5826550126075745
+      },
+      {
+        "a": "(no text)",
+        "b": "the black car in the center",
+        "seg_tv": 0.7251744270324707,
+        "cls_tv": 0.5260552763938904
+      },
+      {
+        "a": "the white car",
+        "b": "the black car",
+        "seg_tv": 0.8639389276504517,
+        "cls_tv": 0.43344026803970337
+      },
+      {
+        "a": "the white car",
+        "b": "the white SUV on the right",
+        "seg_tv": 0.45418986678123474,
+        "cls_tv": 0.3367518186569214
+      },
+      {
+        "a": "the white car",
+        "b": "the black car in the center",
+        "seg_tv": 0.8907219767570496,
+        "cls_tv": 0.48150014877319336
+      },
+      {
+        "a": "the black car",
+        "b": "the white SUV on the right",
+        "seg_tv": 0.9309401512145996,
+        "cls_tv": 0.487251341342926
+      },
+      {
+        "a": "the black car",
+        "b": "the black car in the center",
+        "seg_tv": 0.16773544251918793,
+        "cls_tv": 0.16966724395751953
+      },
+      {
+        "a": "the white SUV on the right",
+        "b": "the black car in the center",
+        "seg_tv": 0.9334787130355835,
+        "cls_tv": 0.5232014060020447
+      }
+    ]
+  },
+  "stage1": {
+    "grid": [
+      48,
+      82
+    ],
+    "box_patches": {
+      "black car": 56,
+      "white SUV": 56,
+      "dark car left": 16
+    },
+    "columns": [
+      {
+        "text": "(no text)",
+        "seg_peak_xy": [
+          0.5061,
+          0.5104
+        ],
+        "cls_peak_xy": [
+          0.0183,
+          0.0104
+        ],
+        "seg_box_mass": {
+          "black car": 0.09006253629922867,
+          "white SUV": 0.023357093334197998,
+          "dark car left": 0.009708932600915432
+        },
+        "cls_box_share": {
+          "black car": 0.1029592901468277,
+          "white SUV": 0.016550855711102486,
+          "dark car left": 0.0010074661113321781
+        }
+      },
+      {
+        "text": "the white car",
+        "seg_peak_xy": [
+          0.5305,
+          0.5312
+        ],
+        "cls_peak_xy": [
+          0.0061,
+          0.0104
+        ],
+        "seg_box_mass": {
+          "black car": 0.49378108978271484,
+          "white SUV": 0.1451839804649353,
+          "dark car left": 0.055413033813238144
+        },
+        "cls_box_share": {
+          "black car": 0.3534579873085022,
+          "white SUV": 0.1893606036901474,
+          "dark car left": 0.02343965508043766
+        }
+      },
+      {
+        "text": "the black car",
+        "seg_peak_xy": [
+          0.5305,
+          0.5312
+        ],
+        "cls_peak_xy": [
+          0.0061,
+          0.0104
+        ],
+        "seg_box_mass": {
+          "black car": 0.48103779554367065,
+          "white SUV": 0.10118334740400314,
+          "dark car left": 0.08373323082923889
+        },
+        "cls_box_share": {
+          "black car": 0.35922300815582275,
+          "white SUV": 0.17646659910678864,
+          "dark car left": 0.026962796226143837
+        }
+      },
+      {
+        "text": "the white SUV on the right",
+        "seg_peak_xy": [
+          0.5305,
+          0.5312
+        ],
+        "cls_peak_xy": [
+          0.0061,
+          0.0104
+        ],
+        "seg_box_mass": {
+          "black car": 0.4013229012489319,
+          "white SUV": 0.23169882595539093,
+          "dark car left": 0.06049458310008049
+        },
+        "cls_box_share": {
+          "black car": 0.31038326025009155,
+          "white SUV": 0.22459927201271057,
+          "dark car left": 0.03223326429724693
+        }
+      },
+      {
+        "text": "the black car in the center",
+        "seg_peak_xy": [
+          0.5305,
+          0.5312
+        ],
+        "cls_peak_xy": [
+          0.0061,
+          0.0104
+        ],
+        "seg_box_mass": {
+          "black car": 0.5060142278671265,
+          "white SUV": 0.15250840783119202,
+          "dark car left": 0.043408602476119995
+        },
+        "cls_box_share": {
+          "black car": 0.38138794898986816,
+          "white SUV": 0.18461647629737854,
+          "dark car left": 0.02917439118027687
+        }
+      }
+    ],
+    "pairs": [
+      {
+        "a": "(no text)",
+        "b": "the white car",
+        "seg_tv": 0.7598440647125244,
+        "cls_tv": 0.5957422852516174
+      },
+      {
+        "a": "(no text)",
+        "b": "the black car",
+        "seg_tv": 0.7599518895149231,
+        "cls_tv": 0.5910887718200684
+      },
+      {
+        "a": "(no text)",
+        "b": "the white SUV on the right",
+        "seg_tv": 0.7833775281906128,
+        "cls_tv": 0.5824633836746216
+      },
+      {
+        "a": "(no text)",
+        "b": "the black car in the center",
+        "seg_tv": 0.7621053457260132,
+        "cls_tv": 0.6171125173568726
+      },
+      {
+        "a": "the white car",
+        "b": "the black car",
+        "seg_tv": 0.10184568911790848,
+        "cls_tv": 0.061180200427770615
+      },
+      {
+        "a": "the white car",
+        "b": "the white SUV on the right",
+        "seg_tv": 0.141663059592247,
+        "cls_tv": 0.10036063939332962
+      },
+      {
+        "a": "the white car",
+        "b": "the black car in the center",
+        "seg_tv": 0.05476130172610283,
+        "cls_tv": 0.09222739934921265
+      },
+      {
+        "a": "the black car",
+        "b": "the white SUV on the right",
+        "seg_tv": 0.204336017370224,
+        "cls_tv": 0.10424937307834625
+      },
+      {
+        "a": "the black car",
+        "b": "the black car in the center",
+        "seg_tv": 0.11709647625684738,
+        "cls_tv": 0.07230275869369507
+      },
+      {
+        "a": "the white SUV on the right",
+        "b": "the black car in the center",
+        "seg_tv": 0.1599423885345459,
+        "cls_tv": 0.1060752347111702
+      }
+    ]
+  },
+  "stage2": {
+    "grid": [
+      48,
+      82
+    ],
+    "box_patches": {
+      "black car": 56,
+      "white SUV": 56,
+      "dark car left": 16
+    },
+    "columns": [
+      {
+        "text": "(no text)",
+        "seg_peak_xy": [
+          0.5061,
+          0.5104
+        ],
+        "cls_peak_xy": [
+          0.0183,
+          0.0104
+        ],
+        "seg_box_mass": {
+          "black car": 0.11781022697687149,
+          "white SUV": 0.03480635583400726,
+          "dark car left": 0.027323909103870392
+        },
+        "cls_box_share": {
+          "black car": 0.07833229005336761,
+          "white SUV": 0.010766868479549885,
+          "dark car left": 0.0006895727128721774
+        }
+      },
+      {
+        "text": "the white car",
+        "seg_peak_xy": [
+          0.0061,
+          0.5729
+        ],
+        "cls_peak_xy": [
+          0.0183,
+          0.0104
+        ],
+        "seg_box_mass": {
+          "black car": 0.40257036685943604,
+          "white SUV": 0.08290055394172668,
+          "dark car left": 0.1185993105173111
+        },
+        "cls_box_share": {
+          "black car": 0.23746483027935028,
+          "white SUV": 0.07856525480747223,
+          "dark car left": 0.01026451401412487
+        }
+      },
+      {
+        "text": "the black car",
+        "seg_peak_xy": [
+          0.0061,
+          0.5729
+        ],
+        "cls_peak_xy": [
+          0.0183,
+          0.0104
+        ],
+        "seg_box_mass": {
+          "black car": 0.45061296224594116,
+          "white SUV": 0.04602106660604477,
+          "dark car left": 0.11196984350681305
+        },
+        "cls_box_share": {
+          "black car": 0.21922126412391663,
+          "white SUV": 0.07769007980823517,
+          "dark car left": 0.01120341382920742
+        }
+      },
+      {
+        "text": "the white SUV on the right",
+        "seg_peak_xy": [
+          0.5671,
+          0.5729
+        ],
+        "cls_peak_xy": [
+          0.0183,
+          0.0104
+        ],
+        "seg_box_mass": {
+          "black car": 0.427903413772583,
+          "white SUV": 0.15117472410202026,
+          "dark car left": 0.07097072154283524
+        },
+        "cls_box_share": {
+          "black car": 0.25810712575912476,
+          "white SUV": 0.09696064889431,
+          "dark car left": 0.008031588979065418
+        }
+      },
+      {
+        "text": "the black car in the center",
+        "seg_peak_xy": [
+          0.5793,
+          0.6146
+        ],
+        "cls_peak_xy": [
+          0.0183,
+          0.0104
+        ],
+        "seg_box_mass": {
+          "black car": 0.5241595506668091,
+          "white SUV": 0.07207989692687988,
+          "dark car left": 0.060633283108472824
+        },
+        "cls_box_share": {
+          "black car": 0.27243077754974365,
+          "white SUV": 0.08546236157417297,
+          "dark car left": 0.010102419182658195
+        }
+      }
+    ],
+    "pairs": [
+      {
+        "a": "(no text)",
+        "b": "the white car",
+        "seg_tv": 0.6807177066802979,
+        "cls_tv": 0.35731953382492065
+      },
+      {
+        "a": "(no text)",
+        "b": "the black car",
+        "seg_tv": 0.6875948309898376,
+        "cls_tv": 0.3491697907447815
+      },
+      {
+        "a": "(no text)",
+        "b": "the white SUV on the right",
+        "seg_tv": 0.6769599914550781,
+        "cls_tv": 0.38756898045539856
+      },
+      {
+        "a": "(no text)",
+        "b": "the black car in the center",
+        "seg_tv": 0.6626393795013428,
+        "cls_tv": 0.39911729097366333
+      },
+      {
+        "a": "the white car",
+        "b": "the black car",
+        "seg_tv": 0.08024705946445465,
+        "cls_tv": 0.060676395893096924
+      },
+      {
+        "a": "the white car",
+        "b": "the white SUV on the right",
+        "seg_tv": 0.15964375436306,
+        "cls_tv": 0.08591106534004211
+      },
+      {
+        "a": "the white car",
+        "b": "the black car in the center",
+        "seg_tv": 0.1978466957807541,
+        "cls_tv": 0.09255610406398773
+      },
+      {
+        "a": "the black car",
+        "b": "the white SUV on the right",
+        "seg_tv": 0.1761351227760315,
+        "cls_tv": 0.09334344416856766
+      },
+      {
+        "a": "the black car",
+        "b": "the black car in the center",
+        "seg_tv": 0.16591043770313263,
+        "cls_tv": 0.08705215901136398
+      },
+      {
+        "a": "the white SUV on the right",
+        "b": "the black car in the center",
+        "seg_tv": 0.1419599950313568,
+        "cls_tv": 0.07200156152248383
+      }
+    ]
+  }
+}

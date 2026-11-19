@@ -1,0 +1,165 @@
+{
+  "complete": true,
+  "image": "/mnt/data/navsim/test_sensor_blobs/test/2021.09.09.18.29.25_veh-39_00427_00556/CAM_F0/262870c171365b8e.jpg",
+  "camera": "cam_f0",
+  "prompts": [
+    "the white car",
+    "the black car",
+    "the white SUV on the right",
+    "the black car in the center"
+  ],
+  "boxes": {
+    "black car": [
+      0.49,
+      0.491,
+      0.582,
+      0.65
+    ],
+    "white SUV": [
+      0.604,
+      0.473,
+      0.712,
+      0.615
+    ],
+    "dark car left": [
+      0.0,
+      0.499,
+      0.048,
+      0.591
+    ]
+  },
+  "rows": [
+    "official",
+    "pure",
+    "init",
+    "stage1",
+    "stage2"
+  ],
+  "stage2_checkpoint": "/mnt/zhaozc_workspace/project/LQH/Drivor-orial/DrivoR-main/exp/ke/steer_stage2_capatch_vitb_8gpu_b16_12ep/11.13_05.07/lightning_logs/version_0/checkpoints/best-epoch=10-step=8866.ckpt",
+  "saved_config": "/mnt/zhaozc_workspace/project/LQH/Drivor-orial/DrivoR-main/exp/ke/steer_stage2_capatch_vitb_8gpu_b16_12ep/11.13_05.07/code/hydra/config.yaml",
+  "steervit_checkpoint": "/mnt/zhaozc_workspace/project/LQH/SteerViT_checkpoint/steervit_dinov2_base.pth",
+  "drivor_checkpoint": "/mnt/zhaozc_workspace/project/LQH/Drivor-orial/DrivoR-main/exp/ke/training_drivoR_Nav1_vitb_8gpu_b16_25epochs/11.07_03.36/lightning_logs/version_0/checkpoints/best-epoch=23-step=19344.ckpt",
+  "stage1_checkpoint": "exp/steer_stage1/checkpoints/best-epoch=2-step=1966.ckpt",
+  "roberta": "/mnt/zhaozc_workspace/project/LQH/RoBERTa",
+  "dinov2_weights": "/mnt/zhaozc_workspace/project/LQH/DINVO2_SteerViT/model.safetensors",
+  "precision": "fp32",
+  "seed": 2,
+  "device": "PPU-ZW810E",
+  "row_info": {
+    "official": {
+      "resolution": 336,
+      "grid": [
+        24,
+        24
+      ],
+      "data_config": {
+        "input_size": "(3, 518, 518)",
+        "interpolation": "bicubic",
+        "mean": "(0.485, 0.456, 0.406)",
+        "std": "(0.229, 0.224, 0.225)",
+        "crop_pct": "1.0",
+        "crop_mode": "center"
+      },
+      "missing_keys": 565,
+      "unexpected_keys": 1,
+      "tanh_gates": {
+        "1": 0.010410514660179615,
+        "3": -0.012932402081787586,
+        "5": 0.03133238106966019,
+        "7": -0.10656863451004028,
+        "9": 0.2788444459438324,
+        "11": -0.49224016070365906
+      },
+      "preprocessing": "whole image resized to 336x336 bicubic + official mean/std (no centre crop)"
+    },
+    "pure": {
+      "steervit": {
+        "path": "/mnt/zhaozc_workspace/project/LQH/SteerViT_checkpoint/steervit_dinov2_base.pth",
+        "ca_layers": [
+          1,
+          3,
+          5,
+          7,
+          9,
+          11
+        ],
+        "ca_tensors": 36,
+        "connector_tensors": 4,
+        "seg_head_tensors": 2,
+        "ignored": [
+          "textPE.weight"
+        ],
+        "other_trunk_keys_skipped": 0,
+        "tanh_gates": {
+          "1": 0.010410514660179615,
+          "3": -0.012932402081787586,
+          "5": 0.03133238106966019,
+          "7": -0.10656863451004028,
+          "9": 0.2788444459438324,
+          "11": -0.49224016070365906
+        }
+      },
+      "lora_b_tensors": 24,
+      "lora_b_max": 0.0,
+      "same_as_official": {
+        "steer_tensors_equal": 42,
+        "steer_tensors_different": [],
+        "trunk_tensors_equal": 173,
+        "trunk_tensors_different": [],
+        "trunk_tensors_different_count": 0,
+        "trunk_skipped": [
+          "pos_embed"
+        ]
+      },
+      "ca_on_registers": true,
+      "gate_scale": 1.0
+    },
+    "init": {
+      "drivor": {
+        "path": "/mnt/zhaozc_workspace/project/LQH/Drivor-orial/DrivoR-main/exp/ke/training_drivoR_Nav1_vitb_8gpu_b16_25epochs/11.07_03.36/lightning_logs/version_0/checkpoints/best-epoch=23-step=19344.ckpt",
+        "loaded_keys": 466,
+        "missing_steer_keys": 43,
+        "epoch": 23,
+        "global_step": 19344
+      },
+      "ca_on_registers": true,
+      "gate_scale": 1.0
+    },
+    "stage1": {
+      "stage1": {
+        "path": "exp/steer_stage1/checkpoints/best-epoch=2-step=1966.ckpt",
+        "steer_tensors": 42,
+        "epoch": 2,
+        "global_step": 1966,
+        "tanh_gates": {
+          "1": 0.017374590039253235,
+          "3": -0.014132479205727577,
+          "5": 0.03251594305038452,
+          "7": -0.10762423276901245,
+          "9": 0.2765965163707733,
+          "11": -0.48555758595466614
+        },
+        "stage1_ca_on_registers": "not recorded (pre plan A: true)",
+        "current_ca_on_registers": true
+      },
+      "ca_on_registers": true,
+      "gate_scale": 1.0
+    },
+    "stage2": {
+      "epoch": 10,
+      "global_step": 8866,
+      "strict_load": true,
+      "ca_on_registers": false,
+      "config_ca_on_registers": false,
+      "gate_scale": 1.0
+    }
+  },
+  "elapsed_seconds": 81.40967190201627,
+  "outputs": [
+    "seg_grid.png",
+    "cls_grid.png",
+    "metrics.json",
+    "maps.npz",
+    "summary.md"
+  ]
+}

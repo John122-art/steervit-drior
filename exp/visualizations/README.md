@@ -13,3 +13,7 @@ The reports contain the original local dataset and checkpoint paths for reproduc
 ## Latest color-word controls (2026-11-19)
 
 [White/red and white/black four-camera comparisons](steer_stage2_tokens_test_20261119/COLOR_PROMPT_PAIRS.md), including PNGs, 7-page PDFs, raw features, scripts, and measured distribution changes. Neither example shows a clear color-conditioned target switch; no downstream planning evaluation was run.
+
+## Grounding stage ladder (2026-11-19)
+
+[Five-stage grounding and CLS attention comparisons](grounding_stage_ladder_20261119T113054Z/README.md): white/black and white/red scenes, images, metrics, raw maps, run records, and generation scripts.
