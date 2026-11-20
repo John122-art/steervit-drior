@@ -1,0 +1,16 @@
+{
+  "schema": "stage3_plan_v1",
+  "policy": "stage3_instance_v1",
+  "scenes": 100,
+  "written": 100,
+  "items_lane_lines": 80,
+  "grounded_items": 745,
+  "items_vehicle": 434,
+  "items_pedestrian": 150,
+  "scenes_without_route": 0,
+  "items_traffic_light": 30,
+  "items_stop_line": 43,
+  "items_crosswalk": 38,
+  "items_traffic_cone": 7,
+  "items_bicycle": 8
+}

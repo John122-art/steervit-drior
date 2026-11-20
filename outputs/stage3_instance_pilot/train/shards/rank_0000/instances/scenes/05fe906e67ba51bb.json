@@ -1,0 +1,356 @@
+{
+  "schema": "stage3_instances_v1",
+  "policy": "stage3_instance_v1",
+  "token": "05fe906e67ba51bb",
+  "input_hash": "a5a548ae3e4d758e58e310c52230b8fca187777b814814fee9590f61681f354f",
+  "scene_text": {
+    "cam_f0": {
+      "text": "the crosswalk in front of us",
+      "categories": [
+        "crosswalk"
+      ],
+      "items": [
+        {
+          "text": "the crosswalk in front of us",
+          "kind": "crosswalk",
+          "category": "crosswalk",
+          "role": "crosswalk",
+          "grounded": true,
+          "item_id": "cam_f0_0",
+          "distance": 7.49,
+          "gt_index": null,
+          "map_ids": [
+            "64110"
+          ],
+          "attributes": null,
+          "outline": [
+            [
+              [
+                0.0,
+                672.0
+              ],
+              [
+                1148.0,
+                672.0
+              ],
+              [
+                1148.0,
+                562.4000244140625
+              ],
+              [
+                216.5,
+                550.0999755859375
+              ],
+              [
+                216.5,
+                580.2000122070312
+              ],
+              [
+                0.0,
+                580.2000122070312
+              ],
+              [
+                0.0,
+                672.0
+              ]
+            ]
+          ],
+          "bbox": null
+        }
+      ]
+    },
+    "cam_b0": {
+      "text": "the white car on the right, in the next lane",
+      "categories": [
+        "vehicle"
+      ],
+      "items": [
+        {
+          "text": "the white car on the right, in the next lane",
+          "kind": "agent",
+          "category": "vehicle",
+          "role": "adjacent",
+          "grounded": true,
+          "item_id": "cam_b0_0",
+          "distance": 4.78,
+          "gt_index": 72,
+          "map_ids": null,
+          "attributes": {
+            "visible": true,
+            "color": "white",
+            "type": "car"
+          },
+          "outline": [
+            [
+              [
+                1148.0,
+                381.79998779296875
+              ],
+              [
+                861.9000244140625,
+                381.79998779296875
+              ],
+              [
+                861.9000244140625,
+                672.0
+              ],
+              [
+                1148.0,
+                672.0
+              ],
+              [
+                1148.0,
+                381.79998779296875
+              ]
+            ]
+          ],
+          "bbox": [
+            861.9,
+            381.75,
+            1148.0,
+            672.0
+          ]
+        }
+      ]
+    },
+    "cam_l0": {
+      "text": "the black SUV on the right, in the next lane",
+      "categories": [
+        "vehicle"
+      ],
+      "items": [
+        {
+          "text": "the black SUV on the right, in the next lane",
+          "kind": "agent",
+          "category": "vehicle",
+          "role": "adjacent",
+          "grounded": true,
+          "item_id": "cam_l0_0",
+          "distance": 11.72,
+          "gt_index": 65,
+          "map_ids": null,
+          "attributes": {
+            "visible": true,
+            "color": "black",
+            "type": "SUV"
+          },
+          "outline": [
+            [
+              [
+                1148.0,
+                353.70001220703125
+              ],
+              [
+                878.5,
+                353.70001220703125
+              ],
+              [
+                878.5,
+                611.7999877929688
+              ],
+              [
+                1148.0,
+                611.7999877929688
+              ],
+              [
+                1148.0,
+                353.70001220703125
+              ]
+            ]
+          ],
+          "bbox": [
+            878.47,
+            353.68,
+            1148.0,
+            611.77
+          ]
+        },
+        {
+          "text": "the pedestrian in white on the left, at the side of the road",
+          "kind": "agent",
+          "category": "pedestrian",
+          "role": "nearby",
+          "grounded": true,
+          "item_id": "cam_l0_2",
+          "distance": 23.68,
+          "gt_index": 9,
+          "map_ids": null,
+          "attributes": {
+            "visible": true,
+            "color": "white",
+            "type": "pedestrian"
+          },
+          "outline": [
+            [
+              [
+                172.60000610351562,
+                340.8999938964844
+              ],
+              [
+                172.60000610351562,
+                423.5
+              ],
+              [
+                220.60000610351562,
+                423.5
+              ],
+              [
+                220.60000610351562,
+                340.8999938964844
+              ],
+              [
+                172.60000610351562,
+                340.8999938964844
+              ]
+            ]
+          ],
+          "bbox": [
+            172.61,
+            340.94,
+            220.59,
+            423.52
+          ]
+        }
+      ]
+    },
+    "cam_r0": {
+      "text": "the stop line in front of us",
+      "categories": [
+        "stop_line"
+      ],
+      "items": [
+        {
+          "text": "the stop line in front of us",
+          "kind": "stop_line",
+          "category": "stop_line",
+          "role": "stop_line",
+          "grounded": true,
+          "item_id": "cam_r0_0",
+          "distance": 3.99,
+          "gt_index": null,
+          "map_ids": [
+            "63365"
+          ],
+          "attributes": null,
+          "outline": [
+            [
+              [
+                459.6000061035156,
+                672.0
+              ],
+              [
+                1003.7999877929688,
+                672.0
+              ],
+              [
+                1058.5999755859375,
+                563.0999755859375
+              ],
+              [
+                808.4000244140625,
+                519.2000122070312
+              ],
+              [
+                459.6000061035156,
+                672.0
+              ]
+            ]
+          ],
+          "bbox": null
+        },
+        {
+          "text": "the pedestrian in gray on the right, at the side of the road",
+          "kind": "agent",
+          "category": "pedestrian",
+          "role": "nearby",
+          "grounded": true,
+          "item_id": "cam_r0_1",
+          "distance": 12.02,
+          "gt_index": 77,
+          "map_ids": null,
+          "attributes": {
+            "visible": true,
+            "color": "gray",
+            "type": "pedestrian"
+          },
+          "outline": [
+            [
+              [
+                911.5999755859375,
+                343.70001220703125
+              ],
+              [
+                911.5999755859375,
+                499.0
+              ],
+              [
+                1003.5999755859375,
+                499.0
+              ],
+              [
+                1003.5999755859375,
+                343.70001220703125
+              ],
+              [
+                911.5999755859375,
+                343.70001220703125
+              ]
+            ]
+          ],
+          "bbox": [
+            911.59,
+            343.67,
+            1003.55,
+            498.95
+          ]
+        },
+        {
+          "text": "the pedestrian in white on the right, at the side of the road",
+          "kind": "agent",
+          "category": "pedestrian",
+          "role": "nearby",
+          "grounded": true,
+          "item_id": "cam_r0_2",
+          "distance": 15.28,
+          "gt_index": 20,
+          "map_ids": null,
+          "attributes": {
+            "visible": true,
+            "color": "white",
+            "type": "pedestrian"
+          },
+          "outline": [
+            [
+              [
+                772.4000244140625,
+                339.1000061035156
+              ],
+              [
+                772.4000244140625,
+                461.0
+              ],
+              [
+                840.0,
+                461.0
+              ],
+              [
+                840.0,
+                339.1000061035156
+              ],
+              [
+                772.4000244140625,
+                339.1000061035156
+              ]
+            ]
+          ],
+          "bbox": [
+            772.43,
+            339.1,
+            839.99,
+            460.99
+          ]
+        }
+      ]
+    }
+  }
+}

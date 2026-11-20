@@ -1,0 +1,172 @@
+{
+  "schema": "stage3_instances_v1",
+  "policy": "stage3_instance_v1",
+  "token": "11810f87cdbf5b4f",
+  "input_hash": "2aa20259740ebbdd26709cad3606f79b9994195866bbb6e69a92819adcc6b192",
+  "scene_text": {
+    "cam_f0": {
+      "text": "",
+      "categories": [],
+      "items": []
+    },
+    "cam_b0": {
+      "text": "",
+      "categories": [],
+      "items": []
+    },
+    "cam_l0": {
+      "text": "the black car in the center, at the side of the road",
+      "categories": [
+        "vehicle"
+      ],
+      "items": [
+        {
+          "text": "the black car in the center, at the side of the road",
+          "kind": "agent",
+          "category": "vehicle",
+          "role": "nearby",
+          "grounded": true,
+          "item_id": "cam_l0_0",
+          "distance": 22.87,
+          "gt_index": 34,
+          "map_ids": null,
+          "attributes": {
+            "visible": true,
+            "color": "black",
+            "type": "car"
+          },
+          "outline": [
+            [
+              [
+                644.0999755859375,
+                323.5
+              ],
+              [
+                644.0999755859375,
+                403.6000061035156
+              ],
+              [
+                857.7999877929688,
+                403.6000061035156
+              ],
+              [
+                857.7999877929688,
+                323.5
+              ],
+              [
+                644.0999755859375,
+                323.5
+              ]
+            ]
+          ],
+          "bbox": [
+            644.07,
+            323.48,
+            857.83,
+            403.59
+          ]
+        }
+      ]
+    },
+    "cam_r0": {
+      "text": "the blue SUV on the right, at the side of the road",
+      "categories": [
+        "vehicle"
+      ],
+      "items": [
+        {
+          "text": "the blue SUV on the right, at the side of the road",
+          "kind": "agent",
+          "category": "vehicle",
+          "role": "nearby",
+          "grounded": true,
+          "item_id": "cam_r0_0",
+          "distance": 10.77,
+          "gt_index": 22,
+          "map_ids": null,
+          "attributes": {
+            "visible": true,
+            "color": "blue",
+            "type": "SUV"
+          },
+          "outline": [
+            [
+              [
+                752.7000122070312,
+                364.70001220703125
+              ],
+              [
+                752.7000122070312,
+                654.9000244140625
+              ],
+              [
+                1085.5999755859375,
+                654.9000244140625
+              ],
+              [
+                1085.5999755859375,
+                364.70001220703125
+              ],
+              [
+                752.7000122070312,
+                364.70001220703125
+              ]
+            ]
+          ],
+          "bbox": [
+            752.69,
+            364.73,
+            1085.63,
+            654.89
+          ]
+        },
+        {
+          "text": "the gray SUV on the right, at the side of the road",
+          "kind": "agent",
+          "category": "vehicle",
+          "role": "nearby",
+          "grounded": true,
+          "item_id": "cam_r0_1",
+          "distance": 23.16,
+          "gt_index": 24,
+          "map_ids": null,
+          "attributes": {
+            "visible": true,
+            "color": "gray",
+            "type": "SUV"
+          },
+          "outline": [
+            [
+              [
+                1148.0,
+                392.1000061035156
+              ],
+              [
+                1036.9000244140625,
+                392.1000061035156
+              ],
+              [
+                1036.9000244140625,
+                493.1000061035156
+              ],
+              [
+                1148.0,
+                493.1000061035156
+              ],
+              [
+                1148.0,
+                392.1000061035156
+              ]
+            ]
+          ],
+          "bbox": [
+            1036.87,
+            392.1,
+            1148.0,
+            493.1
+          ]
+        }
+      ]
+    }
+  }
+}

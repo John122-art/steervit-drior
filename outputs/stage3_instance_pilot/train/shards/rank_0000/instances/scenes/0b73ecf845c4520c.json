@@ -1,0 +1,157 @@
+{
+  "schema": "stage3_instances_v1",
+  "policy": "stage3_instance_v1",
+  "token": "0b73ecf845c4520c",
+  "input_hash": "134985bee70ec8098e592350d1548c23b010d51324f47f43e97de990feefde5e",
+  "scene_text": {
+    "cam_f0": {
+      "text": "the crosswalk in front of us",
+      "categories": [
+        "crosswalk"
+      ],
+      "items": [
+        {
+          "text": "the crosswalk in front of us",
+          "kind": "crosswalk",
+          "category": "crosswalk",
+          "role": "crosswalk",
+          "grounded": true,
+          "item_id": "cam_f0_0",
+          "distance": 10.5,
+          "gt_index": null,
+          "map_ids": [
+            "49376"
+          ],
+          "attributes": null,
+          "outline": [
+            [
+              [
+                468.20001220703125,
+                494.79998779296875
+              ],
+              [
+                414.8999938964844,
+                570.5
+              ],
+              [
+                1148.0,
+                577.2000122070312
+              ],
+              [
+                1148.0,
+                499.6000061035156
+              ],
+              [
+                468.20001220703125,
+                494.79998779296875
+              ]
+            ]
+          ],
+          "bbox": null
+        }
+      ]
+    },
+    "cam_b0": {
+      "text": "the orange SUV on the left, in the next lane",
+      "categories": [
+        "vehicle"
+      ],
+      "items": [
+        {
+          "text": "the orange SUV on the left, in the next lane",
+          "kind": "agent",
+          "category": "vehicle",
+          "role": "nearby",
+          "grounded": true,
+          "item_id": "cam_b0_0",
+          "distance": 12.7,
+          "gt_index": 4,
+          "map_ids": null,
+          "attributes": {
+            "visible": true,
+            "color": "orange",
+            "type": "SUV"
+          },
+          "outline": [
+            [
+              [
+                163.5,
+                371.29998779296875
+              ],
+              [
+                163.5,
+                555.7999877929688
+              ],
+              [
+                421.79998779296875,
+                555.7999877929688
+              ],
+              [
+                421.79998779296875,
+                371.29998779296875
+              ],
+              [
+                163.5,
+                371.29998779296875
+              ]
+            ]
+          ],
+          "bbox": [
+            163.46,
+            371.34,
+            421.85,
+            555.78
+          ]
+        }
+      ]
+    },
+    "cam_l0": {
+      "text": "",
+      "categories": [],
+      "items": []
+    },
+    "cam_r0": {
+      "text": "the stop line in front of us",
+      "categories": [
+        "stop_line"
+      ],
+      "items": [
+        {
+          "text": "the stop line in front of us",
+          "kind": "stop_line",
+          "category": "stop_line",
+          "role": "stop_line",
+          "grounded": true,
+          "item_id": "cam_r0_0",
+          "distance": 2.69,
+          "gt_index": null,
+          "map_ids": [
+            "49597"
+          ],
+          "attributes": null,
+          "outline": [
+            [
+              [
+                376.6000061035156,
+                672.0
+              ],
+              [
+                800.0999755859375,
+                672.0
+              ],
+              [
+                537.2999877929688,
+                609.7999877929688
+              ],
+              [
+                376.6000061035156,
+                672.0
+              ]
+            ]
+          ],
+          "bbox": null
+        }
+      ]
+    }
+  }
+}

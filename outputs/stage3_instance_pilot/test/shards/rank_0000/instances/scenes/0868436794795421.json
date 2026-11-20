@@ -1,0 +1,93 @@
+{
+  "schema": "stage3_instances_v1",
+  "policy": "stage3_instance_v1",
+  "token": "0868436794795421",
+  "input_hash": "0ba30e9c45b11ca1fc5d63b1b510bfd27e5f68b6bf0215d59f98ae8c80b3f9ef",
+  "scene_text": {
+    "cam_f0": {
+      "text": "the white pickup truck in the center, in our lane",
+      "categories": [
+        "vehicle"
+      ],
+      "items": [
+        {
+          "text": "the white pickup truck in the center, in our lane",
+          "kind": "agent",
+          "category": "vehicle",
+          "role": "lead",
+          "grounded": true,
+          "item_id": "cam_f0_0",
+          "distance": 19.21,
+          "gt_index": 0,
+          "map_ids": null,
+          "attributes": {
+            "visible": true,
+            "color": "white",
+            "type": "pickup truck"
+          },
+          "outline": [
+            [
+              [
+                502.20001220703125,
+                301.6000061035156
+              ],
+              [
+                502.20001220703125,
+                442.8999938964844
+              ],
+              [
+                644.9000244140625,
+                442.8999938964844
+              ],
+              [
+                644.9000244140625,
+                301.6000061035156
+              ],
+              [
+                502.20001220703125,
+                301.6000061035156
+              ]
+            ]
+          ],
+          "bbox": [
+            502.22,
+            301.63,
+            644.86,
+            442.94
+          ]
+        },
+        {
+          "text": "the traffic light for our lane is red",
+          "kind": "traffic_light",
+          "category": "traffic_light",
+          "role": "traffic_light_red",
+          "grounded": false,
+          "item_id": "cam_f0_1",
+          "distance": 52.35,
+          "gt_index": null,
+          "map_ids": [
+            "68826"
+          ],
+          "attributes": null,
+          "outline": null,
+          "bbox": null
+        }
+      ]
+    },
+    "cam_b0": {
+      "text": "",
+      "categories": [],
+      "items": []
+    },
+    "cam_l0": {
+      "text": "",
+      "categories": [],
+      "items": []
+    },
+    "cam_r0": {
+      "text": "",
+      "categories": [],
+      "items": []
+    }
+  }
+}

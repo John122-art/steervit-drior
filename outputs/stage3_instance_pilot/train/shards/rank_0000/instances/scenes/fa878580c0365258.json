@@ -1,0 +1,227 @@
+{
+  "schema": "stage3_instances_v1",
+  "policy": "stage3_instance_v1",
+  "token": "fa878580c0365258",
+  "input_hash": "952b31457ec82f54058b0dbb51dcaaa048a79c318fed6a4fb7e6a701fd5d1b17",
+  "scene_text": {
+    "cam_f0": {
+      "text": "the stop line in front of us",
+      "categories": [
+        "stop_line"
+      ],
+      "items": [
+        {
+          "text": "the stop line in front of us",
+          "kind": "stop_line",
+          "category": "stop_line",
+          "role": "stop_line",
+          "grounded": true,
+          "item_id": "cam_f0_0",
+          "distance": 2.66,
+          "gt_index": null,
+          "map_ids": [
+            "48430"
+          ],
+          "attributes": null,
+          "outline": [
+            [
+              [
+                87.19999694824219,
+                672.0
+              ],
+              [
+                483.5,
+                672.0
+              ],
+              [
+                183.0,
+                596.5999755859375
+              ],
+              [
+                87.19999694824219,
+                672.0
+              ]
+            ]
+          ],
+          "bbox": null
+        },
+        {
+          "text": "the lane lines of our lane",
+          "kind": "lane_lines",
+          "category": "lane_lines",
+          "role": "lane_lines",
+          "grounded": true,
+          "item_id": "cam_f0_1",
+          "distance": 10.0,
+          "gt_index": null,
+          "map_ids": [
+            "48431",
+            "52406"
+          ],
+          "attributes": null,
+          "outline": [
+            [
+              [
+                90.5,
+                391.20001220703125
+              ],
+              [
+                104.4000015258789,
+                390.0
+              ],
+              [
+                0.0,
+                384.0
+              ],
+              [
+                0.0,
+                385.8999938964844
+              ],
+              [
+                90.5,
+                391.20001220703125
+              ]
+            ],
+            [
+              [
+                236.89999389648438,
+                540.5999755859375
+              ],
+              [
+                237.0,
+                540.2000122070312
+              ],
+              [
+                237.0,
+                539.7999877929688
+              ],
+              [
+                229.10000610351562,
+                500.0
+              ],
+              [
+                190.5,
+                502.79998779296875
+              ],
+              [
+                190.3000030517578,
+                543.5
+              ],
+              [
+                141.3000030517578,
+                612.9000244140625
+              ],
+              [
+                63.70000076293945,
+                672.0
+              ],
+              [
+                131.6999969482422,
+                672.0
+              ],
+              [
+                199.89999389648438,
+                611.4000244140625
+              ],
+              [
+                200.8000030517578,
+                610.5
+              ],
+              [
+                201.39999389648438,
+                609.5999755859375
+              ],
+              [
+                236.89999389648438,
+                540.5999755859375
+              ]
+            ],
+            [
+              [
+                1148.0,
+                664.2000122070312
+              ],
+              [
+                1148.0,
+                645.7999877929688
+              ],
+              [
+                1126.300048828125,
+                644.4000244140625
+              ],
+              [
+                1148.0,
+                664.2000122070312
+              ]
+            ]
+          ],
+          "bbox": null
+        }
+      ]
+    },
+    "cam_b0": {
+      "text": "the black car on the right, in the next lane",
+      "categories": [
+        "vehicle"
+      ],
+      "items": [
+        {
+          "text": "the black car on the right, in the next lane",
+          "kind": "agent",
+          "category": "vehicle",
+          "role": "nearby",
+          "grounded": true,
+          "item_id": "cam_b0_0",
+          "distance": 17.82,
+          "gt_index": 6,
+          "map_ids": null,
+          "attributes": {
+            "visible": true,
+            "color": "black",
+            "type": "car"
+          },
+          "outline": [
+            [
+              [
+                740.7999877929688,
+                344.70001220703125
+              ],
+              [
+                740.7999877929688,
+                455.3999938964844
+              ],
+              [
+                870.0,
+                455.3999938964844
+              ],
+              [
+                870.0,
+                344.70001220703125
+              ],
+              [
+                740.7999877929688,
+                344.70001220703125
+              ]
+            ]
+          ],
+          "bbox": [
+            740.81,
+            344.71,
+            870.04,
+            455.45
+          ]
+        }
+      ]
+    },
+    "cam_l0": {
+      "text": "",
+      "categories": [],
+      "items": []
+    },
+    "cam_r0": {
+      "text": "",
+      "categories": [],
+      "items": []
+    }
+  }
+}

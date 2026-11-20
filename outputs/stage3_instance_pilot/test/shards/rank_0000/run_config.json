@@ -1,0 +1,27 @@
+{
+  "rank": 0,
+  "world_size": 1,
+  "partition": "test",
+  "split": "navtest",
+  "subset": "all",
+  "scenes": 100,
+  "seed": 3407,
+  "data_root": "/mnt/zhaozc_workspace/project/LQH/DrivoR-main-copy/dataset",
+  "prompt": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/scripts/data_generation/prompts/stage3_instance_attributes_v1.txt",
+  "prompt_sha256": "6ddef4f7b94b2ce101381f436b463ff4f0d9207fb6457e05959bae15cb2a5f85",
+  "gpus": 1,
+  "metric_cache": "/mnt/zhaozc_workspace/official_DrivoR_clean/data_runtime/drivor_official_navtest_full_cache_20261007/metric_cache",
+  "stage": 3,
+  "one_scene_per_log": true,
+  "orchestration_hashes": {
+    "build_dataset.py": "070f58ed2007b2c97c10ff4aaf83ee1b6d9b1e72f3de50cfea2d4f20fb6b3ea7",
+    "describe.py": "39867fa67d59acaf70e8c42a6c8cd35fc5b108ddec6c981d1a9d1276147401e0",
+    "extract_context.py": "a475c16d0c5fb32271b1e9e75c3d96a5ae075b0445d6892db542f12bea885fc1",
+    "instance_geometry.py": "4576af6298f43688301a3d0f9c7754e6fe944252ba67411157c38df1114fc862",
+    "instance_policy.py": "f835b2a4d2bba6216f1f597ffbb3d56dc47cf3b7d776229bcbf6fc01460b11db",
+    "merge.py": "0d623c692595e2bb06f94bd6265fd9c28653f7d3ce00201c65885f3867f4b7a9",
+    "plan_items.py": "4b503fb183ba02dd61b5385f0be4e00cf07a868ab142001134c112eadb5f0961",
+    "test_instance_policy.py": "aecf0d0ae43fe88b4ca423cb7eb520f8fb05727281fa9f47a40fa41bcfdc0acf",
+    "worker.py": "d480f2f88f99b7dc1dad955ab2107121f680b441f5547bcada109fb5a8b0c86a"
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "schema": "stage3_instances_v1",
+  "policy": "stage3_instance_v1",
+  "token": "1e85dadff8b552a1",
+  "input_hash": "a43d5889a6b26ba20c05b430a1fa6e51f430a248f86ee210580ed0f5ec4172c4",
+  "scene_text": {
+    "cam_f0": {
+      "text": "the traffic light for our lane is red",
+      "categories": [
+        "traffic_light"
+      ],
+      "items": [
+        {
+          "text": "the traffic light for our lane is red",
+          "kind": "traffic_light",
+          "category": "traffic_light",
+          "role": "traffic_light_red",
+          "grounded": false,
+          "item_id": "cam_f0_0",
+          "distance": 5.34,
+          "gt_index": null,
+          "map_ids": [
+            "69419"
+          ],
+          "attributes": null,
+          "outline": null,
+          "bbox": null
+        }
+      ]
+    },
+    "cam_b0": {
+      "text": "the blue car in the center, following us",
+      "categories": [
+        "vehicle"
+      ],
+      "items": [
+        {
+          "text": "the blue car in the center, following us",
+          "kind": "agent",
+          "category": "vehicle",
+          "role": "following",
+          "grounded": false,
+          "item_id": "cam_b0_0",
+          "distance": 5.24,
+          "gt_index": 70,
+          "map_ids": null,
+          "attributes": {
+            "visible": true,
+            "color": "blue",
+            "type": "car"
+          },
+          "outline": [
+            [
+              [
+                976.0999755859375,
+                298.70001220703125
+              ],
+              [
+                136.89999389648438,
+                298.70001220703125
+              ],
+              [
+                136.89999389648438,
+                672.0
+              ],
+              [
+                976.0999755859375,
+                672.0
+              ],
+              [
+                976.0999755859375,
+                298.70001220703125
+              ]
+            ]
+          ],
+          "bbox": [
+            136.91,
+            298.73,
+            976.09,
+            672.0
+          ]
+        }
+      ]
+    },
+    "cam_l0": {
+      "text": "the black SUV in the center, in the next lane",
+      "categories": [
+        "vehicle"
+      ],
+      "items": [
+        {
+          "text": "the black SUV in the center, in the next lane",
+          "kind": "agent",
+          "category": "vehicle",
+          "role": "adjacent",
+          "grounded": true,
+          "item_id": "cam_l0_0",
+          "distance": 5.06,
+          "gt_index": 64,
+          "map_ids": null,
+          "attributes": {
+            "visible": true,
+            "color": "black",
+            "type": "SUV"
+          },
+          "outline": [
+            [
+              [
+                817.5,
+                313.3999938964844
+              ],
+              [
+                0.0,
+                313.3999938964844
+              ],
+              [
+                0.0,
+                672.0
+              ],
+              [
+                817.5,
+                672.0
+              ],
+              [
+                817.5,
+                313.3999938964844
+              ]
+            ]
+          ],
+          "bbox": [
+            0.0,
+            313.45,
+            817.53,
+            672.0
+          ]
+        }
+      ]
+    },
+    "cam_r0": {
+      "text": "the silver pickup truck in the center, in the next lane",
+      "categories": [
+        "vehicle"
+      ],
+      "items": [
+        {
+          "text": "the silver pickup truck in the center, in the next lane",
+          "kind": "agent",
+          "category": "vehicle",
+          "role": "adjacent",
+          "grounded": false,
+          "item_id": "cam_r0_0",
+          "distance": 3.97,
+          "gt_index": 103,
+          "map_ids": null,
+          "attributes": {
+            "visible": true,
+            "color": "silver",
+            "type": "pickup truck"
+          },
+          "outline": [
+            [
+              [
+                1148.0,
+                0.0
+              ],
+              [
+                105.5,
+                0.0
+              ],
+              [
+                105.5,
+                672.0
+              ],
+              [
+                1148.0,
+                672.0
+              ],
+              [
+                1148.0,
+                0.0
+              ]
+            ]
+          ],
+          "bbox": [
+            105.49,
+            0.0,
+            1148.0,
+            672.0
+          ]
+        }
+      ]
+    }
+  }
+}

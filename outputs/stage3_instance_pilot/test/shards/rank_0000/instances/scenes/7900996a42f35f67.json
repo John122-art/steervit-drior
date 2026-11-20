@@ -1,0 +1,173 @@
+{
+  "schema": "stage3_instances_v1",
+  "policy": "stage3_instance_v1",
+  "token": "7900996a42f35f67",
+  "input_hash": "44a982065211d7b458bd3779611f3f9cf85d3b870085911e7813d33f566254c7",
+  "scene_text": {
+    "cam_f0": {
+      "text": "the traffic light for our lane is red",
+      "categories": [
+        "traffic_light"
+      ],
+      "items": [
+        {
+          "text": "the traffic light for our lane is red",
+          "kind": "traffic_light",
+          "category": "traffic_light",
+          "role": "traffic_light_red",
+          "grounded": false,
+          "item_id": "cam_f0_0",
+          "distance": 5.89,
+          "gt_index": null,
+          "map_ids": [
+            "20178"
+          ],
+          "attributes": null,
+          "outline": null,
+          "bbox": null
+        },
+        {
+          "text": "the crosswalk in front of us",
+          "kind": "crosswalk",
+          "category": "crosswalk",
+          "role": "crosswalk",
+          "grounded": true,
+          "item_id": "cam_f0_1",
+          "distance": 16.27,
+          "gt_index": null,
+          "map_ids": [
+            "18368"
+          ],
+          "attributes": null,
+          "outline": [
+            [
+              [
+                1148.0,
+                472.1000061035156
+              ],
+              [
+                1148.0,
+                441.79998779296875
+              ],
+              [
+                0.0,
+                424.1000061035156
+              ],
+              [
+                0.0,
+                454.70001220703125
+              ],
+              [
+                1148.0,
+                472.1000061035156
+              ]
+            ]
+          ],
+          "bbox": null
+        }
+      ]
+    },
+    "cam_b0": {
+      "text": "the gray car in the center, following us",
+      "categories": [
+        "vehicle"
+      ],
+      "items": [
+        {
+          "text": "the gray car in the center, following us",
+          "kind": "agent",
+          "category": "vehicle",
+          "role": "following",
+          "grounded": true,
+          "item_id": "cam_b0_0",
+          "distance": 7.43,
+          "gt_index": 0,
+          "map_ids": null,
+          "attributes": {
+            "visible": true,
+            "color": "gray",
+            "type": "car"
+          },
+          "outline": [
+            [
+              [
+                737.5,
+                392.5
+              ],
+              [
+                386.6000061035156,
+                392.5
+              ],
+              [
+                386.6000061035156,
+                672.0
+              ],
+              [
+                737.5,
+                672.0
+              ],
+              [
+                737.5,
+                392.5
+              ]
+            ]
+          ],
+          "bbox": [
+            386.59,
+            392.52,
+            737.51,
+            672.0
+          ]
+        }
+      ]
+    },
+    "cam_l0": {
+      "text": "",
+      "categories": [],
+      "items": []
+    },
+    "cam_r0": {
+      "text": "the stop line in front of us",
+      "categories": [
+        "stop_line"
+      ],
+      "items": [
+        {
+          "text": "the stop line in front of us",
+          "kind": "stop_line",
+          "category": "stop_line",
+          "role": "stop_line",
+          "grounded": true,
+          "item_id": "cam_r0_0",
+          "distance": 4.78,
+          "gt_index": null,
+          "map_ids": [
+            "18743"
+          ],
+          "attributes": null,
+          "outline": [
+            [
+              [
+                273.29998779296875,
+                672.0
+              ],
+              [
+                701.4000244140625,
+                672.0
+              ],
+              [
+                466.0,
+                599.0
+              ],
+              [
+                273.29998779296875,
+                672.0
+              ]
+            ]
+          ],
+          "bbox": null
+        }
+      ]
+    }
+  }
+}

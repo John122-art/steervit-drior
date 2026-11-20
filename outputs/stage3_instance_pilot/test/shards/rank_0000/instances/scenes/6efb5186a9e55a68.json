@@ -1,0 +1,207 @@
+{
+  "schema": "stage3_instances_v1",
+  "policy": "stage3_instance_v1",
+  "token": "6efb5186a9e55a68",
+  "input_hash": "4810d69cd02fa00754ca8198d9b631db87728bcad92360faf02ccd309f151381",
+  "scene_text": {
+    "cam_f0": {
+      "text": "the stop line in front of us",
+      "categories": [
+        "stop_line"
+      ],
+      "items": [
+        {
+          "text": "the stop line in front of us",
+          "kind": "stop_line",
+          "category": "stop_line",
+          "role": "stop_line",
+          "grounded": true,
+          "item_id": "cam_f0_0",
+          "distance": 5.73,
+          "gt_index": null,
+          "map_ids": [
+            "63332"
+          ],
+          "attributes": null,
+          "outline": [
+            [
+              [
+                130.1999969482422,
+                672.0
+              ],
+              [
+                1092.300048828125,
+                672.0
+              ],
+              [
+                1092.300048828125,
+                597.2999877929688
+              ],
+              [
+                217.10000610351562,
+                599.2999877929688
+              ],
+              [
+                130.1999969482422,
+                672.0
+              ]
+            ]
+          ],
+          "bbox": null
+        },
+        {
+          "text": "the crosswalk in front of us",
+          "kind": "crosswalk",
+          "category": "crosswalk",
+          "role": "crosswalk",
+          "grounded": true,
+          "item_id": "cam_f0_1",
+          "distance": 10.64,
+          "gt_index": null,
+          "map_ids": [
+            "64063"
+          ],
+          "attributes": null,
+          "outline": [
+            [
+              [
+                0.0,
+                466.20001220703125
+              ],
+              [
+                0.0,
+                522.5
+              ],
+              [
+                1092.300048828125,
+                517.2000122070312
+              ],
+              [
+                1092.300048828125,
+                461.5
+              ],
+              [
+                0.0,
+                466.20001220703125
+              ]
+            ]
+          ],
+          "bbox": null
+        }
+      ]
+    },
+    "cam_b0": {
+      "text": "the pedestrian in blue on the left, at the side of the road",
+      "categories": [
+        "pedestrian"
+      ],
+      "items": [
+        {
+          "text": "the pedestrian in blue on the left, at the side of the road",
+          "kind": "agent",
+          "category": "pedestrian",
+          "role": "nearby",
+          "grounded": true,
+          "item_id": "cam_b0_0",
+          "distance": 16.01,
+          "gt_index": 43,
+          "map_ids": null,
+          "attributes": {
+            "visible": true,
+            "color": "blue",
+            "type": "pedestrian"
+          },
+          "outline": [
+            [
+              [
+                80.69999694824219,
+                497.20001220703125
+              ],
+              [
+                80.69999694824219,
+                355.70001220703125
+              ],
+              [
+                0.0,
+                355.70001220703125
+              ],
+              [
+                0.0,
+                497.20001220703125
+              ],
+              [
+                80.69999694824219,
+                497.20001220703125
+              ]
+            ]
+          ],
+          "bbox": [
+            0.0,
+            355.7,
+            80.7,
+            497.25
+          ]
+        }
+      ]
+    },
+    "cam_l0": {
+      "text": "",
+      "categories": [],
+      "items": []
+    },
+    "cam_r0": {
+      "text": "the cyclist in gray on the left, in the next lane",
+      "categories": [
+        "bicycle"
+      ],
+      "items": [
+        {
+          "text": "the cyclist in gray on the left, in the next lane",
+          "kind": "agent",
+          "category": "bicycle",
+          "role": "nearby",
+          "grounded": true,
+          "item_id": "cam_r0_0",
+          "distance": 8.09,
+          "gt_index": 60,
+          "map_ids": null,
+          "attributes": {
+            "visible": true,
+            "color": "gray",
+            "type": "motorcycle"
+          },
+          "outline": [
+            [
+              [
+                499.29998779296875,
+                385.3999938964844
+              ],
+              [
+                133.3000030517578,
+                385.3999938964844
+              ],
+              [
+                133.3000030517578,
+                672.0
+              ],
+              [
+                499.29998779296875,
+                672.0
+              ],
+              [
+                499.29998779296875,
+                385.3999938964844
+              ]
+            ]
+          ],
+          "bbox": [
+            133.34,
+            385.37,
+            499.29,
+            672.0
+          ]
+        }
+      ]
+    }
+  }
+}

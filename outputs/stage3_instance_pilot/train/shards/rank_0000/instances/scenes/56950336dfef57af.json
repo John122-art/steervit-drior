@@ -1,0 +1,191 @@
+{
+  "schema": "stage3_instances_v1",
+  "policy": "stage3_instance_v1",
+  "token": "56950336dfef57af",
+  "input_hash": "56555c1057a26517f20ddaa63ba12432749decabf0b6ee3bdae713ce4f0c547c",
+  "scene_text": {
+    "cam_f0": {
+      "text": "the lane lines of our lane",
+      "categories": [
+        "lane_lines"
+      ],
+      "items": [
+        {
+          "text": "the lane lines of our lane",
+          "kind": "lane_lines",
+          "category": "lane_lines",
+          "role": "lane_lines",
+          "grounded": true,
+          "item_id": "cam_f0_0",
+          "distance": 10.0,
+          "gt_index": null,
+          "map_ids": [
+            "68024",
+            "67732"
+          ],
+          "attributes": null,
+          "outline": [
+            [
+              [
+                1023.5999755859375,
+                672.0
+              ],
+              [
+                1075.5999755859375,
+                672.0
+              ],
+              [
+                604.9000244140625,
+                372.79998779296875
+              ],
+              [
+                597.5999755859375,
+                372.79998779296875
+              ],
+              [
+                1023.5999755859375,
+                672.0
+              ]
+            ],
+            [
+              [
+                296.1000061035156,
+                672.0
+              ],
+              [
+                347.3999938964844,
+                672.0
+              ],
+              [
+                502.8999938964844,
+                373.20001220703125
+              ],
+              [
+                495.70001220703125,
+                373.20001220703125
+              ],
+              [
+                296.1000061035156,
+                672.0
+              ]
+            ]
+          ],
+          "bbox": null
+        }
+      ]
+    },
+    "cam_b0": {
+      "text": "the black SUV on the right, in the next lane",
+      "categories": [
+        "vehicle"
+      ],
+      "items": [
+        {
+          "text": "the black SUV on the right, in the next lane",
+          "kind": "agent",
+          "category": "vehicle",
+          "role": "nearby",
+          "grounded": true,
+          "item_id": "cam_b0_0",
+          "distance": 14.92,
+          "gt_index": 4,
+          "map_ids": null,
+          "attributes": {
+            "visible": true,
+            "color": "black",
+            "type": "SUV"
+          },
+          "outline": [
+            [
+              [
+                797.0,
+                353.8999938964844
+              ],
+              [
+                797.0,
+                517.7999877929688
+              ],
+              [
+                1090.9000244140625,
+                517.7999877929688
+              ],
+              [
+                1090.9000244140625,
+                353.8999938964844
+              ],
+              [
+                797.0,
+                353.8999938964844
+              ]
+            ]
+          ],
+          "bbox": [
+            796.96,
+            353.94,
+            1090.88,
+            517.83
+          ]
+        }
+      ]
+    },
+    "cam_l0": {
+      "text": "the silver truck in the center, beside us",
+      "categories": [
+        "vehicle"
+      ],
+      "items": [
+        {
+          "text": "the silver truck in the center, beside us",
+          "kind": "agent",
+          "category": "vehicle",
+          "role": "beside",
+          "grounded": false,
+          "item_id": "cam_l0_0",
+          "distance": 10.28,
+          "gt_index": 5,
+          "map_ids": null,
+          "attributes": {
+            "visible": true,
+            "color": "silver",
+            "type": "truck"
+          },
+          "outline": [
+            [
+              [
+                1137.0,
+                0.0
+              ],
+              [
+                287.5,
+                0.0
+              ],
+              [
+                287.5,
+                672.0
+              ],
+              [
+                1137.0,
+                672.0
+              ],
+              [
+                1137.0,
+                0.0
+              ]
+            ]
+          ],
+          "bbox": [
+            287.5,
+            0.0,
+            1137.02,
+            672.0
+          ]
+        }
+      ]
+    },
+    "cam_r0": {
+      "text": "",
+      "categories": [],
+      "items": []
+    }
+  }
+}

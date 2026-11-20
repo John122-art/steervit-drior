@@ -1,0 +1,139 @@
+{
+  "schema": "stage3_instances_v1",
+  "policy": "stage3_instance_v1",
+  "token": "a7ebbf047f015b46",
+  "input_hash": "5fe4a037be89aab9e4e8c763b13d69c5fa1bdf23159e478bbc84ef2ff5f6ec49",
+  "scene_text": {
+    "cam_f0": {
+      "text": "the black car in the center, in our lane",
+      "categories": [
+        "vehicle"
+      ],
+      "items": [
+        {
+          "text": "the black car in the center, in our lane",
+          "kind": "agent",
+          "category": "vehicle",
+          "role": "lead",
+          "grounded": true,
+          "item_id": "cam_f0_0",
+          "distance": 26.71,
+          "gt_index": 20,
+          "map_ids": null,
+          "attributes": {
+            "visible": true,
+            "color": "black",
+            "type": "car"
+          },
+          "outline": [
+            [
+              [
+                525.2999877929688,
+                333.79998779296875
+              ],
+              [
+                525.2999877929688,
+                405.20001220703125
+              ],
+              [
+                607.2000122070312,
+                405.20001220703125
+              ],
+              [
+                607.2000122070312,
+                333.79998779296875
+              ],
+              [
+                525.2999877929688,
+                333.79998779296875
+              ]
+            ]
+          ],
+          "bbox": [
+            525.28,
+            333.77,
+            607.2,
+            405.15
+          ]
+        },
+        {
+          "text": "the traffic light for our lane is red",
+          "kind": "traffic_light",
+          "category": "traffic_light",
+          "role": "traffic_light_red",
+          "grounded": false,
+          "item_id": "cam_f0_1",
+          "distance": 39.36,
+          "gt_index": null,
+          "map_ids": [
+            "63948"
+          ],
+          "attributes": null,
+          "outline": null,
+          "bbox": null
+        },
+        {
+          "text": "the white car on the left, in the next lane",
+          "kind": "agent",
+          "category": "vehicle",
+          "role": "adjacent",
+          "grounded": true,
+          "item_id": "cam_f0_2",
+          "distance": 9.99,
+          "gt_index": 0,
+          "map_ids": null,
+          "attributes": {
+            "visible": true,
+            "color": "white",
+            "type": "car"
+          },
+          "outline": [
+            [
+              [
+                384.3999938964844,
+                652.0
+              ],
+              [
+                384.3999938964844,
+                348.1000061035156
+              ],
+              [
+                0.0,
+                348.1000061035156
+              ],
+              [
+                0.0,
+                652.0
+              ],
+              [
+                384.3999938964844,
+                652.0
+              ]
+            ]
+          ],
+          "bbox": [
+            0.0,
+            348.07,
+            384.43,
+            651.99
+          ]
+        }
+      ]
+    },
+    "cam_b0": {
+      "text": "",
+      "categories": [],
+      "items": []
+    },
+    "cam_l0": {
+      "text": "",
+      "categories": [],
+      "items": []
+    },
+    "cam_r0": {
+      "text": "",
+      "categories": [],
+      "items": []
+    }
+  }
+}

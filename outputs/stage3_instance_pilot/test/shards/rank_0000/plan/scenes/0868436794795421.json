@@ -1,0 +1,91 @@
+{
+  "schema": "stage3_plan_v1",
+  "policy": "stage3_instance_v1",
+  "token": "0868436794795421",
+  "input_hash": "0ba30e9c45b11ca1fc5d63b1b510bfd27e5f68b6bf0215d59f98ae8c80b3f9ef",
+  "ground_z": -0.2752575520935243,
+  "ground_z_source": "median_of_1_vehicle_bottoms",
+  "route_available": true,
+  "route_offset": -0.2611911128257817,
+  "items": [
+    {
+      "kind": "agent",
+      "category": "vehicle",
+      "gt_index": 0,
+      "camera": "cam_f0",
+      "role": "lead",
+      "relation": {
+        "lon": 19.232666319931855,
+        "lat": -0.438705813519987,
+        "lane": "ours",
+        "motion": "same",
+        "speed": 4.637513342298866,
+        "relative_heading": 0.02486423597502041,
+        "distance": 19.210583442595258,
+        "frame": "route"
+      },
+      "distance": 19.210583442595258,
+      "bbox": [
+        502.22,
+        301.63,
+        644.86,
+        442.94
+      ],
+      "occluded_fraction": 0.0,
+      "crossing_from": null,
+      "priority": 0,
+      "item_id": "cam_f0_0",
+      "crop": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage3_instance_pilot/test/shards/rank_0000/plan/crops/0868436794795421/cam_f0_0.jpg",
+      "crop_box_original": [
+        804,
+        450,
+        1115,
+        746
+      ],
+      "outline": [
+        [
+          [
+            502.20001220703125,
+            301.6000061035156
+          ],
+          [
+            502.20001220703125,
+            442.8999938964844
+          ],
+          [
+            644.9000244140625,
+            442.8999938964844
+          ],
+          [
+            644.9000244140625,
+            301.6000061035156
+          ],
+          [
+            502.20001220703125,
+            301.6000061035156
+          ]
+        ]
+      ],
+      "grounded": true,
+      "mask_row": 0
+    },
+    {
+      "kind": "traffic_light",
+      "category": "traffic_light",
+      "camera": "cam_f0",
+      "role": "traffic_light_red",
+      "distance": 52.35,
+      "is_red": true,
+      "map_ids": [
+        "68826"
+      ],
+      "priority": 1,
+      "item_id": "cam_f0_1",
+      "grounded": false,
+      "mask_row": 1
+    }
+  ],
+  "rejected": {
+    "lane_lines_hidden_cam_f0": 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "schema": "stage3_instances_v1",
+  "policy": "stage3_instance_v1",
+  "scenes": 100,
+  "rendered": 100,
+  "words_per_item": {
+    "mean": 9.591054313099042,
+    "max": 14
+  },
+  "dropped_duplicate": 3,
+  "dropped_over_limit": 113,
+  "kept_lane_lines": 74,
+  "kept_grounded": 584,
+  "empty_cameras": 107,
+  "dropped_not_visible": 48,
+  "kept_vehicle": 369,
+  "kept_traffic_light": 27,
+  "kept_stop_line": 37,
+  "kept_pedestrian": 80,
+  "kept_crosswalk": 27,
+  "kept_traffic_cone": 5,
+  "kept_bicycle": 7
+}

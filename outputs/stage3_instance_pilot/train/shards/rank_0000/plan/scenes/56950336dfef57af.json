@@ -1,0 +1,199 @@
+{
+  "schema": "stage3_plan_v1",
+  "policy": "stage3_instance_v1",
+  "token": "56950336dfef57af",
+  "input_hash": "56555c1057a26517f20ddaa63ba12432749decabf0b6ee3bdae713ce4f0c547c",
+  "ground_z": -0.42526677529745655,
+  "ground_z_source": "median_of_3_vehicle_bottoms",
+  "route_available": true,
+  "route_offset": 0.8742051764453186,
+  "items": [
+    {
+      "kind": "lane_lines",
+      "category": "lane_lines",
+      "camera": "cam_f0",
+      "role": "lane_lines",
+      "distance": 10.0,
+      "map_ids": [
+        "68024",
+        "67732"
+      ],
+      "priority": 2,
+      "item_id": "cam_f0_0",
+      "outline": [
+        [
+          [
+            1023.5999755859375,
+            672.0
+          ],
+          [
+            1075.5999755859375,
+            672.0
+          ],
+          [
+            604.9000244140625,
+            372.79998779296875
+          ],
+          [
+            597.5999755859375,
+            372.79998779296875
+          ],
+          [
+            1023.5999755859375,
+            672.0
+          ]
+        ],
+        [
+          [
+            296.1000061035156,
+            672.0
+          ],
+          [
+            347.3999938964844,
+            672.0
+          ],
+          [
+            502.8999938964844,
+            373.20001220703125
+          ],
+          [
+            495.70001220703125,
+            373.20001220703125
+          ],
+          [
+            296.1000061035156,
+            672.0
+          ]
+        ]
+      ],
+      "grounded": true,
+      "mask_row": 0
+    },
+    {
+      "kind": "agent",
+      "category": "vehicle",
+      "gt_index": 4,
+      "camera": "cam_b0",
+      "role": "nearby",
+      "relation": {
+        "lon": -14.08620609842499,
+        "lat": 4.925778697225815,
+        "lane": "left",
+        "motion": "same",
+        "speed": 10.996739925996248,
+        "relative_heading": 0.04696210775002507,
+        "distance": 14.922616996403447,
+        "frame": "ego"
+      },
+      "distance": 14.922616996403447,
+      "bbox": [
+        796.96,
+        353.94,
+        1090.88,
+        517.83
+      ],
+      "occluded_fraction": 0.0,
+      "crossing_from": null,
+      "priority": 4,
+      "item_id": "cam_b0_0",
+      "crop": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage3_instance_pilot/train/shards/rank_0000/plan/crops/56950336dfef57af/cam_b0_0.jpg",
+      "crop_box_original": [
+        1259,
+        529,
+        1899,
+        872
+      ],
+      "outline": [
+        [
+          [
+            797.0,
+            353.8999938964844
+          ],
+          [
+            797.0,
+            517.7999877929688
+          ],
+          [
+            1090.9000244140625,
+            517.7999877929688
+          ],
+          [
+            1090.9000244140625,
+            353.8999938964844
+          ],
+          [
+            797.0,
+            353.8999938964844
+          ]
+        ]
+      ],
+      "grounded": true,
+      "mask_row": 1
+    },
+    {
+      "kind": "agent",
+      "category": "vehicle",
+      "gt_index": 5,
+      "camera": "cam_l0",
+      "role": "beside",
+      "relation": {
+        "lon": 8.567409915875444,
+        "lat": 6.6497754241981015,
+        "lane": "off_left",
+        "motion": "same",
+        "speed": 10.730043895529972,
+        "relative_heading": 0.019945309065136918,
+        "distance": 10.278333442252395,
+        "frame": "route"
+      },
+      "distance": 10.278333442252395,
+      "bbox": [
+        287.5,
+        0.0,
+        1137.02,
+        672.0
+      ],
+      "occluded_fraction": 0.0,
+      "crossing_from": null,
+      "priority": 2,
+      "item_id": "cam_l0_0",
+      "crop": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage3_instance_pilot/train/shards/rank_0000/plan/crops/56950336dfef57af/cam_l0_0.jpg",
+      "crop_box_original": [
+        267,
+        0,
+        1920,
+        1080
+      ],
+      "rejected": "coverage_exceeded",
+      "outline": [
+        [
+          [
+            1137.0,
+            0.0
+          ],
+          [
+            287.5,
+            0.0
+          ],
+          [
+            287.5,
+            672.0
+          ],
+          [
+            1137.0,
+            672.0
+          ],
+          [
+            1137.0,
+            0.0
+          ]
+        ]
+      ],
+      "grounded": false,
+      "mask_row": 2
+    }
+  ],
+  "rejected": {
+    "not_in_any_camera": 2
+  }
+}

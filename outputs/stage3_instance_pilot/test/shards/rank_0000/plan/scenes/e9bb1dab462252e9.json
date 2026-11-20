@@ -1,0 +1,299 @@
+{
+  "schema": "stage3_plan_v1",
+  "policy": "stage3_instance_v1",
+  "token": "e9bb1dab462252e9",
+  "input_hash": "8345a7e2bcd84e3dc35955f529fcae2abdaddf9425bcf8691135bfc4b0ddf577",
+  "ground_z": -0.2991063124443998,
+  "ground_z_source": "median_of_3_vehicle_bottoms",
+  "route_available": true,
+  "route_offset": 0.458572770713672,
+  "items": [
+    {
+      "kind": "agent",
+      "category": "vehicle",
+      "gt_index": 11,
+      "camera": "cam_f0",
+      "role": "lead",
+      "relation": {
+        "lon": 21.769555614597596,
+        "lat": -0.32000104410629565,
+        "lane": "ours",
+        "motion": "same",
+        "speed": 5.352484283022231,
+        "relative_heading": 0.0035000060820791212,
+        "distance": 21.786676328442837,
+        "frame": "route"
+      },
+      "distance": 21.786676328442837,
+      "bbox": [
+        538.89,
+        284.97,
+        655.15,
+        427.68
+      ],
+      "occluded_fraction": 0.0,
+      "crossing_from": null,
+      "priority": 0,
+      "item_id": "cam_f0_0",
+      "crop": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage3_instance_pilot/test/shards/rank_0000/plan/crops/e9bb1dab462252e9/cam_f0_0.jpg",
+      "crop_box_original": [
+        872,
+        423,
+        1125,
+        722
+      ],
+      "outline": [
+        [
+          [
+            538.9000244140625,
+            285.0
+          ],
+          [
+            538.9000244140625,
+            427.70001220703125
+          ],
+          [
+            655.2000122070312,
+            427.70001220703125
+          ],
+          [
+            655.2000122070312,
+            285.0
+          ],
+          [
+            538.9000244140625,
+            285.0
+          ]
+        ]
+      ],
+      "grounded": true,
+      "mask_row": 0
+    },
+    {
+      "kind": "lane_lines",
+      "category": "lane_lines",
+      "camera": "cam_f0",
+      "role": "lane_lines",
+      "distance": 10.0,
+      "map_ids": [
+        "47672",
+        "47328"
+      ],
+      "priority": 2,
+      "item_id": "cam_f0_1",
+      "outline": [
+        [
+          [
+            984.2999877929688,
+            672.0
+          ],
+          [
+            1039.5,
+            672.0
+          ],
+          [
+            659.5999755859375,
+            394.79998779296875
+          ],
+          [
+            655.2000122070312,
+            391.6000061035156
+          ],
+          [
+            655.2000122070312,
+            401.5
+          ],
+          [
+            984.2999877929688,
+            672.0
+          ]
+        ],
+        [
+          [
+            344.79998779296875,
+            672.0
+          ],
+          [
+            442.29998779296875,
+            508.8999938964844
+          ],
+          [
+            442.3999938964844,
+            508.79998779296875
+          ],
+          [
+            504.1000061035156,
+            397.29998779296875
+          ],
+          [
+            521.7999877929688,
+            366.8999938964844
+          ],
+          [
+            526.7000122070312,
+            359.6000061035156
+          ],
+          [
+            519.5,
+            359.6000061035156
+          ],
+          [
+            513.4000244140625,
+            366.8999938964844
+          ],
+          [
+            513.4000244140625,
+            366.8999938964844
+          ],
+          [
+            491.0,
+            397.29998779296875
+          ],
+          [
+            491.0,
+            397.29998779296875
+          ],
+          [
+            412.1000061035156,
+            509.0
+          ],
+          [
+            289.5,
+            672.0
+          ],
+          [
+            344.79998779296875,
+            672.0
+          ]
+        ]
+      ],
+      "grounded": true,
+      "mask_row": 1
+    },
+    {
+      "kind": "agent",
+      "category": "vehicle",
+      "gt_index": 0,
+      "camera": "cam_b0",
+      "role": "following",
+      "relation": {
+        "lon": -18.044244605320586,
+        "lat": 0.34174974232713,
+        "lane": "ours",
+        "motion": "same",
+        "speed": 7.031170741775512,
+        "relative_heading": 0.0012453267409586743,
+        "distance": 18.047480607082576,
+        "frame": "ego"
+      },
+      "distance": 18.047480607082576,
+      "bbox": [
+        504.26,
+        378.72,
+        625.72,
+        487.28
+      ],
+      "occluded_fraction": 0.0,
+      "crossing_from": null,
+      "priority": 2,
+      "item_id": "cam_b0_0",
+      "crop": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage3_instance_pilot/test/shards/rank_0000/plan/crops/e9bb1dab462252e9/cam_b0_0.jpg",
+      "crop_box_original": [
+        812,
+        582,
+        1077,
+        810
+      ],
+      "outline": [
+        [
+          [
+            504.29998779296875,
+            378.70001220703125
+          ],
+          [
+            504.29998779296875,
+            487.29998779296875
+          ],
+          [
+            625.7000122070312,
+            487.29998779296875
+          ],
+          [
+            625.7000122070312,
+            378.70001220703125
+          ],
+          [
+            504.29998779296875,
+            378.70001220703125
+          ]
+        ]
+      ],
+      "grounded": true,
+      "mask_row": 2
+    },
+    {
+      "kind": "agent",
+      "category": "vehicle",
+      "gt_index": 12,
+      "camera": "cam_b0",
+      "role": "nearby",
+      "relation": {
+        "lon": -11.285694592751973,
+        "lat": 3.868585369146615,
+        "lane": "left",
+        "motion": "oncoming",
+        "speed": 10.362472919144349,
+        "relative_heading": 3.1341026844782798,
+        "distance": 11.930333406877043,
+        "frame": "ego"
+      },
+      "distance": 11.930333406877043,
+      "bbox": [
+        728.88,
+        337.53,
+        1133.92,
+        600.64
+      ],
+      "occluded_fraction": 0.0,
+      "crossing_from": null,
+      "priority": 4,
+      "item_id": "cam_b0_1",
+      "crop": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage3_instance_pilot/test/shards/rank_0000/plan/crops/e9bb1dab462252e9/cam_b0_1.jpg",
+      "crop_box_original": [
+        1117,
+        479,
+        1920,
+        1029
+      ],
+      "outline": [
+        [
+          [
+            728.9000244140625,
+            337.5
+          ],
+          [
+            728.9000244140625,
+            600.5999755859375
+          ],
+          [
+            1133.9000244140625,
+            600.5999755859375
+          ],
+          [
+            1133.9000244140625,
+            337.5
+          ],
+          [
+            728.9000244140625,
+            337.5
+          ]
+        ]
+      ],
+      "grounded": true,
+      "mask_row": 3
+    }
+  ],
+  "rejected": {
+    "stop_line_hidden_cam_f0": 1
+  }
+}

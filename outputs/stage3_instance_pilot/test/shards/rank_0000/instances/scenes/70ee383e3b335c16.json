@@ -1,0 +1,195 @@
+{
+  "schema": "stage3_instances_v1",
+  "policy": "stage3_instance_v1",
+  "token": "70ee383e3b335c16",
+  "input_hash": "88cdde5a00b272237ab2cd0cd0d89fadf6d97957f0794359fa5195dbaef2fd83",
+  "scene_text": {
+    "cam_f0": {
+      "text": "the lane lines of our lane",
+      "categories": [
+        "lane_lines"
+      ],
+      "items": [
+        {
+          "text": "the lane lines of our lane",
+          "kind": "lane_lines",
+          "category": "lane_lines",
+          "role": "lane_lines",
+          "grounded": true,
+          "item_id": "cam_f0_0",
+          "distance": 10.0,
+          "gt_index": null,
+          "map_ids": [
+            "18505"
+          ],
+          "attributes": null,
+          "outline": [
+            [
+              [
+                693.5,
+                429.29998779296875
+              ],
+              [
+                1148.0,
+                596.7000122070312
+              ],
+              [
+                1148.0,
+                578.7000122070312
+              ],
+              [
+                713.5999755859375,
+                429.29998779296875
+              ],
+              [
+                511.3999938964844,
+                359.70001220703125
+              ],
+              [
+                504.1000061035156,
+                359.6000061035156
+              ],
+              [
+                693.5,
+                429.29998779296875
+              ]
+            ],
+            [
+              [
+                4.800000190734863,
+                672.0
+              ],
+              [
+                365.20001220703125,
+                357.20001220703125
+              ],
+              [
+                357.8999938964844,
+                357.1000061035156
+              ],
+              [
+                0.0,
+                619.5
+              ],
+              [
+                0.0,
+                672.0
+              ],
+              [
+                4.800000190734863,
+                672.0
+              ]
+            ]
+          ],
+          "bbox": null
+        }
+      ]
+    },
+    "cam_b0": {
+      "text": "the pedestrian on the left, in the next lane",
+      "categories": [
+        "pedestrian"
+      ],
+      "items": [
+        {
+          "text": "the pedestrian on the left, in the next lane",
+          "kind": "agent",
+          "category": "pedestrian",
+          "role": "nearby",
+          "grounded": true,
+          "item_id": "cam_b0_0",
+          "distance": 18.13,
+          "gt_index": 4,
+          "map_ids": null,
+          "attributes": {
+            "visible": true,
+            "color": "unknown",
+            "type": "pedestrian"
+          },
+          "outline": [
+            [
+              [
+                280.6000061035156,
+                395.20001220703125
+              ],
+              [
+                280.6000061035156,
+                493.3999938964844
+              ],
+              [
+                335.5,
+                493.3999938964844
+              ],
+              [
+                335.5,
+                395.20001220703125
+              ],
+              [
+                280.6000061035156,
+                395.20001220703125
+              ]
+            ]
+          ],
+          "bbox": [
+            280.55,
+            395.19,
+            335.46,
+            493.37
+          ]
+        }
+      ]
+    },
+    "cam_l0": {
+      "text": "the stop line in front of us",
+      "categories": [
+        "stop_line"
+      ],
+      "items": [
+        {
+          "text": "the stop line in front of us",
+          "kind": "stop_line",
+          "category": "stop_line",
+          "role": "stop_line",
+          "grounded": true,
+          "item_id": "cam_l0_0",
+          "distance": 3.53,
+          "gt_index": null,
+          "map_ids": [
+            "18256"
+          ],
+          "attributes": null,
+          "outline": [
+            [
+              [
+                0.0,
+                672.0
+              ],
+              [
+                806.0,
+                672.0
+              ],
+              [
+                202.0,
+                494.70001220703125
+              ],
+              [
+                0.0,
+                516.9000244140625
+              ],
+              [
+                0.0,
+                672.0
+              ]
+            ]
+          ],
+          "bbox": null
+        }
+      ]
+    },
+    "cam_r0": {
+      "text": "",
+      "categories": [],
+      "items": []
+    }
+  }
+}

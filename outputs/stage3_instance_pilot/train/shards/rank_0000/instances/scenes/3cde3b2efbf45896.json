@@ -1,0 +1,378 @@
+{
+  "schema": "stage3_instances_v1",
+  "policy": "stage3_instance_v1",
+  "token": "3cde3b2efbf45896",
+  "input_hash": "6db47995a8d8c1472278e3581e43a6092887f421c7c139bdeeea2d6db50d8bdd",
+  "scene_text": {
+    "cam_f0": {
+      "text": "the black SUV in the center, in our lane",
+      "categories": [
+        "vehicle"
+      ],
+      "items": [
+        {
+          "text": "the black SUV in the center, in our lane",
+          "kind": "agent",
+          "category": "vehicle",
+          "role": "lead",
+          "grounded": true,
+          "item_id": "cam_f0_0",
+          "distance": 16.37,
+          "gt_index": 1,
+          "map_ids": null,
+          "attributes": {
+            "visible": true,
+            "color": "black",
+            "type": "SUV"
+          },
+          "outline": [
+            [
+              [
+                486.0,
+                325.0
+              ],
+              [
+                486.0,
+                471.5
+              ],
+              [
+                637.0,
+                471.5
+              ],
+              [
+                637.0,
+                325.0
+              ],
+              [
+                486.0,
+                325.0
+              ]
+            ]
+          ],
+          "bbox": [
+            485.99,
+            325.03,
+            637.0,
+            471.46
+          ]
+        },
+        {
+          "text": "the lane lines of our lane",
+          "kind": "lane_lines",
+          "category": "lane_lines",
+          "role": "lane_lines",
+          "grounded": true,
+          "item_id": "cam_f0_1",
+          "distance": 10.0,
+          "gt_index": null,
+          "map_ids": [
+            "48623"
+          ],
+          "attributes": null,
+          "outline": [
+            [
+              [
+                356.0,
+                672.0
+              ],
+              [
+                390.8999938964844,
+                672.0
+              ],
+              [
+                497.29998779296875,
+                471.5
+              ],
+              [
+                486.0,
+                471.5
+              ],
+              [
+                486.0,
+                466.3999938964844
+              ],
+              [
+                356.0,
+                672.0
+              ]
+            ],
+            [
+              [
+                778.0,
+                672.0
+              ],
+              [
+                812.9000244140625,
+                672.0
+              ],
+              [
+                637.0,
+                426.6000061035156
+              ],
+              [
+                637.0,
+                442.70001220703125
+              ],
+              [
+                778.0,
+                672.0
+              ]
+            ]
+          ],
+          "bbox": null
+        },
+        {
+          "text": "the black SUV on the right, at the side of the road",
+          "kind": "agent",
+          "category": "vehicle",
+          "role": "nearby",
+          "grounded": true,
+          "item_id": "cam_f0_2",
+          "distance": 26.17,
+          "gt_index": 23,
+          "map_ids": null,
+          "attributes": {
+            "visible": true,
+            "color": "black",
+            "type": "SUV"
+          },
+          "outline": [
+            [
+              [
+                850.4000244140625,
+                332.0
+              ],
+              [
+                850.4000244140625,
+                423.6000061035156
+              ],
+              [
+                1120.0999755859375,
+                423.6000061035156
+              ],
+              [
+                1120.0999755859375,
+                332.0
+              ],
+              [
+                850.4000244140625,
+                332.0
+              ]
+            ]
+          ],
+          "bbox": [
+            850.4,
+            332.05,
+            1120.11,
+            423.65
+          ]
+        }
+      ]
+    },
+    "cam_b0": {
+      "text": "the gray SUV on the left, at the side of the road",
+      "categories": [
+        "vehicle"
+      ],
+      "items": [
+        {
+          "text": "the gray SUV on the left, at the side of the road",
+          "kind": "agent",
+          "category": "vehicle",
+          "role": "nearby",
+          "grounded": true,
+          "item_id": "cam_b0_0",
+          "distance": 24.51,
+          "gt_index": 10,
+          "map_ids": null,
+          "attributes": {
+            "visible": true,
+            "color": "gray",
+            "type": "SUV"
+          },
+          "outline": [
+            [
+              [
+                80.80000305175781,
+                366.70001220703125
+              ],
+              [
+                80.80000305175781,
+                439.6000061035156
+              ],
+              [
+                304.20001220703125,
+                439.6000061035156
+              ],
+              [
+                304.20001220703125,
+                366.70001220703125
+              ],
+              [
+                80.80000305175781,
+                366.70001220703125
+              ]
+            ]
+          ],
+          "bbox": [
+            80.75,
+            366.66,
+            304.19,
+            439.62
+          ]
+        }
+      ]
+    },
+    "cam_l0": {
+      "text": "",
+      "categories": [],
+      "items": []
+    },
+    "cam_r0": {
+      "text": "the silver SUV on the right, at the side of the road",
+      "categories": [
+        "vehicle"
+      ],
+      "items": [
+        {
+          "text": "the silver SUV on the right, at the side of the road",
+          "kind": "agent",
+          "category": "vehicle",
+          "role": "nearby",
+          "grounded": true,
+          "item_id": "cam_r0_0",
+          "distance": 11.41,
+          "gt_index": 17,
+          "map_ids": null,
+          "attributes": {
+            "visible": true,
+            "color": "silver",
+            "type": "SUV"
+          },
+          "outline": [
+            [
+              [
+                607.4000244140625,
+                373.79998779296875
+              ],
+              [
+                607.4000244140625,
+                608.5
+              ],
+              [
+                950.4000244140625,
+                608.5
+              ],
+              [
+                950.4000244140625,
+                373.79998779296875
+              ],
+              [
+                607.4000244140625,
+                373.79998779296875
+              ]
+            ]
+          ],
+          "bbox": [
+            607.4,
+            373.8,
+            950.38,
+            608.48
+          ]
+        },
+        {
+          "text": "the gray SUV on the right, at the side of the road",
+          "kind": "agent",
+          "category": "vehicle",
+          "role": "nearby",
+          "grounded": true,
+          "item_id": "cam_r0_1",
+          "distance": 22.52,
+          "gt_index": 19,
+          "map_ids": null,
+          "attributes": {
+            "visible": true,
+            "color": "gray",
+            "type": "SUV"
+          },
+          "outline": [
+            [
+              [
+                1148.0,
+                386.6000061035156
+              ],
+              [
+                1092.5999755859375,
+                386.6000061035156
+              ],
+              [
+                1092.5999755859375,
+                503.5
+              ],
+              [
+                1148.0,
+                503.5
+              ],
+              [
+                1148.0,
+                386.6000061035156
+              ]
+            ]
+          ],
+          "bbox": [
+            1092.63,
+            386.57,
+            1148.0,
+            503.49
+          ]
+        },
+        {
+          "text": "the gray car on the right, at the side of the road",
+          "kind": "agent",
+          "category": "vehicle",
+          "role": "nearby",
+          "grounded": true,
+          "item_id": "cam_r0_2",
+          "distance": 22.86,
+          "gt_index": 35,
+          "map_ids": null,
+          "attributes": {
+            "visible": true,
+            "color": "gray",
+            "type": "car"
+          },
+          "outline": [
+            [
+              [
+                931.0999755859375,
+                393.20001220703125
+              ],
+              [
+                931.0999755859375,
+                494.0
+              ],
+              [
+                1070.0999755859375,
+                494.0
+              ],
+              [
+                1070.0999755859375,
+                393.20001220703125
+              ],
+              [
+                931.0999755859375,
+                393.20001220703125
+              ]
+            ]
+          ],
+          "bbox": [
+            931.12,
+            393.2,
+            1070.06,
+            494.03
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,497 @@
+{
+  "train": {
+    "scenes": 120,
+    "items_per_camera": {
+      "cam_f0": {
+        "0": 4,
+        "1": 21,
+        "2": 32,
+        "3": 63
+      },
+      "cam_b0": {
+        "0": 30,
+        "1": 31,
+        "2": 19,
+        "3": 40
+      },
+      "cam_l0": {
+        "0": 31,
+        "1": 31,
+        "2": 32,
+        "3": 26
+      },
+      "cam_r0": {
+        "0": 46,
+        "1": 27,
+        "2": 15,
+        "3": 32
+      }
+    },
+    "roles": {
+      "nearby": 316,
+      "adjacent": 125,
+      "lane_lines": 83,
+      "lead": 56,
+      "stop_line": 45,
+      "following": 43,
+      "crosswalk": 38,
+      "beside": 35,
+      "traffic_light_red": 16,
+      "vru": 16,
+      "oncoming": 6,
+      "cone": 3,
+      "in_lane": 3,
+      "crossing": 2,
+      "traffic_light": 2
+    },
+    "kinds": {
+      "vehicle": 468,
+      "pedestrian": 131,
+      "lane_lines": 83,
+      "stop_line": 45,
+      "crosswalk": 38,
+      "traffic_light": 18,
+      "traffic_cone": 3,
+      "bicycle": 3
+    },
+    "words_per_sentence": {
+      "mean": 9.75,
+      "max": 14
+    },
+    "label_patches": {
+      "agent": {
+        "median": 160,
+        "max": 1564
+      },
+      "lane_lines": {
+        "median": 103,
+        "max": 232
+      },
+      "stop_line": {
+        "median": 100,
+        "max": 456
+      },
+      "crosswalk": {
+        "median": 465,
+        "max": 1215
+      }
+    },
+    "colors": {
+      "white": 213,
+      "black": 154,
+      "silver": 109,
+      "gray": 98,
+      "unknown": 57,
+      "blue": 41,
+      "orange": 37,
+      "brown": 20,
+      "red": 16,
+      "yellow": 8,
+      "beige": 6,
+      "green": 6
+    },
+    "types": {
+      "car": 241,
+      "SUV": 195,
+      "pedestrian": 178,
+      "pickup truck": 45,
+      "unknown": 39,
+      "van": 34,
+      "truck": 20,
+      "bus": 4,
+      "traffic cone": 4,
+      "motorcycle": 3,
+      "bicycle": 2
+    },
+    "stage_summaries": {
+      "context": {
+        "scenes": 120,
+        "reused": 0,
+        "route": 120,
+        "written": 120
+      },
+      "plan": {
+        "scenes": 120,
+        "written": 120,
+        "items_vehicle": 546,
+        "grounded_items": 920,
+        "items_traffic_light": 22,
+        "items_lane_lines": 85,
+        "scenes_without_route": 1,
+        "items_pedestrian": 210,
+        "items_stop_line": 49,
+        "items_crosswalk": 43,
+        "items_traffic_cone": 4,
+        "items_bicycle": 5
+      },
+      "attributes": {
+        "scenes": 120,
+        "described_scenes": 120,
+        "reused_scenes": 0,
+        "ok": 765,
+        "invisible": 47,
+        "type_incompatible": 41
+      },
+      "instances": {
+        "scenes": 120,
+        "rendered": 120,
+        "dropped_duplicate": 1,
+        "dropped_over_limit": 127,
+        "kept_vehicle": 468,
+        "kept_grounded": 749,
+        "kept_traffic_light": 18,
+        "kept_lane_lines": 83,
+        "empty_cameras": 111,
+        "kept_pedestrian": 131,
+        "kept_stop_line": 45,
+        "kept_crosswalk": 38,
+        "dropped_not_visible": 47,
+        "kept_traffic_cone": 3,
+        "kept_bicycle": 3
+      }
+    },
+    "plan_rejected": {
+      "occluded": 558,
+      "not_in_any_camera": 452,
+      "stop_line_hidden_cam_f0": 30,
+      "stop_line_hidden_cam_l0": 14,
+      "too_small": 11,
+      "crosswalk_hidden_cam_f0": 10,
+      "lane_lines_hidden_cam_f0": 6,
+      "crosswalk_hidden_cam_r0": 5,
+      "stop_line_hidden_cam_r0": 5,
+      "crosswalk_hidden_cam_l0": 4,
+      "lane_lines_hidden_cam_l0": 4,
+      "lane_lines_hidden_cam_r0": 2
+    },
+    "routes": {
+      "with_route": 119,
+      "without_route": 1
+    },
+    "consistency_problems": {},
+    "audit_suggestions": {
+      "traffic_light_red": [
+        "cdec196208d65e81",
+        "862d9dc396df5812",
+        "a7ebbf047f015b46"
+      ],
+      "nearby": [
+        "cdec196208d65e81",
+        "076aafe7a1b65ccd",
+        "f1a05680e8195ff2"
+      ],
+      "beside": [
+        "cdec196208d65e81",
+        "076aafe7a1b65ccd",
+        "c9c4642c90ae5df6"
+      ],
+      "stop_line": [
+        "076aafe7a1b65ccd",
+        "0ea47b4586de59a9",
+        "3295a8a6ddf152ae"
+      ],
+      "crosswalk": [
+        "076aafe7a1b65ccd",
+        "f1a05680e8195ff2",
+        "0ea47b4586de59a9"
+      ],
+      "vru": [
+        "f1a05680e8195ff2",
+        "3295a8a6ddf152ae",
+        "4192513dc7b6518c"
+      ],
+      "cone": [
+        "4192513dc7b6518c",
+        "9e9116a8ae515d64"
+      ],
+      "crossing": [
+        "79282ef4b96d51aa",
+        "2b03708a95a157e0"
+      ],
+      "oncoming": [
+        "bf4cf74d095d50a6",
+        "ce0049b7c1f75e71",
+        "08222ee927fe5790"
+      ],
+      "traffic_light": [
+        "15c29fbe64bb5e8d",
+        "4fa8b0610e435275"
+      ]
+    },
+    "random_sentences": [
+      "5a751ea37fa155d1 cam_b0: the white car on the left, beside us",
+      "c756455c4bb45d7b cam_l0: the silver car in the center, at the side of the road",
+      "6b83b1d356b95ba0 cam_l0: the white car on the left, beside us",
+      "3295a8a6ddf152ae cam_f0: the stop line in front of us",
+      "ce0049b7c1f75e71 cam_r0: the white SUV in the center, oncoming",
+      "1a0b0be1750b53d9 cam_f0: the stop line in front of us",
+      "84e0560b9f5a5af1 cam_b0: the white car on the left, at the side of the road",
+      "15c29fbe64bb5e8d cam_r0: the stop line in front of us",
+      "9e9116a8ae515d64 cam_l0: the white car on the right, at the side of the road",
+      "d0fbb1a2a6135728 cam_f0: the stop line in front of us",
+      "653c3343e5e551c0 cam_f0: the stop line in front of us",
+      "2bd67db1bbb55ed7 cam_b0: the silver car on the left, at the side of the road",
+      "d6e6ab2532535021 cam_f0: the gray car in the center, in our lane",
+      "85e601304d3f5e9d cam_l0: the pedestrian in blue on the left, at the side of the road",
+      "0f291f5478a15859 cam_l0: the black SUV in the center, in the next lane  [text only]",
+      "553bb326e5435775 cam_f0: the white SUV on the right, in the next lane",
+      "0f291f5478a15859 cam_l0: the black car on the left, beside us",
+      "c756455c4bb45d7b cam_f0: the silver car on the left, at the side of the road",
+      "5a912018da8b516c cam_l0: the white van on the left, in the next lane  [text only]",
+      "8af0c72f38795ca3 cam_r0: the pedestrian in blue in the center, at the side of the road",
+      "0b73ecf845c4520c cam_r0: the stop line in front of us",
+      "790354bbbd735a02 cam_r0: the pedestrian in white in the center, at the side of the road",
+      "6b0d8096ea8e52e9 cam_b0: the black car on the left, at the side of the road",
+      "8d297a759d8253cf cam_f0: the crosswalk in front of us",
+      "862d9dc396df5812 cam_b0: the gray SUV on the right, in the next lane"
+    ]
+  },
+  "test": {
+    "scenes": 100,
+    "items_per_camera": {
+      "cam_f0": {
+        "0": 2,
+        "1": 14,
+        "2": 23,
+        "3": 61
+      },
+      "cam_b0": {
+        "0": 26,
+        "1": 19,
+        "2": 21,
+        "3": 34
+      },
+      "cam_l0": {
+        "0": 33,
+        "1": 31,
+        "2": 17,
+        "3": 19
+      },
+      "cam_r0": {
+        "0": 46,
+        "1": 27,
+        "2": 10,
+        "3": 17
+      }
+    },
+    "roles": {
+      "nearby": 236,
+      "adjacent": 94,
+      "lane_lines": 74,
+      "lead": 47,
+      "stop_line": 37,
+      "following": 31,
+      "crosswalk": 27,
+      "beside": 21,
+      "vru": 19,
+      "traffic_light_red": 18,
+      "traffic_light": 9,
+      "cone": 5,
+      "oncoming": 4,
+      "crossing": 2,
+      "in_lane": 2
+    },
+    "kinds": {
+      "vehicle": 369,
+      "pedestrian": 80,
+      "lane_lines": 74,
+      "stop_line": 37,
+      "traffic_light": 27,
+      "crosswalk": 27,
+      "bicycle": 7,
+      "traffic_cone": 5
+    },
+    "words_per_sentence": {
+      "mean": 9.59,
+      "max": 14
+    },
+    "label_patches": {
+      "lane_lines": {
+        "median": 137,
+        "max": 239
+      },
+      "agent": {
+        "median": 173,
+        "max": 1568
+      },
+      "stop_line": {
+        "median": 161,
+        "max": 482
+      },
+      "crosswalk": {
+        "median": 358,
+        "max": 984
+      }
+    },
+    "colors": {
+      "white": 128,
+      "black": 127,
+      "gray": 86,
+      "silver": 84,
+      "unknown": 55,
+      "blue": 38,
+      "red": 22,
+      "brown": 17,
+      "orange": 16,
+      "beige": 15,
+      "yellow": 7,
+      "green": 4
+    },
+    "types": {
+      "car": 208,
+      "pedestrian": 125,
+      "SUV": 122,
+      "pickup truck": 41,
+      "van": 36,
+      "unknown": 30,
+      "truck": 13,
+      "bus": 8,
+      "traffic cone": 8,
+      "motorcycle": 4,
+      "bicycle": 4
+    },
+    "stage_summaries": {
+      "context": {
+        "scenes": 100,
+        "reused": 0,
+        "route": 100,
+        "written": 100
+      },
+      "plan": {
+        "scenes": 100,
+        "written": 100,
+        "items_lane_lines": 80,
+        "grounded_items": 745,
+        "items_vehicle": 434,
+        "items_pedestrian": 150,
+        "scenes_without_route": 0,
+        "items_traffic_light": 30,
+        "items_stop_line": 43,
+        "items_crosswalk": 38,
+        "items_traffic_cone": 7,
+        "items_bicycle": 8
+      },
+      "attributes": {
+        "scenes": 100,
+        "described_scenes": 100,
+        "reused_scenes": 0,
+        "ok": 599,
+        "invisible": 48,
+        "type_incompatible": 31
+      },
+      "instances": {
+        "scenes": 100,
+        "rendered": 100,
+        "dropped_duplicate": 3,
+        "dropped_over_limit": 113,
+        "kept_lane_lines": 74,
+        "kept_grounded": 584,
+        "empty_cameras": 107,
+        "dropped_not_visible": 48,
+        "kept_vehicle": 369,
+        "kept_traffic_light": 27,
+        "kept_stop_line": 37,
+        "kept_pedestrian": 80,
+        "kept_crosswalk": 27,
+        "kept_traffic_cone": 5,
+        "kept_bicycle": 7
+      }
+    },
+    "plan_rejected": {
+      "occluded": 341,
+      "not_in_any_camera": 251,
+      "stop_line_hidden_cam_f0": 26,
+      "stop_line_hidden_cam_r0": 11,
+      "crosswalk_hidden_cam_f0": 11,
+      "stop_line_hidden_cam_l0": 9,
+      "crosswalk_hidden_cam_l0": 7,
+      "lane_lines_hidden_cam_f0": 5,
+      "too_small": 4,
+      "crosswalk_hidden_cam_r0": 3,
+      "lane_lines_hidden_cam_r0": 3,
+      "lane_lines_hidden_cam_l0": 2
+    },
+    "routes": {
+      "with_route": 100
+    },
+    "consistency_problems": {},
+    "audit_suggestions": {
+      "nearby": [
+        "ae5377e5ebf65f45",
+        "7ef36a2139b45d9a",
+        "918d03455301591b"
+      ],
+      "traffic_light_red": [
+        "7ef36a2139b45d9a",
+        "7900996a42f35f67",
+        "c2790319345a58cf"
+      ],
+      "stop_line": [
+        "7ef36a2139b45d9a",
+        "918d03455301591b",
+        "1a1f73871bea5afa"
+      ],
+      "oncoming": [
+        "7ef36a2139b45d9a",
+        "3c542be991515ccd",
+        "baf1301534ea54d6"
+      ],
+      "beside": [
+        "7ef36a2139b45d9a",
+        "c159f0c331075464",
+        "5e9e8c31277d5edc"
+      ],
+      "crosswalk": [
+        "918d03455301591b",
+        "7900996a42f35f67",
+        "c20652fc6a78529b"
+      ],
+      "cone": [
+        "b6968f154bfb5a5d",
+        "18375bbfe4c85ae3",
+        "baf1301534ea54d6"
+      ],
+      "traffic_light": [
+        "697c73f258ef5745",
+        "e29b049a9bf3509c",
+        "af8dc1b01446555a"
+      ],
+      "crossing": [
+        "e29b049a9bf3509c",
+        "2eb015a011ac5fa2"
+      ],
+      "vru": [
+        "53d3787367c75240",
+        "c159f0c331075464",
+        "6233d1b3e62a5772"
+      ]
+    },
+    "random_sentences": [
+      "e6db7be94a175aec cam_f0: the nearer black SUV on the left, in the next lane",
+      "b1a1b2a18fa4504f cam_l0: the stop line in front of us",
+      "cfb9e8d047515e4c cam_l0: the black car on the left, at the side of the road",
+      "af8dc1b01446555a cam_b0: the gray pickup truck on the right, at the side of the road",
+      "247ba5f9646c5528 cam_r0: the pedestrian in yellow in the center, at the side of the road",
+      "98867b3fc7a95c24 cam_f0: the silver car on the right, at the side of the road",
+      "b1a1b2a18fa4504f cam_r0: the white car on the right, in the next lane",
+      "190808cc16cc53af cam_r0: the black SUV on the left, beside us",
+      "80a4b14aef3f5a52 cam_r0: the nearer pedestrian in blue in the center, at the side of the road",
+      "e6db7be94a175aec cam_r0: the crosswalk in front of us",
+      "9fe3ed9455355edb cam_r0: the gray SUV on the left, in the next lane",
+      "53d3787367c75240 cam_r0: the farther pedestrian in blue on the right, in the next lane",
+      "baf1301534ea54d6 cam_f0: the lane lines of our lane",
+      "7cdcc814be255d9f cam_l0: the gray car in the center, at the side of the road",
+      "431ae29947e95c26 cam_b0: the red SUV on the right, at the side of the road",
+      "8eefb96f7e5f598e cam_f0: the traffic light for our lane is not red  [text only]",
+      "3e7bec3b1c4359b6 cam_l0: the gray SUV on the right, at the side of the road",
+      "3c542be991515ccd cam_f0: the lane lines of our lane",
+      "0a0d91d55b0757f8 cam_f0: the lane lines of our lane",
+      "918d03455301591b cam_f0: the crosswalk in front of us",
+      "3d776c43acfd5327 cam_l0: the stop line in front of us",
+      "2c978eb63fec5d2a cam_b0: the nearer black car on the right, at the side of the road",
+      "ae5377e5ebf65f45 cam_l0: the white car in the center, at the side of the road",
+      "3e429827093e538d cam_f0: the white car in the center, in the next lane",
+      "af8dc1b01446555a cam_l0: the white pickup truck on the right, at the side of the road"
+    ]
+  }
+}

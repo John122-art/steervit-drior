@@ -1,0 +1,83 @@
+{
+  "policy": "stage3_instance_v1",
+  "model": "/mnt/zhaozc_workspace/project/LQH/Qwen-drive/checkpoint",
+  "model_weight_bytes": 9078630512,
+  "model_config_sha256": "91e765ca4a46e63b364b7e79f16bdb2b5d0e271684c566c03ae87d259c2d9ff8",
+  "source_hashes": {
+    "/mnt/zhaozc_workspace/project/LQH/Qwen-drive/Qwen-Drive-1.0-main/src/qwen_drive/__init__.py": "a652d3c63ed876d27245cad0ad07ec25d060f5c8d59b37de6764d0625ee15d9a",
+    "/mnt/zhaozc_workspace/project/LQH/Qwen-drive/Qwen-Drive-1.0-main/src/qwen_drive/benchmarks.py": "f4b0deb629ea32f768b0365f5b2000b4f1663ef1a56cc782bb62dc8e8d2f1990",
+    "/mnt/zhaozc_workspace/project/LQH/Qwen-drive/Qwen-Drive-1.0-main/src/qwen_drive/configuration_qwen_drive.py": "106ab3cd0eec8adac209321df36f13ab33d1f99f67ecdfc461367cc2f658d961",
+    "/mnt/zhaozc_workspace/project/LQH/Qwen-drive/Qwen-Drive-1.0-main/src/qwen_drive/images.py": "006ac155a799935801906e4dc1d73acf5a144130870029ef94d6dea5937f71e6",
+    "/mnt/zhaozc_workspace/project/LQH/Qwen-drive/Qwen-Drive-1.0-main/src/qwen_drive/metrics.py": "321fb08f58baebd78e5c6a735073308dd9fb15f60f0a362868a44858bf3f8427",
+    "/mnt/zhaozc_workspace/project/LQH/Qwen-drive/Qwen-Drive-1.0-main/src/qwen_drive/modeling_qwen_drive.py": "dd2dc3bad492f9f53030f66495b2159093d5565a040459fa5308ebe8c812a18c",
+    "/mnt/zhaozc_workspace/project/LQH/Qwen-drive/Qwen-Drive-1.0-main/src/qwen_drive/planning_expert.py": "2d9330d71d4b7930ffedfdc2d842ece5d83d94d65960e26ea1473c80931c4ce1",
+    "/mnt/zhaozc_workspace/project/LQH/Qwen-drive/Qwen-Drive-1.0-main/src/qwen_drive/scene.py": "653519b847f2c1561352752277618a5b3625f24d67434ca0845d2a66c372e8d6",
+    "/mnt/zhaozc_workspace/project/LQH/Qwen-drive/Qwen-Drive-1.0-main/src/qwen_drive/trajectory.py": "b62f3c678f5243d2b3339d2caa3581e753a45ae074a82ad23a995ce36f013bd5",
+    "/mnt/zhaozc_workspace/project/LQH/Qwen-drive/Qwen-Drive-1.0-main/src/qwen_drive/visualize.py": "9f7579f5c57c98d4c5e80ffa5a49301de8795f4aaff08bcf420c166fe1346b85"
+  },
+  "backend_source_hashes": {
+    "data.py": "e130311fbc9ccdd3367474a99e7e798636668bcc40aa250becbbd905a56d7b49",
+    "prompts.py": "2879987aa7f82997f9c04a58700ddd469cccaa817a990a152f057d1f46384d8c",
+    "cache.py": "554d149e8a76e0a79e3047f719caf70c052a906ff0c275b52b440ffbddd46b60",
+    "__init__.py": "1bac145538a8b24c322198b187d7a56200e8963a1b81ca4bb2aaae146965daa0",
+    "backend.py": "4d833dc60e65be2cc2ca9905857a534da818e68693902b59afd8e63cb81600fd"
+  },
+  "pipeline_source_hashes": {
+    "build_dataset.py": "070f58ed2007b2c97c10ff4aaf83ee1b6d9b1e72f3de50cfea2d4f20fb6b3ea7",
+    "describe.py": "39867fa67d59acaf70e8c42a6c8cd35fc5b108ddec6c981d1a9d1276147401e0",
+    "extract_context.py": "a475c16d0c5fb32271b1e9e75c3d96a5ae075b0445d6892db542f12bea885fc1",
+    "instance_geometry.py": "4576af6298f43688301a3d0f9c7754e6fe944252ba67411157c38df1114fc862",
+    "instance_policy.py": "f835b2a4d2bba6216f1f597ffbb3d56dc47cf3b7d776229bcbf6fc01460b11db",
+    "merge.py": "0d623c692595e2bb06f94bd6265fd9c28653f7d3ce00201c65885f3867f4b7a9",
+    "plan_items.py": "4b503fb183ba02dd61b5385f0be4e00cf07a868ab142001134c112eadb5f0961",
+    "test_instance_policy.py": "aecf0d0ae43fe88b4ca423cb7eb520f8fb05727281fa9f47a40fa41bcfdc0acf",
+    "worker.py": "d480f2f88f99b7dc1dad955ab2107121f680b441f5547bcada109fb5a8b0c86a"
+  },
+  "prompt": "This image is a crop from the {camera_name} camera of a self-driving car.\nThe crop is centred on one {category_word}. Answer only about that {category_word}.\n\nReturn JSON only, no markdown:\n{\"visible\": true, \"color\": \"...\", \"type\": \"...\"}\n\nvisible: true if the {category_word} at the centre of the crop is clearly visible;\nfalse if it is hidden behind something, cut off, or not there.\ncolor: the main colour of the {category_word} (for a pedestrian or cyclist: the main\nclothing colour), exactly one of: white, black, gray, silver, red, blue, green, yellow,\norange, brown, beige, unknown.\ntype: exactly one of: car, SUV, van, pickup truck, truck, bus, motorcycle, bicycle,\npedestrian, traffic cone, unknown.\nUse \"unknown\" when you are not sure.",
+  "prompt_sha256": "fadc0ee0f3d5c256c8780470d154a8b0653c4fc3fe459e74287c514aa356dd00",
+  "torch": "2.6.0",
+  "transformers": "5.14.1",
+  "dtype": "bfloat16",
+  "attention": "eager",
+  "current_image_pixels": 921600,
+  "decoding": {
+    "do_sample": true,
+    "temperature": 0.01,
+    "top_k": 1,
+    "top_p": 0.001,
+    "repetition_penalty": 1.0,
+    "presence_penalty": 0.0,
+    "max_new_tokens": 128,
+    "seed": 3407
+  },
+  "batch_size": 1,
+  "colors": [
+    "white",
+    "black",
+    "gray",
+    "silver",
+    "red",
+    "blue",
+    "green",
+    "yellow",
+    "orange",
+    "brown",
+    "beige",
+    "unknown"
+  ],
+  "types": [
+    "car",
+    "SUV",
+    "van",
+    "pickup truck",
+    "truck",
+    "bus",
+    "motorcycle",
+    "bicycle",
+    "pedestrian",
+    "traffic cone",
+    "unknown"
+  ],
+  "planner_instantiated": false,
+  "cache_version": "c30c51df80565e88cdad0173e33acfe35b61284511a418e50b67ccef35bd33b5"
+}

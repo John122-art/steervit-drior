@@ -1,0 +1,8 @@
+{
+  "schema": "stage3_context_v1",
+  "scenes": 120,
+  "reused": 0,
+  "route": 120,
+  "written": 120,
+  "metric_cache": "/mnt/zhaozc_workspace/official_DrivoR_clean/data_runtime/official_metric_cache_navtrain_20261005/metric_cache"
+}

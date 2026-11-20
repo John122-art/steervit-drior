@@ -1,0 +1,255 @@
+{
+  "schema": "stage3_instances_v1",
+  "policy": "stage3_instance_v1",
+  "token": "508209397e8f5714",
+  "input_hash": "e2393b7cb717b22bf42f8061fc613c6749f26cd13a83c57dbec29b4e7997a773",
+  "scene_text": {
+    "cam_f0": {
+      "text": "the beige bus in the center, in our lane",
+      "categories": [
+        "vehicle"
+      ],
+      "items": [
+        {
+          "text": "the beige bus in the center, in our lane",
+          "kind": "agent",
+          "category": "vehicle",
+          "role": "lead",
+          "grounded": true,
+          "item_id": "cam_f0_0",
+          "distance": 21.8,
+          "gt_index": 39,
+          "map_ids": null,
+          "attributes": {
+            "visible": true,
+            "color": "beige",
+            "type": "bus"
+          },
+          "outline": [
+            [
+              [
+                513.0,
+                140.39999389648438
+              ],
+              [
+                513.0,
+                456.5
+              ],
+              [
+                711.0,
+                456.5
+              ],
+              [
+                711.0,
+                140.39999389648438
+              ],
+              [
+                513.0,
+                140.39999389648438
+              ]
+            ]
+          ],
+          "bbox": [
+            513.04,
+            140.45,
+            711.02,
+            456.46
+          ]
+        },
+        {
+          "text": "the lane lines of our lane",
+          "kind": "lane_lines",
+          "category": "lane_lines",
+          "role": "lane_lines",
+          "grounded": true,
+          "item_id": "cam_f0_1",
+          "distance": 10.0,
+          "gt_index": null,
+          "map_ids": [
+            "63091"
+          ],
+          "attributes": null,
+          "outline": [
+            [
+              [
+                281.0,
+                672.0
+              ],
+              [
+                370.8999938964844,
+                563.4000244140625
+              ],
+              [
+                334.3999938964844,
+                563.4000244140625
+              ],
+              [
+                227.8000030517578,
+                672.0
+              ],
+              [
+                281.0,
+                672.0
+              ]
+            ],
+            [
+              [
+                513.0,
+                391.70001220703125
+              ],
+              [
+                513.0,
+                381.1000061035156
+              ],
+              [
+                411.70001220703125,
+                484.5
+              ],
+              [
+                411.70001220703125,
+                514.0999755859375
+              ],
+              [
+                513.0,
+                391.70001220703125
+              ]
+            ],
+            [
+              [
+                683.5,
+                456.5
+              ],
+              [
+                663.7999877929688,
+                456.5
+              ],
+              [
+                813.5999755859375,
+                672.0
+              ],
+              [
+                865.2000122070312,
+                672.0
+              ],
+              [
+                683.5,
+                456.5
+              ]
+            ]
+          ],
+          "bbox": null
+        },
+        {
+          "text": "the silver pickup truck on the left, in the next lane",
+          "kind": "agent",
+          "category": "vehicle",
+          "role": "adjacent",
+          "grounded": true,
+          "item_id": "cam_f0_2",
+          "distance": 12.59,
+          "gt_index": 37,
+          "map_ids": null,
+          "attributes": {
+            "visible": true,
+            "color": "silver",
+            "type": "pickup truck"
+          },
+          "outline": [
+            [
+              [
+                25.399999618530273,
+                310.70001220703125
+              ],
+              [
+                25.399999618530273,
+                563.4000244140625
+              ],
+              [
+                411.70001220703125,
+                563.4000244140625
+              ],
+              [
+                411.70001220703125,
+                310.70001220703125
+              ],
+              [
+                25.399999618530273,
+                310.70001220703125
+              ]
+            ]
+          ],
+          "bbox": [
+            25.42,
+            310.66,
+            411.72,
+            563.35
+          ]
+        }
+      ]
+    },
+    "cam_b0": {
+      "text": "",
+      "categories": [],
+      "items": []
+    },
+    "cam_l0": {
+      "text": "the black car on the right, at the side of the road",
+      "categories": [
+        "vehicle"
+      ],
+      "items": [
+        {
+          "text": "the black car on the right, at the side of the road",
+          "kind": "agent",
+          "category": "vehicle",
+          "role": "nearby",
+          "grounded": true,
+          "item_id": "cam_l0_0",
+          "distance": 12.92,
+          "gt_index": 87,
+          "map_ids": null,
+          "attributes": {
+            "visible": true,
+            "color": "black",
+            "type": "car"
+          },
+          "outline": [
+            [
+              [
+                696.5999755859375,
+                369.0
+              ],
+              [
+                696.5999755859375,
+                558.0999755859375
+              ],
+              [
+                1087.0,
+                558.0999755859375
+              ],
+              [
+                1087.0,
+                369.0
+              ],
+              [
+                696.5999755859375,
+                369.0
+              ]
+            ]
+          ],
+          "bbox": [
+            696.59,
+            368.95,
+            1086.96,
+            558.09
+          ]
+        }
+      ]
+    },
+    "cam_r0": {
+      "text": "",
+      "categories": [],
+      "items": []
+    }
+  }
+}

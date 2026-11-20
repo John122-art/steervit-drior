@@ -1,0 +1,500 @@
+{
+  "schema": "stage3_instances_v1",
+  "policy": "stage3_instance_v1",
+  "token": "95005e9d60b05d1d",
+  "input_hash": "9fc4e8c407cac3ec2c0078c3a00dcbb0855046975112d15f3bd4243045123bba",
+  "scene_text": {
+    "cam_f0": {
+      "text": "the nearer pedestrian in yellow on the right, near our lane",
+      "categories": [
+        "pedestrian"
+      ],
+      "items": [
+        {
+          "text": "the nearer pedestrian in yellow on the right, near our lane",
+          "kind": "agent",
+          "category": "pedestrian",
+          "role": "vru",
+          "grounded": true,
+          "item_id": "cam_f0_0",
+          "distance": 13.39,
+          "gt_index": 152,
+          "map_ids": null,
+          "attributes": {
+            "visible": true,
+            "color": "yellow",
+            "type": "pedestrian"
+          },
+          "outline": [
+            [
+              [
+                811.9000244140625,
+                302.8999938964844
+              ],
+              [
+                811.9000244140625,
+                455.1000061035156
+              ],
+              [
+                885.2999877929688,
+                455.1000061035156
+              ],
+              [
+                885.2999877929688,
+                302.8999938964844
+              ],
+              [
+                811.9000244140625,
+                302.8999938964844
+              ]
+            ]
+          ],
+          "bbox": [
+            811.91,
+            302.88,
+            885.26,
+            455.12
+          ]
+        },
+        {
+          "text": "the farther pedestrian in yellow on the right, near our lane",
+          "kind": "agent",
+          "category": "pedestrian",
+          "role": "vru",
+          "grounded": true,
+          "item_id": "cam_f0_1",
+          "distance": 14.29,
+          "gt_index": 184,
+          "map_ids": null,
+          "attributes": {
+            "visible": true,
+            "color": "yellow",
+            "type": "pedestrian"
+          },
+          "outline": [
+            [
+              [
+                845.9000244140625,
+                303.3999938964844
+              ],
+              [
+                845.9000244140625,
+                447.0
+              ],
+              [
+                915.4000244140625,
+                447.0
+              ],
+              [
+                915.4000244140625,
+                303.3999938964844
+              ],
+              [
+                845.9000244140625,
+                303.3999938964844
+              ]
+            ]
+          ],
+          "bbox": [
+            845.92,
+            303.44,
+            915.39,
+            447.0
+          ]
+        }
+      ]
+    },
+    "cam_b0": {
+      "text": "the pedestrian in black on the left, in the next lane",
+      "categories": [
+        "pedestrian"
+      ],
+      "items": [
+        {
+          "text": "the pedestrian in black on the left, in the next lane",
+          "kind": "agent",
+          "category": "pedestrian",
+          "role": "nearby",
+          "grounded": true,
+          "item_id": "cam_b0_0",
+          "distance": 6.38,
+          "gt_index": 101,
+          "map_ids": null,
+          "attributes": {
+            "visible": true,
+            "color": "black",
+            "type": "pedestrian"
+          },
+          "outline": [
+            [
+              [
+                112.69999694824219,
+                648.0
+              ],
+              [
+                112.69999694824219,
+                308.5
+              ],
+              [
+                0.0,
+                308.5
+              ],
+              [
+                0.0,
+                648.0
+              ],
+              [
+                112.69999694824219,
+                648.0
+              ]
+            ]
+          ],
+          "bbox": [
+            0.0,
+            308.51,
+            112.68,
+            647.98
+          ]
+        },
+        {
+          "text": "the pedestrian in gray on the left, in the next lane",
+          "kind": "agent",
+          "category": "pedestrian",
+          "role": "nearby",
+          "grounded": true,
+          "item_id": "cam_b0_1",
+          "distance": 13.29,
+          "gt_index": 126,
+          "map_ids": null,
+          "attributes": {
+            "visible": true,
+            "color": "gray",
+            "type": "pedestrian"
+          },
+          "outline": [
+            [
+              [
+                196.1999969482422,
+                331.8999938964844
+              ],
+              [
+                196.1999969482422,
+                474.20001220703125
+              ],
+              [
+                277.79998779296875,
+                474.20001220703125
+              ],
+              [
+                277.79998779296875,
+                331.8999938964844
+              ],
+              [
+                196.1999969482422,
+                331.8999938964844
+              ]
+            ]
+          ],
+          "bbox": [
+            196.23,
+            331.9,
+            277.81,
+            474.2
+          ]
+        },
+        {
+          "text": "the pedestrian in white on the left, in the next lane",
+          "kind": "agent",
+          "category": "pedestrian",
+          "role": "nearby",
+          "grounded": true,
+          "item_id": "cam_b0_2",
+          "distance": 14.56,
+          "gt_index": 117,
+          "map_ids": null,
+          "attributes": {
+            "visible": true,
+            "color": "white",
+            "type": "pedestrian"
+          },
+          "outline": [
+            [
+              [
+                285.70001220703125,
+                327.79998779296875
+              ],
+              [
+                285.70001220703125,
+                458.5
+              ],
+              [
+                351.79998779296875,
+                458.5
+              ],
+              [
+                351.79998779296875,
+                327.79998779296875
+              ],
+              [
+                285.70001220703125,
+                327.79998779296875
+              ]
+            ]
+          ],
+          "bbox": [
+            285.7,
+            327.84,
+            351.81,
+            458.49
+          ]
+        }
+      ]
+    },
+    "cam_l0": {
+      "text": "the black car in the center, in the next lane",
+      "categories": [
+        "vehicle"
+      ],
+      "items": [
+        {
+          "text": "the black car in the center, in the next lane",
+          "kind": "agent",
+          "category": "vehicle",
+          "role": "adjacent",
+          "grounded": true,
+          "item_id": "cam_l0_0",
+          "distance": 6.01,
+          "gt_index": 0,
+          "map_ids": null,
+          "attributes": {
+            "visible": true,
+            "color": "black",
+            "type": "car"
+          },
+          "outline": [
+            [
+              [
+                1148.0,
+                385.20001220703125
+              ],
+              [
+                280.29998779296875,
+                385.20001220703125
+              ],
+              [
+                280.29998779296875,
+                672.0
+              ],
+              [
+                1148.0,
+                672.0
+              ],
+              [
+                1148.0,
+                385.20001220703125
+              ]
+            ]
+          ],
+          "bbox": [
+            280.28,
+            385.16,
+            1148.0,
+            672.0
+          ]
+        },
+        {
+          "text": "the green pickup truck on the left, beside us",
+          "kind": "agent",
+          "category": "vehicle",
+          "role": "beside",
+          "grounded": true,
+          "item_id": "cam_l0_1",
+          "distance": 6.97,
+          "gt_index": 2,
+          "map_ids": null,
+          "attributes": {
+            "visible": true,
+            "color": "green",
+            "type": "pickup truck"
+          },
+          "outline": [
+            [
+              [
+                678.5,
+                364.1000061035156
+              ],
+              [
+                0.0,
+                364.1000061035156
+              ],
+              [
+                0.0,
+                672.0
+              ],
+              [
+                678.5,
+                672.0
+              ],
+              [
+                678.5,
+                364.1000061035156
+              ]
+            ]
+          ],
+          "bbox": [
+            0.0,
+            364.14,
+            678.47,
+            672.0
+          ]
+        }
+      ]
+    },
+    "cam_r0": {
+      "text": "the pedestrian in red on the right, near our lane",
+      "categories": [
+        "pedestrian"
+      ],
+      "items": [
+        {
+          "text": "the pedestrian in red on the right, near our lane",
+          "kind": "agent",
+          "category": "pedestrian",
+          "role": "vru",
+          "grounded": true,
+          "item_id": "cam_r0_0",
+          "distance": 3.63,
+          "gt_index": 108,
+          "map_ids": null,
+          "attributes": {
+            "visible": true,
+            "color": "red",
+            "type": "pedestrian"
+          },
+          "outline": [
+            [
+              [
+                1148.0,
+                238.10000610351562
+              ],
+              [
+                1093.5999755859375,
+                238.10000610351562
+              ],
+              [
+                1093.5999755859375,
+                672.0
+              ],
+              [
+                1148.0,
+                672.0
+              ],
+              [
+                1148.0,
+                238.10000610351562
+              ]
+            ]
+          ],
+          "bbox": [
+            1093.59,
+            238.12,
+            1148.0,
+            672.0
+          ]
+        },
+        {
+          "text": "the pedestrian in white on the left, near our lane",
+          "kind": "agent",
+          "category": "pedestrian",
+          "role": "vru",
+          "grounded": true,
+          "item_id": "cam_r0_1",
+          "distance": 7.04,
+          "gt_index": 136,
+          "map_ids": null,
+          "attributes": {
+            "visible": true,
+            "color": "white",
+            "type": "pedestrian"
+          },
+          "outline": [
+            [
+              [
+                263.20001220703125,
+                322.70001220703125
+              ],
+              [
+                77.19999694824219,
+                322.70001220703125
+              ],
+              [
+                77.19999694824219,
+                672.0
+              ],
+              [
+                263.20001220703125,
+                672.0
+              ],
+              [
+                263.20001220703125,
+                322.70001220703125
+              ]
+            ]
+          ],
+          "bbox": [
+            77.19,
+            322.69,
+            263.15,
+            672.0
+          ]
+        },
+        {
+          "text": "the pedestrian in red on the right, in the next lane",
+          "kind": "agent",
+          "category": "pedestrian",
+          "role": "nearby",
+          "grounded": true,
+          "item_id": "cam_r0_2",
+          "distance": 5.13,
+          "gt_index": 132,
+          "map_ids": null,
+          "attributes": {
+            "visible": true,
+            "color": "red",
+            "type": "pedestrian"
+          },
+          "outline": [
+            [
+              [
+                1148.0,
+                270.0
+              ],
+              [
+                1004.5,
+                270.0
+              ],
+              [
+                1004.5,
+                672.0
+              ],
+              [
+                1148.0,
+                672.0
+              ],
+              [
+                1148.0,
+                270.0
+              ]
+            ]
+          ],
+          "bbox": [
+            1004.54,
+            270.0,
+            1148.0,
+            672.0
+          ]
+        }
+      ]
+    }
+  }
+}
