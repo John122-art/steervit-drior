@@ -57,58 +57,12 @@
           ]
         },
         {
-          "text": "the black pickup truck on the right, in the next lane",
-          "kind": "agent",
-          "category": "vehicle",
-          "role": "adjacent",
-          "grounded": true,
-          "item_id": "cam_f0_1",
-          "distance": 9.52,
-          "gt_index": 44,
-          "map_ids": null,
-          "attributes": {
-            "visible": true,
-            "color": "black",
-            "type": "pickup truck"
-          },
-          "outline": [
-            [
-              [
-                1148.0,
-                299.5
-              ],
-              [
-                750.7999877929688,
-                299.5
-              ],
-              [
-                750.7999877929688,
-                672.0
-              ],
-              [
-                1148.0,
-                672.0
-              ],
-              [
-                1148.0,
-                299.5
-              ]
-            ]
-          ],
-          "bbox": [
-            750.82,
-            299.48,
-            1148.0,
-            672.0
-          ]
-        },
-        {
           "text": "the traffic light for our lane is not red",
           "kind": "traffic_light",
           "category": "traffic_light",
           "role": "traffic_light",
           "grounded": false,
-          "item_id": "cam_f0_2",
+          "item_id": "cam_f0_1",
           "distance": 31.28,
           "gt_index": null,
           "map_ids": [
@@ -117,17 +71,63 @@
           "attributes": null,
           "outline": null,
           "bbox": null
+        },
+        {
+          "text": "the black SUV on the left, in another lane",
+          "kind": "agent",
+          "category": "vehicle",
+          "role": "nearby",
+          "grounded": true,
+          "item_id": "cam_f0_2",
+          "distance": 19.3,
+          "gt_index": 33,
+          "map_ids": null,
+          "attributes": {
+            "visible": true,
+            "color": "black",
+            "type": "SUV"
+          },
+          "outline": [
+            [
+              [
+                32.29999923706055,
+                341.29998779296875
+              ],
+              [
+                32.29999923706055,
+                477.70001220703125
+              ],
+              [
+                275.79998779296875,
+                477.70001220703125
+              ],
+              [
+                275.79998779296875,
+                341.29998779296875
+              ],
+              [
+                32.29999923706055,
+                341.29998779296875
+              ]
+            ]
+          ],
+          "bbox": [
+            32.28,
+            341.34,
+            275.8,
+            477.72
+          ]
         }
       ]
     },
     "cam_b0": {
-      "text": "the gray pickup truck on the right, at the side of the road",
+      "text": "the gray pickup truck on the right, by the road",
       "categories": [
         "vehicle"
       ],
       "items": [
         {
-          "text": "the gray pickup truck on the right, at the side of the road",
+          "text": "the gray pickup truck on the right, by the road",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
@@ -273,7 +273,7 @@
           ]
         },
         {
-          "text": "the white pickup truck on the right, at the side of the road",
+          "text": "the white pickup truck on the right, by the road",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
@@ -321,58 +321,9 @@
       ]
     },
     "cam_r0": {
-      "text": "the blue car in the center, in the next lane",
-      "categories": [
-        "vehicle"
-      ],
-      "items": [
-        {
-          "text": "the blue car in the center, in the next lane",
-          "kind": "agent",
-          "category": "vehicle",
-          "role": "adjacent",
-          "grounded": true,
-          "item_id": "cam_r0_0",
-          "distance": 4.09,
-          "gt_index": 43,
-          "map_ids": null,
-          "attributes": {
-            "visible": true,
-            "color": "blue",
-            "type": "car"
-          },
-          "outline": [
-            [
-              [
-                1148.0,
-                377.8999938964844
-              ],
-              [
-                297.0,
-                377.8999938964844
-              ],
-              [
-                297.0,
-                672.0
-              ],
-              [
-                1148.0,
-                672.0
-              ],
-              [
-                1148.0,
-                377.8999938964844
-              ]
-            ]
-          ],
-          "bbox": [
-            296.97,
-            377.86,
-            1148.0,
-            672.0
-          ]
-        }
-      ]
+      "text": "",
+      "categories": [],
+      "items": []
     }
   }
 }

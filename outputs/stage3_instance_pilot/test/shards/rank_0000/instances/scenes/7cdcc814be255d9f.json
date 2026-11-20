@@ -129,13 +129,13 @@
       ]
     },
     "cam_l0": {
-      "text": "the gray car on the left, at the side of the road",
+      "text": "the gray car on the left, in another lane",
       "categories": [
         "vehicle"
       ],
       "items": [
         {
-          "text": "the gray car on the left, at the side of the road",
+          "text": "the gray car on the left, in another lane",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
@@ -181,7 +181,7 @@
           ]
         },
         {
-          "text": "the gray car in the center, at the side of the road",
+          "text": "the gray car in the center, in another lane",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
@@ -227,7 +227,7 @@
           ]
         },
         {
-          "text": "the white van on the right, at the side of the road",
+          "text": "the white van on the right, in another lane",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
@@ -275,13 +275,13 @@
       ]
     },
     "cam_r0": {
-      "text": "the pedestrian in red on the right, at the side of the road",
+      "text": "the pedestrian in red on the right, by the road",
       "categories": [
         "pedestrian"
       ],
       "items": [
         {
-          "text": "the pedestrian in red on the right, at the side of the road",
+          "text": "the pedestrian in red on the right, by the road",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",
@@ -327,7 +327,7 @@
           ]
         },
         {
-          "text": "the pedestrian in orange in the center, at the side of the road",
+          "text": "the pedestrian in orange in the center, by the road",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",
@@ -373,7 +373,7 @@
           ]
         },
         {
-          "text": "the pedestrian in beige on the right, at the side of the road",
+          "text": "the pedestrian in beige on the right, by the road",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",

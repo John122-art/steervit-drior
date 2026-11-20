@@ -282,7 +282,7 @@
           ]
         },
         {
-          "text": "the black car on the right, at the side of the road",
+          "text": "the black car on the right, in another lane",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
@@ -328,7 +328,7 @@
           ]
         },
         {
-          "text": "the black pickup truck on the left, at the side of the road",
+          "text": "the black pickup truck on the left, in another lane",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",

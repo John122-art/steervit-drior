@@ -267,67 +267,18 @@
       ]
     },
     "cam_l0": {
-      "text": "the white SUV on the left, in the next lane",
-      "categories": [
-        "vehicle"
-      ],
-      "items": [
-        {
-          "text": "the white SUV on the left, in the next lane",
-          "kind": "agent",
-          "category": "vehicle",
-          "role": "adjacent",
-          "grounded": false,
-          "item_id": "cam_l0_0",
-          "distance": 4.05,
-          "gt_index": 44,
-          "map_ids": null,
-          "attributes": {
-            "visible": true,
-            "color": "white",
-            "type": "SUV"
-          },
-          "outline": [
-            [
-              [
-                595.2999877929688,
-                93.9000015258789
-              ],
-              [
-                0.0,
-                93.9000015258789
-              ],
-              [
-                0.0,
-                672.0
-              ],
-              [
-                595.2999877929688,
-                672.0
-              ],
-              [
-                595.2999877929688,
-                93.9000015258789
-              ]
-            ]
-          ],
-          "bbox": [
-            0.0,
-            93.91,
-            595.3,
-            672.0
-          ]
-        }
-      ]
+      "text": "",
+      "categories": [],
+      "items": []
     },
     "cam_r0": {
-      "text": "the pedestrian in white on the left, at the side of the road",
+      "text": "the pedestrian in white on the left, by the road",
       "categories": [
         "pedestrian"
       ],
       "items": [
         {
-          "text": "the pedestrian in white on the left, at the side of the road",
+          "text": "the pedestrian in white on the left, by the road",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",
@@ -373,7 +324,7 @@
           ]
         },
         {
-          "text": "the pedestrian in blue in the center, at the side of the road",
+          "text": "the pedestrian in blue in the center, by the road",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",
@@ -419,7 +370,7 @@
           ]
         },
         {
-          "text": "the pedestrian in orange in the center, at the side of the road",
+          "text": "the pedestrian in orange in the center, by the road",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",

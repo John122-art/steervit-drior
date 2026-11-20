@@ -206,52 +206,6 @@
             703.09,
             672.0
           ]
-        },
-        {
-          "text": "the gray truck on the left, in the next lane",
-          "kind": "agent",
-          "category": "vehicle",
-          "role": "adjacent",
-          "grounded": true,
-          "item_id": "cam_b0_1",
-          "distance": 7.05,
-          "gt_index": 0,
-          "map_ids": null,
-          "attributes": {
-            "visible": true,
-            "color": "gray",
-            "type": "truck"
-          },
-          "outline": [
-            [
-              [
-                329.29998779296875,
-                0.0
-              ],
-              [
-                0.0,
-                0.0
-              ],
-              [
-                0.0,
-                672.0
-              ],
-              [
-                329.29998779296875,
-                672.0
-              ],
-              [
-                329.29998779296875,
-                0.0
-              ]
-            ]
-          ],
-          "bbox": [
-            0.0,
-            0.0,
-            329.33,
-            672.0
-          ]
         }
       ]
     },

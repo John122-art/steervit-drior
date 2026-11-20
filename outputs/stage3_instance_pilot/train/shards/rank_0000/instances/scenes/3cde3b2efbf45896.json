@@ -122,7 +122,7 @@
           "bbox": null
         },
         {
-          "text": "the black SUV on the right, at the side of the road",
+          "text": "the black SUV on the right, by the road",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
@@ -170,13 +170,13 @@
       ]
     },
     "cam_b0": {
-      "text": "the gray SUV on the left, at the side of the road",
+      "text": "the gray SUV on the left, by the road",
       "categories": [
         "vehicle"
       ],
       "items": [
         {
-          "text": "the gray SUV on the left, at the side of the road",
+          "text": "the gray SUV on the left, by the road",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
@@ -229,13 +229,13 @@
       "items": []
     },
     "cam_r0": {
-      "text": "the silver SUV on the right, at the side of the road",
+      "text": "the silver SUV on the right, by the road",
       "categories": [
         "vehicle"
       ],
       "items": [
         {
-          "text": "the silver SUV on the right, at the side of the road",
+          "text": "the silver SUV on the right, by the road",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
@@ -281,58 +281,12 @@
           ]
         },
         {
-          "text": "the gray SUV on the right, at the side of the road",
+          "text": "the gray car on the right, by the road",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
           "grounded": true,
           "item_id": "cam_r0_1",
-          "distance": 22.52,
-          "gt_index": 19,
-          "map_ids": null,
-          "attributes": {
-            "visible": true,
-            "color": "gray",
-            "type": "SUV"
-          },
-          "outline": [
-            [
-              [
-                1148.0,
-                386.6000061035156
-              ],
-              [
-                1092.5999755859375,
-                386.6000061035156
-              ],
-              [
-                1092.5999755859375,
-                503.5
-              ],
-              [
-                1148.0,
-                503.5
-              ],
-              [
-                1148.0,
-                386.6000061035156
-              ]
-            ]
-          ],
-          "bbox": [
-            1092.63,
-            386.57,
-            1148.0,
-            503.49
-          ]
-        },
-        {
-          "text": "the gray car on the right, at the side of the road",
-          "kind": "agent",
-          "category": "vehicle",
-          "role": "nearby",
-          "grounded": true,
-          "item_id": "cam_r0_2",
           "distance": 22.86,
           "gt_index": 35,
           "map_ids": null,
@@ -370,6 +324,52 @@
             393.2,
             1070.06,
             494.03
+          ]
+        },
+        {
+          "text": "the gray car in the center, by the road",
+          "kind": "agent",
+          "category": "vehicle",
+          "role": "nearby",
+          "grounded": true,
+          "item_id": "cam_r0_2",
+          "distance": 27.67,
+          "gt_index": 28,
+          "map_ids": null,
+          "attributes": {
+            "visible": true,
+            "color": "gray",
+            "type": "car"
+          },
+          "outline": [
+            [
+              [
+                530.5999755859375,
+                384.8999938964844
+              ],
+              [
+                530.5999755859375,
+                457.29998779296875
+              ],
+              [
+                669.4000244140625,
+                457.29998779296875
+              ],
+              [
+                669.4000244140625,
+                384.8999938964844
+              ],
+              [
+                530.5999755859375,
+                384.8999938964844
+              ]
+            ]
+          ],
+          "bbox": [
+            530.57,
+            384.9,
+            669.43,
+            457.31
           ]
         }
       ]

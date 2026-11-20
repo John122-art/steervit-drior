@@ -196,7 +196,7 @@
           ]
         },
         {
-          "text": "the pedestrian in blue on the right, at the side of the road",
+          "text": "the pedestrian in blue on the right, by the road",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",
@@ -296,7 +296,7 @@
           ]
         },
         {
-          "text": "the brown truck on the left, at the side of the road",
+          "text": "the brown truck on the left, by the road",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",

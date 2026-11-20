@@ -1,7 +1,7 @@
 {
   "token": "247ba5f9646c5528",
-  "cache_version": "c30c51df80565e88cdad0173e33acfe35b61284511a418e50b67ccef35bd33b5",
-  "plan_hash": "4ef8811728fa2f76a3cd8706d797056cb282eed9edd4d02175838597f4729142",
+  "cache_version": "15704a1760e1857a7842052ddab8afe72f7659e1a7209c1be5d882aeef3a6d9b",
+  "plan_hash": "1b294b1b2dbed164d7a93f1bf1a37218f448f760cea2c29df85b0598a1a3a018",
   "items": {
     "cam_f0_0": {
       "status": "ok",
@@ -17,7 +17,7 @@
           "raw_text": "</think>\n\n{\"visible\": true, \"color\": \"white\", \"type\": \"SUV\"}",
           "finish_reason": "eos",
           "generated_tokens": 23,
-          "seconds": 0.9835267390008084,
+          "seconds": 1.0248075580457225,
           "question": "This image is a crop from the front camera of a self-driving car.\nThe crop is centred on one vehicle. Answer only about that vehicle.\n\nReturn JSON only, no markdown:\n{\"visible\": true, \"color\": \"...\", \"type\": \"...\"}\n\nvisible: true if the vehicle at the centre of the crop is clearly visible;\nfalse if it is hidden behind something, cut off, or not there.\ncolor: the main colour of the vehicle (for a pedestrian or cyclist: the main\nclothing colour), exactly one of: white, black, gray, silver, red, blue, green, yellow,\norange, brown, beige, unknown.\ntype: exactly one of: car, SUV, van, pickup truck, truck, bus, motorcycle, bicycle,\npedestrian, traffic cone, unknown.\nUse \"unknown\" when you are not sure.",
           "image": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage3_instance_pilot/test/shards/rank_0000/plan/crops/247ba5f9646c5528/cam_f0_0.jpg",
           "error": null
@@ -38,7 +38,7 @@
           "raw_text": "</think>\n\n{\"visible\": true, \"color\": \"blue\", \"type\": \"car\"}",
           "finish_reason": "eos",
           "generated_tokens": 22,
-          "seconds": 0.7708637929754332,
+          "seconds": 0.8753322719712742,
           "question": "This image is a crop from the front camera of a self-driving car.\nThe crop is centred on one vehicle. Answer only about that vehicle.\n\nReturn JSON only, no markdown:\n{\"visible\": true, \"color\": \"...\", \"type\": \"...\"}\n\nvisible: true if the vehicle at the centre of the crop is clearly visible;\nfalse if it is hidden behind something, cut off, or not there.\ncolor: the main colour of the vehicle (for a pedestrian or cyclist: the main\nclothing colour), exactly one of: white, black, gray, silver, red, blue, green, yellow,\norange, brown, beige, unknown.\ntype: exactly one of: car, SUV, van, pickup truck, truck, bus, motorcycle, bicycle,\npedestrian, traffic cone, unknown.\nUse \"unknown\" when you are not sure.",
           "image": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage3_instance_pilot/test/shards/rank_0000/plan/crops/247ba5f9646c5528/cam_f0_2.jpg",
           "error": null
@@ -59,7 +59,7 @@
           "raw_text": "</think>\n\n{\"visible\": true, \"color\": \"blue\", \"type\": \"pedestrian\"}",
           "finish_reason": "eos",
           "generated_tokens": 24,
-          "seconds": 0.9069159980281256,
+          "seconds": 0.8911826969706453,
           "question": "This image is a crop from the front camera of a self-driving car.\nThe crop is centred on one pedestrian. Answer only about that pedestrian.\n\nReturn JSON only, no markdown:\n{\"visible\": true, \"color\": \"...\", \"type\": \"...\"}\n\nvisible: true if the pedestrian at the centre of the crop is clearly visible;\nfalse if it is hidden behind something, cut off, or not there.\ncolor: the main colour of the pedestrian (for a pedestrian or cyclist: the main\nclothing colour), exactly one of: white, black, gray, silver, red, blue, green, yellow,\norange, brown, beige, unknown.\ntype: exactly one of: car, SUV, van, pickup truck, truck, bus, motorcycle, bicycle,\npedestrian, traffic cone, unknown.\nUse \"unknown\" when you are not sure.",
           "image": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage3_instance_pilot/test/shards/rank_0000/plan/crops/247ba5f9646c5528/cam_f0_3.jpg",
           "error": null
@@ -80,7 +80,7 @@
           "raw_text": "</think>\n\n{\"visible\": false, \"color\": \"orange\", \"type\": \"pedestrian\"}",
           "finish_reason": "eos",
           "generated_tokens": 24,
-          "seconds": 1.1884706660057418,
+          "seconds": 1.8395702879643068,
           "question": "This image is a crop from the front camera of a self-driving car.\nThe crop is centred on one pedestrian. Answer only about that pedestrian.\n\nReturn JSON only, no markdown:\n{\"visible\": true, \"color\": \"...\", \"type\": \"...\"}\n\nvisible: true if the pedestrian at the centre of the crop is clearly visible;\nfalse if it is hidden behind something, cut off, or not there.\ncolor: the main colour of the pedestrian (for a pedestrian or cyclist: the main\nclothing colour), exactly one of: white, black, gray, silver, red, blue, green, yellow,\norange, brown, beige, unknown.\ntype: exactly one of: car, SUV, van, pickup truck, truck, bus, motorcycle, bicycle,\npedestrian, traffic cone, unknown.\nUse \"unknown\" when you are not sure.",
           "image": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage3_instance_pilot/test/shards/rank_0000/plan/crops/247ba5f9646c5528/cam_f0_4.jpg",
           "error": null
@@ -101,7 +101,7 @@
           "raw_text": "</think>\n\n{\"visible\": true, \"color\": \"black\", \"type\": \"car\"}",
           "finish_reason": "eos",
           "generated_tokens": 22,
-          "seconds": 1.1595983309671283,
+          "seconds": 0.9678568829549477,
           "question": "This image is a crop from the rear camera of a self-driving car.\nThe crop is centred on one vehicle. Answer only about that vehicle.\n\nReturn JSON only, no markdown:\n{\"visible\": true, \"color\": \"...\", \"type\": \"...\"}\n\nvisible: true if the vehicle at the centre of the crop is clearly visible;\nfalse if it is hidden behind something, cut off, or not there.\ncolor: the main colour of the vehicle (for a pedestrian or cyclist: the main\nclothing colour), exactly one of: white, black, gray, silver, red, blue, green, yellow,\norange, brown, beige, unknown.\ntype: exactly one of: car, SUV, van, pickup truck, truck, bus, motorcycle, bicycle,\npedestrian, traffic cone, unknown.\nUse \"unknown\" when you are not sure.",
           "image": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage3_instance_pilot/test/shards/rank_0000/plan/crops/247ba5f9646c5528/cam_b0_0.jpg",
           "error": null
@@ -109,27 +109,6 @@
       ]
     },
     "cam_b0_1": {
-      "status": "ok",
-      "attributes": {
-        "visible": true,
-        "color": "black",
-        "type": "car"
-      },
-      "type_compatible": true,
-      "attempts": [
-        {
-          "answer": "{\"visible\": true, \"color\": \"black\", \"type\": \"car\"}",
-          "raw_text": "</think>\n\n{\"visible\": true, \"color\": \"black\", \"type\": \"car\"}",
-          "finish_reason": "eos",
-          "generated_tokens": 22,
-          "seconds": 1.0755339019815437,
-          "question": "This image is a crop from the rear camera of a self-driving car.\nThe crop is centred on one vehicle. Answer only about that vehicle.\n\nReturn JSON only, no markdown:\n{\"visible\": true, \"color\": \"...\", \"type\": \"...\"}\n\nvisible: true if the vehicle at the centre of the crop is clearly visible;\nfalse if it is hidden behind something, cut off, or not there.\ncolor: the main colour of the vehicle (for a pedestrian or cyclist: the main\nclothing colour), exactly one of: white, black, gray, silver, red, blue, green, yellow,\norange, brown, beige, unknown.\ntype: exactly one of: car, SUV, van, pickup truck, truck, bus, motorcycle, bicycle,\npedestrian, traffic cone, unknown.\nUse \"unknown\" when you are not sure.",
-          "image": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage3_instance_pilot/test/shards/rank_0000/plan/crops/247ba5f9646c5528/cam_b0_1.jpg",
-          "error": null
-        }
-      ]
-    },
-    "cam_b0_2": {
       "status": "ok",
       "attributes": {
         "visible": true,
@@ -143,9 +122,9 @@
           "raw_text": "</think>\n\n{\"visible\": true, \"color\": \"white\", \"type\": \"van\"}",
           "finish_reason": "eos",
           "generated_tokens": 22,
-          "seconds": 0.9140953660244122,
+          "seconds": 0.9724559599999338,
           "question": "This image is a crop from the rear camera of a self-driving car.\nThe crop is centred on one vehicle. Answer only about that vehicle.\n\nReturn JSON only, no markdown:\n{\"visible\": true, \"color\": \"...\", \"type\": \"...\"}\n\nvisible: true if the vehicle at the centre of the crop is clearly visible;\nfalse if it is hidden behind something, cut off, or not there.\ncolor: the main colour of the vehicle (for a pedestrian or cyclist: the main\nclothing colour), exactly one of: white, black, gray, silver, red, blue, green, yellow,\norange, brown, beige, unknown.\ntype: exactly one of: car, SUV, van, pickup truck, truck, bus, motorcycle, bicycle,\npedestrian, traffic cone, unknown.\nUse \"unknown\" when you are not sure.",
-          "image": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage3_instance_pilot/test/shards/rank_0000/plan/crops/247ba5f9646c5528/cam_b0_2.jpg",
+          "image": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage3_instance_pilot/test/shards/rank_0000/plan/crops/247ba5f9646c5528/cam_b0_1.jpg",
           "error": null
         }
       ]
@@ -164,14 +143,14 @@
           "raw_text": "</think>\n\n{\"visible\": false, \"color\": \"unknown\", \"type\": \"unknown\"}",
           "finish_reason": "eos",
           "generated_tokens": 22,
-          "seconds": 0.9209860429982655,
+          "seconds": 1.1288456349866465,
           "question": "This image is a crop from the front-left camera of a self-driving car.\nThe crop is centred on one vehicle. Answer only about that vehicle.\n\nReturn JSON only, no markdown:\n{\"visible\": true, \"color\": \"...\", \"type\": \"...\"}\n\nvisible: true if the vehicle at the centre of the crop is clearly visible;\nfalse if it is hidden behind something, cut off, or not there.\ncolor: the main colour of the vehicle (for a pedestrian or cyclist: the main\nclothing colour), exactly one of: white, black, gray, silver, red, blue, green, yellow,\norange, brown, beige, unknown.\ntype: exactly one of: car, SUV, van, pickup truck, truck, bus, motorcycle, bicycle,\npedestrian, traffic cone, unknown.\nUse \"unknown\" when you are not sure.",
           "image": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage3_instance_pilot/test/shards/rank_0000/plan/crops/247ba5f9646c5528/cam_l0_0.jpg",
           "error": null
         }
       ]
     },
-    "cam_r0_1": {
+    "cam_r0_0": {
       "status": "ok",
       "attributes": {
         "visible": true,
@@ -185,14 +164,14 @@
           "raw_text": "</think>\n\n{\"visible\": true, \"color\": \"yellow\", \"type\": \"pedestrian\"}",
           "finish_reason": "eos",
           "generated_tokens": 24,
-          "seconds": 0.9012748469831422,
+          "seconds": 1.0045603690086864,
           "question": "This image is a crop from the front-right camera of a self-driving car.\nThe crop is centred on one pedestrian. Answer only about that pedestrian.\n\nReturn JSON only, no markdown:\n{\"visible\": true, \"color\": \"...\", \"type\": \"...\"}\n\nvisible: true if the pedestrian at the centre of the crop is clearly visible;\nfalse if it is hidden behind something, cut off, or not there.\ncolor: the main colour of the pedestrian (for a pedestrian or cyclist: the main\nclothing colour), exactly one of: white, black, gray, silver, red, blue, green, yellow,\norange, brown, beige, unknown.\ntype: exactly one of: car, SUV, van, pickup truck, truck, bus, motorcycle, bicycle,\npedestrian, traffic cone, unknown.\nUse \"unknown\" when you are not sure.",
-          "image": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage3_instance_pilot/test/shards/rank_0000/plan/crops/247ba5f9646c5528/cam_r0_1.jpg",
+          "image": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage3_instance_pilot/test/shards/rank_0000/plan/crops/247ba5f9646c5528/cam_r0_0.jpg",
           "error": null
         }
       ]
     },
-    "cam_r0_2": {
+    "cam_r0_1": {
       "status": "ok",
       "attributes": {
         "visible": true,
@@ -206,14 +185,14 @@
           "raw_text": "</think>\n\n{\"visible\": true, \"color\": \"silver\", \"type\": \"van\"}",
           "finish_reason": "eos",
           "generated_tokens": 22,
-          "seconds": 0.9645638189977035,
+          "seconds": 0.8935507330461405,
           "question": "This image is a crop from the front-right camera of a self-driving car.\nThe crop is centred on one vehicle. Answer only about that vehicle.\n\nReturn JSON only, no markdown:\n{\"visible\": true, \"color\": \"...\", \"type\": \"...\"}\n\nvisible: true if the vehicle at the centre of the crop is clearly visible;\nfalse if it is hidden behind something, cut off, or not there.\ncolor: the main colour of the vehicle (for a pedestrian or cyclist: the main\nclothing colour), exactly one of: white, black, gray, silver, red, blue, green, yellow,\norange, brown, beige, unknown.\ntype: exactly one of: car, SUV, van, pickup truck, truck, bus, motorcycle, bicycle,\npedestrian, traffic cone, unknown.\nUse \"unknown\" when you are not sure.",
-          "image": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage3_instance_pilot/test/shards/rank_0000/plan/crops/247ba5f9646c5528/cam_r0_2.jpg",
+          "image": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage3_instance_pilot/test/shards/rank_0000/plan/crops/247ba5f9646c5528/cam_r0_1.jpg",
           "error": null
         }
       ]
     },
-    "cam_r0_3": {
+    "cam_r0_2": {
       "status": "ok",
       "attributes": {
         "visible": true,
@@ -227,14 +206,14 @@
           "raw_text": "</think>\n\n{\"visible\": true, \"color\": \"gray\", \"type\": \"pedestrian\"}",
           "finish_reason": "eos",
           "generated_tokens": 24,
-          "seconds": 0.9943363989586942,
+          "seconds": 0.8840227299951948,
           "question": "This image is a crop from the front-right camera of a self-driving car.\nThe crop is centred on one pedestrian. Answer only about that pedestrian.\n\nReturn JSON only, no markdown:\n{\"visible\": true, \"color\": \"...\", \"type\": \"...\"}\n\nvisible: true if the pedestrian at the centre of the crop is clearly visible;\nfalse if it is hidden behind something, cut off, or not there.\ncolor: the main colour of the pedestrian (for a pedestrian or cyclist: the main\nclothing colour), exactly one of: white, black, gray, silver, red, blue, green, yellow,\norange, brown, beige, unknown.\ntype: exactly one of: car, SUV, van, pickup truck, truck, bus, motorcycle, bicycle,\npedestrian, traffic cone, unknown.\nUse \"unknown\" when you are not sure.",
-          "image": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage3_instance_pilot/test/shards/rank_0000/plan/crops/247ba5f9646c5528/cam_r0_3.jpg",
+          "image": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage3_instance_pilot/test/shards/rank_0000/plan/crops/247ba5f9646c5528/cam_r0_2.jpg",
           "error": null
         }
       ]
     },
-    "cam_r0_4": {
+    "cam_r0_3": {
       "status": "ok",
       "attributes": {
         "visible": true,
@@ -248,9 +227,9 @@
           "raw_text": "</think>\n\n{\"visible\": true, \"color\": \"black\", \"type\": \"pedestrian\"}",
           "finish_reason": "eos",
           "generated_tokens": 24,
-          "seconds": 0.9269746909849346,
+          "seconds": 0.8448922369861975,
           "question": "This image is a crop from the front-right camera of a self-driving car.\nThe crop is centred on one pedestrian. Answer only about that pedestrian.\n\nReturn JSON only, no markdown:\n{\"visible\": true, \"color\": \"...\", \"type\": \"...\"}\n\nvisible: true if the pedestrian at the centre of the crop is clearly visible;\nfalse if it is hidden behind something, cut off, or not there.\ncolor: the main colour of the pedestrian (for a pedestrian or cyclist: the main\nclothing colour), exactly one of: white, black, gray, silver, red, blue, green, yellow,\norange, brown, beige, unknown.\ntype: exactly one of: car, SUV, van, pickup truck, truck, bus, motorcycle, bicycle,\npedestrian, traffic cone, unknown.\nUse \"unknown\" when you are not sure.",
-          "image": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage3_instance_pilot/test/shards/rank_0000/plan/crops/247ba5f9646c5528/cam_r0_4.jpg",
+          "image": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage3_instance_pilot/test/shards/rank_0000/plan/crops/247ba5f9646c5528/cam_r0_3.jpg",
           "error": null
         }
       ]

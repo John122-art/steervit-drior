@@ -75,13 +75,13 @@
       ]
     },
     "cam_b0": {
-      "text": "the cyclist in white on the left, in the next lane",
+      "text": "the cyclist in white on the left, on the road",
       "categories": [
         "bicycle"
       ],
       "items": [
         {
-          "text": "the cyclist in white on the left, in the next lane",
+          "text": "the cyclist in white on the left, on the road",
           "kind": "agent",
           "category": "bicycle",
           "role": "nearby",
@@ -127,7 +127,7 @@
           ]
         },
         {
-          "text": "the cyclist in green in the center, in our lane",
+          "text": "the cyclist in green in the center, on the road",
           "kind": "agent",
           "category": "bicycle",
           "role": "nearby",

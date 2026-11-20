@@ -287,157 +287,23 @@
       ]
     },
     "cam_l0": {
-      "text": "the white car on the left, at the side of the road",
-      "categories": [
-        "vehicle"
-      ],
-      "items": [
-        {
-          "text": "the white car on the left, at the side of the road",
-          "kind": "agent",
-          "category": "vehicle",
-          "role": "nearby",
-          "grounded": true,
-          "item_id": "cam_l0_0",
-          "distance": 17.31,
-          "gt_index": 109,
-          "map_ids": null,
-          "attributes": {
-            "visible": true,
-            "color": "white",
-            "type": "car"
-          },
-          "outline": [
-            [
-              [
-                181.1999969482422,
-                517.0
-              ],
-              [
-                181.1999969482422,
-                367.3999938964844
-              ],
-              [
-                0.0,
-                367.3999938964844
-              ],
-              [
-                0.0,
-                517.0
-              ],
-              [
-                181.1999969482422,
-                517.0
-              ]
-            ]
-          ],
-          "bbox": [
-            0.0,
-            367.37,
-            181.21,
-            517.05
-          ]
-        }
-      ]
+      "text": "",
+      "categories": [],
+      "items": []
     },
     "cam_r0": {
-      "text": "the black car on the right, in the next lane",
+      "text": "the pedestrian in black in the center, by the road",
       "categories": [
-        "vehicle"
+        "pedestrian"
       ],
       "items": [
         {
-          "text": "the black car on the right, in the next lane",
-          "kind": "agent",
-          "category": "vehicle",
-          "role": "adjacent",
-          "grounded": true,
-          "item_id": "cam_r0_0",
-          "distance": 4.31,
-          "gt_index": 190,
-          "map_ids": null,
-          "attributes": {
-            "visible": true,
-            "color": "black",
-            "type": "car"
-          },
-          "outline": [
-            [
-              [
-                1148.0,
-                382.6000061035156
-              ],
-              [
-                611.2999877929688,
-                382.6000061035156
-              ],
-              [
-                611.2999877929688,
-                672.0
-              ],
-              [
-                1148.0,
-                672.0
-              ],
-              [
-                1148.0,
-                382.6000061035156
-              ]
-            ]
-          ],
-          "bbox": [
-            611.34,
-            382.63,
-            1148.0,
-            672.0
-          ]
-        },
-        {
-          "text": "the stop line in front of us",
-          "kind": "stop_line",
-          "category": "stop_line",
-          "role": "stop_line",
-          "grounded": true,
-          "item_id": "cam_r0_1",
-          "distance": 10.56,
-          "gt_index": null,
-          "map_ids": [
-            "63101"
-          ],
-          "attributes": null,
-          "outline": [
-            [
-              [
-                216.39999389648438,
-                522.5
-              ],
-              [
-                216.39999389648438,
-                572.9000244140625
-              ],
-              [
-                570.4000244140625,
-                476.1000061035156
-              ],
-              [
-                447.8999938964844,
-                472.20001220703125
-              ],
-              [
-                216.39999389648438,
-                522.5
-              ]
-            ]
-          ],
-          "bbox": null
-        },
-        {
-          "text": "the pedestrian in black in the center, at the side of the road",
+          "text": "the pedestrian in black in the center, by the road",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",
           "grounded": true,
-          "item_id": "cam_r0_2",
+          "item_id": "cam_r0_0",
           "distance": 20.86,
           "gt_index": 228,
           "map_ids": null,

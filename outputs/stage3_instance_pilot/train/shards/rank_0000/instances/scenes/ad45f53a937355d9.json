@@ -66,7 +66,7 @@
           "bbox": null
         },
         {
-          "text": "the silver car in the center, at the side of the road",
+          "text": "the silver car in the center, by the road",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
@@ -166,7 +166,7 @@
           ]
         },
         {
-          "text": "the red car on the left, at the side of the road",
+          "text": "the red car on the left, in another lane",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
@@ -212,7 +212,7 @@
           ]
         },
         {
-          "text": "the silver car on the left, at the side of the road",
+          "text": "the silver car on the left, by the road",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
@@ -417,13 +417,13 @@
       ]
     },
     "cam_r0": {
-      "text": "the pedestrian in black on the left, at the side of the road",
+      "text": "the pedestrian in black on the left, by the road",
       "categories": [
         "pedestrian"
       ],
       "items": [
         {
-          "text": "the pedestrian in black on the left, at the side of the road",
+          "text": "the pedestrian in black on the left, by the road",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",
@@ -469,7 +469,7 @@
           ]
         },
         {
-          "text": "the pedestrian in blue in the center, at the side of the road",
+          "text": "the pedestrian in blue in the center, by the road",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",
@@ -515,7 +515,7 @@
           ]
         },
         {
-          "text": "the pedestrian in red on the left, at the side of the road",
+          "text": "the pedestrian in red on the left, by the road",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",

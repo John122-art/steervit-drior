@@ -47,6 +47,36 @@
       0.004
     ]
   ],
+  "places": [
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    }
+  ],
   "route": {
     "ego_s_global": 6.3162827926036815,
     "centerline": [

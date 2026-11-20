@@ -25,6 +25,10 @@
         "frame": "route"
       },
       "distance": 12.986998882283968,
+      "place": {
+        "on_road": false,
+        "on_crosswalk": false
+      },
       "bbox": [
         666.65,
         314.32,
@@ -86,6 +90,10 @@
         "frame": "route"
       },
       "distance": 28.95436479042057,
+      "place": {
+        "on_road": false,
+        "on_crosswalk": false
+      },
       "bbox": [
         359.15,
         321.55,
@@ -147,6 +155,10 @@
         "frame": "ego"
       },
       "distance": 28.583135155946437,
+      "place": {
+        "on_road": false,
+        "on_crosswalk": false
+      },
       "bbox": [
         70.55,
         367.41,
@@ -193,67 +205,6 @@
     },
     {
       "kind": "agent",
-      "category": "vehicle",
-      "gt_index": 4,
-      "camera": "cam_l0",
-      "role": "beside",
-      "relation": {
-        "lon": 1.130458302006856,
-        "lat": 6.741903423046078,
-        "lane": "off_left",
-        "motion": "same",
-        "speed": 14.181602342471743,
-        "relative_heading": 0.0327521028581188,
-        "distance": 8.460562919719237,
-        "frame": "route"
-      },
-      "distance": 8.460562919719237,
-      "bbox": [
-        0.0,
-        370.95,
-        159.99,
-        672.0
-      ],
-      "occluded_fraction": 0.0,
-      "crossing_from": null,
-      "priority": 2,
-      "item_id": "cam_l0_0",
-      "crop": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage3_instance_pilot/train/shards/rank_0000/plan/crops/2bd67db1bbb55ed7/cam_l0_0.jpg",
-      "crop_box_original": [
-        0,
-        523,
-        308,
-        1080
-      ],
-      "outline": [
-        [
-          [
-            160.0,
-            371.0
-          ],
-          [
-            0.0,
-            371.0
-          ],
-          [
-            0.0,
-            672.0
-          ],
-          [
-            160.0,
-            672.0
-          ],
-          [
-            160.0,
-            371.0
-          ]
-        ]
-      ],
-      "grounded": true,
-      "mask_row": 3
-    },
-    {
-      "kind": "agent",
       "category": "pedestrian",
       "gt_index": 87,
       "camera": "cam_r0",
@@ -269,6 +220,10 @@
         "frame": "route"
       },
       "distance": 11.899176537850185,
+      "place": {
+        "on_road": false,
+        "on_crosswalk": false
+      },
       "bbox": [
         325.62,
         344.62,
@@ -311,7 +266,7 @@
         ]
       ],
       "grounded": true,
-      "mask_row": 4
+      "mask_row": 3
     },
     {
       "kind": "agent",
@@ -330,6 +285,10 @@
         "frame": "route"
       },
       "distance": 12.377037531727682,
+      "place": {
+        "on_road": false,
+        "on_crosswalk": false
+      },
       "bbox": [
         373.0,
         347.08,
@@ -372,7 +331,7 @@
         ]
       ],
       "grounded": true,
-      "mask_row": 5
+      "mask_row": 4
     },
     {
       "kind": "agent",
@@ -391,6 +350,10 @@
         "frame": "route"
       },
       "distance": 12.542257182806585,
+      "place": {
+        "on_road": false,
+        "on_crosswalk": false
+      },
       "bbox": [
         516.01,
         324.9,
@@ -433,7 +396,7 @@
         ]
       ],
       "grounded": true,
-      "mask_row": 6
+      "mask_row": 5
     },
     {
       "kind": "agent",
@@ -452,6 +415,10 @@
         "frame": "route"
       },
       "distance": 13.569880560438794,
+      "place": {
+        "on_road": false,
+        "on_crosswalk": false
+      },
       "bbox": [
         194.27,
         349.61,
@@ -494,7 +461,7 @@
         ]
       ],
       "grounded": true,
-      "mask_row": 7
+      "mask_row": 6
     },
     {
       "kind": "agent",
@@ -513,6 +480,10 @@
         "frame": "route"
       },
       "distance": 13.658893736710814,
+      "place": {
+        "on_road": false,
+        "on_crosswalk": false
+      },
       "bbox": [
         607.8,
         325.58,
@@ -555,10 +526,11 @@
         ]
       ],
       "grounded": true,
-      "mask_row": 8
+      "mask_row": 7
     }
   ],
   "rejected": {
+    "mostly_outside_image": 1,
     "not_in_any_camera": 8,
     "occluded": 22
   }

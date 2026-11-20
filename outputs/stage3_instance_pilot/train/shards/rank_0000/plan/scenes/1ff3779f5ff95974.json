@@ -25,6 +25,10 @@
         "frame": "route"
       },
       "distance": 44.367465031840794,
+      "place": {
+        "on_road": false,
+        "on_crosswalk": false
+      },
       "bbox": [
         570.99,
         336.46,
@@ -281,6 +285,10 @@
         "frame": "route"
       },
       "distance": 26.712956855431884,
+      "place": {
+        "on_road": true,
+        "on_crosswalk": false
+      },
       "bbox": [
         653.38,
         328.16,
@@ -398,6 +406,10 @@
         "frame": "route"
       },
       "distance": 26.79393749629628,
+      "place": {
+        "on_road": true,
+        "on_crosswalk": false
+      },
       "bbox": [
         26.57,
         351.17,
@@ -459,6 +471,10 @@
         "frame": "ego"
       },
       "distance": 12.131319334342662,
+      "place": {
+        "on_road": true,
+        "on_crosswalk": false
+      },
       "bbox": [
         840.92,
         357.05,
@@ -520,6 +536,10 @@
         "frame": "ego"
       },
       "distance": 19.580648872701342,
+      "place": {
+        "on_road": true,
+        "on_crosswalk": false
+      },
       "bbox": [
         740.6,
         359.59,
@@ -581,6 +601,10 @@
         "frame": "ego"
       },
       "distance": 28.053111214691253,
+      "place": {
+        "on_road": true,
+        "on_crosswalk": false
+      },
       "bbox": [
         681.98,
         336.84,
@@ -642,6 +666,10 @@
         "frame": "route"
       },
       "distance": 10.232974924362995,
+      "place": {
+        "on_road": false,
+        "on_crosswalk": false
+      },
       "bbox": [
         305.42,
         375.34,
@@ -688,6 +716,7 @@
     }
   ],
   "rejected": {
-    "occluded": 4
+    "occluded": 2,
+    "mostly_outside_image": 2
   }
 }

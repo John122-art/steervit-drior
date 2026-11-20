@@ -111,67 +111,18 @@
       ]
     },
     "cam_b0": {
-      "text": "the red SUV on the right, at the side of the road",
-      "categories": [
-        "vehicle"
-      ],
-      "items": [
-        {
-          "text": "the red SUV on the right, at the side of the road",
-          "kind": "agent",
-          "category": "vehicle",
-          "role": "nearby",
-          "grounded": true,
-          "item_id": "cam_b0_0",
-          "distance": 12.2,
-          "gt_index": 0,
-          "map_ids": null,
-          "attributes": {
-            "visible": true,
-            "color": "red",
-            "type": "SUV"
-          },
-          "outline": [
-            [
-              [
-                1148.0,
-                328.29998779296875
-              ],
-              [
-                998.4000244140625,
-                328.29998779296875
-              ],
-              [
-                998.4000244140625,
-                603.0999755859375
-              ],
-              [
-                1148.0,
-                603.0999755859375
-              ],
-              [
-                1148.0,
-                328.29998779296875
-              ]
-            ]
-          ],
-          "bbox": [
-            998.43,
-            328.3,
-            1148.0,
-            603.09
-          ]
-        }
-      ]
+      "text": "",
+      "categories": [],
+      "items": []
     },
     "cam_l0": {
-      "text": "the red car on the right, at the side of the road",
+      "text": "the red car on the right, in another lane",
       "categories": [
         "vehicle"
       ],
       "items": [
         {
-          "text": "the red car on the right, at the side of the road",
+          "text": "the red car on the right, in another lane",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
@@ -219,13 +170,13 @@
       ]
     },
     "cam_r0": {
-      "text": "the pedestrian in black on the right, at the side of the road",
+      "text": "the pedestrian in black on the right, by the road",
       "categories": [
         "pedestrian"
       ],
       "items": [
         {
-          "text": "the pedestrian in black on the right, at the side of the road",
+          "text": "the pedestrian in black on the right, by the road",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",

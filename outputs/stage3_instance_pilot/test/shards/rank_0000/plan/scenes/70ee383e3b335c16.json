@@ -97,6 +97,10 @@
         "frame": "ego"
       },
       "distance": 18.133624045724957,
+      "place": {
+        "on_road": false,
+        "on_crosswalk": true
+      },
       "bbox": [
         280.55,
         395.19,
@@ -158,6 +162,10 @@
         "frame": "ego"
       },
       "distance": 23.83709711265986,
+      "place": {
+        "on_road": false,
+        "on_crosswalk": false
+      },
       "bbox": [
         1014.94,
         396.14,
@@ -201,47 +209,10 @@
       ],
       "grounded": true,
       "mask_row": 2
-    },
-    {
-      "kind": "stop_line",
-      "category": "stop_line",
-      "camera": "cam_l0",
-      "role": "stop_line",
-      "distance": 3.53,
-      "map_ids": [
-        "18256"
-      ],
-      "priority": 2,
-      "item_id": "cam_l0_0",
-      "outline": [
-        [
-          [
-            0.0,
-            672.0
-          ],
-          [
-            806.0,
-            672.0
-          ],
-          [
-            202.0,
-            494.70001220703125
-          ],
-          [
-            0.0,
-            516.9000244140625
-          ],
-          [
-            0.0,
-            672.0
-          ]
-        ]
-      ],
-      "grounded": true,
-      "mask_row": 3
     }
   ],
   "rejected": {
-    "not_in_any_camera": 4
+    "not_in_any_camera": 4,
+    "stop_line_mostly_outside_cam_l0": 2
   }
 }

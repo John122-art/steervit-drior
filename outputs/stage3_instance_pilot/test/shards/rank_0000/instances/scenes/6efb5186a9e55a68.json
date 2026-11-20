@@ -5,57 +5,18 @@
   "input_hash": "4810d69cd02fa00754ca8198d9b631db87728bcad92360faf02ccd309f151381",
   "scene_text": {
     "cam_f0": {
-      "text": "the stop line in front of us",
+      "text": "the crosswalk in front of us",
       "categories": [
-        "stop_line"
+        "crosswalk"
       ],
       "items": [
-        {
-          "text": "the stop line in front of us",
-          "kind": "stop_line",
-          "category": "stop_line",
-          "role": "stop_line",
-          "grounded": true,
-          "item_id": "cam_f0_0",
-          "distance": 5.73,
-          "gt_index": null,
-          "map_ids": [
-            "63332"
-          ],
-          "attributes": null,
-          "outline": [
-            [
-              [
-                130.1999969482422,
-                672.0
-              ],
-              [
-                1092.300048828125,
-                672.0
-              ],
-              [
-                1092.300048828125,
-                597.2999877929688
-              ],
-              [
-                217.10000610351562,
-                599.2999877929688
-              ],
-              [
-                130.1999969482422,
-                672.0
-              ]
-            ]
-          ],
-          "bbox": null
-        },
         {
           "text": "the crosswalk in front of us",
           "kind": "crosswalk",
           "category": "crosswalk",
           "role": "crosswalk",
           "grounded": true,
-          "item_id": "cam_f0_1",
+          "item_id": "cam_f0_0",
           "distance": 10.64,
           "gt_index": null,
           "map_ids": [
@@ -87,17 +48,56 @@
             ]
           ],
           "bbox": null
+        },
+        {
+          "text": "the stop line in front of us",
+          "kind": "stop_line",
+          "category": "stop_line",
+          "role": "stop_line",
+          "grounded": true,
+          "item_id": "cam_f0_1",
+          "distance": 28.02,
+          "gt_index": null,
+          "map_ids": [
+            "64060"
+          ],
+          "attributes": null,
+          "outline": [
+            [
+              [
+                903.7000122070312,
+                378.1000061035156
+              ],
+              [
+                564.0,
+                377.8999938964844
+              ],
+              [
+                499.6000061035156,
+                381.8999938964844
+              ],
+              [
+                820.5999755859375,
+                380.5
+              ],
+              [
+                903.7000122070312,
+                378.1000061035156
+              ]
+            ]
+          ],
+          "bbox": null
         }
       ]
     },
     "cam_b0": {
-      "text": "the pedestrian in blue on the left, at the side of the road",
+      "text": "the pedestrian in blue on the left, by the road",
       "categories": [
         "pedestrian"
       ],
       "items": [
         {
-          "text": "the pedestrian in blue on the left, at the side of the road",
+          "text": "the pedestrian in blue on the left, by the road",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",
@@ -150,13 +150,13 @@
       "items": []
     },
     "cam_r0": {
-      "text": "the cyclist in gray on the left, in the next lane",
+      "text": "the cyclist in gray on the left, near our lane",
       "categories": [
         "bicycle"
       ],
       "items": [
         {
-          "text": "the cyclist in gray on the left, in the next lane",
+          "text": "the cyclist in gray on the left, near our lane",
           "kind": "agent",
           "category": "bicycle",
           "role": "nearby",

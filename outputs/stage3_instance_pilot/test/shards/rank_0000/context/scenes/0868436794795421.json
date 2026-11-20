@@ -655,6 +655,644 @@
       0.038
     ]
   ],
+  "places": [
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": true
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": true
+    },
+    {
+      "on_road": true,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": true
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": true
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": true
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": true
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": true
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": true,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": true,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": true,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": true,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": true,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": true,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": true,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": true,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": true,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": true
+    },
+    {
+      "on_road": true,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": true,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": true,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": true,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    }
+  ],
   "route": {
     "ego_s_global": 24.507347511895116,
     "centerline": [

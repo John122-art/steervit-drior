@@ -283,13 +283,13 @@
       ]
     },
     "cam_l0": {
-      "text": "the black SUV on the right, at the side of the road",
+      "text": "the black SUV on the right, by the road",
       "categories": [
         "vehicle"
       ],
       "items": [
         {
-          "text": "the black SUV on the right, at the side of the road",
+          "text": "the black SUV on the right, by the road",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",

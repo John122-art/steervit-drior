@@ -164,18 +164,18 @@
       ]
     },
     "cam_l0": {
-      "text": "the white car in the center, at the side of the road",
+      "text": "the white car in the center, in another lane",
       "categories": [
         "vehicle"
       ],
       "items": [
         {
-          "text": "the white car in the center, at the side of the road",
+          "text": "the white car in the center, in another lane",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
           "grounded": true,
-          "item_id": "cam_l0_1",
+          "item_id": "cam_l0_0",
           "distance": 24.42,
           "gt_index": 100,
           "map_ids": null,

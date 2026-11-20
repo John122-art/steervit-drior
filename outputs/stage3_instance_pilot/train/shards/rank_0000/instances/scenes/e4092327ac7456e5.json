@@ -127,7 +127,7 @@
           ]
         },
         {
-          "text": "the orange pickup truck on the left, at the side of the road",
+          "text": "the orange pickup truck on the left, by the road",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
@@ -173,7 +173,7 @@
           ]
         },
         {
-          "text": "the nearer pedestrian in white on the right, at the side of the road",
+          "text": "the nearer pedestrian in white on the right, by the road",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",
@@ -271,102 +271,17 @@
             569.37,
             399.05
           ]
-        },
-        {
-          "text": "the stop line in front of us",
-          "kind": "stop_line",
-          "category": "stop_line",
-          "role": "stop_line",
-          "grounded": true,
-          "item_id": "cam_l0_1",
-          "distance": 4.85,
-          "gt_index": null,
-          "map_ids": [
-            "64317"
-          ],
-          "attributes": null,
-          "outline": [
-            [
-              [
-                715.2999877929688,
-                672.0
-              ],
-              [
-                392.3999938964844,
-                506.8999938964844
-              ],
-              [
-                119.80000305175781,
-                499.8999938964844
-              ],
-              [
-                179.89999389648438,
-                672.0
-              ],
-              [
-                715.2999877929688,
-                672.0
-              ]
-            ]
-          ],
-          "bbox": null
-        },
-        {
-          "text": "the silver SUV on the left, at the side of the road",
-          "kind": "agent",
-          "category": "vehicle",
-          "role": "nearby",
-          "grounded": true,
-          "item_id": "cam_l0_2",
-          "distance": 25.3,
-          "gt_index": 81,
-          "map_ids": null,
-          "attributes": {
-            "visible": true,
-            "color": "silver",
-            "type": "SUV"
-          },
-          "outline": [
-            [
-              [
-                41.5,
-                450.8999938964844
-              ],
-              [
-                41.5,
-                350.20001220703125
-              ],
-              [
-                0.0,
-                350.20001220703125
-              ],
-              [
-                0.0,
-                450.8999938964844
-              ],
-              [
-                41.5,
-                450.8999938964844
-              ]
-            ]
-          ],
-          "bbox": [
-            0.0,
-            350.15,
-            41.53,
-            450.93
-          ]
         }
       ]
     },
     "cam_r0": {
-      "text": "the gray car on the right, at the side of the road",
+      "text": "the gray car on the right, in another lane",
       "categories": [
         "vehicle"
       ],
       "items": [
         {
-          "text": "the gray car on the right, at the side of the road",
+          "text": "the gray car on the right, in another lane",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
@@ -412,7 +327,7 @@
           ]
         },
         {
-          "text": "the white SUV on the right, at the side of the road",
+          "text": "the white SUV on the right, in another lane",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
@@ -458,7 +373,7 @@
           ]
         },
         {
-          "text": "the black SUV in the center, at the side of the road",
+          "text": "the black SUV in the center, by the road",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",

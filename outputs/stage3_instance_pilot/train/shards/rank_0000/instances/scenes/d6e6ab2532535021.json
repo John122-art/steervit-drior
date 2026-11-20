@@ -246,13 +246,13 @@
       ]
     },
     "cam_l0": {
-      "text": "the pedestrian in gray in the center, at the side of the road",
+      "text": "the pedestrian in gray in the center, by the road",
       "categories": [
         "pedestrian"
       ],
       "items": [
         {
-          "text": "the pedestrian in gray in the center, at the side of the road",
+          "text": "the pedestrian in gray in the center, by the road",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",
@@ -298,7 +298,7 @@
           ]
         },
         {
-          "text": "the pedestrian in white in the center, at the side of the road",
+          "text": "the pedestrian in white in the center, by the road",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",
@@ -344,7 +344,7 @@
           ]
         },
         {
-          "text": "the pedestrian in beige in the center, at the side of the road",
+          "text": "the pedestrian in beige in the center, by the road",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",
@@ -392,64 +392,18 @@
       ]
     },
     "cam_r0": {
-      "text": "the gray car on the right, beside us",
+      "text": "the black car on the left, beside us",
       "categories": [
         "vehicle"
       ],
       "items": [
-        {
-          "text": "the gray car on the right, beside us",
-          "kind": "agent",
-          "category": "vehicle",
-          "role": "beside",
-          "grounded": true,
-          "item_id": "cam_r0_0",
-          "distance": 7.49,
-          "gt_index": 2,
-          "map_ids": null,
-          "attributes": {
-            "visible": true,
-            "color": "gray",
-            "type": "car"
-          },
-          "outline": [
-            [
-              [
-                1148.0,
-                398.3999938964844
-              ],
-              [
-                735.7000122070312,
-                398.3999938964844
-              ],
-              [
-                735.7000122070312,
-                672.0
-              ],
-              [
-                1148.0,
-                672.0
-              ],
-              [
-                1148.0,
-                398.3999938964844
-              ]
-            ]
-          ],
-          "bbox": [
-            735.73,
-            398.44,
-            1148.0,
-            672.0
-          ]
-        },
         {
           "text": "the black car on the left, beside us",
           "kind": "agent",
           "category": "vehicle",
           "role": "beside",
           "grounded": true,
-          "item_id": "cam_r0_1",
+          "item_id": "cam_r0_0",
           "distance": 12.08,
           "gt_index": 6,
           "map_ids": null,

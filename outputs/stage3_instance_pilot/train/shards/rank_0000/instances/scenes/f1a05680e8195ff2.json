@@ -103,39 +103,125 @@
           ]
         },
         {
-          "text": "the crosswalk in front of us",
-          "kind": "crosswalk",
-          "category": "crosswalk",
-          "role": "crosswalk",
+          "text": "the lane lines of our lane",
+          "kind": "lane_lines",
+          "category": "lane_lines",
+          "role": "lane_lines",
           "grounded": true,
           "item_id": "cam_f0_2",
-          "distance": 9.12,
+          "distance": 10.0,
           "gt_index": null,
           "map_ids": [
-            "70684"
+            "67470"
           ],
           "attributes": null,
           "outline": [
             [
               [
-                0.0,
-                509.70001220703125
+                420.20001220703125,
+                494.8999938964844
               ],
               [
-                0.0,
-                672.0
+                445.20001220703125,
+                495.29998779296875
               ],
               [
-                882.2000122070312,
-                672.0
+                469.79998779296875,
+                469.0
               ],
               [
-                739.7000122070312,
-                507.29998779296875
+                542.4000244140625,
+                392.6000061035156
               ],
               [
-                0.0,
-                509.70001220703125
+                553.7999877929688,
+                381.20001220703125
+              ],
+              [
+                553.7999877929688,
+                373.8999938964844
+              ],
+              [
+                532.4000244140625,
+                392.3999938964844
+              ],
+              [
+                532.4000244140625,
+                392.3999938964844
+              ],
+              [
+                448.6000061035156,
+                468.70001220703125
+              ],
+              [
+                448.6000061035156,
+                468.70001220703125
+              ],
+              [
+                420.20001220703125,
+                494.8999938964844
+              ]
+            ],
+            [
+              [
+                719.4000244140625,
+                499.20001220703125
+              ],
+              [
+                744.7000122070312,
+                499.5
+              ],
+              [
+                684.4000244140625,
+                436.6000061035156
+              ],
+              [
+                677.5999755859375,
+                429.5
+              ],
+              [
+                663.4000244140625,
+                405.8999938964844
+              ],
+              [
+                663.4000244140625,
+                405.8999938964844
+              ],
+              [
+                643.5999755859375,
+                374.6000061035156
+              ],
+              [
+                643.5,
+                374.29998779296875
+              ],
+              [
+                641.7000122070312,
+                374.29998779296875
+              ],
+              [
+                641.7000122070312,
+                385.5
+              ],
+              [
+                651.5999755859375,
+                405.79998779296875
+              ],
+              [
+                662.4000244140625,
+                429.29998779296875
+              ],
+              [
+                662.4000244140625,
+                429.29998779296875
+              ],
+              [
+                668.2000122070312,
+                436.3999938964844
+              ],
+              [
+                719.4000244140625,
+                499.20001220703125
               ]
             ]
           ],
@@ -196,7 +282,7 @@
           ]
         },
         {
-          "text": "the pedestrian in brown on the left, at the side of the road",
+          "text": "the pedestrian in brown on the left, by the road",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",
@@ -242,7 +328,7 @@
           ]
         },
         {
-          "text": "the nearer pedestrian in black on the left, in the next lane",
+          "text": "the nearer pedestrian in black on the left, near our lane",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",
@@ -295,13 +381,13 @@
       "items": []
     },
     "cam_r0": {
-      "text": "the pedestrian on the left, in the next lane",
+      "text": "the pedestrian on the left, near our lane",
       "categories": [
         "pedestrian"
       ],
       "items": [
         {
-          "text": "the pedestrian on the left, in the next lane",
+          "text": "the pedestrian on the left, near our lane",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",
@@ -347,7 +433,7 @@
           ]
         },
         {
-          "text": "the nearer pedestrian in orange on the left, at the side of the road",
+          "text": "the nearer pedestrian in orange on the left, by the road",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",
@@ -393,7 +479,7 @@
           ]
         },
         {
-          "text": "the farther pedestrian in orange on the left, at the side of the road",
+          "text": "the farther pedestrian in orange on the left, by the road",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",

@@ -168,13 +168,13 @@
       "items": []
     },
     "cam_r0": {
-      "text": "the pedestrian in yellow on the left, at the side of the road",
+      "text": "the pedestrian in yellow on the left, by the road",
       "categories": [
         "pedestrian"
       ],
       "items": [
         {
-          "text": "the pedestrian in yellow on the left, at the side of the road",
+          "text": "the pedestrian in yellow on the left, by the road",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",

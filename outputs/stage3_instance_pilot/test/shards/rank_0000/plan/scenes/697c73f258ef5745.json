@@ -25,6 +25,10 @@
         "frame": "route"
       },
       "distance": 20.401062805363072,
+      "place": {
+        "on_road": false,
+        "on_crosswalk": false
+      },
       "bbox": [
         373.62,
         333.89,
@@ -85,44 +89,6 @@
       "mask_row": 1
     },
     {
-      "kind": "stop_line",
-      "category": "stop_line",
-      "camera": "cam_f0",
-      "role": "stop_line",
-      "distance": 5.85,
-      "map_ids": [
-        "48464"
-      ],
-      "priority": 2,
-      "item_id": "cam_f0_2",
-      "outline": [
-        [
-          [
-            303.1000061035156,
-            672.0
-          ],
-          [
-            1148.0,
-            672.0
-          ],
-          [
-            1148.0,
-            644.4000244140625
-          ],
-          [
-            390.79998779296875,
-            576.7000122070312
-          ],
-          [
-            303.1000061035156,
-            672.0
-          ]
-        ]
-      ],
-      "grounded": true,
-      "mask_row": 2
-    },
-    {
       "kind": "lane_lines",
       "category": "lane_lines",
       "camera": "cam_f0",
@@ -134,7 +100,7 @@
         "51184"
       ],
       "priority": 2,
-      "item_id": "cam_f0_3",
+      "item_id": "cam_f0_2",
       "outline": [
         [
           [
@@ -278,7 +244,7 @@
         ]
       ],
       "grounded": true,
-      "mask_row": 3
+      "mask_row": 2
     },
     {
       "kind": "crosswalk",
@@ -290,7 +256,7 @@
         "48471"
       ],
       "priority": 2,
-      "item_id": "cam_f0_4",
+      "item_id": "cam_f0_3",
       "outline": [
         [
           [
@@ -320,7 +286,7 @@
         ]
       ],
       "grounded": true,
-      "mask_row": 4
+      "mask_row": 3
     },
     {
       "kind": "agent",
@@ -339,6 +305,10 @@
         "frame": "ego"
       },
       "distance": 27.431789828150848,
+      "place": {
+        "on_road": false,
+        "on_crosswalk": false
+      },
       "bbox": [
         342.32,
         286.51,
@@ -381,6 +351,44 @@
         ]
       ],
       "grounded": true,
+      "mask_row": 4
+    },
+    {
+      "kind": "stop_line",
+      "category": "stop_line",
+      "camera": "cam_l0",
+      "role": "stop_line",
+      "distance": 38.91,
+      "map_ids": [
+        "47776"
+      ],
+      "priority": 2,
+      "item_id": "cam_l0_0",
+      "outline": [
+        [
+          [
+            1038.0,
+            410.5
+          ],
+          [
+            951.0999755859375,
+            400.5
+          ],
+          [
+            800.2999877929688,
+            404.1000061035156
+          ],
+          [
+            891.7000122070312,
+            419.1000061035156
+          ],
+          [
+            1038.0,
+            410.5
+          ]
+        ]
+      ],
+      "grounded": true,
       "mask_row": 5
     },
     {
@@ -400,6 +408,10 @@
         "frame": "route"
       },
       "distance": 9.228014256221686,
+      "place": {
+        "on_road": false,
+        "on_crosswalk": false
+      },
       "bbox": [
         984.52,
         320.29,
@@ -445,5 +457,11 @@
       "mask_row": 6
     }
   ],
-  "rejected": {}
+  "rejected": {
+    "crosswalk_mostly_outside_cam_l0": 1,
+    "crosswalk_mostly_outside_cam_r0": 1,
+    "stop_line_mostly_outside_cam_f0": 2,
+    "stop_line_mostly_outside_cam_r0": 1,
+    "stop_line_hidden_cam_f0": 1
+  }
 }

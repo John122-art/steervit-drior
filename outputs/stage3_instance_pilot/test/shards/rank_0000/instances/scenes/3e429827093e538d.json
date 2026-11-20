@@ -105,13 +105,13 @@
       ]
     },
     "cam_b0": {
-      "text": "the white SUV on the right, at the side of the road",
+      "text": "the white SUV on the right, in another lane",
       "categories": [
         "vehicle"
       ],
       "items": [
         {
-          "text": "the white SUV on the right, at the side of the road",
+          "text": "the white SUV on the right, in another lane",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
@@ -205,64 +205,18 @@
       ]
     },
     "cam_l0": {
-      "text": "the white SUV on the right, in the next lane",
+      "text": "the black pickup truck on the left, beside us",
       "categories": [
         "vehicle"
       ],
       "items": [
-        {
-          "text": "the white SUV on the right, in the next lane",
-          "kind": "agent",
-          "category": "vehicle",
-          "role": "adjacent",
-          "grounded": true,
-          "item_id": "cam_l0_0",
-          "distance": 8.18,
-          "gt_index": 3,
-          "map_ids": null,
-          "attributes": {
-            "visible": true,
-            "color": "white",
-            "type": "SUV"
-          },
-          "outline": [
-            [
-              [
-                1148.0,
-                267.79998779296875
-              ],
-              [
-                658.9000244140625,
-                267.79998779296875
-              ],
-              [
-                658.9000244140625,
-                672.0
-              ],
-              [
-                1148.0,
-                672.0
-              ],
-              [
-                1148.0,
-                267.79998779296875
-              ]
-            ]
-          ],
-          "bbox": [
-            658.86,
-            267.75,
-            1148.0,
-            672.0
-          ]
-        },
         {
           "text": "the black pickup truck on the left, beside us",
           "kind": "agent",
           "category": "vehicle",
           "role": "beside",
           "grounded": true,
-          "item_id": "cam_l0_1",
+          "item_id": "cam_l0_0",
           "distance": 8.42,
           "gt_index": 15,
           "map_ids": null,

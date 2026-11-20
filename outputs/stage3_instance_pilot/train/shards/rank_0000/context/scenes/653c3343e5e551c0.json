@@ -251,6 +251,240 @@
       1.332
     ]
   ],
+  "places": [
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": true,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": true,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": true,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": true,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": true,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": true,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": true,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": true,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": true,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": true,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": true,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": true,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": true,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": true,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": true,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": true,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": true,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": true,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": true,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": true,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": true,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": true,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": true,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": true,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": true,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": true,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    }
+  ],
   "route": {
     "ego_s_global": 8.297181959085096,
     "centerline": [

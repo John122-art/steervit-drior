@@ -237,7 +237,7 @@
           ]
         },
         {
-          "text": "the nearer pedestrian in blue on the right, in the next lane",
+          "text": "the nearer pedestrian in blue on the right, near our lane",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",
@@ -283,7 +283,7 @@
           ]
         },
         {
-          "text": "the farther pedestrian in blue on the right, in the next lane",
+          "text": "the farther pedestrian in blue on the right, near our lane",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",

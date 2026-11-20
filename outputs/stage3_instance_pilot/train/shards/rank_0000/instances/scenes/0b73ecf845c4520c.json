@@ -48,6 +48,53 @@
             ]
           ],
           "bbox": null
+        },
+        {
+          "text": "the stop line in front of us",
+          "kind": "stop_line",
+          "category": "stop_line",
+          "role": "stop_line",
+          "grounded": true,
+          "item_id": "cam_f0_1",
+          "distance": 27.1,
+          "gt_index": null,
+          "map_ids": [
+            "49366"
+          ],
+          "attributes": null,
+          "outline": [
+            [
+              [
+                919.2999877929688,
+                377.1000061035156
+              ],
+              [
+                593.0,
+                377.0
+              ],
+              [
+                663.0,
+                387.1000061035156
+              ],
+              [
+                757.5999755859375,
+                396.20001220703125
+              ],
+              [
+                911.5999755859375,
+                406.1000061035156
+              ],
+              [
+                1064.800048828125,
+                387.79998779296875
+              ],
+              [
+                919.2999877929688,
+                377.1000061035156
+              ]
+            ]
+          ],
+          "bbox": null
         }
       ]
     },
@@ -111,47 +158,9 @@
       "items": []
     },
     "cam_r0": {
-      "text": "the stop line in front of us",
-      "categories": [
-        "stop_line"
-      ],
-      "items": [
-        {
-          "text": "the stop line in front of us",
-          "kind": "stop_line",
-          "category": "stop_line",
-          "role": "stop_line",
-          "grounded": true,
-          "item_id": "cam_r0_0",
-          "distance": 2.69,
-          "gt_index": null,
-          "map_ids": [
-            "49597"
-          ],
-          "attributes": null,
-          "outline": [
-            [
-              [
-                376.6000061035156,
-                672.0
-              ],
-              [
-                800.0999755859375,
-                672.0
-              ],
-              [
-                537.2999877929688,
-                609.7999877929688
-              ],
-              [
-                376.6000061035156,
-                672.0
-              ]
-            ]
-          ],
-          "bbox": null
-        }
-      ]
+      "text": "",
+      "categories": [],
+      "items": []
     }
   }
 }

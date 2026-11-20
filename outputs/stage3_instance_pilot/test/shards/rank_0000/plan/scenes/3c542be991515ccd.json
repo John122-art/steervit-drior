@@ -162,6 +162,10 @@
         "frame": "route"
       },
       "distance": 13.779071053577482,
+      "place": {
+        "on_road": true,
+        "on_crosswalk": false
+      },
       "bbox": [
         17.75,
         358.15,
@@ -223,6 +227,10 @@
         "frame": "route"
       },
       "distance": 26.02404817336979,
+      "place": {
+        "on_road": false,
+        "on_crosswalk": false
+      },
       "bbox": [
         517.1,
         338.91,
@@ -284,6 +292,10 @@
         "frame": "ego"
       },
       "distance": 10.860096571771019,
+      "place": {
+        "on_road": true,
+        "on_crosswalk": false
+      },
       "bbox": [
         736.2,
         322.8,
@@ -327,71 +339,10 @@
       ],
       "grounded": true,
       "mask_row": 3
-    },
-    {
-      "kind": "agent",
-      "category": "vehicle",
-      "gt_index": 10,
-      "camera": "cam_b0",
-      "role": "nearby",
-      "relation": {
-        "lon": -12.263520403175347,
-        "lat": -9.908045905403306,
-        "lane": "off_right",
-        "motion": "same",
-        "speed": 0.0,
-        "relative_heading": -1.055487793554824,
-        "distance": 15.76589059782787,
-        "frame": "ego"
-      },
-      "distance": 15.76589059782787,
-      "bbox": [
-        0.0,
-        321.26,
-        33.85,
-        527.64
-      ],
-      "occluded_fraction": 0.0,
-      "crossing_from": null,
-      "priority": 4,
-      "item_id": "cam_b0_1",
-      "crop": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage3_instance_pilot/test/shards/rank_0000/plan/crops/3c542be991515ccd/cam_b0_1.jpg",
-      "crop_box_original": [
-        0,
-        466,
-        66,
-        898
-      ],
-      "outline": [
-        [
-          [
-            33.79999923706055,
-            527.5999755859375
-          ],
-          [
-            33.79999923706055,
-            321.29998779296875
-          ],
-          [
-            0.0,
-            321.29998779296875
-          ],
-          [
-            0.0,
-            527.5999755859375
-          ],
-          [
-            33.79999923706055,
-            527.5999755859375
-          ]
-        ]
-      ],
-      "grounded": true,
-      "mask_row": 4
     }
   ],
   "rejected": {
-    "too_small": 1,
+    "mostly_outside_image": 2,
     "not_in_any_camera": 2
   }
 }

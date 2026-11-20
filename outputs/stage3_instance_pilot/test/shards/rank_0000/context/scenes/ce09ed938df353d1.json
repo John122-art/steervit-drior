@@ -255,6 +255,244 @@
       1.027
     ]
   ],
+  "places": [
+    {
+      "on_road": true,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": true,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": true,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": true,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": true,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": true,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": true,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": true,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": true,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": true,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": true,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": true,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": true,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": true,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": true,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": true,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": true,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": true,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": true,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": true,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": true,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": true,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": true,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": true,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": true,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": true,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": true,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": true,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    },
+    {
+      "on_road": false,
+      "on_crosswalk": false
+    }
+  ],
   "route": {
     "ego_s_global": 53.05546532630102,
     "centerline": [

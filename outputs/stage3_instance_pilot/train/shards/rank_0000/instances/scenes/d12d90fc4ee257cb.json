@@ -202,13 +202,13 @@
       ]
     },
     "cam_b0": {
-      "text": "the black SUV on the right, at the side of the road",
+      "text": "the black SUV on the right, in another lane",
       "categories": [
         "vehicle"
       ],
       "items": [
         {
-          "text": "the black SUV on the right, at the side of the road",
+          "text": "the black SUV on the right, in another lane",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
@@ -256,13 +256,13 @@
       ]
     },
     "cam_l0": {
-      "text": "the gray SUV on the right, at the side of the road",
+      "text": "the gray SUV on the right, in another lane",
       "categories": [
         "vehicle"
       ],
       "items": [
         {
-          "text": "the gray SUV on the right, at the side of the road",
+          "text": "the gray SUV on the right, in another lane",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",

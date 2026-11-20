@@ -417,7 +417,7 @@
           "bbox": null
         },
         {
-          "text": "the silver car on the left, at the side of the road",
+          "text": "the silver car on the left, by the road",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
@@ -465,13 +465,13 @@
       ]
     },
     "cam_b0": {
-      "text": "the nearer black car on the left, at the side of the road",
+      "text": "the nearer black car on the left, by the road",
       "categories": [
         "vehicle"
       ],
       "items": [
         {
-          "text": "the nearer black car on the left, at the side of the road",
+          "text": "the nearer black car on the left, by the road",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
@@ -517,7 +517,7 @@
           ]
         },
         {
-          "text": "the farther black car on the left, at the side of the road",
+          "text": "the farther black car on the left, by the road",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",

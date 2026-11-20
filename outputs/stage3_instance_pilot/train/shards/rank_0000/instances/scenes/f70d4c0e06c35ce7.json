@@ -48,6 +48,45 @@
             ]
           ],
           "bbox": null
+        },
+        {
+          "text": "the stop line in front of us",
+          "kind": "stop_line",
+          "category": "stop_line",
+          "role": "stop_line",
+          "grounded": true,
+          "item_id": "cam_f0_1",
+          "distance": 7.99,
+          "gt_index": null,
+          "map_ids": [
+            "48576"
+          ],
+          "attributes": null,
+          "outline": [
+            [
+              [
+                81.0999984741211,
+                510.0
+              ],
+              [
+                83.30000305175781,
+                590.5
+              ],
+              [
+                649.2000122070312,
+                586.5
+              ],
+              [
+                502.5,
+                502.5
+              ],
+              [
+                81.0999984741211,
+                510.0
+              ]
+            ]
+          ],
+          "bbox": null
         }
       ]
     },
@@ -104,7 +143,7 @@
           ]
         },
         {
-          "text": "the silver SUV on the right, at the side of the road",
+          "text": "the silver SUV on the right, in another lane",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
@@ -157,53 +196,18 @@
       "items": []
     },
     "cam_r0": {
-      "text": "the stop line in front of us",
+      "text": "the lane lines of our lane",
       "categories": [
-        "stop_line"
+        "lane_lines"
       ],
       "items": [
-        {
-          "text": "the stop line in front of us",
-          "kind": "stop_line",
-          "category": "stop_line",
-          "role": "stop_line",
-          "grounded": true,
-          "item_id": "cam_r0_0",
-          "distance": 3.74,
-          "gt_index": null,
-          "map_ids": [
-            "47176"
-          ],
-          "attributes": null,
-          "outline": [
-            [
-              [
-                347.20001220703125,
-                672.0
-              ],
-              [
-                404.3999938964844,
-                672.0
-              ],
-              [
-                372.20001220703125,
-                661.2999877929688
-              ],
-              [
-                347.20001220703125,
-                672.0
-              ]
-            ]
-          ],
-          "bbox": null
-        },
         {
           "text": "the lane lines of our lane",
           "kind": "lane_lines",
           "category": "lane_lines",
           "role": "lane_lines",
           "grounded": true,
-          "item_id": "cam_r0_1",
+          "item_id": "cam_r0_0",
           "distance": 10.0,
           "gt_index": null,
           "map_ids": [

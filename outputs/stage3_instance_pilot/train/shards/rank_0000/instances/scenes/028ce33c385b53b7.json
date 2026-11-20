@@ -121,58 +121,9 @@
       ]
     },
     "cam_b0": {
-      "text": "the brown car on the right, beside us",
-      "categories": [
-        "vehicle"
-      ],
-      "items": [
-        {
-          "text": "the brown car on the right, beside us",
-          "kind": "agent",
-          "category": "vehicle",
-          "role": "beside",
-          "grounded": true,
-          "item_id": "cam_b0_0",
-          "distance": 9.23,
-          "gt_index": 5,
-          "map_ids": null,
-          "attributes": {
-            "visible": true,
-            "color": "brown",
-            "type": "car"
-          },
-          "outline": [
-            [
-              [
-                1148.0,
-                357.6000061035156
-              ],
-              [
-                1098.300048828125,
-                357.6000061035156
-              ],
-              [
-                1098.300048828125,
-                672.0
-              ],
-              [
-                1148.0,
-                672.0
-              ],
-              [
-                1148.0,
-                357.6000061035156
-              ]
-            ]
-          ],
-          "bbox": [
-            1098.31,
-            357.6,
-            1148.0,
-            672.0
-          ]
-        }
-      ]
+      "text": "",
+      "categories": [],
+      "items": []
     },
     "cam_l0": {
       "text": "",

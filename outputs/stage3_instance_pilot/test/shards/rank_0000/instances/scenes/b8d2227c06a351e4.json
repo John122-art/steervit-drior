@@ -5,13 +5,13 @@
   "input_hash": "eaad501c206c9abe9330c137b939236217f321e19caae16ba528feac25092d27",
   "scene_text": {
     "cam_f0": {
-      "text": "the cyclist in blue on the right, near our lane",
+      "text": "the cyclist in blue on the right, on the crosswalk",
       "categories": [
         "bicycle"
       ],
       "items": [
         {
-          "text": "the cyclist in blue on the right, near our lane",
+          "text": "the cyclist in blue on the right, on the crosswalk",
           "kind": "agent",
           "category": "bicycle",
           "role": "vru",
@@ -195,13 +195,13 @@
       "items": []
     },
     "cam_l0": {
-      "text": "the pedestrian in black on the right, at the side of the road",
+      "text": "the pedestrian in black on the right, by the road",
       "categories": [
         "pedestrian"
       ],
       "items": [
         {
-          "text": "the pedestrian in black on the right, at the side of the road",
+          "text": "the pedestrian in black on the right, by the road",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",
@@ -249,13 +249,13 @@
       ]
     },
     "cam_r0": {
-      "text": "the pedestrian in blue on the left, at the side of the road",
+      "text": "the pedestrian in blue on the left, by the road",
       "categories": [
         "pedestrian"
       ],
       "items": [
         {
-          "text": "the pedestrian in blue on the left, at the side of the road",
+          "text": "the pedestrian in blue on the left, by the road",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",
@@ -301,7 +301,7 @@
           ]
         },
         {
-          "text": "the pedestrian in gray in the center, at the side of the road",
+          "text": "the pedestrian in gray in the center, by the road",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",

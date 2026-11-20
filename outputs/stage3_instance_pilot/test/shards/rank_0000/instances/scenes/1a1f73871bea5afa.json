@@ -248,58 +248,9 @@
       "items": []
     },
     "cam_l0": {
-      "text": "the silver SUV on the left, at the side of the road",
-      "categories": [
-        "vehicle"
-      ],
-      "items": [
-        {
-          "text": "the silver SUV on the left, at the side of the road",
-          "kind": "agent",
-          "category": "vehicle",
-          "role": "nearby",
-          "grounded": true,
-          "item_id": "cam_l0_0",
-          "distance": 15.81,
-          "gt_index": 0,
-          "map_ids": null,
-          "attributes": {
-            "visible": true,
-            "color": "silver",
-            "type": "SUV"
-          },
-          "outline": [
-            [
-              [
-                103.0,
-                513.4000244140625
-              ],
-              [
-                103.0,
-                356.6000061035156
-              ],
-              [
-                0.0,
-                356.6000061035156
-              ],
-              [
-                0.0,
-                513.4000244140625
-              ],
-              [
-                103.0,
-                513.4000244140625
-              ]
-            ]
-          ],
-          "bbox": [
-            0.0,
-            356.64,
-            103.05,
-            513.42
-          ]
-        }
-      ]
+      "text": "",
+      "categories": [],
+      "items": []
     },
     "cam_r0": {
       "text": "",

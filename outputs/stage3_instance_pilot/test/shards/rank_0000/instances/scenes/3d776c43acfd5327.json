@@ -171,50 +171,43 @@
           "bbox": null
         },
         {
-          "text": "the blue car on the left, at the side of the road",
-          "kind": "agent",
-          "category": "vehicle",
-          "role": "nearby",
+          "text": "the stop line in front of us",
+          "kind": "stop_line",
+          "category": "stop_line",
+          "role": "stop_line",
           "grounded": true,
           "item_id": "cam_f0_2",
-          "distance": 17.46,
-          "gt_index": 5,
-          "map_ids": null,
-          "attributes": {
-            "visible": true,
-            "color": "blue",
-            "type": "car"
-          },
+          "distance": 37.21,
+          "gt_index": null,
+          "map_ids": [
+            "48008"
+          ],
+          "attributes": null,
           "outline": [
             [
               [
-                107.30000305175781,
-                332.3999938964844
+                666.5,
+                375.79998779296875
               ],
               [
-                107.30000305175781,
-                451.20001220703125
+                666.5,
+                370.70001220703125
               ],
               [
-                335.79998779296875,
-                451.20001220703125
+                609.7999877929688,
+                370.5
               ],
               [
-                335.79998779296875,
-                332.3999938964844
+                609.7999877929688,
+                375.6000061035156
               ],
               [
-                107.30000305175781,
-                332.3999938964844
+                666.5,
+                375.79998779296875
               ]
             ]
           ],
-          "bbox": [
-            107.3,
-            332.38,
-            335.82,
-            451.17
-          ]
+          "bbox": null
         }
       ]
     },
@@ -224,57 +217,18 @@
       "items": []
     },
     "cam_l0": {
-      "text": "the stop line in front of us",
+      "text": "the pedestrian in black on the right, by the road",
       "categories": [
-        "stop_line"
+        "pedestrian"
       ],
       "items": [
         {
-          "text": "the stop line in front of us",
-          "kind": "stop_line",
-          "category": "stop_line",
-          "role": "stop_line",
-          "grounded": true,
-          "item_id": "cam_l0_0",
-          "distance": 3.89,
-          "gt_index": null,
-          "map_ids": [
-            "48226"
-          ],
-          "attributes": null,
-          "outline": [
-            [
-              [
-                0.0,
-                614.7999877929688
-              ],
-              [
-                0.0,
-                672.0
-              ],
-              [
-                1046.0999755859375,
-                672.0
-              ],
-              [
-                606.2999877929688,
-                541.9000244140625
-              ],
-              [
-                0.0,
-                614.7999877929688
-              ]
-            ]
-          ],
-          "bbox": null
-        },
-        {
-          "text": "the pedestrian in black on the right, at the side of the road",
+          "text": "the pedestrian in black on the right, by the road",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",
           "grounded": true,
-          "item_id": "cam_l0_1",
+          "item_id": "cam_l0_0",
           "distance": 17.17,
           "gt_index": 18,
           "map_ids": null,

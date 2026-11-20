@@ -122,7 +122,7 @@
           "bbox": null
         },
         {
-          "text": "the gray SUV on the left, at the side of the road",
+          "text": "the gray SUV on the left, in another lane",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
@@ -224,64 +224,18 @@
       ]
     },
     "cam_l0": {
-      "text": "the white van on the left, in the next lane",
+      "text": "the nearer white car on the right, in another lane",
       "categories": [
         "vehicle"
       ],
       "items": [
         {
-          "text": "the white van on the left, in the next lane",
-          "kind": "agent",
-          "category": "vehicle",
-          "role": "adjacent",
-          "grounded": false,
-          "item_id": "cam_l0_0",
-          "distance": 4.46,
-          "gt_index": 115,
-          "map_ids": null,
-          "attributes": {
-            "visible": true,
-            "color": "white",
-            "type": "van"
-          },
-          "outline": [
-            [
-              [
-                617.2000122070312,
-                0.0
-              ],
-              [
-                0.0,
-                0.0
-              ],
-              [
-                0.0,
-                672.0
-              ],
-              [
-                617.2000122070312,
-                672.0
-              ],
-              [
-                617.2000122070312,
-                0.0
-              ]
-            ]
-          ],
-          "bbox": [
-            0.0,
-            0.0,
-            617.18,
-            672.0
-          ]
-        },
-        {
-          "text": "the nearer white car on the right, at the side of the road",
+          "text": "the nearer white car on the right, in another lane",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
           "grounded": true,
-          "item_id": "cam_l0_1",
+          "item_id": "cam_l0_0",
           "distance": 12.94,
           "gt_index": 104,
           "map_ids": null,
@@ -322,12 +276,12 @@
           ]
         },
         {
-          "text": "the farther white car on the right, at the side of the road",
+          "text": "the farther white car on the right, in another lane",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
           "grounded": true,
-          "item_id": "cam_l0_2",
+          "item_id": "cam_l0_1",
           "distance": 18.59,
           "gt_index": 110,
           "map_ids": null,

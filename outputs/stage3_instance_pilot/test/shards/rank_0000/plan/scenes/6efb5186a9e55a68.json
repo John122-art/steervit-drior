@@ -9,44 +9,6 @@
   "route_offset": -0.12603521229894443,
   "items": [
     {
-      "kind": "stop_line",
-      "category": "stop_line",
-      "camera": "cam_f0",
-      "role": "stop_line",
-      "distance": 5.73,
-      "map_ids": [
-        "63332"
-      ],
-      "priority": 2,
-      "item_id": "cam_f0_0",
-      "outline": [
-        [
-          [
-            130.1999969482422,
-            672.0
-          ],
-          [
-            1092.300048828125,
-            672.0
-          ],
-          [
-            1092.300048828125,
-            597.2999877929688
-          ],
-          [
-            217.10000610351562,
-            599.2999877929688
-          ],
-          [
-            130.1999969482422,
-            672.0
-          ]
-        ]
-      ],
-      "grounded": true,
-      "mask_row": 0
-    },
-    {
       "kind": "crosswalk",
       "category": "crosswalk",
       "camera": "cam_f0",
@@ -56,7 +18,7 @@
         "64063"
       ],
       "priority": 2,
-      "item_id": "cam_f0_1",
+      "item_id": "cam_f0_0",
       "outline": [
         [
           [
@@ -82,6 +44,44 @@
         ]
       ],
       "grounded": true,
+      "mask_row": 0
+    },
+    {
+      "kind": "stop_line",
+      "category": "stop_line",
+      "camera": "cam_f0",
+      "role": "stop_line",
+      "distance": 28.02,
+      "map_ids": [
+        "64060"
+      ],
+      "priority": 2,
+      "item_id": "cam_f0_1",
+      "outline": [
+        [
+          [
+            903.7000122070312,
+            378.1000061035156
+          ],
+          [
+            564.0,
+            377.8999938964844
+          ],
+          [
+            499.6000061035156,
+            381.8999938964844
+          ],
+          [
+            820.5999755859375,
+            380.5
+          ],
+          [
+            903.7000122070312,
+            378.1000061035156
+          ]
+        ]
+      ],
+      "grounded": true,
       "mask_row": 1
     },
     {
@@ -101,6 +101,10 @@
         "frame": "ego"
       },
       "distance": 16.010806477410902,
+      "place": {
+        "on_road": false,
+        "on_crosswalk": false
+      },
       "bbox": [
         0.0,
         355.7,
@@ -162,6 +166,10 @@
         "frame": "route"
       },
       "distance": 8.090483371782048,
+      "place": {
+        "on_road": false,
+        "on_crosswalk": false
+      },
       "bbox": [
         133.34,
         385.37,
@@ -210,7 +218,9 @@
   "rejected": {
     "occluded": 1,
     "not_in_any_camera": 1,
-    "crosswalk_hidden_cam_r0": 1,
-    "stop_line_hidden_cam_r0": 1
+    "crosswalk_mostly_outside_cam_l0": 1,
+    "crosswalk_mostly_outside_cam_r0": 1,
+    "stop_line_mostly_outside_cam_f0": 1,
+    "stop_line_mostly_outside_cam_r0": 1
   }
 }

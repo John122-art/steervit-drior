@@ -201,13 +201,13 @@
       ]
     },
     "cam_b0": {
-      "text": "the gray SUV on the right, at the side of the road",
+      "text": "the gray SUV on the right, by the road",
       "categories": [
         "vehicle"
       ],
       "items": [
         {
-          "text": "the gray SUV on the right, at the side of the road",
+          "text": "the gray SUV on the right, by the road",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
@@ -253,7 +253,7 @@
           ]
         },
         {
-          "text": "the pedestrian in black on the left, at the side of the road",
+          "text": "the pedestrian in black on the left, by the road",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",
@@ -352,13 +352,13 @@
       "items": []
     },
     "cam_r0": {
-      "text": "the pedestrian in white in the center, at the side of the road",
+      "text": "the pedestrian in white in the center, by the road",
       "categories": [
         "pedestrian"
       ],
       "items": [
         {
-          "text": "the pedestrian in white in the center, at the side of the road",
+          "text": "the pedestrian in white in the center, by the road",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",
@@ -404,7 +404,7 @@
           ]
         },
         {
-          "text": "the pedestrian in black in the center, at the side of the road",
+          "text": "the pedestrian in black in the center, by the road",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",
@@ -450,7 +450,7 @@
           ]
         },
         {
-          "text": "the pedestrian in white on the left, at the side of the road",
+          "text": "the pedestrian in white on the left, by the road",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",

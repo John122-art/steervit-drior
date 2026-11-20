@@ -27,55 +27,12 @@
           "bbox": null
         },
         {
-          "text": "the crosswalk in front of us",
-          "kind": "crosswalk",
-          "category": "crosswalk",
-          "role": "crosswalk",
-          "grounded": true,
-          "item_id": "cam_f0_1",
-          "distance": 8.67,
-          "gt_index": null,
-          "map_ids": [
-            "53691"
-          ],
-          "attributes": null,
-          "outline": [
-            [
-              [
-                0.0,
-                526.0999755859375
-              ],
-              [
-                0.0,
-                672.0
-              ],
-              [
-                1148.0,
-                672.0
-              ],
-              [
-                1148.0,
-                578.9000244140625
-              ],
-              [
-                1102.4000244140625,
-                512.0
-              ],
-              [
-                0.0,
-                526.0999755859375
-              ]
-            ]
-          ],
-          "bbox": null
-        },
-        {
           "text": "the lane lines of our lane",
           "kind": "lane_lines",
           "category": "lane_lines",
           "role": "lane_lines",
           "grounded": true,
-          "item_id": "cam_f0_2",
+          "item_id": "cam_f0_1",
           "distance": 10.0,
           "gt_index": null,
           "map_ids": [
@@ -186,114 +143,61 @@
             ]
           ],
           "bbox": null
+        },
+        {
+          "text": "the stop line in front of us",
+          "kind": "stop_line",
+          "category": "stop_line",
+          "role": "stop_line",
+          "grounded": true,
+          "item_id": "cam_f0_2",
+          "distance": 16.99,
+          "gt_index": null,
+          "map_ids": [
+            "48166"
+          ],
+          "attributes": null,
+          "outline": [
+            [
+              [
+                811.9000244140625,
+                414.70001220703125
+              ],
+              [
+                566.0,
+                437.6000061035156
+              ],
+              [
+                973.2999877929688,
+                512.4000244140625
+              ],
+              [
+                1049.9000244140625,
+                478.0
+              ],
+              [
+                811.9000244140625,
+                414.70001220703125
+              ]
+            ]
+          ],
+          "bbox": null
         }
       ]
     },
     "cam_b0": {
-      "text": "the gray SUV on the right, in the next lane",
+      "text": "the white truck in the center, following us",
       "categories": [
         "vehicle"
       ],
       "items": [
         {
-          "text": "the gray SUV on the right, in the next lane",
-          "kind": "agent",
-          "category": "vehicle",
-          "role": "adjacent",
-          "grounded": true,
-          "item_id": "cam_b0_0",
-          "distance": 7.1,
-          "gt_index": 0,
-          "map_ids": null,
-          "attributes": {
-            "visible": true,
-            "color": "gray",
-            "type": "SUV"
-          },
-          "outline": [
-            [
-              [
-                1148.0,
-                282.29998779296875
-              ],
-              [
-                963.7000122070312,
-                282.29998779296875
-              ],
-              [
-                963.7000122070312,
-                672.0
-              ],
-              [
-                1148.0,
-                672.0
-              ],
-              [
-                1148.0,
-                282.29998779296875
-              ]
-            ]
-          ],
-          "bbox": [
-            963.71,
-            282.28,
-            1148.0,
-            672.0
-          ]
-        },
-        {
-          "text": "the black pickup truck on the left, in the next lane",
-          "kind": "agent",
-          "category": "vehicle",
-          "role": "adjacent",
-          "grounded": true,
-          "item_id": "cam_b0_1",
-          "distance": 9.78,
-          "gt_index": 9,
-          "map_ids": null,
-          "attributes": {
-            "visible": true,
-            "color": "black",
-            "type": "pickup truck"
-          },
-          "outline": [
-            [
-              [
-                299.0,
-                308.79998779296875
-              ],
-              [
-                0.0,
-                308.79998779296875
-              ],
-              [
-                0.0,
-                672.0
-              ],
-              [
-                299.0,
-                672.0
-              ],
-              [
-                299.0,
-                308.79998779296875
-              ]
-            ]
-          ],
-          "bbox": [
-            0.0,
-            308.75,
-            298.95,
-            672.0
-          ]
-        },
-        {
           "text": "the white truck in the center, following us",
           "kind": "agent",
           "category": "vehicle",
           "role": "following",
-          "grounded": false,
-          "item_id": "cam_b0_2",
+          "grounded": true,
+          "item_id": "cam_b0_0",
           "distance": 10.06,
           "gt_index": 1,
           "map_ids": null,
@@ -336,64 +240,18 @@
       ]
     },
     "cam_l0": {
-      "text": "the red car on the left, in the next lane",
+      "text": "the gray car on the left, by the road",
       "categories": [
         "vehicle"
       ],
       "items": [
         {
-          "text": "the red car on the left, in the next lane",
-          "kind": "agent",
-          "category": "vehicle",
-          "role": "adjacent",
-          "grounded": true,
-          "item_id": "cam_l0_0",
-          "distance": 4.13,
-          "gt_index": 10,
-          "map_ids": null,
-          "attributes": {
-            "visible": true,
-            "color": "red",
-            "type": "car"
-          },
-          "outline": [
-            [
-              [
-                627.2999877929688,
-                407.3999938964844
-              ],
-              [
-                0.0,
-                407.3999938964844
-              ],
-              [
-                0.0,
-                672.0
-              ],
-              [
-                627.2999877929688,
-                672.0
-              ],
-              [
-                627.2999877929688,
-                407.3999938964844
-              ]
-            ]
-          ],
-          "bbox": [
-            0.0,
-            407.41,
-            627.27,
-            672.0
-          ]
-        },
-        {
-          "text": "the gray car on the left, at the side of the road",
+          "text": "the gray car on the left, by the road",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
           "grounded": true,
-          "item_id": "cam_l0_1",
+          "item_id": "cam_l0_0",
           "distance": 26.45,
           "gt_index": 14,
           "map_ids": null,
@@ -434,12 +292,12 @@
           ]
         },
         {
-          "text": "the black car on the left, at the side of the road",
+          "text": "the black car on the left, by the road",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
           "grounded": true,
-          "item_id": "cam_l0_2",
+          "item_id": "cam_l0_1",
           "distance": 27.78,
           "gt_index": 13,
           "map_ids": null,
@@ -482,13 +340,13 @@
       ]
     },
     "cam_r0": {
-      "text": "the pedestrian in white on the left, at the side of the road",
+      "text": "the pedestrian in white on the left, by the road",
       "categories": [
         "pedestrian"
       ],
       "items": [
         {
-          "text": "the pedestrian in white on the left, at the side of the road",
+          "text": "the pedestrian in white on the left, by the road",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",

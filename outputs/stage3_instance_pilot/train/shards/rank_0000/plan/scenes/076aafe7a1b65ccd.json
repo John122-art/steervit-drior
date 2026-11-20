@@ -25,6 +25,10 @@
         "frame": "route"
       },
       "distance": 27.271186149584253,
+      "place": {
+        "on_road": false,
+        "on_crosswalk": false
+      },
       "bbox": [
         425.16,
         320.05,
@@ -86,6 +90,10 @@
         "frame": "ego"
       },
       "distance": 12.294669309355873,
+      "place": {
+        "on_road": true,
+        "on_crosswalk": false
+      },
       "bbox": [
         1058.88,
         337.86,
@@ -147,6 +155,10 @@
         "frame": "route"
       },
       "distance": 8.549230614248687,
+      "place": {
+        "on_road": false,
+        "on_crosswalk": true
+      },
       "bbox": [
         22.46,
         326.7,
@@ -196,108 +208,42 @@
       "category": "stop_line",
       "camera": "cam_r0",
       "role": "stop_line",
-      "distance": 0.8,
+      "distance": 6.11,
       "map_ids": [
-        "63408"
+        "64550"
       ],
       "priority": 2,
       "item_id": "cam_r0_0",
       "outline": [
         [
           [
-            1136.4000244140625,
+            119.9000015258789,
+            652.4000244140625
+          ],
+          [
+            147.0,
             672.0
           ],
           [
-            1148.0,
+            497.0,
             672.0
           ],
           [
-            1148.0,
-            651.4000244140625
+            646.7000122070312,
+            597.2999877929688
           ],
           [
-            1142.0,
-            650.0
+            541.2000122070312,
+            526.4000244140625
           ],
           [
-            1136.4000244140625,
-            672.0
+            119.9000015258789,
+            652.4000244140625
           ]
         ]
       ],
       "grounded": true,
       "mask_row": 3
-    },
-    {
-      "kind": "crosswalk",
-      "category": "crosswalk",
-      "camera": "cam_r0",
-      "role": "crosswalk",
-      "distance": 5.45,
-      "map_ids": [
-        "63411"
-      ],
-      "priority": 2,
-      "item_id": "cam_r0_1",
-      "outline": [
-        [
-          [
-            858.2999877929688,
-            576.0999755859375
-          ],
-          [
-            814.5999755859375,
-            561.0
-          ],
-          [
-            779.7999877929688,
-            547.5999755859375
-          ],
-          [
-            752.5,
-            535.2000122070312
-          ],
-          [
-            732.0,
-            522.5999755859375
-          ],
-          [
-            723.2000122070312,
-            512.7000122070312
-          ],
-          [
-            718.2000122070312,
-            503.70001220703125
-          ],
-          [
-            716.7000122070312,
-            495.1000061035156
-          ],
-          [
-            718.7999877929688,
-            487.70001220703125
-          ],
-          [
-            129.1999969482422,
-            672.0
-          ],
-          [
-            758.0999755859375,
-            672.0
-          ],
-          [
-            882.7000122070312,
-            583.7000122070312
-          ],
-          [
-            858.2999877929688,
-            576.0999755859375
-          ]
-        ]
-      ],
-      "grounded": true,
-      "mask_row": 4
     },
     {
       "kind": "agent",
@@ -316,6 +262,10 @@
         "frame": "route"
       },
       "distance": 28.34543701356596,
+      "place": {
+        "on_road": false,
+        "on_crosswalk": false
+      },
       "bbox": [
         696.27,
         355.07,
@@ -325,8 +275,8 @@
       "occluded_fraction": 0.0,
       "crossing_from": null,
       "priority": 4,
-      "item_id": "cam_r0_2",
-      "crop": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage3_instance_pilot/train/shards/rank_0000/plan/crops/076aafe7a1b65ccd/cam_r0_2.jpg",
+      "item_id": "cam_r0_1",
+      "crop": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage3_instance_pilot/train/shards/rank_0000/plan/crops/076aafe7a1b65ccd/cam_r0_1.jpg",
       "crop_box_original": [
         1130,
         553,
@@ -358,12 +308,16 @@
         ]
       ],
       "grounded": true,
-      "mask_row": 5
+      "mask_row": 4
     }
   ],
   "rejected": {
-    "occluded": 2,
+    "mostly_outside_image": 2,
     "not_in_any_camera": 1,
-    "crosswalk_hidden_cam_l0": 1
+    "crosswalk_mostly_outside_cam_f0": 1,
+    "crosswalk_mostly_outside_cam_l0": 1,
+    "crosswalk_mostly_outside_cam_r0": 1,
+    "stop_line_mostly_outside_cam_r0": 2,
+    "stop_line_mostly_outside_cam_f0": 2
   }
 }

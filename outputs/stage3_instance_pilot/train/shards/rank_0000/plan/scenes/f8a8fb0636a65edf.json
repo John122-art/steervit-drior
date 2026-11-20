@@ -25,6 +25,10 @@
         "frame": "route"
       },
       "distance": 23.594789428283324,
+      "place": {
+        "on_road": true,
+        "on_crosswalk": false
+      },
       "bbox": [
         467.39,
         312.93,
@@ -147,6 +151,10 @@
         "frame": "route"
       },
       "distance": 17.794606881927287,
+      "place": {
+        "on_road": true,
+        "on_crosswalk": false
+      },
       "bbox": [
         0.0,
         324.52,
@@ -208,6 +216,10 @@
         "frame": "route"
       },
       "distance": 25.663067695046927,
+      "place": {
+        "on_road": false,
+        "on_crosswalk": false
+      },
       "bbox": [
         947.87,
         311.95,
@@ -269,6 +281,10 @@
         "frame": "route"
       },
       "distance": 28.675875796201566,
+      "place": {
+        "on_road": false,
+        "on_crosswalk": false
+      },
       "bbox": [
         905.83,
         319.24,
@@ -330,6 +346,10 @@
         "frame": "ego"
       },
       "distance": 22.428630871342975,
+      "place": {
+        "on_road": false,
+        "on_crosswalk": false
+      },
       "bbox": [
         933.07,
         336.45,
@@ -391,6 +411,10 @@
         "frame": "ego"
       },
       "distance": 25.143771244736303,
+      "place": {
+        "on_road": false,
+        "on_crosswalk": false
+      },
       "bbox": [
         155.5,
         335.66,
@@ -452,6 +476,10 @@
         "frame": "route"
       },
       "distance": 19.298093334338958,
+      "place": {
+        "on_road": false,
+        "on_crosswalk": false
+      },
       "bbox": [
         127.34,
         365.65,
@@ -513,6 +541,10 @@
         "frame": "route"
       },
       "distance": 19.60156240822932,
+      "place": {
+        "on_road": false,
+        "on_crosswalk": false
+      },
       "bbox": [
         166.14,
         362.55,
@@ -574,6 +606,10 @@
         "frame": "route"
       },
       "distance": 26.307864581954135,
+      "place": {
+        "on_road": false,
+        "on_crosswalk": false
+      },
       "bbox": [
         12.22,
         366.48,

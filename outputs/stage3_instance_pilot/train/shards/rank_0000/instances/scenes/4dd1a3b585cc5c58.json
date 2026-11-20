@@ -250,58 +250,12 @@
           ]
         },
         {
-          "text": "the orange SUV on the right, at the side of the road",
+          "text": "the silver car on the right, in another lane",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
           "grounded": true,
           "item_id": "cam_b0_1",
-          "distance": 17.28,
-          "gt_index": 37,
-          "map_ids": null,
-          "attributes": {
-            "visible": true,
-            "color": "orange",
-            "type": "SUV"
-          },
-          "outline": [
-            [
-              [
-                1148.0,
-                343.6000061035156
-              ],
-              [
-                1000.9000244140625,
-                343.6000061035156
-              ],
-              [
-                1000.9000244140625,
-                489.1000061035156
-              ],
-              [
-                1148.0,
-                489.1000061035156
-              ],
-              [
-                1148.0,
-                343.6000061035156
-              ]
-            ]
-          ],
-          "bbox": [
-            1000.91,
-            343.58,
-            1148.0,
-            489.1
-          ]
-        },
-        {
-          "text": "the silver car on the right, at the side of the road",
-          "kind": "agent",
-          "category": "vehicle",
-          "role": "nearby",
-          "grounded": true,
-          "item_id": "cam_b0_2",
           "distance": 25.39,
           "gt_index": 26,
           "map_ids": null,

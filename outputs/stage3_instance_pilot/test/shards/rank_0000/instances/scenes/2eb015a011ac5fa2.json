@@ -164,33 +164,37 @@
           "role": "crosswalk",
           "grounded": true,
           "item_id": "cam_l0_0",
-          "distance": 5.65,
+          "distance": 19.91,
           "gt_index": null,
           "map_ids": [
-            "20713"
+            "18397"
           ],
           "attributes": null,
           "outline": [
             [
               [
-                38.599998474121094,
-                559.4000244140625
+                0.0,
+                570.4000244140625
               ],
               [
-                193.1999969482422,
-                672.0
+                1145.300048828125,
+                440.0
               ],
               [
-                1011.0,
-                672.0
+                865.7999877929688,
+                428.79998779296875
               ],
               [
-                262.3999938964844,
-                467.6000061035156
+                261.70001220703125,
+                471.70001220703125
               ],
               [
-                38.599998474121094,
-                559.4000244140625
+                0.0,
+                555.4000244140625
+              ],
+              [
+                0.0,
+                570.4000244140625
               ]
             ]
           ],
@@ -291,13 +295,13 @@
       ]
     },
     "cam_r0": {
-      "text": "the pedestrian in blue on the right, at the side of the road",
+      "text": "the pedestrian in blue on the right, by the road",
       "categories": [
         "pedestrian"
       ],
       "items": [
         {
-          "text": "the pedestrian in blue on the right, at the side of the road",
+          "text": "the pedestrian in blue on the right, by the road",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",
@@ -343,12 +347,12 @@
           ]
         },
         {
-          "text": "the blue car on the right, at the side of the road",
+          "text": "the blue car on the right, by the road",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
           "grounded": true,
-          "item_id": "cam_r0_2",
+          "item_id": "cam_r0_1",
           "distance": 15.36,
           "gt_index": 7,
           "map_ids": null,
@@ -389,12 +393,12 @@
           ]
         },
         {
-          "text": "the black SUV in the center, at the side of the road",
+          "text": "the black SUV in the center, in another lane",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
           "grounded": true,
-          "item_id": "cam_r0_3",
+          "item_id": "cam_r0_2",
           "distance": 21.44,
           "gt_index": 9,
           "map_ids": null,

@@ -111,64 +111,18 @@
       ]
     },
     "cam_b0": {
-      "text": "the orange pickup truck on the right, in the next lane",
+      "text": "the cyclist in orange in the center, on the road",
       "categories": [
-        "vehicle"
+        "bicycle"
       ],
       "items": [
         {
-          "text": "the orange pickup truck on the right, in the next lane",
-          "kind": "agent",
-          "category": "vehicle",
-          "role": "adjacent",
-          "grounded": true,
-          "item_id": "cam_b0_0",
-          "distance": 8.3,
-          "gt_index": 0,
-          "map_ids": null,
-          "attributes": {
-            "visible": true,
-            "color": "orange",
-            "type": "pickup truck"
-          },
-          "outline": [
-            [
-              [
-                1148.0,
-                245.8000030517578
-              ],
-              [
-                791.9000244140625,
-                245.8000030517578
-              ],
-              [
-                791.9000244140625,
-                672.0
-              ],
-              [
-                1148.0,
-                672.0
-              ],
-              [
-                1148.0,
-                245.8000030517578
-              ]
-            ]
-          ],
-          "bbox": [
-            791.89,
-            245.8,
-            1148.0,
-            672.0
-          ]
-        },
-        {
-          "text": "the cyclist in orange in the center, in our lane",
+          "text": "the cyclist in orange in the center, on the road",
           "kind": "agent",
           "category": "bicycle",
           "role": "nearby",
           "grounded": true,
-          "item_id": "cam_b0_1",
+          "item_id": "cam_b0_0",
           "distance": 14.93,
           "gt_index": 32,
           "map_ids": null,
@@ -209,12 +163,12 @@
           ]
         },
         {
-          "text": "the pedestrian in white on the left, at the side of the road",
+          "text": "the pedestrian in white on the left, by the road",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",
           "grounded": true,
-          "item_id": "cam_b0_2",
+          "item_id": "cam_b0_1",
           "distance": 21.28,
           "gt_index": 2,
           "map_ids": null,
@@ -257,58 +211,9 @@
       ]
     },
     "cam_l0": {
-      "text": "the yellow van on the left, in the next lane",
-      "categories": [
-        "vehicle"
-      ],
-      "items": [
-        {
-          "text": "the yellow van on the left, in the next lane",
-          "kind": "agent",
-          "category": "vehicle",
-          "role": "adjacent",
-          "grounded": false,
-          "item_id": "cam_l0_0",
-          "distance": 4.25,
-          "gt_index": 4,
-          "map_ids": null,
-          "attributes": {
-            "visible": true,
-            "color": "yellow",
-            "type": "van"
-          },
-          "outline": [
-            [
-              [
-                750.5999755859375,
-                0.0
-              ],
-              [
-                0.0,
-                0.0
-              ],
-              [
-                0.0,
-                672.0
-              ],
-              [
-                750.5999755859375,
-                672.0
-              ],
-              [
-                750.5999755859375,
-                0.0
-              ]
-            ]
-          ],
-          "bbox": [
-            0.0,
-            0.0,
-            750.59,
-            672.0
-          ]
-        }
-      ]
+      "text": "",
+      "categories": [],
+      "items": []
     },
     "cam_r0": {
       "text": "",

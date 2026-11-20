@@ -193,13 +193,13 @@
       "items": []
     },
     "cam_l0": {
-      "text": "the black car on the right, at the side of the road",
+      "text": "the black car on the right, in another lane",
       "categories": [
         "vehicle"
       ],
       "items": [
         {
-          "text": "the black car on the right, at the side of the road",
+          "text": "the black car on the right, in another lane",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",

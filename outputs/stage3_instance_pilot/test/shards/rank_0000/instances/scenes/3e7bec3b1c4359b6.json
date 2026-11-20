@@ -136,7 +136,7 @@
           "bbox": null
         },
         {
-          "text": "the gray SUV on the left, at the side of the road",
+          "text": "the gray SUV on the left, by the road",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
@@ -184,13 +184,13 @@
       ]
     },
     "cam_b0": {
-      "text": "the nearer black SUV on the right, at the side of the road",
+      "text": "the nearer black SUV on the right, by the road",
       "categories": [
         "vehicle"
       ],
       "items": [
         {
-          "text": "the nearer black SUV on the right, at the side of the road",
+          "text": "the nearer black SUV on the right, by the road",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
@@ -236,7 +236,7 @@
           ]
         },
         {
-          "text": "the farther black SUV on the right, at the side of the road",
+          "text": "the farther black SUV on the right, by the road",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
@@ -282,7 +282,7 @@
           ]
         },
         {
-          "text": "the black car on the right, at the side of the road",
+          "text": "the black car on the right, by the road",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
@@ -330,64 +330,18 @@
       ]
     },
     "cam_l0": {
-      "text": "the gray SUV on the left, beside us",
+      "text": "the white van in the center, beside us",
       "categories": [
         "vehicle"
       ],
       "items": [
-        {
-          "text": "the gray SUV on the left, beside us",
-          "kind": "agent",
-          "category": "vehicle",
-          "role": "beside",
-          "grounded": true,
-          "item_id": "cam_l0_0",
-          "distance": 6.4,
-          "gt_index": 10,
-          "map_ids": null,
-          "attributes": {
-            "visible": true,
-            "color": "gray",
-            "type": "SUV"
-          },
-          "outline": [
-            [
-              [
-                516.9000244140625,
-                378.0
-              ],
-              [
-                0.0,
-                378.0
-              ],
-              [
-                0.0,
-                672.0
-              ],
-              [
-                516.9000244140625,
-                672.0
-              ],
-              [
-                516.9000244140625,
-                378.0
-              ]
-            ]
-          ],
-          "bbox": [
-            0.0,
-            377.95,
-            516.87,
-            672.0
-          ]
-        },
         {
           "text": "the white van in the center, beside us",
           "kind": "agent",
           "category": "vehicle",
           "role": "beside",
           "grounded": true,
-          "item_id": "cam_l0_1",
+          "item_id": "cam_l0_0",
           "distance": 9.61,
           "gt_index": 13,
           "map_ids": null,
@@ -428,12 +382,12 @@
           ]
         },
         {
-          "text": "the gray SUV on the right, at the side of the road",
+          "text": "the gray SUV on the right, by the road",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
           "grounded": true,
-          "item_id": "cam_l0_2",
+          "item_id": "cam_l0_1",
           "distance": 14.01,
           "gt_index": 15,
           "map_ids": null,

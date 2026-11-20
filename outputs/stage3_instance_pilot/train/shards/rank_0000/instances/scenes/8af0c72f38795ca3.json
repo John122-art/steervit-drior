@@ -284,13 +284,13 @@
       ]
     },
     "cam_l0": {
-      "text": "the pedestrian in orange in the center, at the side of the road",
+      "text": "the pedestrian in orange in the center, on the crosswalk",
       "categories": [
         "pedestrian"
       ],
       "items": [
         {
-          "text": "the pedestrian in orange in the center, at the side of the road",
+          "text": "the pedestrian in orange in the center, on the crosswalk",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",
@@ -336,7 +336,7 @@
           ]
         },
         {
-          "text": "the pedestrian in black in the center, at the side of the road",
+          "text": "the pedestrian in black in the center, by the road",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",
@@ -382,7 +382,7 @@
           ]
         },
         {
-          "text": "the silver car on the left, at the side of the road",
+          "text": "the silver car on the left, by the road",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
@@ -430,13 +430,13 @@
       ]
     },
     "cam_r0": {
-      "text": "the pedestrian in white on the right, at the side of the road",
+      "text": "the pedestrian in white on the right, by the road",
       "categories": [
         "pedestrian"
       ],
       "items": [
         {
-          "text": "the pedestrian in white on the right, at the side of the road",
+          "text": "the pedestrian in white on the right, by the road",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",
@@ -482,7 +482,7 @@
           ]
         },
         {
-          "text": "the pedestrian in blue in the center, at the side of the road",
+          "text": "the pedestrian in blue in the center, by the road",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",
@@ -528,7 +528,7 @@
           ]
         },
         {
-          "text": "the pedestrian in the center, at the side of the road",
+          "text": "the pedestrian in the center, by the road",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",

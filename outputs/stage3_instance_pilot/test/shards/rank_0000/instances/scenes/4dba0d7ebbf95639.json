@@ -190,13 +190,13 @@
       "items": []
     },
     "cam_r0": {
-      "text": "the brown car on the left, at the side of the road",
+      "text": "the brown car on the left, in another lane",
       "categories": [
         "vehicle"
       ],
       "items": [
         {
-          "text": "the brown car on the left, at the side of the road",
+          "text": "the brown car on the left, in another lane",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",

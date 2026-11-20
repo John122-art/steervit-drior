@@ -112,50 +112,43 @@
           "bbox": null
         },
         {
-          "text": "the green truck in the center, oncoming",
-          "kind": "agent",
-          "category": "vehicle",
-          "role": "oncoming",
+          "text": "the stop line in front of us",
+          "kind": "stop_line",
+          "category": "stop_line",
+          "role": "stop_line",
           "grounded": true,
           "item_id": "cam_f0_2",
-          "distance": 29.04,
-          "gt_index": 17,
-          "map_ids": null,
-          "attributes": {
-            "visible": true,
-            "color": "green",
-            "type": "truck"
-          },
+          "distance": 24.57,
+          "gt_index": null,
+          "map_ids": [
+            "63396"
+          ],
+          "attributes": null,
           "outline": [
             [
               [
-                392.0,
-                316.29998779296875
+                464.79998779296875,
+                401.6000061035156
               ],
               [
-                392.0,
-                398.6000061035156
+                191.60000610351562,
+                399.3999938964844
               ],
               [
-                471.70001220703125,
-                398.6000061035156
+                148.5,
+                408.1000061035156
               ],
               [
-                471.70001220703125,
-                316.29998779296875
+                453.3999938964844,
+                410.6000061035156
               ],
               [
-                392.0,
-                316.29998779296875
+                464.79998779296875,
+                401.6000061035156
               ]
             ]
           ],
-          "bbox": [
-            392.03,
-            316.27,
-            471.69,
-            398.63
-          ]
+          "bbox": null
         }
       ]
     },
@@ -212,107 +205,61 @@
           ]
         },
         {
-          "text": "the nearer red car on the left, at the side of the road",
+          "text": "the white van on the left, by the road",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
           "grounded": true,
           "item_id": "cam_b0_1",
-          "distance": 23.71,
-          "gt_index": 8,
+          "distance": 28.67,
+          "gt_index": 16,
           "map_ids": null,
           "attributes": {
             "visible": true,
-            "color": "red",
-            "type": "car"
+            "color": "white",
+            "type": "van"
           },
           "outline": [
             [
               [
-                52.599998474121094,
-                458.20001220703125
+                179.5,
+                428.8999938964844
               ],
               [
-                52.599998474121094,
-                365.1000061035156
-              ],
-              [
-                0.0,
-                365.1000061035156
+                179.5,
+                327.70001220703125
               ],
               [
                 0.0,
-                458.20001220703125
+                327.70001220703125
               ],
               [
-                52.599998474121094,
-                458.20001220703125
+                0.0,
+                428.8999938964844
+              ],
+              [
+                179.5,
+                428.8999938964844
               ]
             ]
           ],
           "bbox": [
             0.0,
-            365.12,
-            52.62,
-            458.15
-          ]
-        },
-        {
-          "text": "the farther red car on the left, at the side of the road",
-          "kind": "agent",
-          "category": "vehicle",
-          "role": "nearby",
-          "grounded": true,
-          "item_id": "cam_b0_2",
-          "distance": 26.36,
-          "gt_index": 7,
-          "map_ids": null,
-          "attributes": {
-            "visible": true,
-            "color": "red",
-            "type": "car"
-          },
-          "outline": [
-            [
-              [
-                115.80000305175781,
-                441.29998779296875
-              ],
-              [
-                115.80000305175781,
-                357.1000061035156
-              ],
-              [
-                0.0,
-                357.1000061035156
-              ],
-              [
-                0.0,
-                441.29998779296875
-              ],
-              [
-                115.80000305175781,
-                441.29998779296875
-              ]
-            ]
-          ],
-          "bbox": [
-            0.0,
-            357.09,
-            115.84,
-            441.31
+            327.7,
+            179.51,
+            428.92
           ]
         }
       ]
     },
     "cam_l0": {
-      "text": "the silver SUV in the center, at the side of the road",
+      "text": "the silver SUV in the center, by the road",
       "categories": [
         "vehicle"
       ],
       "items": [
         {
-          "text": "the silver SUV in the center, at the side of the road",
+          "text": "the silver SUV in the center, by the road",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
@@ -360,57 +307,18 @@
       ]
     },
     "cam_r0": {
-      "text": "the stop line in front of us",
+      "text": "the silver car on the right, by the road",
       "categories": [
-        "stop_line"
+        "vehicle"
       ],
       "items": [
         {
-          "text": "the stop line in front of us",
-          "kind": "stop_line",
-          "category": "stop_line",
-          "role": "stop_line",
-          "grounded": true,
-          "item_id": "cam_r0_0",
-          "distance": 2.97,
-          "gt_index": null,
-          "map_ids": [
-            "63400"
-          ],
-          "attributes": null,
-          "outline": [
-            [
-              [
-                717.9000244140625,
-                672.0
-              ],
-              [
-                1148.0,
-                672.0
-              ],
-              [
-                1148.0,
-                612.9000244140625
-              ],
-              [
-                858.7999877929688,
-                577.2999877929688
-              ],
-              [
-                717.9000244140625,
-                672.0
-              ]
-            ]
-          ],
-          "bbox": null
-        },
-        {
-          "text": "the silver car on the right, at the side of the road",
+          "text": "the silver car on the right, by the road",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
           "grounded": true,
-          "item_id": "cam_r0_1",
+          "item_id": "cam_r0_0",
           "distance": 19.1,
           "gt_index": 26,
           "map_ids": null,

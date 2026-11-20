@@ -201,64 +201,18 @@
       ]
     },
     "cam_b0": {
-      "text": "the white pickup truck on the left, in the next lane",
+      "text": "the white van on the right, by the road",
       "categories": [
         "vehicle"
       ],
       "items": [
         {
-          "text": "the white pickup truck on the left, in the next lane",
-          "kind": "agent",
-          "category": "vehicle",
-          "role": "adjacent",
-          "grounded": true,
-          "item_id": "cam_b0_0",
-          "distance": 9.32,
-          "gt_index": 2,
-          "map_ids": null,
-          "attributes": {
-            "visible": true,
-            "color": "white",
-            "type": "pickup truck"
-          },
-          "outline": [
-            [
-              [
-                329.0,
-                297.8999938964844
-              ],
-              [
-                0.0,
-                297.8999938964844
-              ],
-              [
-                0.0,
-                672.0
-              ],
-              [
-                329.0,
-                672.0
-              ],
-              [
-                329.0,
-                297.8999938964844
-              ]
-            ]
-          ],
-          "bbox": [
-            0.0,
-            297.86,
-            328.99,
-            672.0
-          ]
-        },
-        {
-          "text": "the white van on the right, at the side of the road",
+          "text": "the white van on the right, by the road",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
           "grounded": true,
-          "item_id": "cam_b0_1",
+          "item_id": "cam_b0_0",
           "distance": 15.25,
           "gt_index": 0,
           "map_ids": null,
@@ -304,7 +258,7 @@
           "category": "vehicle",
           "role": "nearby",
           "grounded": true,
-          "item_id": "cam_b0_2",
+          "item_id": "cam_b0_1",
           "distance": 21.45,
           "gt_index": 6,
           "map_ids": null,

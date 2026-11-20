@@ -172,7 +172,7 @@
           ]
         },
         {
-          "text": "the white van on the right, at the side of the road",
+          "text": "the white van on the right, by the road",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
@@ -220,64 +220,18 @@
       ]
     },
     "cam_l0": {
-      "text": "the white car in the center, oncoming",
+      "text": "the red truck on the left, in another lane",
       "categories": [
         "vehicle"
       ],
       "items": [
         {
-          "text": "the white car in the center, oncoming",
-          "kind": "agent",
-          "category": "vehicle",
-          "role": "oncoming",
-          "grounded": false,
-          "item_id": "cam_l0_0",
-          "distance": 5.67,
-          "gt_index": 22,
-          "map_ids": null,
-          "attributes": {
-            "visible": true,
-            "color": "white",
-            "type": "car"
-          },
-          "outline": [
-            [
-              [
-                1148.0,
-                258.0
-              ],
-              [
-                173.3000030517578,
-                258.0
-              ],
-              [
-                173.3000030517578,
-                672.0
-              ],
-              [
-                1148.0,
-                672.0
-              ],
-              [
-                1148.0,
-                258.0
-              ]
-            ]
-          ],
-          "bbox": [
-            173.31,
-            258.02,
-            1148.0,
-            672.0
-          ]
-        },
-        {
-          "text": "the red truck on the left, at the side of the road",
+          "text": "the red truck on the left, in another lane",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
           "grounded": true,
-          "item_id": "cam_l0_1",
+          "item_id": "cam_l0_0",
           "distance": 10.83,
           "gt_index": 8,
           "map_ids": null,

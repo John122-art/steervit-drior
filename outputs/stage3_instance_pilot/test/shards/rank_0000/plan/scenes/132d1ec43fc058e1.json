@@ -251,6 +251,10 @@
         "frame": "route"
       },
       "distance": 18.873517324532898,
+      "place": {
+        "on_road": false,
+        "on_crosswalk": false
+      },
       "bbox": [
         710.4,
         312.19,
@@ -312,6 +316,10 @@
         "frame": "route"
       },
       "distance": 25.250236155857532,
+      "place": {
+        "on_road": false,
+        "on_crosswalk": false
+      },
       "bbox": [
         290.04,
         326.06,
@@ -373,6 +381,10 @@
         "frame": "route"
       },
       "distance": 7.6562012498064895,
+      "place": {
+        "on_road": false,
+        "on_crosswalk": false
+      },
       "bbox": [
         145.47,
         369.27,
@@ -434,6 +446,10 @@
         "frame": "route"
       },
       "distance": 12.999618819886447,
+      "place": {
+        "on_road": false,
+        "on_crosswalk": false
+      },
       "bbox": [
         854.92,
         366.11,
@@ -477,71 +493,10 @@
       ],
       "grounded": true,
       "mask_row": 4
-    },
-    {
-      "kind": "agent",
-      "category": "vehicle",
-      "gt_index": 1,
-      "camera": "cam_r0",
-      "role": "adjacent",
-      "relation": {
-        "lon": 6.037868079962099,
-        "lat": -3.225793949496851,
-        "lane": "right",
-        "motion": "same",
-        "speed": 0.0,
-        "relative_heading": 0.018565267158663357,
-        "distance": 6.994451787338194,
-        "frame": "route"
-      },
-      "distance": 6.994451787338194,
-      "bbox": [
-        0.0,
-        265.67,
-        884.87,
-        672.0
-      ],
-      "occluded_fraction": 0.0,
-      "crossing_from": null,
-      "priority": 2,
-      "item_id": "cam_r0_0",
-      "crop": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage3_instance_pilot/test/shards/rank_0000/plan/crops/132d1ec43fc058e1/cam_r0_0.jpg",
-      "crop_box_original": [
-        0,
-        329,
-        1702,
-        1080
-      ],
-      "rejected": "coverage_exceeded",
-      "outline": [
-        [
-          [
-            884.9000244140625,
-            265.70001220703125
-          ],
-          [
-            0.0,
-            265.70001220703125
-          ],
-          [
-            0.0,
-            672.0
-          ],
-          [
-            884.9000244140625,
-            672.0
-          ],
-          [
-            884.9000244140625,
-            265.70001220703125
-          ]
-        ]
-      ],
-      "grounded": false,
-      "mask_row": 5
     }
   ],
   "rejected": {
+    "mostly_outside_image": 1,
     "occluded": 1
   }
 }

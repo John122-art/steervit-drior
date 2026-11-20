@@ -221,64 +221,18 @@
       ]
     },
     "cam_l0": {
-      "text": "the pedestrian in black on the left, at the side of the road",
+      "text": "the white SUV on the right, by the road",
       "categories": [
-        "pedestrian"
+        "vehicle"
       ],
       "items": [
         {
-          "text": "the pedestrian in black on the left, at the side of the road",
-          "kind": "agent",
-          "category": "pedestrian",
-          "role": "nearby",
-          "grounded": true,
-          "item_id": "cam_l0_0",
-          "distance": 10.25,
-          "gt_index": 15,
-          "map_ids": null,
-          "attributes": {
-            "visible": true,
-            "color": "black",
-            "type": "pedestrian"
-          },
-          "outline": [
-            [
-              [
-                60.0,
-                566.5
-              ],
-              [
-                60.0,
-                333.6000061035156
-              ],
-              [
-                0.0,
-                333.6000061035156
-              ],
-              [
-                0.0,
-                566.5
-              ],
-              [
-                60.0,
-                566.5
-              ]
-            ]
-          ],
-          "bbox": [
-            0.0,
-            333.65,
-            60.05,
-            566.52
-          ]
-        },
-        {
-          "text": "the white SUV on the right, at the side of the road",
+          "text": "the white SUV on the right, by the road",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
           "grounded": true,
-          "item_id": "cam_l0_1",
+          "item_id": "cam_l0_0",
           "distance": 13.35,
           "gt_index": 19,
           "map_ids": null,

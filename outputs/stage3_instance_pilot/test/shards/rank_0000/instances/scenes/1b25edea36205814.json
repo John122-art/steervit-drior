@@ -276,58 +276,12 @@
           ]
         },
         {
-          "text": "the black SUV on the right, at the side of the road",
+          "text": "the gray car on the right, in another lane",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
           "grounded": true,
           "item_id": "cam_b0_1",
-          "distance": 16.78,
-          "gt_index": 4,
-          "map_ids": null,
-          "attributes": {
-            "visible": true,
-            "color": "black",
-            "type": "SUV"
-          },
-          "outline": [
-            [
-              [
-                1148.0,
-                373.1000061035156
-              ],
-              [
-                1048.800048828125,
-                373.1000061035156
-              ],
-              [
-                1048.800048828125,
-                529.7000122070312
-              ],
-              [
-                1148.0,
-                529.7000122070312
-              ],
-              [
-                1148.0,
-                373.1000061035156
-              ]
-            ]
-          ],
-          "bbox": [
-            1048.81,
-            373.13,
-            1148.0,
-            529.72
-          ]
-        },
-        {
-          "text": "the gray car on the right, at the side of the road",
-          "kind": "agent",
-          "category": "vehicle",
-          "role": "nearby",
-          "grounded": true,
-          "item_id": "cam_b0_2",
           "distance": 28.0,
           "gt_index": 3,
           "map_ids": null,
@@ -370,13 +324,13 @@
       ]
     },
     "cam_l0": {
-      "text": "the silver car on the right, at the side of the road",
+      "text": "the silver car on the right, in another lane",
       "categories": [
         "vehicle"
       ],
       "items": [
         {
-          "text": "the silver car on the right, at the side of the road",
+          "text": "the silver car on the right, in another lane",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
@@ -422,7 +376,7 @@
           ]
         },
         {
-          "text": "the gray car on the right, at the side of the road",
+          "text": "the gray car on the right, in another lane",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",

@@ -27,51 +27,12 @@
           "bbox": null
         },
         {
-          "text": "the stop line in front of us",
-          "kind": "stop_line",
-          "category": "stop_line",
-          "role": "stop_line",
-          "grounded": true,
-          "item_id": "cam_f0_1",
-          "distance": 6.09,
-          "gt_index": null,
-          "map_ids": [
-            "18558"
-          ],
-          "attributes": null,
-          "outline": [
-            [
-              [
-                0.0,
-                672.0
-              ],
-              [
-                876.7000122070312,
-                672.0
-              ],
-              [
-                841.7999877929688,
-                633.4000244140625
-              ],
-              [
-                0.0,
-                621.2999877929688
-              ],
-              [
-                0.0,
-                672.0
-              ]
-            ]
-          ],
-          "bbox": null
-        },
-        {
           "text": "the lane lines of our lane",
           "kind": "lane_lines",
           "category": "lane_lines",
           "role": "lane_lines",
           "grounded": true,
-          "item_id": "cam_f0_2",
+          "item_id": "cam_f0_1",
           "distance": 10.0,
           "gt_index": null,
           "map_ids": [
@@ -171,6 +132,45 @@
             ]
           ],
           "bbox": null
+        },
+        {
+          "text": "the crosswalk in front of us",
+          "kind": "crosswalk",
+          "category": "crosswalk",
+          "role": "crosswalk",
+          "grounded": true,
+          "item_id": "cam_f0_2",
+          "distance": 11.28,
+          "gt_index": null,
+          "map_ids": [
+            "18447"
+          ],
+          "attributes": null,
+          "outline": [
+            [
+              [
+                0.0,
+                552.9000244140625
+              ],
+              [
+                781.0,
+                563.9000244140625
+              ],
+              [
+                957.5999755859375,
+                487.79998779296875
+              ],
+              [
+                0.0,
+                477.6000061035156
+              ],
+              [
+                0.0,
+                552.9000244140625
+              ]
+            ]
+          ],
+          "bbox": null
         }
       ]
     },
@@ -180,13 +180,13 @@
       "items": []
     },
     "cam_l0": {
-      "text": "the brown SUV in the center, at the side of the road",
+      "text": "the brown SUV in the center, in another lane",
       "categories": [
         "vehicle"
       ],
       "items": [
         {
-          "text": "the brown SUV in the center, at the side of the road",
+          "text": "the brown SUV in the center, in another lane",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",

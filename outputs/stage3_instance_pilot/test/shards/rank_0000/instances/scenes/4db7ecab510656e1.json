@@ -151,13 +151,13 @@
       ]
     },
     "cam_b0": {
-      "text": "the pedestrian in orange on the left, in the next lane",
+      "text": "the pedestrian in orange on the left, near our lane",
       "categories": [
         "pedestrian"
       ],
       "items": [
         {
-          "text": "the pedestrian in orange on the left, in the next lane",
+          "text": "the pedestrian in orange on the left, near our lane",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",
@@ -208,7 +208,7 @@
           "category": "vehicle",
           "role": "nearby",
           "grounded": true,
-          "item_id": "cam_b0_3",
+          "item_id": "cam_b0_2",
           "distance": 14.02,
           "gt_index": 3,
           "map_ids": null,
@@ -256,64 +256,18 @@
       "items": []
     },
     "cam_r0": {
-      "text": "the nearer pedestrian in black on the right, near our lane",
+      "text": "the pedestrian in black on the right, near our lane",
       "categories": [
         "pedestrian"
       ],
       "items": [
         {
-          "text": "the nearer pedestrian in black on the right, near our lane",
+          "text": "the pedestrian in black on the right, near our lane",
           "kind": "agent",
           "category": "pedestrian",
           "role": "vru",
           "grounded": true,
           "item_id": "cam_r0_0",
-          "distance": 3.64,
-          "gt_index": 90,
-          "map_ids": null,
-          "attributes": {
-            "visible": true,
-            "color": "black",
-            "type": "pedestrian"
-          },
-          "outline": [
-            [
-              [
-                1148.0,
-                243.5
-              ],
-              [
-                957.5999755859375,
-                243.5
-              ],
-              [
-                957.5999755859375,
-                672.0
-              ],
-              [
-                1148.0,
-                672.0
-              ],
-              [
-                1148.0,
-                243.5
-              ]
-            ]
-          ],
-          "bbox": [
-            957.63,
-            243.51,
-            1148.0,
-            672.0
-          ]
-        },
-        {
-          "text": "the farther pedestrian in black on the right, near our lane",
-          "kind": "agent",
-          "category": "pedestrian",
-          "role": "vru",
-          "grounded": true,
-          "item_id": "cam_r0_1",
           "distance": 4.39,
           "gt_index": 114,
           "map_ids": null,
@@ -359,7 +313,7 @@
           "category": "pedestrian",
           "role": "vru",
           "grounded": true,
-          "item_id": "cam_r0_2",
+          "item_id": "cam_r0_1",
           "distance": 4.81,
           "gt_index": 124,
           "map_ids": null,
@@ -397,6 +351,52 @@
             293.35,
             597.91,
             672.0
+          ]
+        },
+        {
+          "text": "the pedestrian in red on the left, near our lane",
+          "kind": "agent",
+          "category": "pedestrian",
+          "role": "vru",
+          "grounded": true,
+          "item_id": "cam_r0_2",
+          "distance": 7.48,
+          "gt_index": 131,
+          "map_ids": null,
+          "attributes": {
+            "visible": true,
+            "color": "red",
+            "type": "pedestrian"
+          },
+          "outline": [
+            [
+              [
+                71.19999694824219,
+                295.79998779296875
+              ],
+              [
+                71.19999694824219,
+                643.0999755859375
+              ],
+              [
+                272.5,
+                643.0999755859375
+              ],
+              [
+                272.5,
+                295.79998779296875
+              ],
+              [
+                71.19999694824219,
+                295.79998779296875
+              ]
+            ]
+          ],
+          "bbox": [
+            71.15,
+            295.8,
+            272.46,
+            643.08
           ]
         }
       ]

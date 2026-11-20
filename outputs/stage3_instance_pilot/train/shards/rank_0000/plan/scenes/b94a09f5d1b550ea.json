@@ -206,5 +206,7 @@
       "mask_row": 2
     }
   ],
-  "rejected": {}
+  "rejected": {
+    "crosswalk_mostly_outside_cam_r0": 1
+  }
 }

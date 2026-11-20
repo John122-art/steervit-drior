@@ -198,64 +198,18 @@
       ]
     },
     "cam_b0": {
-      "text": "the brown pickup truck on the right, in the next lane",
+      "text": "the white car in the center, following us",
       "categories": [
         "vehicle"
       ],
       "items": [
-        {
-          "text": "the brown pickup truck on the right, in the next lane",
-          "kind": "agent",
-          "category": "vehicle",
-          "role": "adjacent",
-          "grounded": true,
-          "item_id": "cam_b0_0",
-          "distance": 4.84,
-          "gt_index": 20,
-          "map_ids": null,
-          "attributes": {
-            "visible": true,
-            "color": "brown",
-            "type": "pickup truck"
-          },
-          "outline": [
-            [
-              [
-                1148.0,
-                0.0
-              ],
-              [
-                1030.699951171875,
-                0.0
-              ],
-              [
-                1030.699951171875,
-                672.0
-              ],
-              [
-                1148.0,
-                672.0
-              ],
-              [
-                1148.0,
-                0.0
-              ]
-            ]
-          ],
-          "bbox": [
-            1030.73,
-            0.0,
-            1148.0,
-            672.0
-          ]
-        },
         {
           "text": "the white car in the center, following us",
           "kind": "agent",
           "category": "vehicle",
           "role": "following",
           "grounded": true,
-          "item_id": "cam_b0_1",
+          "item_id": "cam_b0_0",
           "distance": 8.44,
           "gt_index": 19,
           "map_ids": null,
@@ -301,7 +255,7 @@
           "category": "vehicle",
           "role": "nearby",
           "grounded": true,
-          "item_id": "cam_b0_2",
+          "item_id": "cam_b0_1",
           "distance": 14.94,
           "gt_index": 21,
           "map_ids": null,
@@ -339,6 +293,52 @@
             299.09,
             976.05,
             511.92
+          ]
+        },
+        {
+          "text": "the white car in the center, in the next lane",
+          "kind": "agent",
+          "category": "vehicle",
+          "role": "nearby",
+          "grounded": true,
+          "item_id": "cam_b0_2",
+          "distance": 24.52,
+          "gt_index": 23,
+          "map_ids": null,
+          "attributes": {
+            "visible": true,
+            "color": "white",
+            "type": "car"
+          },
+          "outline": [
+            [
+              [
+                686.7999877929688,
+                364.79998779296875
+              ],
+              [
+                686.7999877929688,
+                441.1000061035156
+              ],
+              [
+                791.0,
+                441.1000061035156
+              ],
+              [
+                791.0,
+                364.79998779296875
+              ],
+              [
+                686.7999877929688,
+                364.79998779296875
+              ]
+            ]
+          ],
+          "bbox": [
+            686.78,
+            364.82,
+            791.03,
+            441.06
           ]
         }
       ]
@@ -393,52 +393,6 @@
             313.0,
             890.19,
             633.22
-          ]
-        },
-        {
-          "text": "the silver pickup truck on the left, at the side of the road",
-          "kind": "agent",
-          "category": "vehicle",
-          "role": "nearby",
-          "grounded": true,
-          "item_id": "cam_l0_1",
-          "distance": 10.92,
-          "gt_index": 10,
-          "map_ids": null,
-          "attributes": {
-            "visible": true,
-            "color": "silver",
-            "type": "pickup truck"
-          },
-          "outline": [
-            [
-              [
-                325.0,
-                614.0
-              ],
-              [
-                325.0,
-                341.0
-              ],
-              [
-                0.0,
-                341.0
-              ],
-              [
-                0.0,
-                614.0
-              ],
-              [
-                325.0,
-                614.0
-              ]
-            ]
-          ],
-          "bbox": [
-            0.0,
-            341.04,
-            324.98,
-            613.99
           ]
         }
       ]

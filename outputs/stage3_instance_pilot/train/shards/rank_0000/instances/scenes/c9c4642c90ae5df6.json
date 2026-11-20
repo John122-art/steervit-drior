@@ -250,7 +250,7 @@
           "kind": "agent",
           "category": "vehicle",
           "role": "beside",
-          "grounded": false,
+          "grounded": true,
           "item_id": "cam_l0_0",
           "distance": 7.58,
           "gt_index": 7,
@@ -292,7 +292,7 @@
           ]
         },
         {
-          "text": "the gray SUV on the right, at the side of the road",
+          "text": "the gray SUV on the right, by the road",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",

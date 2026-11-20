@@ -193,58 +193,9 @@
       "items": []
     },
     "cam_l0": {
-      "text": "the white car on the left, at the side of the road",
-      "categories": [
-        "vehicle"
-      ],
-      "items": [
-        {
-          "text": "the white car on the left, at the side of the road",
-          "kind": "agent",
-          "category": "vehicle",
-          "role": "nearby",
-          "grounded": true,
-          "item_id": "cam_l0_0",
-          "distance": 28.4,
-          "gt_index": 170,
-          "map_ids": null,
-          "attributes": {
-            "visible": true,
-            "color": "white",
-            "type": "car"
-          },
-          "outline": [
-            [
-              [
-                103.80000305175781,
-                436.0
-              ],
-              [
-                103.80000305175781,
-                358.29998779296875
-              ],
-              [
-                0.0,
-                358.29998779296875
-              ],
-              [
-                0.0,
-                436.0
-              ],
-              [
-                103.80000305175781,
-                436.0
-              ]
-            ]
-          ],
-          "bbox": [
-            0.0,
-            358.28,
-            103.78,
-            436.01
-          ]
-        }
-      ]
+      "text": "",
+      "categories": [],
+      "items": []
     },
     "cam_r0": {
       "text": "",

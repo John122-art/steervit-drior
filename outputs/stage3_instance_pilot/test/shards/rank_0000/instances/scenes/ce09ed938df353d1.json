@@ -264,108 +264,13 @@
             964.25,
             672.0
           ]
-        },
-        {
-          "text": "the white car on the right, in the next lane",
-          "kind": "agent",
-          "category": "vehicle",
-          "role": "adjacent",
-          "grounded": true,
-          "item_id": "cam_b0_1",
-          "distance": 6.75,
-          "gt_index": 11,
-          "map_ids": null,
-          "attributes": {
-            "visible": true,
-            "color": "white",
-            "type": "car"
-          },
-          "outline": [
-            [
-              [
-                1148.0,
-                372.70001220703125
-              ],
-              [
-                900.5999755859375,
-                372.70001220703125
-              ],
-              [
-                900.5999755859375,
-                672.0
-              ],
-              [
-                1148.0,
-                672.0
-              ],
-              [
-                1148.0,
-                372.70001220703125
-              ]
-            ]
-          ],
-          "bbox": [
-            900.63,
-            372.7,
-            1148.0,
-            672.0
-          ]
         }
       ]
     },
     "cam_l0": {
-      "text": "the white car in the center, in the next lane",
-      "categories": [
-        "vehicle"
-      ],
-      "items": [
-        {
-          "text": "the white car in the center, in the next lane",
-          "kind": "agent",
-          "category": "vehicle",
-          "role": "adjacent",
-          "grounded": false,
-          "item_id": "cam_l0_0",
-          "distance": 5.19,
-          "gt_index": 9,
-          "map_ids": null,
-          "attributes": {
-            "visible": true,
-            "color": "white",
-            "type": "car"
-          },
-          "outline": [
-            [
-              [
-                1114.4000244140625,
-                375.6000061035156
-              ],
-              [
-                0.0,
-                375.6000061035156
-              ],
-              [
-                0.0,
-                672.0
-              ],
-              [
-                1114.4000244140625,
-                672.0
-              ],
-              [
-                1114.4000244140625,
-                375.6000061035156
-              ]
-            ]
-          ],
-          "bbox": [
-            0.0,
-            375.56,
-            1114.35,
-            672.0
-          ]
-        }
-      ]
+      "text": "",
+      "categories": [],
+      "items": []
     },
     "cam_r0": {
       "text": "",

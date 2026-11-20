@@ -211,13 +211,13 @@
       "items": []
     },
     "cam_l0": {
-      "text": "the gray SUV on the left, at the side of the road",
+      "text": "the gray SUV on the left, by the road",
       "categories": [
         "vehicle"
       ],
       "items": [
         {
-          "text": "the gray SUV on the left, at the side of the road",
+          "text": "the gray SUV on the left, by the road",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
@@ -263,7 +263,7 @@
           ]
         },
         {
-          "text": "the silver car in the center, at the side of the road",
+          "text": "the silver car in the center, by the road",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
@@ -309,7 +309,7 @@
           ]
         },
         {
-          "text": "the black SUV in the center, at the side of the road",
+          "text": "the black SUV in the center, by the road",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",

@@ -105,13 +105,13 @@
       ]
     },
     "cam_b0": {
-      "text": "the silver car on the left, at the side of the road",
+      "text": "the silver car on the left, by the road",
       "categories": [
         "vehicle"
       ],
       "items": [
         {
-          "text": "the silver car on the left, at the side of the road",
+          "text": "the silver car on the left, by the road",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
@@ -159,67 +159,18 @@
       ]
     },
     "cam_l0": {
-      "text": "the gray car on the left, beside us",
-      "categories": [
-        "vehicle"
-      ],
-      "items": [
-        {
-          "text": "the gray car on the left, beside us",
-          "kind": "agent",
-          "category": "vehicle",
-          "role": "beside",
-          "grounded": true,
-          "item_id": "cam_l0_0",
-          "distance": 8.46,
-          "gt_index": 4,
-          "map_ids": null,
-          "attributes": {
-            "visible": true,
-            "color": "gray",
-            "type": "car"
-          },
-          "outline": [
-            [
-              [
-                160.0,
-                371.0
-              ],
-              [
-                0.0,
-                371.0
-              ],
-              [
-                0.0,
-                672.0
-              ],
-              [
-                160.0,
-                672.0
-              ],
-              [
-                160.0,
-                371.0
-              ]
-            ]
-          ],
-          "bbox": [
-            0.0,
-            370.95,
-            159.99,
-            672.0
-          ]
-        }
-      ]
+      "text": "",
+      "categories": [],
+      "items": []
     },
     "cam_r0": {
-      "text": "the nearer pedestrian in gray in the center, at the side of the road",
+      "text": "the nearer pedestrian in gray in the center, by the road",
       "categories": [
         "pedestrian"
       ],
       "items": [
         {
-          "text": "the nearer pedestrian in gray in the center, at the side of the road",
+          "text": "the nearer pedestrian in gray in the center, by the road",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",
@@ -265,7 +216,7 @@
           ]
         },
         {
-          "text": "the nearer pedestrian in white in the center, at the side of the road",
+          "text": "the nearer pedestrian in white in the center, by the road",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",
@@ -311,7 +262,7 @@
           ]
         },
         {
-          "text": "the farther pedestrian in gray in the center, at the side of the road",
+          "text": "the farther pedestrian in gray in the center, by the road",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",

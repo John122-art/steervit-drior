@@ -5,57 +5,18 @@
   "input_hash": "1fd70884a2064f32e2ad5f96da550acebb4d28d3bd1586f00c2547d0684b138a",
   "scene_text": {
     "cam_f0": {
-      "text": "the crosswalk in front of us",
+      "text": "the lane lines of our lane",
       "categories": [
-        "crosswalk"
+        "lane_lines"
       ],
       "items": [
-        {
-          "text": "the crosswalk in front of us",
-          "kind": "crosswalk",
-          "category": "crosswalk",
-          "role": "crosswalk",
-          "grounded": true,
-          "item_id": "cam_f0_0",
-          "distance": 7.65,
-          "gt_index": null,
-          "map_ids": [
-            "53691"
-          ],
-          "attributes": null,
-          "outline": [
-            [
-              [
-                0.0,
-                672.0
-              ],
-              [
-                1014.2999877929688,
-                672.0
-              ],
-              [
-                1014.2999877929688,
-                529.5999755859375
-              ],
-              [
-                0.0,
-                541.2000122070312
-              ],
-              [
-                0.0,
-                672.0
-              ]
-            ]
-          ],
-          "bbox": null
-        },
         {
           "text": "the lane lines of our lane",
           "kind": "lane_lines",
           "category": "lane_lines",
           "role": "lane_lines",
           "grounded": true,
-          "item_id": "cam_f0_1",
+          "item_id": "cam_f0_0",
           "distance": 10.0,
           "gt_index": null,
           "map_ids": [
@@ -126,64 +87,18 @@
       ]
     },
     "cam_b0": {
-      "text": "the silver SUV on the left, in the next lane",
+      "text": "the white SUV in the center, following us",
       "categories": [
         "vehicle"
       ],
       "items": [
-        {
-          "text": "the silver SUV on the left, in the next lane",
-          "kind": "agent",
-          "category": "vehicle",
-          "role": "adjacent",
-          "grounded": true,
-          "item_id": "cam_b0_0",
-          "distance": 4.76,
-          "gt_index": 19,
-          "map_ids": null,
-          "attributes": {
-            "visible": true,
-            "color": "silver",
-            "type": "SUV"
-          },
-          "outline": [
-            [
-              [
-                147.8000030517578,
-                233.89999389648438
-              ],
-              [
-                0.0,
-                233.89999389648438
-              ],
-              [
-                0.0,
-                672.0
-              ],
-              [
-                147.8000030517578,
-                672.0
-              ],
-              [
-                147.8000030517578,
-                233.89999389648438
-              ]
-            ]
-          ],
-          "bbox": [
-            0.0,
-            233.89,
-            147.81,
-            672.0
-          ]
-        },
         {
           "text": "the white SUV in the center, following us",
           "kind": "agent",
           "category": "vehicle",
           "role": "following",
           "grounded": true,
-          "item_id": "cam_b0_1",
+          "item_id": "cam_b0_0",
           "distance": 9.03,
           "gt_index": 2,
           "map_ids": null,
@@ -229,7 +144,7 @@
           "category": "vehicle",
           "role": "nearby",
           "grounded": true,
-          "item_id": "cam_b0_2",
+          "item_id": "cam_b0_1",
           "distance": 13.74,
           "gt_index": 16,
           "map_ids": null,
@@ -268,17 +183,63 @@
             436.53,
             509.82
           ]
+        },
+        {
+          "text": "the nearer black SUV on the right, by the road",
+          "kind": "agent",
+          "category": "vehicle",
+          "role": "nearby",
+          "grounded": true,
+          "item_id": "cam_b0_2",
+          "distance": 24.37,
+          "gt_index": 14,
+          "map_ids": null,
+          "attributes": {
+            "visible": true,
+            "color": "black",
+            "type": "SUV"
+          },
+          "outline": [
+            [
+              [
+                934.7999877929688,
+                350.6000061035156
+              ],
+              [
+                934.7999877929688,
+                439.0
+              ],
+              [
+                1110.4000244140625,
+                439.0
+              ],
+              [
+                1110.4000244140625,
+                350.6000061035156
+              ],
+              [
+                934.7999877929688,
+                350.6000061035156
+              ]
+            ]
+          ],
+          "bbox": [
+            934.84,
+            350.58,
+            1110.36,
+            438.98
+          ]
         }
       ]
     },
     "cam_l0": {
-      "text": "the nearer pedestrian in black in the center, at the side of the road",
+      "text": "the pedestrian in black in the center, by the road",
       "categories": [
         "pedestrian"
       ],
       "items": [
         {
-          "text": "the nearer pedestrian in black in the center, at the side of the road",
+          "text": "the pedestrian in black in the center, by the road",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",
@@ -324,12 +285,12 @@
           ]
         },
         {
-          "text": "the farther pedestrian in black in the center, at the side of the road",
+          "text": "the nearer pedestrian in black in the center, on the crosswalk",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",
           "grounded": true,
-          "item_id": "cam_l0_2",
+          "item_id": "cam_l0_1",
           "distance": 22.76,
           "gt_index": 29,
           "map_ids": null,
@@ -370,12 +331,12 @@
           ]
         },
         {
-          "text": "the white SUV on the left, at the side of the road",
+          "text": "the white SUV on the left, by the road",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
           "grounded": true,
-          "item_id": "cam_l0_3",
+          "item_id": "cam_l0_2",
           "distance": 22.89,
           "gt_index": 24,
           "map_ids": null,
@@ -418,53 +379,18 @@
       ]
     },
     "cam_r0": {
-      "text": "the stop line in front of us",
+      "text": "the white car on the left, in the next lane",
       "categories": [
-        "stop_line"
+        "vehicle"
       ],
       "items": [
-        {
-          "text": "the stop line in front of us",
-          "kind": "stop_line",
-          "category": "stop_line",
-          "role": "stop_line",
-          "grounded": true,
-          "item_id": "cam_r0_0",
-          "distance": 1.48,
-          "gt_index": null,
-          "map_ids": [
-            "48496"
-          ],
-          "attributes": null,
-          "outline": [
-            [
-              [
-                690.5,
-                672.0
-              ],
-              [
-                1026.0999755859375,
-                672.0
-              ],
-              [
-                753.5999755859375,
-                628.7999877929688
-              ],
-              [
-                690.5,
-                672.0
-              ]
-            ]
-          ],
-          "bbox": null
-        },
         {
           "text": "the white car on the left, in the next lane",
           "kind": "agent",
           "category": "vehicle",
           "role": "adjacent",
           "grounded": true,
-          "item_id": "cam_r0_1",
+          "item_id": "cam_r0_0",
           "distance": 9.13,
           "gt_index": 25,
           "map_ids": null,
@@ -505,12 +431,12 @@
           ]
         },
         {
-          "text": "the pedestrian in black on the left, at the side of the road",
+          "text": "the pedestrian in black on the left, by the road",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",
           "grounded": true,
-          "item_id": "cam_r0_2",
+          "item_id": "cam_r0_1",
           "distance": 27.06,
           "gt_index": 42,
           "map_ids": null,

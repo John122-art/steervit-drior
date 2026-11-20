@@ -5,13 +5,13 @@
   "input_hash": "a1bc3119e42e007b645ab0d1ddf512b181a90082a7d72533a8d73cec17e419e1",
   "scene_text": {
     "cam_f0": {
-      "text": "the white SUV on the left, at the side of the road",
+      "text": "the white SUV on the left, by the road",
       "categories": [
         "vehicle"
       ],
       "items": [
         {
-          "text": "the white SUV on the left, at the side of the road",
+          "text": "the white SUV on the left, by the road",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
@@ -109,7 +109,7 @@
           "bbox": null
         },
         {
-          "text": "the white car on the right, at the side of the road",
+          "text": "the white car on the right, by the road",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",

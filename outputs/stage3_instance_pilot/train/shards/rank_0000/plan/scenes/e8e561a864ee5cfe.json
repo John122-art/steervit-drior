@@ -25,6 +25,10 @@
         "frame": "route"
       },
       "distance": 11.442648347949614,
+      "place": {
+        "on_road": true,
+        "on_crosswalk": false
+      },
       "bbox": [
         338.06,
         296.77,
@@ -86,6 +90,10 @@
         "frame": "route"
       },
       "distance": 17.514164145293194,
+      "place": {
+        "on_road": false,
+        "on_crosswalk": false
+      },
       "bbox": [
         632.59,
         338.36,
@@ -226,6 +234,10 @@
         "frame": "route"
       },
       "distance": 17.77232056002619,
+      "place": {
+        "on_road": true,
+        "on_crosswalk": false
+      },
       "bbox": [
         134.39,
         327.37,
@@ -287,6 +299,10 @@
         "frame": "route"
       },
       "distance": 20.598478225850275,
+      "place": {
+        "on_road": false,
+        "on_crosswalk": false
+      },
       "bbox": [
         857.31,
         371.07,
@@ -348,6 +364,10 @@
         "frame": "route"
       },
       "distance": 8.81296920443018,
+      "place": {
+        "on_road": true,
+        "on_crosswalk": false
+      },
       "bbox": [
         779.22,
         339.69,
@@ -409,6 +429,10 @@
         "frame": "route"
       },
       "distance": 17.697949568884667,
+      "place": {
+        "on_road": false,
+        "on_crosswalk": false
+      },
       "bbox": [
         102.33,
         358.8,
@@ -470,6 +494,10 @@
         "frame": "route"
       },
       "distance": 19.54113364034143,
+      "place": {
+        "on_road": false,
+        "on_crosswalk": false
+      },
       "bbox": [
         317.33,
         345.58,
@@ -531,6 +559,10 @@
         "frame": "route"
       },
       "distance": 20.274839142540355,
+      "place": {
+        "on_road": false,
+        "on_crosswalk": false
+      },
       "bbox": [
         455.06,
         347.34,
@@ -592,6 +624,10 @@
         "frame": "route"
       },
       "distance": 20.60434722813856,
+      "place": {
+        "on_road": false,
+        "on_crosswalk": false
+      },
       "bbox": [
         571.89,
         347.04,
@@ -653,6 +689,10 @@
         "frame": "route"
       },
       "distance": 7.1975614147691855,
+      "place": {
+        "on_road": false,
+        "on_crosswalk": false
+      },
       "bbox": [
         107.5,
         398.73,
@@ -714,6 +754,10 @@
         "frame": "route"
       },
       "distance": 14.882167506928962,
+      "place": {
+        "on_road": false,
+        "on_crosswalk": false
+      },
       "bbox": [
         40.86,
         420.75,

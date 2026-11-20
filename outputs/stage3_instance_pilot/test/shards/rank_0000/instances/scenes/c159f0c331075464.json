@@ -73,39 +73,62 @@
           ]
         },
         {
-          "text": "the stop line in front of us",
-          "kind": "stop_line",
-          "category": "stop_line",
-          "role": "stop_line",
+          "text": "the lane lines of our lane",
+          "kind": "lane_lines",
+          "category": "lane_lines",
+          "role": "lane_lines",
           "grounded": true,
           "item_id": "cam_f0_2",
-          "distance": 6.51,
+          "distance": 10.0,
           "gt_index": null,
           "map_ids": [
-            "63278"
+            "63281",
+            "63102"
           ],
           "attributes": null,
           "outline": [
             [
               [
-                237.8000030517578,
+                209.6999969482422,
                 672.0
               ],
               [
-                1148.0,
+                265.79998779296875,
                 672.0
               ],
               [
-                1148.0,
-                634.2999877929688
+                320.1000061035156,
+                614.0999755859375
               ],
               [
-                297.5,
-                613.5
+                274.8999938964844,
+                612.9000244140625
               ],
               [
-                237.8000030517578,
+                209.6999969482422,
                 672.0
+              ]
+            ],
+            [
+              [
+                871.0999755859375,
+                627.5
+              ],
+              [
+                825.5,
+                626.4000244140625
+              ],
+              [
+                863.0999755859375,
+                672.0
+              ],
+              [
+                914.2999877929688,
+                672.0
+              ],
+              [
+                871.0999755859375,
+                627.5
               ]
             ]
           ],
@@ -166,7 +189,7 @@
           ]
         },
         {
-          "text": "the black car on the left, at the side of the road",
+          "text": "the black car on the left, by the road",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
@@ -260,13 +283,13 @@
       ]
     },
     "cam_l0": {
-      "text": "the nearer pedestrian in blue in the center, at the side of the road",
+      "text": "the nearer pedestrian in blue in the center, on the crosswalk",
       "categories": [
         "pedestrian"
       ],
       "items": [
         {
-          "text": "the nearer pedestrian in blue in the center, at the side of the road",
+          "text": "the nearer pedestrian in blue in the center, on the crosswalk",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",
@@ -312,7 +335,7 @@
           ]
         },
         {
-          "text": "the farther pedestrian in blue in the center, at the side of the road",
+          "text": "the farther pedestrian in blue in the center, on the crosswalk",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",
@@ -358,7 +381,7 @@
           ]
         },
         {
-          "text": "the nearer pedestrian in beige in the center, at the side of the road",
+          "text": "the nearer pedestrian in beige in the center, by the road",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",

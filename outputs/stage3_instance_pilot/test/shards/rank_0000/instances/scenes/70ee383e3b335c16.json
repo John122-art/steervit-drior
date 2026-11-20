@@ -86,13 +86,13 @@
       ]
     },
     "cam_b0": {
-      "text": "the pedestrian on the left, in the next lane",
+      "text": "the pedestrian on the left, on the crosswalk",
       "categories": [
         "pedestrian"
       ],
       "items": [
         {
-          "text": "the pedestrian on the left, in the next lane",
+          "text": "the pedestrian on the left, on the crosswalk",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",
@@ -140,51 +140,9 @@
       ]
     },
     "cam_l0": {
-      "text": "the stop line in front of us",
-      "categories": [
-        "stop_line"
-      ],
-      "items": [
-        {
-          "text": "the stop line in front of us",
-          "kind": "stop_line",
-          "category": "stop_line",
-          "role": "stop_line",
-          "grounded": true,
-          "item_id": "cam_l0_0",
-          "distance": 3.53,
-          "gt_index": null,
-          "map_ids": [
-            "18256"
-          ],
-          "attributes": null,
-          "outline": [
-            [
-              [
-                0.0,
-                672.0
-              ],
-              [
-                806.0,
-                672.0
-              ],
-              [
-                202.0,
-                494.70001220703125
-              ],
-              [
-                0.0,
-                516.9000244140625
-              ],
-              [
-                0.0,
-                672.0
-              ]
-            ]
-          ],
-          "bbox": null
-        }
-      ]
+      "text": "",
+      "categories": [],
+      "items": []
     },
     "cam_r0": {
       "text": "",

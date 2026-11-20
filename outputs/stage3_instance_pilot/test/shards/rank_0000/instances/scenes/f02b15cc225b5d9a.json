@@ -256,13 +256,13 @@
       "items": []
     },
     "cam_r0": {
-      "text": "the pedestrian in black on the right, at the side of the road",
+      "text": "the pedestrian in black on the right, on the crosswalk",
       "categories": [
         "pedestrian"
       ],
       "items": [
         {
-          "text": "the pedestrian in black on the right, at the side of the road",
+          "text": "the pedestrian in black on the right, on the crosswalk",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",
@@ -308,7 +308,7 @@
           ]
         },
         {
-          "text": "the nearer pedestrian in gray in the center, at the side of the road",
+          "text": "the nearer pedestrian in gray in the center, on the crosswalk",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",
@@ -354,7 +354,7 @@
           ]
         },
         {
-          "text": "the farther pedestrian in gray in the center, at the side of the road",
+          "text": "the farther pedestrian in gray in the center, on the crosswalk",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",

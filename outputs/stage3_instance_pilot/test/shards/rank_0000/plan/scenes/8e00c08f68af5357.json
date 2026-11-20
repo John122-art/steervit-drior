@@ -25,6 +25,10 @@
         "frame": "route"
       },
       "distance": 41.507973503795355,
+      "place": {
+        "on_road": true,
+        "on_crosswalk": false
+      },
       "bbox": [
         571.65,
         251.25,
@@ -170,6 +174,10 @@
         "frame": "route"
       },
       "distance": 15.63535175515618,
+      "place": {
+        "on_road": false,
+        "on_crosswalk": false
+      },
       "bbox": [
         871.69,
         341.52,
@@ -231,6 +239,10 @@
         "frame": "route"
       },
       "distance": 25.774789637638243,
+      "place": {
+        "on_road": true,
+        "on_crosswalk": false
+      },
       "bbox": [
         458.64,
         240.59,
@@ -292,6 +304,10 @@
         "frame": "route"
       },
       "distance": 27.603201307088753,
+      "place": {
+        "on_road": false,
+        "on_crosswalk": false
+      },
       "bbox": [
         712.35,
         322.37,
@@ -353,6 +369,10 @@
         "frame": "route"
       },
       "distance": 11.192957406863162,
+      "place": {
+        "on_road": false,
+        "on_crosswalk": false
+      },
       "bbox": [
         216.39,
         378.18,
@@ -414,6 +434,10 @@
         "frame": "route"
       },
       "distance": 14.77045708421082,
+      "place": {
+        "on_road": false,
+        "on_crosswalk": false
+      },
       "bbox": [
         608.05,
         372.79,
@@ -475,6 +499,10 @@
         "frame": "route"
       },
       "distance": 19.213227633430765,
+      "place": {
+        "on_road": false,
+        "on_crosswalk": false
+      },
       "bbox": [
         227.03,
         285.41,
@@ -536,6 +564,10 @@
         "frame": "route"
       },
       "distance": 24.9597367559391,
+      "place": {
+        "on_road": false,
+        "on_crosswalk": false
+      },
       "bbox": [
         1022.23,
         273.97,
@@ -597,6 +629,10 @@
         "frame": "route"
       },
       "distance": 26.298784296248222,
+      "place": {
+        "on_road": false,
+        "on_crosswalk": false
+      },
       "bbox": [
         740.13,
         234.84,

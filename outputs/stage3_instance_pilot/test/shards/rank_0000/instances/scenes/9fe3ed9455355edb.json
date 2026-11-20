@@ -121,13 +121,13 @@
       ]
     },
     "cam_b0": {
-      "text": "the cyclist in blue on the left, in the next lane",
+      "text": "the cyclist in blue on the left, near our lane",
       "categories": [
         "bicycle"
       ],
       "items": [
         {
-          "text": "the cyclist in blue on the left, in the next lane",
+          "text": "the cyclist in blue on the left, near our lane",
           "kind": "agent",
           "category": "bicycle",
           "role": "nearby",
@@ -267,13 +267,13 @@
       ]
     },
     "cam_l0": {
-      "text": "the silver car in the center, at the side of the road",
+      "text": "the silver car in the center, by the road",
       "categories": [
         "vehicle"
       ],
       "items": [
         {
-          "text": "the silver car in the center, at the side of the road",
+          "text": "the silver car in the center, by the road",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",

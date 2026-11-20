@@ -24,44 +24,6 @@
       "mask_row": 0
     },
     {
-      "kind": "stop_line",
-      "category": "stop_line",
-      "camera": "cam_f0",
-      "role": "stop_line",
-      "distance": 6.59,
-      "map_ids": [
-        "64317"
-      ],
-      "priority": 2,
-      "item_id": "cam_f0_1",
-      "outline": [
-        [
-          [
-            0.0,
-            672.0
-          ],
-          [
-            1148.0,
-            672.0
-          ],
-          [
-            1148.0,
-            651.9000244140625
-          ],
-          [
-            0.0,
-            551.7999877929688
-          ],
-          [
-            0.0,
-            672.0
-          ]
-        ]
-      ],
-      "grounded": true,
-      "mask_row": 1
-    },
-    {
       "kind": "agent",
       "category": "vehicle",
       "gt_index": 30,
@@ -78,6 +40,10 @@
         "frame": "ego"
       },
       "distance": 12.944434142412105,
+      "place": {
+        "on_road": false,
+        "on_crosswalk": true
+      },
       "bbox": [
         568.77,
         356.53,
@@ -120,7 +86,7 @@
         ]
       ],
       "grounded": true,
-      "mask_row": 2
+      "mask_row": 1
     },
     {
       "kind": "agent",
@@ -139,6 +105,10 @@
         "frame": "ego"
       },
       "distance": 16.292744348741497,
+      "place": {
+        "on_road": false,
+        "on_crosswalk": false
+      },
       "bbox": [
         0.0,
         340.62,
@@ -181,7 +151,7 @@
         ]
       ],
       "grounded": true,
-      "mask_row": 3
+      "mask_row": 2
     },
     {
       "kind": "agent",
@@ -200,6 +170,10 @@
         "frame": "ego"
       },
       "distance": 16.906968608128036,
+      "place": {
+        "on_road": false,
+        "on_crosswalk": false
+      },
       "bbox": [
         844.87,
         330.55,
@@ -242,7 +216,7 @@
         ]
       ],
       "grounded": true,
-      "mask_row": 4
+      "mask_row": 3
     },
     {
       "kind": "agent",
@@ -261,6 +235,10 @@
         "frame": "ego"
       },
       "distance": 19.167481972147748,
+      "place": {
+        "on_road": false,
+        "on_crosswalk": false
+      },
       "bbox": [
         1092.17,
         326.56,
@@ -303,7 +281,7 @@
         ]
       ],
       "grounded": true,
-      "mask_row": 5
+      "mask_row": 4
     },
     {
       "kind": "agent",
@@ -322,6 +300,10 @@
         "frame": "ego"
       },
       "distance": 20.53126434994584,
+      "place": {
+        "on_road": false,
+        "on_crosswalk": false
+      },
       "bbox": [
         243.78,
         331.55,
@@ -364,7 +346,7 @@
         ]
       ],
       "grounded": true,
-      "mask_row": 6
+      "mask_row": 5
     },
     {
       "kind": "agent",
@@ -383,6 +365,10 @@
         "frame": "route"
       },
       "distance": 38.39694611848442,
+      "place": {
+        "on_road": true,
+        "on_crosswalk": false
+      },
       "bbox": [
         718.28,
         348.09,
@@ -425,7 +411,7 @@
         ]
       ],
       "grounded": true,
-      "mask_row": 7
+      "mask_row": 6
     },
     {
       "kind": "agent",
@@ -444,6 +430,10 @@
         "frame": "route"
       },
       "distance": 28.173896741811042,
+      "place": {
+        "on_road": true,
+        "on_crosswalk": false
+      },
       "bbox": [
         285.34,
         349.18,
@@ -486,7 +476,7 @@
         ]
       ],
       "grounded": true,
-      "mask_row": 8
+      "mask_row": 7
     },
     {
       "kind": "agent",
@@ -505,6 +495,10 @@
         "frame": "route"
       },
       "distance": 20.762988497749248,
+      "place": {
+        "on_road": true,
+        "on_crosswalk": false
+      },
       "bbox": [
         932.01,
         321.79,
@@ -547,7 +541,7 @@
         ]
       ],
       "grounded": true,
-      "mask_row": 9
+      "mask_row": 8
     },
     {
       "kind": "agent",
@@ -566,6 +560,10 @@
         "frame": "route"
       },
       "distance": 21.93361297608863,
+      "place": {
+        "on_road": true,
+        "on_crosswalk": false
+      },
       "bbox": [
         821.52,
         334.85,
@@ -608,7 +606,7 @@
         ]
       ],
       "grounded": true,
-      "mask_row": 10
+      "mask_row": 9
     },
     {
       "kind": "agent",
@@ -627,6 +625,10 @@
         "frame": "route"
       },
       "distance": 26.63892550470688,
+      "place": {
+        "on_road": true,
+        "on_crosswalk": false
+      },
       "bbox": [
         595.85,
         329.4,
@@ -669,12 +671,15 @@
         ]
       ],
       "grounded": true,
-      "mask_row": 11
+      "mask_row": 10
     }
   ],
   "rejected": {
-    "occluded": 22,
+    "occluded": 21,
     "not_in_any_camera": 18,
-    "too_small": 2
+    "mostly_outside_image": 3,
+    "stop_line_mostly_outside_cam_f0": 1,
+    "stop_line_mostly_outside_cam_l0": 1,
+    "stop_line_mostly_outside_cam_r0": 1
   }
 }

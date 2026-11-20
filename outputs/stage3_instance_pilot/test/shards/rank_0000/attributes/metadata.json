@@ -25,12 +25,12 @@
   "pipeline_source_hashes": {
     "build_dataset.py": "070f58ed2007b2c97c10ff4aaf83ee1b6d9b1e72f3de50cfea2d4f20fb6b3ea7",
     "describe.py": "39867fa67d59acaf70e8c42a6c8cd35fc5b108ddec6c981d1a9d1276147401e0",
-    "extract_context.py": "a475c16d0c5fb32271b1e9e75c3d96a5ae075b0445d6892db542f12bea885fc1",
-    "instance_geometry.py": "4576af6298f43688301a3d0f9c7754e6fe944252ba67411157c38df1114fc862",
-    "instance_policy.py": "f835b2a4d2bba6216f1f597ffbb3d56dc47cf3b7d776229bcbf6fc01460b11db",
+    "extract_context.py": "fe1d5ff3d24c78cd6329c335d6ee9f8414fcbae329e6acb4eee54500d02c7afb",
+    "instance_geometry.py": "48caf5d2c642f3fc3a72d0f2667c70c0cccceed7b4dc49ba5676687cd807bac1",
+    "instance_policy.py": "bbd54f0fb0db49e5520ff8a8d01ae6472211e4e3255c7b0f91e5725282a61167",
     "merge.py": "0d623c692595e2bb06f94bd6265fd9c28653f7d3ce00201c65885f3867f4b7a9",
-    "plan_items.py": "4b503fb183ba02dd61b5385f0be4e00cf07a868ab142001134c112eadb5f0961",
-    "test_instance_policy.py": "aecf0d0ae43fe88b4ca423cb7eb520f8fb05727281fa9f47a40fa41bcfdc0acf",
+    "plan_items.py": "c8b2c3ff70a61e1d00cb91e3a6311fb76bf422527fa1010a393cf7473332a22a",
+    "test_instance_policy.py": "86a50b3b6d92a02e3a653662cbba801d728f09f92d9c4cf7fbad06afc8d4c020",
     "worker.py": "d480f2f88f99b7dc1dad955ab2107121f680b441f5547bcada109fb5a8b0c86a"
   },
   "prompt": "This image is a crop from the {camera_name} camera of a self-driving car.\nThe crop is centred on one {category_word}. Answer only about that {category_word}.\n\nReturn JSON only, no markdown:\n{\"visible\": true, \"color\": \"...\", \"type\": \"...\"}\n\nvisible: true if the {category_word} at the centre of the crop is clearly visible;\nfalse if it is hidden behind something, cut off, or not there.\ncolor: the main colour of the {category_word} (for a pedestrian or cyclist: the main\nclothing colour), exactly one of: white, black, gray, silver, red, blue, green, yellow,\norange, brown, beige, unknown.\ntype: exactly one of: car, SUV, van, pickup truck, truck, bus, motorcycle, bicycle,\npedestrian, traffic cone, unknown.\nUse \"unknown\" when you are not sure.",
@@ -79,5 +79,5 @@
     "unknown"
   ],
   "planner_instantiated": false,
-  "cache_version": "c30c51df80565e88cdad0173e33acfe35b61284511a418e50b67ccef35bd33b5"
+  "cache_version": "15704a1760e1857a7842052ddab8afe72f7659e1a7209c1be5d882aeef3a6d9b"
 }

@@ -203,58 +203,12 @@
           ]
         },
         {
-          "text": "the white bus on the left, at the side of the road",
-          "kind": "agent",
-          "category": "vehicle",
-          "role": "nearby",
-          "grounded": true,
-          "item_id": "cam_b0_1",
-          "distance": 15.63,
-          "gt_index": 8,
-          "map_ids": null,
-          "attributes": {
-            "visible": true,
-            "color": "white",
-            "type": "bus"
-          },
-          "outline": [
-            [
-              [
-                25.5,
-                553.0999755859375
-              ],
-              [
-                25.5,
-                302.0
-              ],
-              [
-                0.0,
-                302.0
-              ],
-              [
-                0.0,
-                553.0999755859375
-              ],
-              [
-                25.5,
-                553.0999755859375
-              ]
-            ]
-          ],
-          "bbox": [
-            0.0,
-            301.98,
-            25.47,
-            553.12
-          ]
-        },
-        {
-          "text": "the pedestrian in white on the left, at the side of the road",
+          "text": "the pedestrian in white on the left, by the road",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",
           "grounded": true,
-          "item_id": "cam_b0_2",
+          "item_id": "cam_b0_1",
           "distance": 27.35,
           "gt_index": 123,
           "map_ids": null,
@@ -297,67 +251,18 @@
       ]
     },
     "cam_l0": {
-      "text": "the black car on the left, at the side of the road",
-      "categories": [
-        "vehicle"
-      ],
-      "items": [
-        {
-          "text": "the black car on the left, at the side of the road",
-          "kind": "agent",
-          "category": "vehicle",
-          "role": "nearby",
-          "grounded": true,
-          "item_id": "cam_l0_0",
-          "distance": 26.01,
-          "gt_index": 230,
-          "map_ids": null,
-          "attributes": {
-            "visible": true,
-            "color": "black",
-            "type": "car"
-          },
-          "outline": [
-            [
-              [
-                25.299999237060547,
-                452.20001220703125
-              ],
-              [
-                25.299999237060547,
-                362.1000061035156
-              ],
-              [
-                0.0,
-                362.1000061035156
-              ],
-              [
-                0.0,
-                452.20001220703125
-              ],
-              [
-                25.299999237060547,
-                452.20001220703125
-              ]
-            ]
-          ],
-          "bbox": [
-            0.0,
-            362.09,
-            25.33,
-            452.22
-          ]
-        }
-      ]
+      "text": "",
+      "categories": [],
+      "items": []
     },
     "cam_r0": {
-      "text": "the black SUV on the left, at the side of the road",
+      "text": "the black SUV on the left, in another lane",
       "categories": [
         "vehicle"
       ],
       "items": [
         {
-          "text": "the black SUV on the left, at the side of the road",
+          "text": "the black SUV on the left, in another lane",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",

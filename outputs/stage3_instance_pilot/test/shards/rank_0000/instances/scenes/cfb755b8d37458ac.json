@@ -119,6 +119,49 @@
             ]
           ],
           "bbox": null
+        },
+        {
+          "text": "the stop line in front of us",
+          "kind": "stop_line",
+          "category": "stop_line",
+          "role": "stop_line",
+          "grounded": true,
+          "item_id": "cam_f0_2",
+          "distance": 12.92,
+          "gt_index": null,
+          "map_ids": [
+            "48359"
+          ],
+          "attributes": null,
+          "outline": [
+            [
+              [
+                1148.0,
+                546.7000122070312
+              ],
+              [
+                885.0999755859375,
+                465.79998779296875
+              ],
+              [
+                711.4000244140625,
+                497.1000061035156
+              ],
+              [
+                893.2999877929688,
+                561.4000244140625
+              ],
+              [
+                1148.0,
+                561.4000244140625
+              ],
+              [
+                1148.0,
+                546.7000122070312
+              ]
+            ]
+          ],
+          "bbox": null
         }
       ]
     },
@@ -175,7 +218,7 @@
           ]
         },
         {
-          "text": "the gray pickup truck on the right, at the side of the road",
+          "text": "the gray pickup truck on the right, by the road",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
@@ -221,7 +264,7 @@
           ]
         },
         {
-          "text": "the silver car on the right, at the side of the road",
+          "text": "the silver car on the right, by the road",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
@@ -269,51 +312,9 @@
       ]
     },
     "cam_l0": {
-      "text": "the stop line in front of us",
-      "categories": [
-        "stop_line"
-      ],
-      "items": [
-        {
-          "text": "the stop line in front of us",
-          "kind": "stop_line",
-          "category": "stop_line",
-          "role": "stop_line",
-          "grounded": true,
-          "item_id": "cam_l0_0",
-          "distance": 4.03,
-          "gt_index": null,
-          "map_ids": [
-            "47678"
-          ],
-          "attributes": null,
-          "outline": [
-            [
-              [
-                787.0,
-                552.0
-              ],
-              [
-                407.1000061035156,
-                632.2999877929688
-              ],
-              [
-                409.5,
-                672.0
-              ],
-              [
-                925.2999877929688,
-                672.0
-              ],
-              [
-                787.0,
-                552.0
-              ]
-            ]
-          ],
-          "bbox": null
-        }
-      ]
+      "text": "",
+      "categories": [],
+      "items": []
     },
     "cam_r0": {
       "text": "the silver car on the right, in the next lane",

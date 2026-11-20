@@ -25,6 +25,10 @@
         "frame": "route"
       },
       "distance": 21.786676328442837,
+      "place": {
+        "on_road": true,
+        "on_crosswalk": false
+      },
       "bbox": [
         538.89,
         284.97,
@@ -187,6 +191,10 @@
         "frame": "ego"
       },
       "distance": 18.047480607082576,
+      "place": {
+        "on_road": true,
+        "on_crosswalk": false
+      },
       "bbox": [
         504.26,
         378.72,
@@ -248,6 +256,10 @@
         "frame": "ego"
       },
       "distance": 11.930333406877043,
+      "place": {
+        "on_road": true,
+        "on_crosswalk": false
+      },
       "bbox": [
         728.88,
         337.53,

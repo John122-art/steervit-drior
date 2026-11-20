@@ -5,18 +5,73 @@
   "input_hash": "f849159c7513e65a528203cd7f6f29dbc9f9b387ca5034dfd37ed01827b14a04",
   "scene_text": {
     "cam_f0": {
-      "text": "the pedestrian in black in the center, at the side of the road",
+      "text": "the crosswalk in front of us",
       "categories": [
-        "pedestrian"
+        "crosswalk"
       ],
       "items": [
         {
-          "text": "the pedestrian in black in the center, at the side of the road",
+          "text": "the crosswalk in front of us",
+          "kind": "crosswalk",
+          "category": "crosswalk",
+          "role": "crosswalk",
+          "grounded": true,
+          "item_id": "cam_f0_0",
+          "distance": 8.92,
+          "gt_index": null,
+          "map_ids": [
+            "18613"
+          ],
+          "attributes": null,
+          "outline": [
+            [
+              [
+                368.70001220703125,
+                451.5
+              ],
+              [
+                324.79998779296875,
+                455.6000061035156
+              ],
+              [
+                253.3000030517578,
+                459.5
+              ],
+              [
+                206.6999969482422,
+                460.70001220703125
+              ],
+              [
+                201.60000610351562,
+                461.79998779296875
+              ],
+              [
+                1079.9000244140625,
+                503.6000061035156
+              ],
+              [
+                1035.4000244140625,
+                478.1000061035156
+              ],
+              [
+                376.20001220703125,
+                450.6000061035156
+              ],
+              [
+                368.70001220703125,
+                451.5
+              ]
+            ]
+          ],
+          "bbox": null
+        },
+        {
+          "text": "the pedestrian in black in the center, by the road",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",
           "grounded": true,
-          "item_id": "cam_f0_0",
+          "item_id": "cam_f0_1",
           "distance": 27.13,
           "gt_index": 5,
           "map_ids": null,
@@ -159,73 +214,18 @@
       ]
     },
     "cam_l0": {
-      "text": "the crosswalk in front of us",
+      "text": "the stop line in front of us",
       "categories": [
-        "crosswalk"
+        "stop_line"
       ],
       "items": [
-        {
-          "text": "the crosswalk in front of us",
-          "kind": "crosswalk",
-          "category": "crosswalk",
-          "role": "crosswalk",
-          "grounded": true,
-          "item_id": "cam_l0_0",
-          "distance": 2.28,
-          "gt_index": null,
-          "map_ids": [
-            "20725"
-          ],
-          "attributes": null,
-          "outline": [
-            [
-              [
-                333.3999938964844,
-                571.5999755859375
-              ],
-              [
-                283.8999938964844,
-                593.2999877929688
-              ],
-              [
-                178.3000030517578,
-                628.2999877929688
-              ],
-              [
-                40.400001525878906,
-                664.5
-              ],
-              [
-                20.5,
-                669.5
-              ],
-              [
-                18.899999618530273,
-                672.0
-              ],
-              [
-                386.70001220703125,
-                672.0
-              ],
-              [
-                338.70001220703125,
-                571.2999877929688
-              ],
-              [
-                333.3999938964844,
-                571.5999755859375
-              ]
-            ]
-          ],
-          "bbox": null
-        },
         {
           "text": "the stop line in front of us",
           "kind": "stop_line",
           "category": "stop_line",
           "role": "stop_line",
           "grounded": true,
-          "item_id": "cam_l0_1",
+          "item_id": "cam_l0_0",
           "distance": 7.57,
           "gt_index": null,
           "map_ids": [
@@ -268,7 +268,7 @@
           "category": "lane_lines",
           "role": "lane_lines",
           "grounded": true,
-          "item_id": "cam_l0_2",
+          "item_id": "cam_l0_1",
           "distance": 10.0,
           "gt_index": null,
           "map_ids": [

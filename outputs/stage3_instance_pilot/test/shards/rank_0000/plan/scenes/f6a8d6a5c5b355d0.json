@@ -25,6 +25,10 @@
         "frame": "route"
       },
       "distance": 18.32208455702667,
+      "place": {
+        "on_road": true,
+        "on_crosswalk": false
+      },
       "bbox": [
         145.75,
         328.97,
@@ -70,76 +74,62 @@
       "mask_row": 0
     },
     {
-      "kind": "crosswalk",
-      "category": "crosswalk",
-      "camera": "cam_f0",
-      "role": "crosswalk",
-      "distance": 5.16,
-      "map_ids": [
-        "53651"
-      ],
-      "priority": 2,
-      "item_id": "cam_f0_1",
-      "outline": [
-        [
-          [
-            1148.0,
-            672.0
-          ],
-          [
-            1148.0,
-            517.4000244140625
-          ],
-          [
-            329.5,
-            672.0
-          ],
-          [
-            1148.0,
-            672.0
-          ]
-        ]
-      ],
-      "grounded": true,
-      "mask_row": 1
-    },
-    {
       "kind": "stop_line",
       "category": "stop_line",
       "camera": "cam_l0",
       "role": "stop_line",
-      "distance": 2.37,
+      "distance": 9.56,
       "map_ids": [
-        "48576"
+        "47176"
       ],
       "priority": 2,
       "item_id": "cam_l0_0",
       "outline": [
         [
           [
-            0.0,
-            672.0
+            814.5,
+            608.0
           ],
           [
-            244.8000030517578,
-            672.0
+            870.7000122070312,
+            519.2999877929688
           ],
           [
-            60.599998474121094,
-            632.0999755859375
+            803.7999877929688,
+            513.5
           ],
           [
-            0.0,
-            663.7999877929688
+            803.7999877929688,
+            550.2999877929688
           ],
           [
-            0.0,
-            672.0
+            473.8999938964844,
+            550.2999877929688
+          ],
+          [
+            473.8999938964844,
+            484.8999938964844
+          ],
+          [
+            324.6000061035156,
+            471.8999938964844
+          ],
+          [
+            221.5,
+            493.0
+          ],
+          [
+            78.4000015258789,
+            518.7000122070312
+          ],
+          [
+            814.5,
+            608.0
           ]
         ]
       ],
       "grounded": true,
-      "mask_row": 2
+      "mask_row": 1
     },
     {
       "kind": "lane_lines",
@@ -177,7 +167,7 @@
         ]
       ],
       "grounded": true,
-      "mask_row": 3
+      "mask_row": 2
     },
     {
       "kind": "agent",
@@ -196,6 +186,10 @@
         "frame": "route"
       },
       "distance": 13.53375567155481,
+      "place": {
+        "on_road": true,
+        "on_crosswalk": false
+      },
       "bbox": [
         473.91,
         326.38,
@@ -238,10 +232,14 @@
         ]
       ],
       "grounded": true,
-      "mask_row": 4
+      "mask_row": 3
     }
   ],
   "rejected": {
-    "not_in_any_camera": 1
+    "not_in_any_camera": 1,
+    "crosswalk_mostly_outside_cam_f0": 1,
+    "crosswalk_mostly_outside_cam_l0": 1,
+    "crosswalk_mostly_outside_cam_r0": 1,
+    "stop_line_mostly_outside_cam_l0": 1
   }
 }

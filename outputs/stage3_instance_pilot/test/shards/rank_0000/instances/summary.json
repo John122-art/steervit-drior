@@ -4,20 +4,20 @@
   "scenes": 100,
   "rendered": 100,
   "words_per_item": {
-    "mean": 9.591054313099042,
-    "max": 14
+    "mean": 8.647912885662432,
+    "max": 11
   },
   "dropped_duplicate": 3,
-  "dropped_over_limit": 113,
-  "kept_lane_lines": 74,
-  "kept_grounded": 584,
-  "empty_cameras": 107,
-  "dropped_not_visible": 48,
-  "kept_vehicle": 369,
+  "dropped_over_limit": 94,
+  "kept_lane_lines": 76,
+  "kept_grounded": 524,
+  "empty_cameras": 135,
+  "dropped_not_visible": 43,
+  "kept_vehicle": 304,
   "kept_traffic_light": 27,
-  "kept_stop_line": 37,
-  "kept_pedestrian": 80,
-  "kept_crosswalk": 27,
-  "kept_traffic_cone": 5,
+  "kept_stop_line": 30,
+  "kept_pedestrian": 83,
+  "kept_crosswalk": 21,
+  "kept_traffic_cone": 3,
   "kept_bicycle": 7
 }

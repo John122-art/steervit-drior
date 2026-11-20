@@ -177,64 +177,18 @@
       ]
     },
     "cam_b0": {
-      "text": "the white car on the left, in the next lane",
+      "text": "the gray car on the left, in the next lane",
       "categories": [
         "vehicle"
       ],
       "items": [
-        {
-          "text": "the white car on the left, in the next lane",
-          "kind": "agent",
-          "category": "vehicle",
-          "role": "adjacent",
-          "grounded": true,
-          "item_id": "cam_b0_0",
-          "distance": 3.41,
-          "gt_index": 6,
-          "map_ids": null,
-          "attributes": {
-            "visible": true,
-            "color": "white",
-            "type": "car"
-          },
-          "outline": [
-            [
-              [
-                74.4000015258789,
-                414.29998779296875
-              ],
-              [
-                0.0,
-                414.29998779296875
-              ],
-              [
-                0.0,
-                672.0
-              ],
-              [
-                74.4000015258789,
-                672.0
-              ],
-              [
-                74.4000015258789,
-                414.29998779296875
-              ]
-            ]
-          ],
-          "bbox": [
-            0.0,
-            414.26,
-            74.39,
-            672.0
-          ]
-        },
         {
           "text": "the gray car on the left, in the next lane",
           "kind": "agent",
           "category": "vehicle",
           "role": "adjacent",
           "grounded": true,
-          "item_id": "cam_b0_1",
+          "item_id": "cam_b0_0",
           "distance": 8.78,
           "gt_index": 4,
           "map_ids": null,
@@ -277,13 +231,13 @@
       ]
     },
     "cam_l0": {
-      "text": "the silver pickup truck on the right, at the side of the road",
+      "text": "the silver pickup truck on the right, in another lane",
       "categories": [
         "vehicle"
       ],
       "items": [
         {
-          "text": "the silver pickup truck on the right, at the side of the road",
+          "text": "the silver pickup truck on the right, in another lane",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",

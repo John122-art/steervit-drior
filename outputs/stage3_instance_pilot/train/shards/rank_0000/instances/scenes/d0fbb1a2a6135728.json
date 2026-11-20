@@ -102,58 +102,9 @@
       ]
     },
     "cam_b0": {
-      "text": "the gray SUV on the left, in the next lane",
-      "categories": [
-        "vehicle"
-      ],
-      "items": [
-        {
-          "text": "the gray SUV on the left, in the next lane",
-          "kind": "agent",
-          "category": "vehicle",
-          "role": "adjacent",
-          "grounded": true,
-          "item_id": "cam_b0_0",
-          "distance": 7.37,
-          "gt_index": 81,
-          "map_ids": null,
-          "attributes": {
-            "visible": true,
-            "color": "gray",
-            "type": "SUV"
-          },
-          "outline": [
-            [
-              [
-                227.1999969482422,
-                334.29998779296875
-              ],
-              [
-                0.0,
-                334.29998779296875
-              ],
-              [
-                0.0,
-                672.0
-              ],
-              [
-                227.1999969482422,
-                672.0
-              ],
-              [
-                227.1999969482422,
-                334.29998779296875
-              ]
-            ]
-          ],
-          "bbox": [
-            0.0,
-            334.26,
-            227.25,
-            672.0
-          ]
-        }
-      ]
+      "text": "",
+      "categories": [],
+      "items": []
     },
     "cam_l0": {
       "text": "the white van on the right, in our lane",
@@ -281,7 +232,7 @@
           "bbox": null
         },
         {
-          "text": "the silver car in the center, at the side of the road",
+          "text": "the silver car in the center, by the road",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",

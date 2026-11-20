@@ -165,13 +165,13 @@
       "items": []
     },
     "cam_l0": {
-      "text": "the silver SUV on the left, at the side of the road",
+      "text": "the silver SUV on the left, in another lane",
       "categories": [
         "vehicle"
       ],
       "items": [
         {
-          "text": "the silver SUV on the left, at the side of the road",
+          "text": "the silver SUV on the left, in another lane",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
@@ -217,7 +217,7 @@
           ]
         },
         {
-          "text": "the black car on the left, at the side of the road",
+          "text": "the black car on the left, in another lane",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
@@ -263,7 +263,7 @@
           ]
         },
         {
-          "text": "the pedestrian in blue on the right, at the side of the road",
+          "text": "the pedestrian in blue on the right, by the road",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",

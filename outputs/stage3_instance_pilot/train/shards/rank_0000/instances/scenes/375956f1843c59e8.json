@@ -373,13 +373,13 @@
       ]
     },
     "cam_b0": {
-      "text": "the pedestrian in black on the right, in the next lane",
+      "text": "the pedestrian in black on the right, on the road",
       "categories": [
         "pedestrian"
       ],
       "items": [
         {
-          "text": "the pedestrian in black on the right, in the next lane",
+          "text": "the pedestrian in black on the right, on the road",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",
@@ -425,7 +425,7 @@
           ]
         },
         {
-          "text": "the pedestrian in white on the left, at the side of the road",
+          "text": "the pedestrian in white on the left, by the road",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",
@@ -471,7 +471,7 @@
           ]
         },
         {
-          "text": "the pedestrian in black on the left, at the side of the road",
+          "text": "the pedestrian in black on the left, on the road",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",

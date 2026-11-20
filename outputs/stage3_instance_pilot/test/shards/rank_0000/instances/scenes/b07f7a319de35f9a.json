@@ -284,13 +284,13 @@
       ]
     },
     "cam_l0": {
-      "text": "the pedestrian in blue on the right, at the side of the road",
+      "text": "the pedestrian in blue on the right, on the crosswalk",
       "categories": [
         "pedestrian"
       ],
       "items": [
         {
-          "text": "the pedestrian in blue on the right, at the side of the road",
+          "text": "the pedestrian in blue on the right, on the crosswalk",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",
@@ -336,7 +336,7 @@
           ]
         },
         {
-          "text": "the pedestrian in brown in the center, at the side of the road",
+          "text": "the pedestrian in brown in the center, on the crosswalk",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",
@@ -382,7 +382,7 @@
           ]
         },
         {
-          "text": "the pedestrian in gray in the center, at the side of the road",
+          "text": "the pedestrian in gray in the center, on the crosswalk",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",
@@ -430,64 +430,18 @@
       ]
     },
     "cam_r0": {
-      "text": "the blue car on the right, at the side of the road",
+      "text": "the white car in the center, by the road",
       "categories": [
         "vehicle"
       ],
       "items": [
         {
-          "text": "the blue car on the right, at the side of the road",
+          "text": "the white car in the center, by the road",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
           "grounded": true,
           "item_id": "cam_r0_0",
-          "distance": 15.46,
-          "gt_index": 11,
-          "map_ids": null,
-          "attributes": {
-            "visible": true,
-            "color": "blue",
-            "type": "car"
-          },
-          "outline": [
-            [
-              [
-                1148.0,
-                357.1000061035156
-              ],
-              [
-                1063.0,
-                357.1000061035156
-              ],
-              [
-                1063.0,
-                513.2000122070312
-              ],
-              [
-                1148.0,
-                513.2000122070312
-              ],
-              [
-                1148.0,
-                357.1000061035156
-              ]
-            ]
-          ],
-          "bbox": [
-            1062.99,
-            357.13,
-            1148.0,
-            513.16
-          ]
-        },
-        {
-          "text": "the white car in the center, at the side of the road",
-          "kind": "agent",
-          "category": "vehicle",
-          "role": "nearby",
-          "grounded": true,
-          "item_id": "cam_r0_1",
           "distance": 18.73,
           "gt_index": 19,
           "map_ids": null,

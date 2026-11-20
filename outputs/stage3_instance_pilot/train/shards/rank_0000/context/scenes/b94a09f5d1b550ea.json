@@ -18,6 +18,7 @@
     -0.01013602688908577
   ],
   "velocities": [],
+  "places": [],
   "route": {
     "ego_s_global": 19.292682823443293,
     "centerline": [

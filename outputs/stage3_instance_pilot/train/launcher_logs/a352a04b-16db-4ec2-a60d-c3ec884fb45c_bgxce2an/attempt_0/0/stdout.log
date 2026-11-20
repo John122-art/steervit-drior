@@ -1,0 +1,1135 @@
+[train rank 0] /mnt/zhaozc_workspace/envs/drivorpython/bin/python -B /mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/scripts/data_generation/prepare_navsim.py --output /mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage3_instance_pilot/train/shards/rank_0000/prepared --data-root /mnt/zhaozc_workspace/project/LQH/DrivoR-main-copy/dataset --split navtrain --subset train --seed 3407 --rank 0 --world-size 1 --scenes 120
+Prepared 1/120: cdec196208d65e81 (2021.07.09.17.06.37_veh-35_00928_02567)
+Prepared 2/120: 076aafe7a1b65ccd (2021.07.16.18.49.56_veh-26_00015_00235)
+Prepared 3/120: f1a05680e8195ff2 (2021.06.23.21.56.29_veh-35_00947_01581)
+Prepared 4/120: f8a8fb0636a65edf (2021.06.09.14.03.17_veh-12_00711_00839)
+Prepared 5/120: 0ea47b4586de59a9 (2021.10.01.19.16.42_veh-28_01731_01935)
+Prepared 6/120: c9c4642c90ae5df6 (2021.10.01.15.32.11_veh-28_00475_00930)
+Prepared 7/120: 3295a8a6ddf152ae (2021.07.16.16.27.22_veh-26_03836_05047)
+Prepared 8/120: 42e7e27ec6f55439 (2021.06.09.11.54.15_veh-12_04366_04810)
+Prepared 9/120: 4192513dc7b6518c (2021.10.11.07.47.13_veh-50_00736_00843)
+Prepared 10/120: e451950324435385 (2021.06.14.13.28.41_veh-12_00005_00158)
+Prepared 11/120: 0d3a6d224ac65052 (2021.06.14.14.25.15_veh-26_03415_03581)
+Prepared 12/120: 951d1fa68a7e558c (2021.06.23.14.54.32_veh-16_00636_00840)
+Prepared 13/120: 85be16890195532a (2021.07.16.18.49.56_veh-26_03407_03538)
+Prepared 14/120: b63a2c6614c25c10 (2021.06.09.17.23.18_veh-38_04544_04697)
+Prepared 15/120: 5a912018da8b516c (2021.06.14.16.48.02_veh-12_03472_03779)
+Prepared 16/120: 79282ef4b96d51aa (2021.07.16.16.27.22_veh-26_00016_01515)
+Prepared 17/120: 33322f7fe3645d33 (2021.06.09.14.58.55_veh-35_03312_03379)
+Prepared 18/120: 3d9434518d2756a1 (2021.07.16.22.40.23_veh-38_00371_00797)
+Prepared 19/120: 77adf2a1873c571b (2021.06.09.14.58.55_veh-35_00016_00182)
+Prepared 20/120: 72077b48cc565e7c (2021.06.09.17.37.09_veh-12_03003_03121)
+Prepared 21/120: 35590f52919e5e0e (2021.06.23.16.54.19_veh-35_00808_01256)
+Prepared 22/120: 0f291f5478a15859 (2021.07.09.17.06.37_veh-35_02609_05015)
+Prepared 23/120: 862d9dc396df5812 (2021.06.14.16.48.02_veh-12_04978_05337)
+Prepared 24/120: a7ebbf047f015b46 (2021.06.09.12.51.31_veh-35_00100_00277)
+Prepared 25/120: bf4cf74d095d50a6 (2021.07.16.16.08.35_veh-35_00805_01292)
+Prepared 26/120: 2c5175a7d5575a15 (2021.06.14.13.28.41_veh-12_04300_04506)
+Prepared 27/120: 274aa2836d7c5091 (2021.07.09.20.59.12_veh-38_07245_07341)
+Prepared 28/120: 65cd04a40cb25862 (2021.09.15.14.27.22_veh-39_01166_01252)
+Prepared 29/120: fa4f726b18855e56 (2021.06.23.16.52.00_veh-26_00624_00817)
+Prepared 30/120: cd7025b34ffa52f5 (2021.06.09.12.51.31_veh-35_03487_03821)
+Prepared 31/120: 350ae65816295acc (2021.06.09.11.54.15_veh-12_04821_05096)
+Prepared 32/120: 375956f1843c59e8 (2021.06.14.16.48.02_veh-12_00839_00980)
+Prepared 33/120: 1ff3779f5ff95974 (2021.06.14.16.48.02_veh-12_00009_00127)
+Prepared 34/120: d6e6ab2532535021 (2021.06.14.18.42.45_veh-12_04233_04472)
+Prepared 35/120: 2e7e5d835fd2555b (2021.10.11.02.57.41_veh-50_00704_00776)
+Prepared 36/120: ba8325feb092515e (2021.06.23.14.58.13_veh-35_02037_04783)
+Prepared 37/120: ad45f53a937355d9 (2021.06.09.14.03.17_veh-12_01603_01708)
+Prepared 38/120: d12d90fc4ee257cb (2021.06.09.12.39.51_veh-26_04374_04513)
+Prepared 39/120: 0b73ecf845c4520c (2021.10.11.05.34.05_veh-50_00189_00398)
+Prepared 40/120: ce0049b7c1f75e71 (2021.09.15.16.51.15_veh-28_01468_01533)
+Prepared 41/120: 26d62f55fe175782 (2021.06.09.17.23.18_veh-38_01598_01750)
+Prepared 42/120: 269c7df83c805219 (2021.07.09.20.26.06_veh-35_00016_01757)
+Prepared 43/120: e4274af8f96e5360 (2021.10.01.15.32.11_veh-28_00120_00248)
+Prepared 44/120: 553bb326e5435775 (2021.06.09.12.39.51_veh-26_02901_02978)
+Prepared 45/120: 3cdb1f604a365a53 (2021.06.09.17.37.09_veh-12_02639_02992)
+Prepared 46/120: fa878580c0365258 (2021.10.11.08.31.07_veh-50_02360_02684)
+Prepared 47/120: 9e9116a8ae515d64 (2021.10.06.13.21.47_veh-28_00441_00515)
+Prepared 48/120: 3cde3b2efbf45896 (2021.09.15.16.51.15_veh-28_01698_01775)
+Prepared 49/120: d42d45eb395d57f3 (2021.05.12.22.28.35_veh-35_02138_02481)
+Prepared 50/120: ba7dfb7ed77b5e16 (2021.06.14.18.42.45_veh-12_05170_05261)
+Prepared 51/120: c414d1a73d095b67 (2021.06.09.11.54.15_veh-12_03653_03902)
+Prepared 52/120: f9fb942be8c25e26 (2021.06.14.14.25.15_veh-26_02770_02830)
+Prepared 53/120: f70d4c0e06c35ce7 (2021.10.06.17.43.07_veh-28_01587_01694)
+Prepared 54/120: 4dd1a3b585cc5c58 (2021.06.14.16.32.09_veh-35_03129_03220)
+Prepared 55/120: 653c3343e5e551c0 (2021.06.14.18.42.45_veh-12_00364_00501)
+Prepared 56/120: 1e85dadff8b552a1 (2021.06.14.14.03.45_veh-38_04137_04387)
+Prepared 57/120: e44b2ad39ebd54a0 (2021.06.09.14.58.55_veh-35_01095_01484)
+Prepared 58/120: 3646e3b98294559f (2021.06.14.13.28.41_veh-12_05118_05258)
+Prepared 59/120: 5a751ea37fa155d1 (2021.06.09.14.58.55_veh-35_02660_02757)
+Prepared 60/120: fd712cc7b7cf5f7b (2021.07.16.18.06.21_veh-38_00016_00747)
+Prepared 61/120: e8e561a864ee5cfe (2021.06.14.16.48.02_veh-12_02317_02401)
+Prepared 62/120: 15c29fbe64bb5e8d (2021.07.16.18.49.56_veh-26_00833_03384)
+Prepared 63/120: 08222ee927fe5790 (2021.06.14.13.27.42_veh-35_01025_01086)
+Prepared 64/120: 6b83b1d356b95ba0 (2021.10.06.14.31.13_veh-28_00738_00908)
+Prepared 65/120: a38961d10b255895 (2021.10.11.07.47.13_veh-50_00326_00708)
+Prepared 66/120: c0559e0a06ea5bb1 (2021.06.14.13.28.41_veh-12_04530_04609)
+Prepared 67/120: 8a04edf7c5fb5bad (2021.06.09.19.40.26_veh-12_00279_01212)
+Prepared 68/120: a3f8215b28465233 (2021.05.12.23.36.44_veh-35_01735_01957)
+Prepared 69/120: c48925696e0d528e (2021.10.11.08.31.07_veh-50_01750_01948)
+Prepared 70/120: 028ce33c385b53b7 (2021.06.14.16.48.02_veh-12_04615_04689)
+Prepared 71/120: e4092327ac7456e5 (2021.06.14.16.48.02_veh-12_01020_01720)
+Prepared 72/120: 6430ab6418235711 (2021.09.15.14.27.22_veh-39_00038_00414)
+Prepared 73/120: 88c3818a2b19550e (2021.06.09.18.23.43_veh-35_00026_00274)
+Prepared 74/120: d0fbb1a2a6135728 (2021.06.14.13.27.42_veh-35_00243_00342)
+Prepared 75/120: 84e0560b9f5a5af1 (2021.06.09.17.37.09_veh-12_04489_04816)
+Prepared 76/120: f2ec3de323df5b8a (2021.10.01.19.16.42_veh-28_02447_02517)
+Prepared 77/120: 9ac0839e023251e8 (2021.08.17.14.32.33_veh-08_01072_01231)
+Prepared 78/120: 85e601304d3f5e9d (2021.06.14.18.33.41_veh-35_02521_03356)
+Prepared 79/120: 48240889350c5e4d (2021.08.17.16.48.45_veh-43_00114_00415)
+Prepared 80/120: 1a0b0be1750b53d9 (2021.10.01.13.28.54_veh-28_01098_01337)
+Prepared 81/120: 6951943bb8ab58f2 (2021.08.17.17.55.18_veh-43_00358_00673)
+Prepared 82/120: 4fa8b0610e435275 (2021.06.14.16.32.09_veh-35_01219_01415)
+Prepared 83/120: 790354bbbd735a02 (2021.06.14.13.27.42_veh-35_01342_01461)
+Prepared 84/120: b03a7c2bdbd45b8d (2021.07.09.20.59.12_veh-38_06872_07220)
+Prepared 85/120: 599c1304206e5c47 (2021.06.14.18.13.35_veh-26_00259_00374)
+Prepared 86/120: 56950336dfef57af (2021.07.16.21.17.55_veh-26_01014_01075)
+Prepared 87/120: 11810f87cdbf5b4f (2021.09.15.14.27.22_veh-39_00868_01125)
+Prepared 88/120: 865c6ef602fc5a86 (2021.06.14.18.33.41_veh-35_03367_03508)
+Prepared 89/120: 3d182f05141857aa (2021.06.09.18.23.43_veh-35_02086_02333)
+Prepared 90/120: defdfdb835095fe3 (2021.06.14.16.32.09_veh-35_01620_01699)
+Prepared 91/120: 2bd67db1bbb55ed7 (2021.06.14.18.13.35_veh-26_04964_05075)
+Prepared 92/120: b364ad4a8c4f56d9 (2021.06.09.12.39.51_veh-26_02338_02459)
+Prepared 93/120: 922b157cb9d2536c (2021.09.15.13.52.55_veh-39_00371_00631)
+Prepared 94/120: 8d297a759d8253cf (2021.06.09.11.54.15_veh-12_02540_02723)
+Prepared 95/120: e14a2e4d5fed5bbe (2021.08.17.16.48.45_veh-43_00451_00871)
+Prepared 96/120: 8af0c72f38795ca3 (2021.09.15.13.16.40_veh-28_00642_01267)
+Prepared 97/120: 37ad2af51c595054 (2021.09.15.14.00.15_veh-28_01611_01874)
+Prepared 98/120: b94a09f5d1b550ea (2021.10.11.02.57.41_veh-50_02155_02265)
+Prepared 99/120: 9fec2176c0a85a92 (2021.08.17.14.45.12_veh-42_00542_00803)
+Prepared 100/120: d64c1236be235c3a (2021.06.09.14.50.36_veh-26_03403_03496)
+Prepared 101/120: 72e19401a53e5ca6 (2021.06.14.18.33.41_veh-35_01970_02043)
+Prepared 102/120: 05fe906e67ba51bb (2021.06.23.21.56.29_veh-35_00220_00936)
+Prepared 103/120: ce50497738e353e4 (2021.06.09.17.37.09_veh-12_00016_00140)
+Prepared 104/120: b72470bc9dc455ac (2021.06.14.17.26.26_veh-38_05048_05270)
+Prepared 105/120: fd26ca54aac65866 (2021.08.17.18.13.38_veh-45_00946_01854)
+Prepared 106/120: 09d142a13744530f (2021.06.14.14.03.45_veh-38_04398_04488)
+Prepared 107/120: bfe3248e464559c6 (2021.10.01.13.28.54_veh-28_00094_00181)
+Prepared 108/120: f73c6f1dc67e52d9 (2021.08.17.14.32.33_veh-08_00390_00468)
+Prepared 109/120: f629ebb36dbf556c (2021.08.17.13.15.12_veh-45_02025_02103)
+Prepared 110/120: 2b03708a95a157e0 (2021.10.11.02.57.41_veh-50_00145_00308)
+Prepared 111/120: 6b0d8096ea8e52e9 (2021.06.09.12.51.31_veh-35_05299_05468)
+Prepared 112/120: 3010d891812c5ad0 (2021.10.06.14.31.13_veh-28_01277_01377)
+Prepared 113/120: 9657c0d1f5c85c9d (2021.07.16.16.01.30_veh-38_02497_03871)
+Prepared 114/120: 9afe30150d0952a8 (2021.06.09.11.54.15_veh-12_01537_01628)
+Prepared 115/120: 8ddc87e943425dd8 (2021.08.17.14.45.12_veh-42_01562_01754)
+Prepared 116/120: fe90a75ae70054dd (2021.07.16.16.01.30_veh-38_00356_02486)
+Prepared 117/120: 463122faddbd556e (2021.08.17.13.10.50_veh-08_01060_01340)
+Prepared 118/120: 0d8391b472965292 (2021.06.14.18.42.45_veh-12_01065_01152)
+Prepared 119/120: c756455c4bb45d7b (2021.05.12.22.00.38_veh-35_00215_00995)
+Prepared 120/120: f59427887b385154 (2021.08.17.14.45.12_veh-42_01119_01535)
+[train rank 0] /mnt/zhaozc_workspace/envs/drivorpython/bin/python -B /mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/scripts/data_generation/stage3_instance/extract_context.py --prepared /mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage3_instance_pilot/train/shards/rank_0000/prepared --metric-cache /mnt/zhaozc_workspace/official_DrivoR_clean/data_runtime/official_metric_cache_navtrain_20261005/metric_cache --output /mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage3_instance_pilot/train/shards/rank_0000/context --resume
+context cdec196208d65e81: route=yes, lanes 3, light True, crosswalks 0, stop lines 1
+context 076aafe7a1b65ccd: route=yes, lanes 3, light False, crosswalks 1, stop lines 5
+context f1a05680e8195ff2: route=yes, lanes 1, light False, crosswalks 1, stop lines 0
+context f8a8fb0636a65edf: route=yes, lanes 2, light False, crosswalks 0, stop lines 0
+context 0ea47b4586de59a9: route=yes, lanes 1, light False, crosswalks 1, stop lines 1
+context c9c4642c90ae5df6: route=yes, lanes 2, light False, crosswalks 1, stop lines 0
+context 3295a8a6ddf152ae: route=yes, lanes 3, light True, crosswalks 1, stop lines 1
+context 42e7e27ec6f55439: route=yes, lanes 2, light False, crosswalks 0, stop lines 0
+context 4192513dc7b6518c: route=yes, lanes 1, light False, crosswalks 0, stop lines 0
+context e451950324435385: route=yes, lanes 2, light False, crosswalks 3, stop lines 2
+context 0d3a6d224ac65052: route=yes, lanes 1, light False, crosswalks 0, stop lines 0
+context 951d1fa68a7e558c: route=yes, lanes 3, light False, crosswalks 0, stop lines 0
+context 85be16890195532a: route=yes, lanes 1, light False, crosswalks 0, stop lines 0
+context b63a2c6614c25c10: route=yes, lanes 2, light False, crosswalks 1, stop lines 1
+context 5a912018da8b516c: route=yes, lanes 1, light False, crosswalks 0, stop lines 0
+context 79282ef4b96d51aa: route=yes, lanes 3, light False, crosswalks 1, stop lines 4
+context 33322f7fe3645d33: route=yes, lanes 2, light False, crosswalks 1, stop lines 0
+context 3d9434518d2756a1: route=yes, lanes 4, light False, crosswalks 0, stop lines 1
+context 77adf2a1873c571b: route=yes, lanes 3, light False, crosswalks 1, stop lines 1
+context 72077b48cc565e7c: route=yes, lanes 4, light True, crosswalks 0, stop lines 1
+context 35590f52919e5e0e: route=yes, lanes 1, light False, crosswalks 0, stop lines 2
+context 0f291f5478a15859: route=yes, lanes 4, light False, crosswalks 0, stop lines 2
+context 862d9dc396df5812: route=yes, lanes 2, light True, crosswalks 1, stop lines 4
+context a7ebbf047f015b46: route=yes, lanes 1, light True, crosswalks 1, stop lines 1
+context bf4cf74d095d50a6: route=yes, lanes 2, light False, crosswalks 2, stop lines 4
+context 2c5175a7d5575a15: route=yes, lanes 3, light False, crosswalks 0, stop lines 2
+context 274aa2836d7c5091: route=yes, lanes 2, light False, crosswalks 0, stop lines 1
+context 65cd04a40cb25862: route=yes, lanes 2, light False, crosswalks 2, stop lines 3
+context fa4f726b18855e56: route=yes, lanes 1, light False, crosswalks 0, stop lines 0
+context cd7025b34ffa52f5: route=yes, lanes 4, light False, crosswalks 2, stop lines 2
+context 350ae65816295acc: route=yes, lanes 2, light True, crosswalks 1, stop lines 4
+context 375956f1843c59e8: route=yes, lanes 4, light False, crosswalks 0, stop lines 0
+context 1ff3779f5ff95974: route=yes, lanes 2, light False, crosswalks 1, stop lines 0
+context d6e6ab2532535021: route=yes, lanes 1, light True, crosswalks 1, stop lines 1
+context 2e7e5d835fd2555b: route=yes, lanes 1, light False, crosswalks 0, stop lines 0
+context ba8325feb092515e: route=yes, lanes 2, light False, crosswalks 2, stop lines 1
+context ad45f53a937355d9: route=yes, lanes 1, light True, crosswalks 0, stop lines 2
+context d12d90fc4ee257cb: route=yes, lanes 1, light True, crosswalks 1, stop lines 1
+context 0b73ecf845c4520c: route=yes, lanes 3, light False, crosswalks 2, stop lines 2
+context ce0049b7c1f75e71: route=yes, lanes 3, light False, crosswalks 2, stop lines 8
+context 26d62f55fe175782: route=yes, lanes 2, light True, crosswalks 0, stop lines 1
+context 269c7df83c805219: route=yes, lanes 2, light False, crosswalks 1, stop lines 2
+context e4274af8f96e5360: route=yes, lanes 2, light False, crosswalks 2, stop lines 10
+context 553bb326e5435775: route=yes, lanes 3, light False, crosswalks 0, stop lines 1
+context 3cdb1f604a365a53: route=yes, lanes 2, light False, crosswalks 0, stop lines 0
+context fa878580c0365258: route=yes, lanes 2, light False, crosswalks 0, stop lines 4
+context 9e9116a8ae515d64: route=yes, lanes 1, light False, crosswalks 2, stop lines 1
+context 3cde3b2efbf45896: route=yes, lanes 1, light False, crosswalks 0, stop lines 1
+context d42d45eb395d57f3: route=yes, lanes 2, light False, crosswalks 0, stop lines 0
+context ba7dfb7ed77b5e16: route=yes, lanes 1, light False, crosswalks 0, stop lines 1
+context c414d1a73d095b67: route=yes, lanes 3, light False, crosswalks 2, stop lines 2
+context f9fb942be8c25e26: route=yes, lanes 1, light True, crosswalks 0, stop lines 2
+context f70d4c0e06c35ce7: route=yes, lanes 3, light False, crosswalks 4, stop lines 3
+context 4dd1a3b585cc5c58: route=yes, lanes 2, light False, crosswalks 1, stop lines 0
+context 653c3343e5e551c0: route=yes, lanes 3, light True, crosswalks 0, stop lines 2
+context 1e85dadff8b552a1: route=yes, lanes 2, light True, crosswalks 1, stop lines 1
+context e44b2ad39ebd54a0: route=yes, lanes 4, light False, crosswalks 0, stop lines 2
+context 3646e3b98294559f: route=yes, lanes 2, light False, crosswalks 2, stop lines 4
+context 5a751ea37fa155d1: route=yes, lanes 1, light False, crosswalks 0, stop lines 0
+context fd712cc7b7cf5f7b: route=yes, lanes 1, light False, crosswalks 0, stop lines 0
+context e8e561a864ee5cfe: route=yes, lanes 4, light False, crosswalks 0, stop lines 0
+context 15c29fbe64bb5e8d: route=yes, lanes 2, light True, crosswalks 1, stop lines 2
+context 08222ee927fe5790: route=yes, lanes 2, light False, crosswalks 2, stop lines 4
+context 6b83b1d356b95ba0: route=yes, lanes 3, light False, crosswalks 2, stop lines 10
+context a38961d10b255895: route=yes, lanes 1, light False, crosswalks 0, stop lines 0
+context c0559e0a06ea5bb1: route=yes, lanes 1, light False, crosswalks 0, stop lines 0
+context 8a04edf7c5fb5bad: route=yes, lanes 4, light False, crosswalks 2, stop lines 0
+context a3f8215b28465233: route=yes, lanes 1, light False, crosswalks 0, stop lines 0
+context c48925696e0d528e: route=yes, lanes 2, light False, crosswalks 0, stop lines 0
+context 028ce33c385b53b7: route=yes, lanes 2, light False, crosswalks 0, stop lines 0
+context e4092327ac7456e5: route=yes, lanes 1, light True, crosswalks 0, stop lines 2
+context 6430ab6418235711: route=yes, lanes 2, light False, crosswalks 1, stop lines 1
+context 88c3818a2b19550e: route=yes, lanes 1, light False, crosswalks 0, stop lines 0
+context d0fbb1a2a6135728: route=yes, lanes 1, light False, crosswalks 1, stop lines 3
+context 84e0560b9f5a5af1: route=yes, lanes 1, light False, crosswalks 0, stop lines 2
+context f2ec3de323df5b8a: route=yes, lanes 2, light False, crosswalks 1, stop lines 4
+context 9ac0839e023251e8: route=yes, lanes 1, light False, crosswalks 0, stop lines 0
+context 85e601304d3f5e9d: route=yes, lanes 2, light False, crosswalks 1, stop lines 2
+context 48240889350c5e4d: route=yes, lanes 1, light False, crosswalks 0, stop lines 0
+context 1a0b0be1750b53d9: route=yes, lanes 2, light True, crosswalks 2, stop lines 2
+context 6951943bb8ab58f2: route=yes, lanes 3, light False, crosswalks 2, stop lines 2
+context 4fa8b0610e435275: route=yes, lanes 4, light True, crosswalks 0, stop lines 1
+context 790354bbbd735a02: route=yes, lanes 2, light False, crosswalks 0, stop lines 0
+context b03a7c2bdbd45b8d: route=yes, lanes 3, light False, crosswalks 1, stop lines 1
+context 599c1304206e5c47: route=yes, lanes 3, light True, crosswalks 0, stop lines 1
+context 56950336dfef57af: route=yes, lanes 2, light False, crosswalks 0, stop lines 0
+context 11810f87cdbf5b4f: route=yes, lanes 2, light False, crosswalks 1, stop lines 1
+context 865c6ef602fc5a86: route=yes, lanes 2, light True, crosswalks 1, stop lines 1
+context 3d182f05141857aa: route=yes, lanes 1, light False, crosswalks 0, stop lines 0
+context defdfdb835095fe3: route=yes, lanes 3, light True, crosswalks 1, stop lines 1
+context 2bd67db1bbb55ed7: route=yes, lanes 1, light False, crosswalks 0, stop lines 0
+context b364ad4a8c4f56d9: route=yes, lanes 2, light False, crosswalks 0, stop lines 0
+context 922b157cb9d2536c: route=yes, lanes 3, light False, crosswalks 0, stop lines 0
+context 8d297a759d8253cf: route=yes, lanes 4, light False, crosswalks 2, stop lines 1
+context e14a2e4d5fed5bbe: route=yes, lanes 3, light False, crosswalks 1, stop lines 1
+context 8af0c72f38795ca3: route=yes, lanes 2, light False, crosswalks 1, stop lines 2
+context 37ad2af51c595054: route=yes, lanes 1, light False, crosswalks 1, stop lines 3
+context b94a09f5d1b550ea: route=yes, lanes 4, light False, crosswalks 2, stop lines 6
+context 9fec2176c0a85a92: route=yes, lanes 3, light True, crosswalks 2, stop lines 1
+context d64c1236be235c3a: route=yes, lanes 2, light True, crosswalks 1, stop lines 2
+context 72e19401a53e5ca6: route=yes, lanes 2, light False, crosswalks 2, stop lines 2
+context 05fe906e67ba51bb: route=yes, lanes 2, light False, crosswalks 2, stop lines 4
+context ce50497738e353e4: route=yes, lanes 2, light False, crosswalks 1, stop lines 0
+context b72470bc9dc455ac: route=yes, lanes 3, light False, crosswalks 1, stop lines 0
+context fd26ca54aac65866: route=yes, lanes 1, light False, crosswalks 0, stop lines 0
+context 09d142a13744530f: route=yes, lanes 3, light False, crosswalks 1, stop lines 0
+context bfe3248e464559c6: route=yes, lanes 3, light False, crosswalks 0, stop lines 0
+context f73c6f1dc67e52d9: route=yes, lanes 3, light True, crosswalks 2, stop lines 2
+context f629ebb36dbf556c: route=yes, lanes 1, light False, crosswalks 0, stop lines 0
+context 2b03708a95a157e0: route=yes, lanes 2, light False, crosswalks 2, stop lines 6
+context 6b0d8096ea8e52e9: route=yes, lanes 2, light False, crosswalks 0, stop lines 0
+context 3010d891812c5ad0: route=yes, lanes 2, light False, crosswalks 1, stop lines 1
+context 9657c0d1f5c85c9d: route=yes, lanes 3, light False, crosswalks 0, stop lines 0
+context 9afe30150d0952a8: route=yes, lanes 3, light False, crosswalks 3, stop lines 1
+context 8ddc87e943425dd8: route=yes, lanes 1, light False, crosswalks 2, stop lines 3
+context fe90a75ae70054dd: route=yes, lanes 2, light False, crosswalks 0, stop lines 0
+context 463122faddbd556e: route=yes, lanes 2, light False, crosswalks 6, stop lines 9
+context 0d8391b472965292: route=yes, lanes 2, light False, crosswalks 2, stop lines 4
+context c756455c4bb45d7b: route=yes, lanes 1, light False, crosswalks 0, stop lines 0
+context f59427887b385154: route=yes, lanes 3, light False, crosswalks 2, stop lines 1
+[train rank 0] /mnt/zhaozc_workspace/envs/drivorpython/bin/python -B /mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/scripts/data_generation/stage3_instance/plan_items.py --prepared /mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage3_instance_pilot/train/shards/rank_0000/prepared --context /mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage3_instance_pilot/train/shards/rank_0000/context --output /mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage3_instance_pilot/train/shards/rank_0000/plan --resume
+plan cdec196208d65e81: cam_f0_0 lead; cam_f0_1 traffic_light_red; cam_f0_2 lane_lines; cam_f0_3 adjacent; cam_f0_4 nearby; cam_b0_0 following; cam_b0_1 nearby; cam_b0_2 nearby; cam_r0_0 beside
+plan 076aafe7a1b65ccd: cam_f0_0 nearby; cam_b0_0 nearby; cam_l0_0 beside; cam_r0_0 stop_line; cam_r0_1 nearby
+plan f1a05680e8195ff2: cam_f0_0 lead; cam_f0_1 vru; cam_f0_2 lane_lines; cam_f0_3 nearby; cam_f0_4 nearby; cam_b0_0 following; cam_b0_1 nearby; cam_b0_2 nearby; cam_b0_3 nearby; cam_b0_4 nearby; cam_r0_0 nearby; cam_r0_1 nearby; cam_r0_2 nearby; cam_r0_3 nearby
+plan f8a8fb0636a65edf: cam_f0_0 lead; cam_f0_1 lane_lines; cam_f0_2 nearby; cam_f0_3 nearby; cam_f0_4 nearby; cam_b0_0 nearby; cam_b0_1 nearby; cam_r0_0 nearby; cam_r0_1 nearby; cam_r0_2 nearby
+plan 0ea47b4586de59a9: cam_f0_0 lane_lines; cam_f0_1 crosswalk; cam_l0_0 lead; cam_l0_1 stop_line; cam_l0_2 nearby; cam_l0_3 nearby; cam_l0_4 nearby
+plan c9c4642c90ae5df6: cam_f0_0 lane_lines; cam_f0_1 adjacent; cam_f0_2 adjacent; cam_f0_3 adjacent; cam_l0_0 beside; cam_l0_1 nearby
+plan 3295a8a6ddf152ae: cam_f0_0 lead; cam_f0_1 vru; cam_f0_2 traffic_light; cam_f0_3 lane_lines; cam_f0_4 nearby; cam_b0_0 following; cam_b0_1 nearby; cam_l0_0 beside; cam_r0_0 nearby
+plan 42e7e27ec6f55439: cam_f0_0 lead; cam_f0_1 lane_lines; cam_b0_0 nearby; cam_b0_1 nearby; cam_r0_0 nearby; cam_r0_1 nearby; cam_r0_2 nearby; cam_r0_3 nearby
+plan 4192513dc7b6518c: cam_f0_0 lane_lines; cam_f0_1 cone; cam_f0_2 cone; cam_r0_0 vru; cam_r0_1 adjacent
+plan e451950324435385: cam_f0_0 lane_lines; cam_f0_1 crosswalk; cam_b0_0 following; cam_b0_1 nearby; cam_l0_0 nearby; cam_r0_0 nearby
+plan 0d3a6d224ac65052: cam_f0_0 lead; cam_f0_1 adjacent; cam_b0_0 nearby; cam_l0_0 beside; cam_l0_1 nearby; cam_r0_0 nearby; cam_r0_1 nearby
+plan 951d1fa68a7e558c: cam_f0_0 lane_lines; cam_b0_0 nearby; cam_l0_0 nearby; cam_l0_1 nearby
+plan 85be16890195532a: cam_f0_0 lead; cam_f0_1 lane_lines; cam_f0_2 adjacent
+plan b63a2c6614c25c10: cam_f0_0 lead; cam_f0_1 stop_line; cam_f0_2 nearby; cam_f0_3 nearby; cam_f0_4 nearby; cam_b0_0 following; cam_l0_0 nearby; cam_l0_1 nearby; cam_l0_2 nearby; cam_r0_0 vru; cam_r0_1 nearby; cam_r0_2 nearby; cam_r0_3 nearby; cam_r0_4 nearby
+plan 5a912018da8b516c: cam_f0_0 lead; cam_f0_1 lane_lines; cam_f0_2 nearby; cam_f0_3 nearby; cam_b0_0 following; cam_l0_0 nearby; cam_l0_1 nearby
+plan 79282ef4b96d51aa: cam_f0_0 crossing; cam_r0_0 stop_line; cam_r0_1 nearby
+plan 33322f7fe3645d33: cam_f0_0 nearby; cam_f0_1 nearby; cam_f0_2 nearby; cam_f0_3 nearby; cam_f0_4 nearby; cam_b0_0 nearby; cam_r0_0 lead; cam_r0_1 vru; cam_r0_2 vru; cam_r0_3 vru; cam_r0_4 vru
+plan 3d9434518d2756a1: cam_f0_0 lead; cam_f0_1 lane_lines; cam_f0_2 adjacent; cam_b0_0 following; cam_b0_1 nearby; cam_l0_0 nearby
+plan 77adf2a1873c571b: cam_f0_0 lane_lines; cam_f0_1 crosswalk; cam_f0_2 stop_line; cam_l0_0 nearby; cam_l0_1 nearby; cam_l0_2 nearby; cam_l0_3 nearby
+plan 72077b48cc565e7c: cam_f0_0 lead; cam_f0_1 lane_lines; cam_f0_2 adjacent; cam_f0_3 adjacent; cam_f0_4 traffic_light; cam_b0_0 following; cam_b0_1 nearby; cam_r0_0 adjacent
+plan 35590f52919e5e0e: cam_b0_0 nearby; cam_b0_1 nearby; cam_l0_0 stop_line
+plan 0f291f5478a15859: cam_f0_0 lead; cam_f0_1 adjacent; cam_b0_0 following; cam_b0_1 nearby; cam_b0_2 nearby; cam_r0_0 nearby
+plan 862d9dc396df5812: cam_f0_0 traffic_light_red; cam_f0_1 crosswalk; cam_f0_2 stop_line; cam_b0_0 following; cam_b0_1 nearby; cam_r0_0 nearby; cam_r0_1 nearby; cam_r0_2 nearby
+plan a7ebbf047f015b46: cam_f0_0 lead; cam_f0_1 traffic_light_red; cam_f0_2 adjacent; cam_f0_3 adjacent; cam_f0_4 adjacent
+plan bf4cf74d095d50a6: cam_f0_0 crosswalk; cam_f0_1 lane_lines; cam_f0_2 stop_line; cam_f0_3 oncoming; cam_b0_0 nearby; cam_b0_1 nearby; cam_l0_0 nearby; cam_r0_0 nearby
+plan 2c5175a7d5575a15: cam_f0_0 lane_lines; cam_f0_1 stop_line; cam_b0_0 following; cam_b0_1 adjacent; cam_b0_2 nearby
+plan 274aa2836d7c5091: cam_f0_0 lane_lines; cam_r0_0 nearby; cam_r0_1 nearby; cam_r0_2 nearby
+plan 65cd04a40cb25862: cam_f0_0 lane_lines; cam_f0_1 stop_line; cam_f0_2 crosswalk; cam_b0_0 nearby
+plan fa4f726b18855e56: cam_f0_0 lane_lines; cam_f0_1 nearby; cam_f0_2 nearby; cam_b0_0 following; cam_b0_1 nearby; cam_b0_2 nearby; cam_b0_3 nearby; cam_l0_0 adjacent; cam_l0_1 nearby; cam_r0_0 nearby
+plan cd7025b34ffa52f5: cam_f0_0 lead; cam_b0_0 following; cam_l0_0 lane_lines; cam_l0_1 stop_line; cam_l0_2 crosswalk; cam_l0_3 in_lane; cam_r0_0 nearby; cam_r0_1 nearby
+plan 350ae65816295acc: cam_f0_0 traffic_light_red; cam_f0_1 adjacent; cam_f0_2 stop_line; cam_l0_0 nearby; cam_l0_1 nearby; cam_l0_2 nearby; cam_l0_3 nearby; cam_r0_0 nearby; cam_r0_1 nearby; cam_r0_2 nearby
+plan 375956f1843c59e8: cam_f0_0 lead; cam_f0_1 lane_lines; cam_f0_2 adjacent; cam_b0_0 nearby; cam_b0_1 nearby; cam_b0_2 nearby; cam_b0_3 nearby; cam_b0_4 nearby
+plan 1ff3779f5ff95974: cam_f0_0 lead; cam_f0_1 lane_lines; cam_f0_2 adjacent; cam_f0_3 crosswalk; cam_f0_4 nearby; cam_b0_0 nearby; cam_b0_1 nearby; cam_b0_2 nearby; cam_l0_0 nearby
+plan d6e6ab2532535021: cam_f0_0 lead; cam_f0_1 traffic_light_red; cam_f0_2 lane_lines; cam_f0_3 adjacent; cam_f0_4 adjacent; cam_b0_0 nearby; cam_l0_0 nearby; cam_l0_1 nearby; cam_l0_2 nearby; cam_l0_3 nearby; cam_r0_0 beside
+plan 2e7e5d835fd2555b: cam_f0_0 lane_lines
+plan ba8325feb092515e: cam_f0_0 lead; cam_f0_1 lane_lines; cam_f0_2 adjacent; cam_b0_0 following
+plan ad45f53a937355d9: cam_f0_0 traffic_light_red; cam_f0_1 stop_line; cam_f0_2 nearby; cam_f0_3 nearby; cam_b0_0 nearby; cam_b0_1 nearby; cam_b0_2 nearby; cam_l0_0 lane_lines; cam_r0_0 nearby; cam_r0_1 nearby; cam_r0_2 nearby; cam_r0_3 nearby
+plan d12d90fc4ee257cb: cam_f0_0 lead; cam_f0_1 lane_lines; cam_f0_2 adjacent; cam_f0_3 traffic_light; cam_f0_4 nearby; cam_b0_0 nearby; cam_l0_0 nearby
+plan 0b73ecf845c4520c: cam_f0_0 crosswalk; cam_f0_1 stop_line; cam_b0_0 nearby
+plan ce0049b7c1f75e71: cam_f0_0 stop_line; cam_b0_0 nearby; cam_b0_1 nearby; cam_b0_2 nearby; cam_b0_3 nearby; cam_b0_4 nearby; cam_l0_0 nearby; cam_l0_1 nearby; cam_l0_2 nearby; cam_r0_0 lane_lines; cam_r0_1 crosswalk; cam_r0_2 oncoming; cam_r0_3 nearby
+plan 26d62f55fe175782: cam_f0_0 lead; cam_f0_1 traffic_light_red; cam_f0_2 lane_lines; cam_f0_3 adjacent; cam_f0_4 adjacent; cam_b0_0 nearby; cam_b0_1 nearby; cam_r0_0 nearby
+plan 269c7df83c805219: cam_f0_0 nearby; cam_l0_0 stop_line; cam_l0_1 nearby; cam_r0_0 lane_lines
+plan e4274af8f96e5360: cam_f0_0 lead; cam_f0_1 lane_lines; cam_f0_2 adjacent; cam_f0_3 stop_line; cam_b0_0 nearby; cam_b0_1 nearby
+plan 553bb326e5435775: cam_f0_0 lead; cam_f0_1 adjacent; cam_f0_2 adjacent; cam_b0_0 following; cam_b0_1 nearby; cam_l0_0 adjacent
+plan 3cdb1f604a365a53: cam_f0_0 lane_lines; cam_f0_1 adjacent; cam_f0_2 adjacent; cam_b0_0 nearby; cam_b0_1 nearby; cam_l0_0 beside
+plan fa878580c0365258: cam_f0_0 stop_line; cam_f0_1 lane_lines; cam_b0_0 nearby
+plan 9e9116a8ae515d64: cam_f0_0 lead; cam_f0_1 adjacent; cam_l0_0 nearby; cam_l0_1 nearby; cam_r0_0 cone; cam_r0_1 nearby; cam_r0_2 nearby
+plan 3cde3b2efbf45896: cam_f0_0 lead; cam_f0_1 lane_lines; cam_f0_2 nearby; cam_b0_0 nearby; cam_r0_0 nearby; cam_r0_1 nearby; cam_r0_2 nearby; cam_r0_3 nearby
+plan d42d45eb395d57f3: cam_f0_0 lane_lines; cam_b0_0 following; cam_b0_1 nearby; cam_b0_2 nearby; cam_l0_0 nearby
+plan ba7dfb7ed77b5e16: cam_f0_0 lead; cam_f0_1 lane_lines; cam_f0_2 nearby; cam_b0_0 following; cam_b0_1 nearby; cam_l0_0 nearby
+plan c414d1a73d095b67: cam_f0_0 vru; cam_f0_1 vru; cam_f0_2 lane_lines; cam_f0_3 stop_line; cam_f0_4 adjacent; cam_b0_0 nearby; cam_b0_1 nearby; cam_b0_2 nearby; cam_b0_3 nearby; cam_b0_4 nearby; cam_l0_0 crosswalk; cam_r0_0 nearby; cam_r0_1 nearby; cam_r0_2 nearby
+plan f9fb942be8c25e26: cam_f0_0 traffic_light_red; cam_b0_0 following; cam_b0_1 nearby; cam_b0_2 nearby; cam_b0_3 nearby; cam_b0_4 nearby; cam_l0_0 lead; cam_l0_1 nearby; cam_r0_0 nearby; cam_r0_1 nearby; cam_r0_2 nearby
+plan f70d4c0e06c35ce7: cam_f0_0 crosswalk; cam_f0_1 stop_line; cam_b0_0 following; cam_b0_1 nearby; cam_r0_0 lane_lines
+plan 4dd1a3b585cc5c58: cam_f0_0 lane_lines; cam_f0_1 crosswalk; cam_b0_0 following; cam_b0_1 nearby
+plan 653c3343e5e551c0: cam_f0_0 traffic_light_red; cam_f0_1 stop_line
+plan 1e85dadff8b552a1: cam_f0_0 traffic_light_red; cam_f0_1 nearby
+plan e44b2ad39ebd54a0: cam_f0_0 lead; cam_f0_1 lane_lines; cam_f0_2 adjacent; cam_f0_3 adjacent; cam_b0_0 following; cam_b0_1 nearby; cam_b0_2 nearby; cam_l0_0 nearby; cam_r0_0 nearby; cam_r0_1 nearby
+plan 3646e3b98294559f: cam_f0_0 lead; cam_f0_1 lane_lines; cam_f0_2 stop_line; cam_f0_3 oncoming; cam_f0_4 nearby; cam_b0_0 nearby; cam_r0_0 beside
+plan 5a751ea37fa155d1: cam_f0_0 lead; cam_f0_1 lane_lines; cam_f0_2 nearby; cam_f0_3 nearby; cam_l0_0 adjacent
+plan fd712cc7b7cf5f7b: cam_l0_0 lead; cam_l0_1 lane_lines; cam_l0_2 in_lane
+plan e8e561a864ee5cfe: cam_f0_0 lead; cam_f0_1 vru; cam_f0_2 lane_lines; cam_f0_3 adjacent; cam_f0_4 nearby; cam_l0_0 nearby; cam_l0_1 nearby; cam_l0_2 nearby; cam_l0_3 nearby; cam_l0_4 nearby; cam_r0_0 nearby; cam_r0_1 nearby
+plan 15c29fbe64bb5e8d: cam_f0_0 lead; cam_f0_1 lane_lines; cam_f0_2 traffic_light; cam_f0_3 adjacent; cam_b0_0 following; cam_b0_1 adjacent; cam_r0_0 nearby; cam_r0_1 nearby
+plan 08222ee927fe5790: cam_f0_0 crosswalk; cam_f0_1 lane_lines; cam_f0_2 stop_line; cam_f0_3 oncoming; cam_l0_0 nearby; cam_r0_0 nearby; cam_r0_1 nearby
+plan 6b83b1d356b95ba0: cam_f0_0 lead; cam_f0_1 lane_lines; cam_f0_2 in_lane; cam_f0_3 nearby; cam_f0_4 nearby; cam_b0_0 nearby; cam_b0_1 nearby; cam_b0_2 nearby; cam_b0_3 nearby; cam_l0_0 beside
+plan a38961d10b255895: cam_f0_0 lane_lines; cam_r0_0 nearby; cam_r0_1 nearby
+plan c0559e0a06ea5bb1: cam_f0_0 lead; cam_f0_1 lane_lines; cam_f0_2 adjacent; cam_f0_3 nearby; cam_b0_0 following; cam_b0_1 nearby; cam_l0_0 beside
+plan 8a04edf7c5fb5bad: cam_f0_0 lane_lines; cam_f0_1 crosswalk; cam_f0_2 nearby; cam_l0_0 nearby; cam_l0_1 nearby; cam_l0_2 nearby; cam_l0_3 nearby; cam_l0_4 nearby
+plan a3f8215b28465233: cam_f0_0 lead; cam_f0_1 adjacent; cam_f0_2 nearby; cam_b0_0 nearby; cam_r0_0 nearby; cam_r0_1 nearby; cam_r0_2 nearby
+plan c48925696e0d528e: cam_f0_0 lead; cam_f0_1 lane_lines; cam_f0_2 nearby; cam_b0_0 nearby; cam_r0_0 nearby
+plan 028ce33c385b53b7: cam_f0_0 lead; cam_f0_1 lane_lines
+plan e4092327ac7456e5: cam_f0_0 traffic_light_red; cam_f0_1 adjacent; cam_b0_0 following; cam_b0_1 nearby; cam_b0_2 nearby; cam_b0_3 nearby; cam_b0_4 nearby; cam_l0_0 lead; cam_r0_0 nearby; cam_r0_1 nearby; cam_r0_2 nearby; cam_r0_3 nearby; cam_r0_4 nearby
+plan 6430ab6418235711: cam_f0_0 lead; cam_f0_1 lane_lines; cam_f0_2 adjacent; cam_f0_3 adjacent; cam_f0_4 adjacent; cam_b0_0 nearby; cam_b0_1 nearby; cam_l0_0 stop_line
+plan 88c3818a2b19550e: cam_f0_0 nearby; cam_f0_1 nearby; cam_f0_2 nearby; cam_b0_0 adjacent; cam_b0_1 nearby; cam_b0_2 nearby; cam_b0_3 nearby; cam_b0_4 nearby; cam_l0_0 lead; cam_l0_1 vru; cam_l0_2 nearby
+plan d0fbb1a2a6135728: cam_f0_0 stop_line; cam_f0_1 adjacent; cam_l0_0 lead; cam_l0_1 crosswalk; cam_l0_2 nearby; cam_l0_3 nearby; cam_l0_4 nearby
+plan 84e0560b9f5a5af1: cam_f0_0 stop_line; cam_f0_1 nearby; cam_b0_0 nearby; cam_b0_1 nearby; cam_l0_0 lane_lines; cam_r0_0 nearby; cam_r0_1 nearby
+plan f2ec3de323df5b8a: cam_f0_0 lane_lines; cam_b0_0 following; cam_b0_1 nearby; cam_b0_2 nearby; cam_b0_3 nearby; cam_l0_0 nearby; cam_l0_1 nearby; cam_l0_2 nearby; cam_l0_3 nearby; cam_l0_4 nearby; cam_r0_0 adjacent; cam_r0_1 nearby
+plan 9ac0839e023251e8: cam_f0_0 lane_lines; cam_b0_0 nearby
+plan 85e601304d3f5e9d: cam_f0_0 lead; cam_l0_0 nearby; cam_l0_1 nearby; cam_l0_2 nearby; cam_l0_3 nearby; cam_l0_4 nearby
+plan 48240889350c5e4d: cam_f0_0 lane_lines
+plan 1a0b0be1750b53d9: cam_f0_0 traffic_light_red; cam_f0_1 crosswalk; cam_f0_2 stop_line; cam_b0_0 nearby; cam_b0_1 nearby
+plan 6951943bb8ab58f2: cam_f0_0 lead; cam_f0_1 lane_lines; cam_f0_2 stop_line; cam_f0_3 crosswalk
+plan 4fa8b0610e435275: cam_f0_0 lead; cam_f0_1 adjacent; cam_f0_2 traffic_light; cam_b0_0 following; cam_b0_1 nearby; cam_b0_2 nearby; cam_l0_0 adjacent
+plan 790354bbbd735a02: cam_f0_0 lane_lines; cam_f0_1 nearby; cam_b0_0 following; cam_b0_1 nearby; cam_b0_2 nearby; cam_b0_3 nearby; cam_l0_0 adjacent; cam_l0_1 nearby; cam_r0_0 vru; cam_r0_1 nearby; cam_r0_2 nearby; cam_r0_3 nearby; cam_r0_4 nearby
+plan b03a7c2bdbd45b8d: cam_f0_0 nearby; cam_b0_0 following; cam_b0_1 nearby; cam_b0_2 nearby; cam_b0_3 nearby; cam_b0_4 nearby; cam_r0_0 vru; cam_r0_1 vru; cam_r0_2 nearby; cam_r0_3 nearby; cam_r0_4 nearby
+plan 599c1304206e5c47: cam_f0_0 lead; cam_f0_1 lane_lines; cam_f0_2 adjacent; cam_f0_3 adjacent; cam_f0_4 traffic_light; cam_b0_0 following; cam_b0_1 nearby; cam_b0_2 nearby; cam_l0_0 beside
+plan 56950336dfef57af: cam_f0_0 lane_lines; cam_b0_0 nearby; cam_l0_0 beside
+plan 11810f87cdbf5b4f: cam_l0_0 nearby; cam_r0_0 nearby; cam_r0_1 nearby; cam_r0_2 nearby
+plan 865c6ef602fc5a86: cam_f0_0 lead; cam_f0_1 lane_lines; cam_f0_2 adjacent; cam_f0_3 adjacent; cam_f0_4 adjacent; cam_b0_0 following; cam_b0_1 adjacent; cam_l0_0 nearby
+plan 3d182f05141857aa: cam_f0_0 lead; cam_f0_1 lane_lines; cam_f0_2 adjacent; cam_b0_0 following; cam_b0_1 nearby; cam_b0_2 nearby; cam_r0_0 nearby; cam_r0_1 nearby; cam_r0_2 nearby; cam_r0_3 nearby
+plan defdfdb835095fe3: cam_f0_0 lead; cam_f0_1 traffic_light_red; cam_f0_2 vru; cam_b0_0 following; cam_b0_1 adjacent; cam_b0_2 following; cam_b0_3 nearby; cam_b0_4 nearby; cam_r0_0 nearby; cam_r0_1 nearby; cam_r0_2 nearby
+plan 2bd67db1bbb55ed7: cam_f0_0 adjacent; cam_f0_1 adjacent; cam_b0_0 nearby; cam_r0_0 nearby; cam_r0_1 nearby; cam_r0_2 nearby; cam_r0_3 nearby; cam_r0_4 nearby
+plan b364ad4a8c4f56d9: cam_f0_0 lead; cam_f0_1 lane_lines; cam_b0_0 nearby; cam_b0_1 nearby; cam_b0_2 nearby; cam_b0_3 nearby; cam_b0_4 nearby; cam_r0_0 nearby; cam_r0_1 nearby; cam_r0_2 nearby; cam_r0_3 nearby; cam_r0_4 nearby
+plan 922b157cb9d2536c: cam_f0_0 lane_lines; cam_b0_0 following; cam_b0_1 nearby; cam_l0_0 nearby
+plan 8d297a759d8253cf: cam_f0_0 stop_line; cam_f0_1 crosswalk; cam_l0_0 lane_lines; cam_r0_0 nearby; cam_r0_1 nearby; cam_r0_2 nearby
+plan e14a2e4d5fed5bbe: cam_f0_0 lead; cam_f0_1 lane_lines; cam_f0_2 stop_line; cam_b0_0 nearby
+plan 8af0c72f38795ca3: cam_f0_0 lane_lines; cam_f0_1 crosswalk; cam_f0_2 oncoming; cam_f0_3 cone; cam_b0_0 following; cam_l0_0 nearby; cam_l0_1 nearby; cam_l0_2 nearby; cam_r0_0 nearby; cam_r0_1 nearby; cam_r0_2 nearby; cam_r0_3 nearby
+plan 37ad2af51c595054: cam_f0_0 lane_lines; cam_f0_1 adjacent; cam_f0_2 stop_line; cam_f0_3 crosswalk; cam_b0_0 nearby; cam_b0_1 nearby; cam_b0_2 nearby; cam_l0_0 vru; cam_l0_1 nearby
+plan b94a09f5d1b550ea: cam_f0_0 lane_lines; cam_f0_1 crosswalk; cam_f0_2 stop_line
+plan 9fec2176c0a85a92: cam_f0_0 lead; cam_f0_1 traffic_light_red; cam_f0_2 lane_lines; cam_f0_3 stop_line; cam_f0_4 adjacent; cam_l0_0 nearby; cam_l0_1 nearby
+plan d64c1236be235c3a: cam_f0_0 traffic_light_red; cam_f0_1 vru; cam_f0_2 vru; cam_f0_3 crosswalk; cam_f0_4 stop_line; cam_b0_0 following; cam_b0_1 nearby; cam_l0_0 nearby; cam_l0_1 nearby; cam_l0_2 nearby; cam_l0_3 nearby; cam_l0_4 nearby
+plan 72e19401a53e5ca6: cam_f0_0 crosswalk; cam_b0_0 nearby; cam_b0_1 nearby; cam_r0_0 lane_lines
+plan 05fe906e67ba51bb: cam_f0_0 stop_line; cam_l0_0 adjacent; cam_l0_1 crosswalk; cam_l0_2 nearby; cam_l0_3 nearby; cam_r0_0 nearby; cam_r0_1 nearby
+plan ce50497738e353e4: cam_f0_0 crosswalk; cam_f0_1 lane_lines; cam_f0_2 adjacent; cam_f0_3 adjacent; cam_f0_4 nearby; cam_b0_0 following; cam_l0_0 nearby; cam_l0_1 nearby; cam_l0_2 nearby; cam_l0_3 nearby; cam_l0_4 nearby
+plan b72470bc9dc455ac: cam_f0_0 lane_lines; cam_f0_1 crosswalk; cam_l0_0 nearby; cam_l0_1 nearby
+plan fd26ca54aac65866: cam_f0_0 lead; cam_f0_1 lane_lines; cam_f0_2 adjacent; cam_f0_3 nearby; cam_l0_0 beside; cam_l0_1 beside
+plan 09d142a13744530f: cam_f0_0 lane_lines; cam_f0_1 crosswalk; cam_f0_2 nearby; cam_b0_0 adjacent; cam_l0_0 nearby; cam_l0_1 nearby; cam_l0_2 nearby
+plan bfe3248e464559c6: cam_f0_0 adjacent; cam_f0_1 adjacent; cam_l0_0 nearby; cam_r0_0 beside
+plan f73c6f1dc67e52d9: cam_f0_0 traffic_light_red; cam_f0_1 lane_lines; cam_f0_2 crosswalk; cam_f0_3 stop_line; cam_f0_4 nearby; cam_l0_0 nearby
+plan f629ebb36dbf556c: cam_f0_0 lane_lines; cam_b0_0 following
+plan 2b03708a95a157e0: cam_f0_0 stop_line; cam_f0_1 adjacent; cam_f0_2 nearby; cam_f0_3 nearby; cam_b0_0 following; cam_l0_0 nearby; cam_l0_1 nearby; cam_r0_0 crossing; cam_r0_1 nearby; cam_r0_2 nearby
+plan 6b0d8096ea8e52e9: cam_f0_0 lane_lines; cam_f0_1 adjacent; cam_b0_0 nearby; cam_b0_1 nearby; cam_r0_0 nearby; cam_r0_1 nearby
+plan 3010d891812c5ad0: cam_f0_0 stop_line; cam_f0_1 crosswalk; cam_f0_2 nearby; cam_b0_0 nearby; cam_b0_1 nearby; cam_b0_2 nearby; cam_b0_3 nearby; cam_l0_0 nearby; cam_l0_1 nearby; cam_r0_0 beside
+plan 9657c0d1f5c85c9d: cam_f0_0 lead; cam_f0_1 lane_lines; cam_f0_2 adjacent; cam_f0_3 adjacent; cam_f0_4 adjacent; cam_b0_0 nearby; cam_b0_1 nearby; cam_b0_2 nearby; cam_l0_0 nearby
+plan 9afe30150d0952a8: cam_f0_0 nearby; cam_l0_0 lane_lines; cam_l0_1 crosswalk; cam_r0_0 nearby; cam_r0_1 nearby; cam_r0_2 nearby
+plan 8ddc87e943425dd8: cam_f0_0 lane_lines; cam_f0_1 stop_line; cam_f0_2 crosswalk; cam_l0_0 nearby; cam_l0_1 nearby; cam_l0_2 nearby
+plan fe90a75ae70054dd: cam_f0_0 lane_lines; cam_f0_1 adjacent
+plan 463122faddbd556e: cam_f0_0 crosswalk; cam_f0_1 nearby; cam_b0_0 adjacent; cam_b0_1 nearby; cam_l0_0 stop_line; cam_l0_1 lane_lines
+plan 0d8391b472965292: cam_f0_0 crosswalk; cam_f0_1 oncoming; cam_f0_2 stop_line; cam_b0_0 nearby
+plan c756455c4bb45d7b: cam_f0_0 lead; cam_f0_1 nearby; cam_b0_0 nearby; cam_l0_0 nearby; cam_r0_0 nearby
+plan f59427887b385154: cam_f0_0 stop_line; cam_f0_1 nearby; cam_b0_0 nearby; cam_b0_1 nearby; cam_l0_0 crosswalk; cam_l0_1 nearby; cam_l0_2 nearby; cam_l0_3 nearby; cam_r0_0 nearby; cam_r0_1 nearby
+[train rank 0] /mnt/zhaozc_workspace/envs/mot_vega/bin/python -B /mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/scripts/data_generation/stage3_instance/describe.py --prepared /mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage3_instance_pilot/train/shards/rank_0000/prepared --plan /mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage3_instance_pilot/train/shards/rank_0000/plan --output /mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage3_instance_pilot/train/shards/rank_0000/attributes --resume --prompt-file /mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/scripts/data_generation/prompts/stage3_instance_attributes_v1.txt --device cuda:0
+cdec196208d65e81 cam_f0_0 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'SUV'}
+cdec196208d65e81 cam_f0_3 vehicle: ok {'visible': True, 'color': 'white', 'type': 'pickup truck'}
+cdec196208d65e81 cam_f0_4 vehicle: ok {'visible': True, 'color': 'white', 'type': 'car'}
+cdec196208d65e81 cam_b0_0 vehicle: ok {'visible': True, 'color': 'blue', 'type': 'van'}
+cdec196208d65e81 cam_b0_1 vehicle: ok {'visible': True, 'color': 'black', 'type': 'car'}
+cdec196208d65e81 cam_b0_2 vehicle: ok {'visible': True, 'color': 'black', 'type': 'pickup truck'}
+cdec196208d65e81 cam_r0_0 vehicle: ok {'visible': True, 'color': 'orange', 'type': 'SUV'}
+076aafe7a1b65ccd cam_f0_0 pedestrian: ok {'visible': True, 'color': 'white', 'type': 'pedestrian'}
+076aafe7a1b65ccd cam_b0_0 pedestrian: ok {'visible': True, 'color': 'white', 'type': 'pedestrian'}
+076aafe7a1b65ccd cam_l0_0 vehicle: ok {'visible': True, 'color': 'black', 'type': 'SUV'}
+076aafe7a1b65ccd cam_r0_1 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'car'}
+f1a05680e8195ff2 cam_f0_0 vehicle: ok {'visible': True, 'color': 'white', 'type': 'car'}
+f1a05680e8195ff2 cam_f0_1 pedestrian: ok {'visible': True, 'color': 'black', 'type': 'pedestrian'}
+f1a05680e8195ff2 cam_f0_3 pedestrian: ok {'visible': True, 'color': 'beige', 'type': 'pedestrian'}
+f1a05680e8195ff2 cam_f0_4 vehicle: ok {'visible': True, 'color': 'white', 'type': 'car'}
+f1a05680e8195ff2 cam_b0_0 vehicle: ok {'visible': True, 'color': 'black', 'type': 'SUV'}
+f1a05680e8195ff2 cam_b0_1 pedestrian: ok {'visible': True, 'color': 'brown', 'type': 'pedestrian'}
+f1a05680e8195ff2 cam_b0_2 pedestrian: ok {'visible': True, 'color': 'black', 'type': 'pedestrian'}
+f1a05680e8195ff2 cam_b0_3 pedestrian: ok {'visible': True, 'color': 'black', 'type': 'pedestrian'}
+f1a05680e8195ff2 cam_b0_4 pedestrian: ok {'visible': True, 'color': 'blue', 'type': 'pedestrian'}
+f1a05680e8195ff2 cam_r0_0 pedestrian: ok {'visible': True, 'color': 'unknown', 'type': 'pedestrian'}
+f1a05680e8195ff2 cam_r0_1 pedestrian: ok {'visible': True, 'color': 'orange', 'type': 'pedestrian'}
+f1a05680e8195ff2 cam_r0_2 pedestrian: ok {'visible': True, 'color': 'orange', 'type': 'pedestrian'}
+f1a05680e8195ff2 cam_r0_3 pedestrian: ok {'visible': False, 'color': 'unknown', 'type': 'unknown'}
+f8a8fb0636a65edf cam_f0_0 vehicle: ok {'visible': True, 'color': 'white', 'type': 'van'}
+f8a8fb0636a65edf cam_f0_2 vehicle: ok {'visible': True, 'color': 'white', 'type': 'SUV'}
+f8a8fb0636a65edf cam_f0_3 pedestrian: ok {'visible': True, 'color': 'white', 'type': 'pedestrian'}
+f8a8fb0636a65edf cam_f0_4 pedestrian: ok {'visible': False, 'color': 'unknown', 'type': 'unknown'}
+f8a8fb0636a65edf cam_b0_0 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'pickup truck'}
+f8a8fb0636a65edf cam_b0_1 pedestrian: ok {'visible': False, 'color': 'unknown', 'type': 'unknown'}
+f8a8fb0636a65edf cam_r0_0 pedestrian: ok {'visible': True, 'color': 'white', 'type': 'pedestrian'}
+f8a8fb0636a65edf cam_r0_1 pedestrian: ok {'visible': True, 'color': 'white', 'type': 'pedestrian'}
+f8a8fb0636a65edf cam_r0_2 pedestrian: ok {'visible': True, 'color': 'black', 'type': 'pedestrian'}
+0ea47b4586de59a9 cam_l0_0 vehicle: ok {'visible': True, 'color': 'white', 'type': 'truck'}
+0ea47b4586de59a9 cam_l0_2 vehicle: ok {'visible': True, 'color': 'white', 'type': 'truck'}
+0ea47b4586de59a9 cam_l0_3 vehicle: ok {'visible': True, 'color': 'white', 'type': 'truck'}
+0ea47b4586de59a9 cam_l0_4 vehicle: ok {'visible': True, 'color': 'white', 'type': 'truck'}
+c9c4642c90ae5df6 cam_f0_1 vehicle: ok {'visible': True, 'color': 'white', 'type': 'car'}
+c9c4642c90ae5df6 cam_f0_2 vehicle: ok {'visible': True, 'color': 'brown', 'type': 'SUV'}
+c9c4642c90ae5df6 cam_f0_3 vehicle: ok {'visible': True, 'color': 'gray', 'type': 'pickup truck'}
+c9c4642c90ae5df6 cam_l0_0 vehicle: ok {'visible': True, 'color': 'white', 'type': 'van'}
+c9c4642c90ae5df6 cam_l0_1 vehicle: ok {'visible': True, 'color': 'gray', 'type': 'SUV'}
+3295a8a6ddf152ae cam_f0_0 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'SUV'}
+3295a8a6ddf152ae cam_f0_1 pedestrian: ok {'visible': True, 'color': 'blue', 'type': 'pedestrian'}
+3295a8a6ddf152ae cam_f0_4 pedestrian: ok {'visible': True, 'color': 'white', 'type': 'pedestrian'}
+3295a8a6ddf152ae cam_b0_0 vehicle: ok {'visible': True, 'color': 'black', 'type': 'SUV'}
+3295a8a6ddf152ae cam_b0_1 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'SUV'}
+3295a8a6ddf152ae cam_l0_0 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'SUV'}
+3295a8a6ddf152ae cam_r0_0 pedestrian: ok {'visible': True, 'color': 'unknown', 'type': 'pedestrian'}
+42e7e27ec6f55439 cam_f0_0 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'car'}
+42e7e27ec6f55439 cam_b0_0 pedestrian: ok {'visible': False, 'color': 'unknown', 'type': 'unknown'}
+42e7e27ec6f55439 cam_b0_1 pedestrian: ok {'visible': False, 'color': 'unknown', 'type': 'unknown'}
+42e7e27ec6f55439 cam_r0_0 pedestrian: ok {'visible': True, 'color': 'gray', 'type': 'pedestrian'}
+42e7e27ec6f55439 cam_r0_1 pedestrian: ok {'visible': True, 'color': 'orange', 'type': 'bicycle'}
+42e7e27ec6f55439 cam_r0_2 pedestrian: ok {'visible': True, 'color': 'blue', 'type': 'pedestrian'}
+42e7e27ec6f55439 cam_r0_3 pedestrian: ok {'visible': True, 'color': 'unknown', 'type': 'pedestrian'}
+4192513dc7b6518c cam_f0_1 traffic_cone: ok {'visible': True, 'color': 'orange', 'type': 'traffic cone'}
+4192513dc7b6518c cam_f0_2 traffic_cone: ok {'visible': True, 'color': 'orange', 'type': 'traffic cone'}
+4192513dc7b6518c cam_r0_0 pedestrian: ok {'visible': True, 'color': 'yellow', 'type': 'pedestrian'}
+4192513dc7b6518c cam_r0_1 vehicle: ok {'visible': True, 'color': 'green', 'type': 'truck'}
+e451950324435385 cam_b0_0 vehicle: ok {'visible': True, 'color': 'black', 'type': 'car'}
+e451950324435385 cam_b0_1 pedestrian: ok {'visible': False, 'color': 'unknown', 'type': 'unknown'}
+e451950324435385 cam_l0_0 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'car'}
+e451950324435385 cam_r0_0 vehicle: ok {'visible': True, 'color': 'white', 'type': 'van'}
+0d3a6d224ac65052 cam_f0_0 vehicle: ok {'visible': True, 'color': 'brown', 'type': 'SUV'}
+0d3a6d224ac65052 cam_f0_1 vehicle: ok {'visible': True, 'color': 'white', 'type': 'car'}
+0d3a6d224ac65052 cam_b0_0 vehicle: ok {'visible': True, 'color': 'white', 'type': 'car'}
+0d3a6d224ac65052 cam_l0_0 vehicle: ok {'visible': True, 'color': 'black', 'type': 'pickup truck'}
+0d3a6d224ac65052 cam_l0_1 vehicle: ok {'visible': True, 'color': 'black', 'type': 'SUV'}
+0d3a6d224ac65052 cam_r0_0 pedestrian: ok {'visible': True, 'color': 'blue', 'type': 'pedestrian'}
+0d3a6d224ac65052 cam_r0_1 pedestrian: ok {'visible': True, 'color': 'blue', 'type': 'pedestrian'}
+951d1fa68a7e558c cam_b0_0 vehicle: ok {'visible': True, 'color': 'white', 'type': 'car'}
+951d1fa68a7e558c cam_l0_0 pedestrian: ok {'visible': True, 'color': 'blue', 'type': 'pedestrian'}
+951d1fa68a7e558c cam_l0_1 vehicle: ok {'visible': True, 'color': 'unknown', 'type': 'unknown'}
+85be16890195532a cam_f0_0 vehicle: ok {'visible': True, 'color': 'red', 'type': 'car'}
+85be16890195532a cam_f0_2 vehicle: ok {'visible': True, 'color': 'orange', 'type': 'car'}
+b63a2c6614c25c10 cam_f0_0 vehicle: ok {'visible': True, 'color': 'black', 'type': 'SUV'}
+b63a2c6614c25c10 cam_f0_2 pedestrian: ok {'visible': True, 'color': 'beige', 'type': 'pedestrian'}
+b63a2c6614c25c10 cam_f0_3 pedestrian: ok {'visible': True, 'color': 'brown', 'type': 'pedestrian'}
+b63a2c6614c25c10 cam_f0_4 pedestrian: ok {'visible': True, 'color': 'black', 'type': 'pedestrian'}
+b63a2c6614c25c10 cam_b0_0 vehicle: ok {'visible': True, 'color': 'black', 'type': 'SUV'}
+b63a2c6614c25c10 cam_l0_0 vehicle: ok {'visible': True, 'color': 'white', 'type': 'car'}
+b63a2c6614c25c10 cam_l0_1 vehicle: ok {'visible': True, 'color': 'gray', 'type': 'SUV'}
+b63a2c6614c25c10 cam_l0_2 vehicle: ok {'visible': True, 'color': 'white', 'type': 'car'}
+b63a2c6614c25c10 cam_r0_0 pedestrian: ok {'visible': True, 'color': 'gray', 'type': 'pedestrian'}
+b63a2c6614c25c10 cam_r0_1 pedestrian: ok {'visible': True, 'color': 'gray', 'type': 'pedestrian'}
+b63a2c6614c25c10 cam_r0_2 pedestrian: ok {'visible': True, 'color': 'gray', 'type': 'pedestrian'}
+b63a2c6614c25c10 cam_r0_3 pedestrian: ok {'visible': True, 'color': 'gray', 'type': 'pedestrian'}
+b63a2c6614c25c10 cam_r0_4 pedestrian: ok {'visible': True, 'color': 'white', 'type': 'bicycle'}
+5a912018da8b516c cam_f0_0 vehicle: ok {'visible': True, 'color': 'black', 'type': 'pickup truck'}
+5a912018da8b516c cam_f0_2 vehicle: ok {'visible': True, 'color': 'gray', 'type': 'SUV'}
+5a912018da8b516c cam_f0_3 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'car'}
+5a912018da8b516c cam_b0_0 vehicle: ok {'visible': True, 'color': 'orange', 'type': 'car'}
+5a912018da8b516c cam_l0_0 vehicle: ok {'visible': True, 'color': 'white', 'type': 'car'}
+5a912018da8b516c cam_l0_1 vehicle: ok {'visible': True, 'color': 'white', 'type': 'car'}
+79282ef4b96d51aa cam_f0_0 vehicle: ok {'visible': True, 'color': 'orange', 'type': 'SUV'}
+79282ef4b96d51aa cam_r0_1 vehicle: ok {'visible': True, 'color': 'white', 'type': 'truck'}
+33322f7fe3645d33 cam_f0_0 pedestrian: ok {'visible': True, 'color': 'black', 'type': 'pedestrian'}
+33322f7fe3645d33 cam_f0_1 pedestrian: ok {'visible': True, 'color': 'black', 'type': 'pedestrian'}
+33322f7fe3645d33 cam_f0_2 pedestrian: ok {'visible': True, 'color': 'gray', 'type': 'pedestrian'}
+33322f7fe3645d33 cam_f0_3 pedestrian: ok {'visible': True, 'color': 'white', 'type': 'pedestrian'}
+33322f7fe3645d33 cam_f0_4 pedestrian: ok {'visible': True, 'color': 'white', 'type': 'pedestrian'}
+33322f7fe3645d33 cam_b0_0 vehicle: ok {'visible': True, 'color': 'green', 'type': 'car'}
+33322f7fe3645d33 cam_r0_0 vehicle: ok {'visible': True, 'color': 'white', 'type': 'pickup truck'}
+33322f7fe3645d33 cam_r0_1 pedestrian: ok {'visible': True, 'color': 'white', 'type': 'pedestrian'}
+33322f7fe3645d33 cam_r0_2 pedestrian: ok {'visible': True, 'color': 'orange', 'type': 'pedestrian'}
+33322f7fe3645d33 cam_r0_3 pedestrian: ok {'visible': True, 'color': 'white', 'type': 'pedestrian'}
+33322f7fe3645d33 cam_r0_4 pedestrian: ok {'visible': True, 'color': 'unknown', 'type': 'pedestrian'}
+3d9434518d2756a1 cam_f0_0 vehicle: ok {'visible': True, 'color': 'white', 'type': 'truck'}
+3d9434518d2756a1 cam_f0_2 vehicle: ok {'visible': True, 'color': 'orange', 'type': 'car'}
+3d9434518d2756a1 cam_b0_0 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'car'}
+3d9434518d2756a1 cam_b0_1 vehicle: ok {'visible': True, 'color': 'blue', 'type': 'SUV'}
+3d9434518d2756a1 cam_l0_0 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'car'}
+77adf2a1873c571b cam_l0_0 vehicle: ok {'visible': True, 'color': 'gray', 'type': 'SUV'}
+77adf2a1873c571b cam_l0_1 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'car'}
+77adf2a1873c571b cam_l0_2 vehicle: ok {'visible': True, 'color': 'black', 'type': 'SUV'}
+77adf2a1873c571b cam_l0_3 vehicle: ok {'visible': True, 'color': 'blue', 'type': 'car'}
+72077b48cc565e7c cam_f0_0 vehicle: ok {'visible': True, 'color': 'white', 'type': 'SUV'}
+72077b48cc565e7c cam_f0_2 vehicle: ok {'visible': True, 'color': 'black', 'type': 'car'}
+72077b48cc565e7c cam_f0_3 vehicle: ok {'visible': True, 'color': 'black', 'type': 'car'}
+72077b48cc565e7c cam_b0_0 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'car'}
+72077b48cc565e7c cam_b0_1 vehicle: ok {'visible': True, 'color': 'white', 'type': 'van'}
+72077b48cc565e7c cam_r0_0 vehicle: ok {'visible': True, 'color': 'white', 'type': 'SUV'}
+35590f52919e5e0e cam_b0_0 vehicle: ok {'visible': True, 'color': 'black', 'type': 'SUV'}
+35590f52919e5e0e cam_b0_1 vehicle: ok {'visible': True, 'color': 'white', 'type': 'car'}
+0f291f5478a15859 cam_f0_0 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'pickup truck'}
+0f291f5478a15859 cam_f0_1 vehicle: ok {'visible': True, 'color': 'black', 'type': 'car'}
+0f291f5478a15859 cam_b0_0 vehicle: ok {'visible': True, 'color': 'black', 'type': 'car'}
+0f291f5478a15859 cam_b0_1 vehicle: ok {'visible': True, 'color': 'blue', 'type': 'pickup truck'}
+0f291f5478a15859 cam_b0_2 vehicle: ok {'visible': True, 'color': 'black', 'type': 'car'}
+0f291f5478a15859 cam_r0_0 vehicle: ok {'visible': True, 'color': 'black', 'type': 'car'}
+862d9dc396df5812 cam_b0_0 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'SUV'}
+862d9dc396df5812 cam_b0_1 vehicle: ok {'visible': True, 'color': 'gray', 'type': 'SUV'}
+862d9dc396df5812 cam_r0_0 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'SUV'}
+862d9dc396df5812 cam_r0_1 pedestrian: ok {'visible': True, 'color': 'white', 'type': 'pedestrian'}
+862d9dc396df5812 cam_r0_2 pedestrian: ok {'visible': False, 'color': 'unknown', 'type': 'pedestrian'}
+a7ebbf047f015b46 cam_f0_0 vehicle: ok {'visible': True, 'color': 'black', 'type': 'car'}
+a7ebbf047f015b46 cam_f0_2 vehicle: ok {'visible': True, 'color': 'white', 'type': 'car'}
+a7ebbf047f015b46 cam_f0_3 vehicle: ok {'visible': True, 'color': 'yellow', 'type': 'pickup truck'}
+a7ebbf047f015b46 cam_f0_4 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'car'}
+bf4cf74d095d50a6 cam_f0_3 vehicle: ok {'visible': True, 'color': 'green', 'type': 'truck'}
+bf4cf74d095d50a6 cam_b0_0 vehicle: ok {'visible': True, 'color': 'blue', 'type': 'car'}
+bf4cf74d095d50a6 cam_b0_1 vehicle: ok {'visible': True, 'color': 'white', 'type': 'van'}
+bf4cf74d095d50a6 cam_l0_0 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'SUV'}
+bf4cf74d095d50a6 cam_r0_0 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'car'}
+2c5175a7d5575a15 cam_b0_0 vehicle: ok {'visible': True, 'color': 'white', 'type': 'car'}
+2c5175a7d5575a15 cam_b0_1 vehicle: ok {'visible': True, 'color': 'white', 'type': 'van'}
+2c5175a7d5575a15 cam_b0_2 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'van'}
+274aa2836d7c5091 cam_r0_0 pedestrian: ok {'visible': True, 'color': 'gray', 'type': 'pedestrian'}
+274aa2836d7c5091 cam_r0_1 pedestrian: ok {'visible': True, 'color': 'black', 'type': 'pedestrian'}
+274aa2836d7c5091 cam_r0_2 pedestrian: ok {'visible': True, 'color': 'beige', 'type': 'pedestrian'}
+65cd04a40cb25862 cam_b0_0 vehicle: ok {'visible': False, 'color': 'unknown', 'type': 'unknown'}
+fa4f726b18855e56 cam_f0_1 pedestrian: ok {'visible': True, 'color': 'white', 'type': 'pedestrian'}
+fa4f726b18855e56 cam_f0_2 pedestrian: ok {'visible': True, 'color': 'gray', 'type': 'pedestrian'}
+fa4f726b18855e56 cam_b0_0 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'pickup truck'}
+fa4f726b18855e56 cam_b0_1 vehicle: ok {'visible': True, 'color': 'white', 'type': 'SUV'}
+fa4f726b18855e56 cam_b0_2 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'SUV'}
+fa4f726b18855e56 cam_b0_3 pedestrian: ok {'visible': False, 'color': 'unknown', 'type': 'unknown'}
+fa4f726b18855e56 cam_l0_0 vehicle: ok {'visible': True, 'color': 'gray', 'type': 'SUV'}
+fa4f726b18855e56 cam_l0_1 vehicle: ok {'visible': True, 'color': 'white', 'type': 'SUV'}
+fa4f726b18855e56 cam_r0_0 pedestrian: ok {'visible': True, 'color': 'white', 'type': 'pedestrian'}
+cd7025b34ffa52f5 cam_f0_0 vehicle: ok {'visible': True, 'color': 'black', 'type': 'SUV'}
+cd7025b34ffa52f5 cam_b0_0 vehicle: ok {'visible': True, 'color': 'black', 'type': 'SUV'}
+cd7025b34ffa52f5 cam_l0_3 vehicle: ok {'visible': True, 'color': 'black', 'type': 'car'}
+cd7025b34ffa52f5 cam_r0_0 pedestrian: ok {'visible': True, 'color': 'black', 'type': 'pedestrian'}
+cd7025b34ffa52f5 cam_r0_1 pedestrian: ok {'visible': True, 'color': 'gray', 'type': 'pedestrian'}
+350ae65816295acc cam_f0_1 vehicle: ok {'visible': True, 'color': 'black', 'type': 'SUV'}
+350ae65816295acc cam_l0_0 pedestrian: ok {'visible': True, 'color': 'gray', 'type': 'pedestrian'}
+350ae65816295acc cam_l0_1 pedestrian: ok {'visible': True, 'color': 'black', 'type': 'pedestrian'}
+350ae65816295acc cam_l0_2 pedestrian: ok {'visible': True, 'color': 'black', 'type': 'pedestrian'}
+350ae65816295acc cam_l0_3 vehicle: ok {'visible': True, 'color': 'white', 'type': 'car'}
+350ae65816295acc cam_r0_0 pedestrian: ok {'visible': True, 'color': 'black', 'type': 'pedestrian'}
+350ae65816295acc cam_r0_1 pedestrian: ok {'visible': True, 'color': 'beige', 'type': 'pedestrian'}
+350ae65816295acc cam_r0_2 pedestrian: ok {'visible': True, 'color': 'white', 'type': 'pedestrian'}
+375956f1843c59e8 cam_f0_0 vehicle: ok {'visible': True, 'color': 'orange', 'type': 'car'}
+375956f1843c59e8 cam_f0_2 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'SUV'}
+375956f1843c59e8 cam_b0_0 pedestrian: ok {'visible': True, 'color': 'black', 'type': 'pedestrian'}
+375956f1843c59e8 cam_b0_1 pedestrian: ok {'visible': True, 'color': 'white', 'type': 'pedestrian'}
+375956f1843c59e8 cam_b0_2 pedestrian: ok {'visible': True, 'color': 'black', 'type': 'pedestrian'}
+375956f1843c59e8 cam_b0_3 vehicle: ok {'visible': True, 'color': 'blue', 'type': 'van'}
+375956f1843c59e8 cam_b0_4 pedestrian: ok {'visible': True, 'color': 'gray', 'type': 'pedestrian'}
+1ff3779f5ff95974 cam_f0_0 vehicle: ok {'visible': True, 'color': 'white', 'type': 'car'}
+1ff3779f5ff95974 cam_f0_2 vehicle: ok {'visible': True, 'color': 'white', 'type': 'SUV'}
+1ff3779f5ff95974 cam_f0_4 vehicle: ok {'visible': True, 'color': 'black', 'type': 'car'}
+1ff3779f5ff95974 cam_b0_0 vehicle: ok {'visible': True, 'color': 'white', 'type': 'SUV'}
+1ff3779f5ff95974 cam_b0_1 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'car'}
+1ff3779f5ff95974 cam_b0_2 vehicle: ok {'visible': True, 'color': 'orange', 'type': 'pickup truck'}
+1ff3779f5ff95974 cam_l0_0 vehicle: ok {'visible': True, 'color': 'black', 'type': 'car'}
+d6e6ab2532535021 cam_f0_0 vehicle: ok {'visible': True, 'color': 'gray', 'type': 'car'}
+d6e6ab2532535021 cam_f0_3 vehicle: ok {'visible': True, 'color': 'orange', 'type': 'car'}
+d6e6ab2532535021 cam_f0_4 vehicle: ok {'visible': True, 'color': 'orange', 'type': 'pickup truck'}
+d6e6ab2532535021 cam_b0_0 vehicle: ok {'visible': True, 'color': 'black', 'type': 'SUV'}
+d6e6ab2532535021 cam_l0_0 pedestrian: ok {'visible': True, 'color': 'gray', 'type': 'pedestrian'}
+d6e6ab2532535021 cam_l0_1 pedestrian: ok {'visible': True, 'color': 'white', 'type': 'pedestrian'}
+d6e6ab2532535021 cam_l0_2 pedestrian: ok {'visible': True, 'color': 'beige', 'type': 'pedestrian'}
+d6e6ab2532535021 cam_l0_3 pedestrian: ok {'visible': True, 'color': 'black', 'type': 'pedestrian'}
+d6e6ab2532535021 cam_r0_0 vehicle: ok {'visible': True, 'color': 'black', 'type': 'car'}
+ba8325feb092515e cam_f0_0 vehicle: ok {'visible': True, 'color': 'white', 'type': 'SUV'}
+ba8325feb092515e cam_f0_2 vehicle: ok {'visible': True, 'color': 'white', 'type': 'SUV'}
+ba8325feb092515e cam_b0_0 vehicle: ok {'visible': True, 'color': 'gray', 'type': 'car'}
+ad45f53a937355d9 cam_f0_2 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'car'}
+ad45f53a937355d9 cam_f0_3 vehicle: ok {'visible': True, 'color': 'black', 'type': 'car'}
+ad45f53a937355d9 cam_b0_0 vehicle: ok {'visible': True, 'color': 'black', 'type': 'car'}
+ad45f53a937355d9 cam_b0_1 vehicle: ok {'visible': True, 'color': 'red', 'type': 'car'}
+ad45f53a937355d9 cam_b0_2 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'car'}
+ad45f53a937355d9 cam_r0_0 pedestrian: ok {'visible': True, 'color': 'black', 'type': 'pedestrian'}
+ad45f53a937355d9 cam_r0_1 pedestrian: ok {'visible': True, 'color': 'blue', 'type': 'pedestrian'}
+ad45f53a937355d9 cam_r0_2 pedestrian: ok {'visible': False, 'color': 'unknown', 'type': 'unknown'}
+ad45f53a937355d9 cam_r0_3 pedestrian: ok {'visible': True, 'color': 'red', 'type': 'pedestrian'}
+d12d90fc4ee257cb cam_f0_0 vehicle: ok {'visible': True, 'color': 'white', 'type': 'car'}
+d12d90fc4ee257cb cam_f0_2 vehicle: ok {'visible': True, 'color': 'white', 'type': 'car'}
+d12d90fc4ee257cb cam_f0_4 pedestrian: ok {'visible': False, 'color': 'unknown', 'type': 'unknown'}
+d12d90fc4ee257cb cam_b0_0 vehicle: ok {'visible': True, 'color': 'black', 'type': 'SUV'}
+d12d90fc4ee257cb cam_l0_0 vehicle: ok {'visible': True, 'color': 'gray', 'type': 'SUV'}
+0b73ecf845c4520c cam_b0_0 vehicle: ok {'visible': True, 'color': 'orange', 'type': 'SUV'}
+ce0049b7c1f75e71 cam_b0_0 vehicle: ok {'visible': True, 'color': 'orange', 'type': 'pickup truck'}
+ce0049b7c1f75e71 cam_b0_1 vehicle: ok {'visible': True, 'color': 'white', 'type': 'car'}
+ce0049b7c1f75e71 cam_b0_2 vehicle: ok {'visible': True, 'color': 'white', 'type': 'car'}
+ce0049b7c1f75e71 cam_b0_3 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'car'}
+ce0049b7c1f75e71 cam_b0_4 vehicle: ok {'visible': True, 'color': 'gray', 'type': 'car'}
+ce0049b7c1f75e71 cam_l0_0 vehicle: ok {'visible': True, 'color': 'green', 'type': 'SUV'}
+ce0049b7c1f75e71 cam_l0_1 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'car'}
+ce0049b7c1f75e71 cam_l0_2 vehicle: ok {'visible': True, 'color': 'white', 'type': 'pickup truck'}
+ce0049b7c1f75e71 cam_r0_2 vehicle: ok {'visible': True, 'color': 'white', 'type': 'SUV'}
+ce0049b7c1f75e71 cam_r0_3 vehicle: ok {'visible': True, 'color': 'black', 'type': 'SUV'}
+26d62f55fe175782 cam_f0_0 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'car'}
+26d62f55fe175782 cam_f0_3 vehicle: ok {'visible': True, 'color': 'blue', 'type': 'SUV'}
+26d62f55fe175782 cam_f0_4 vehicle: ok {'visible': True, 'color': 'red', 'type': 'car'}
+26d62f55fe175782 cam_b0_0 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'car'}
+26d62f55fe175782 cam_b0_1 vehicle: ok {'visible': True, 'color': 'black', 'type': 'SUV'}
+26d62f55fe175782 cam_r0_0 vehicle: ok {'visible': True, 'color': 'white', 'type': 'car'}
+269c7df83c805219 cam_f0_0 vehicle: ok {'visible': True, 'color': 'white', 'type': 'SUV'}
+269c7df83c805219 cam_l0_1 vehicle: ok {'visible': True, 'color': 'white', 'type': 'car'}
+e4274af8f96e5360 cam_f0_0 vehicle: ok {'visible': True, 'color': 'white', 'type': 'van'}
+e4274af8f96e5360 cam_f0_2 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'SUV'}
+e4274af8f96e5360 cam_b0_0 vehicle: ok {'visible': True, 'color': 'gray', 'type': 'SUV'}
+e4274af8f96e5360 cam_b0_1 vehicle: ok {'visible': True, 'color': 'gray', 'type': 'SUV'}
+553bb326e5435775 cam_f0_0 vehicle: ok {'visible': True, 'color': 'white', 'type': 'SUV'}
+553bb326e5435775 cam_f0_1 vehicle: ok {'visible': True, 'color': 'white', 'type': 'SUV'}
+553bb326e5435775 cam_f0_2 vehicle: ok {'visible': True, 'color': 'black', 'type': 'car'}
+553bb326e5435775 cam_b0_0 vehicle: ok {'visible': True, 'color': 'blue', 'type': 'car'}
+553bb326e5435775 cam_b0_1 vehicle: ok {'visible': True, 'color': 'white', 'type': 'truck'}
+553bb326e5435775 cam_l0_0 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'SUV'}
+3cdb1f604a365a53 cam_f0_1 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'car'}
+3cdb1f604a365a53 cam_f0_2 vehicle: ok {'visible': True, 'color': 'red', 'type': 'SUV'}
+3cdb1f604a365a53 cam_b0_0 vehicle: ok {'visible': True, 'color': 'white', 'type': 'van'}
+3cdb1f604a365a53 cam_b0_1 vehicle: ok {'visible': True, 'color': 'black', 'type': 'car'}
+3cdb1f604a365a53 cam_l0_0 vehicle: ok {'visible': True, 'color': 'white', 'type': 'SUV'}
+fa878580c0365258 cam_b0_0 vehicle: ok {'visible': True, 'color': 'black', 'type': 'car'}
+9e9116a8ae515d64 cam_f0_0 vehicle: ok {'visible': True, 'color': 'white', 'type': 'truck'}
+9e9116a8ae515d64 cam_f0_1 vehicle: ok {'visible': True, 'color': 'white', 'type': 'car'}
+9e9116a8ae515d64 cam_l0_0 vehicle: ok {'visible': True, 'color': 'white', 'type': 'car'}
+9e9116a8ae515d64 cam_l0_1 pedestrian: ok {'visible': True, 'color': 'black', 'type': 'pedestrian'}
+9e9116a8ae515d64 cam_r0_0 traffic_cone: ok {'visible': True, 'color': 'orange', 'type': 'traffic cone'}
+9e9116a8ae515d64 cam_r0_1 pedestrian: ok {'visible': True, 'color': 'yellow', 'type': 'pedestrian'}
+9e9116a8ae515d64 cam_r0_2 pedestrian: ok {'visible': True, 'color': 'yellow', 'type': 'pedestrian'}
+3cde3b2efbf45896 cam_f0_0 vehicle: ok {'visible': True, 'color': 'black', 'type': 'SUV'}
+3cde3b2efbf45896 cam_f0_2 vehicle: ok {'visible': True, 'color': 'black', 'type': 'SUV'}
+3cde3b2efbf45896 cam_b0_0 vehicle: ok {'visible': True, 'color': 'gray', 'type': 'SUV'}
+3cde3b2efbf45896 cam_r0_0 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'SUV'}
+3cde3b2efbf45896 cam_r0_1 vehicle: ok {'visible': True, 'color': 'gray', 'type': 'car'}
+3cde3b2efbf45896 cam_r0_2 vehicle: ok {'visible': True, 'color': 'gray', 'type': 'car'}
+3cde3b2efbf45896 cam_r0_3 vehicle: ok {'visible': True, 'color': 'white', 'type': 'SUV'}
+d42d45eb395d57f3 cam_b0_0 vehicle: ok {'visible': True, 'color': 'black', 'type': 'SUV'}
+d42d45eb395d57f3 cam_b0_1 pedestrian: ok {'visible': False, 'color': 'unknown', 'type': 'unknown'}
+d42d45eb395d57f3 cam_b0_2 vehicle: ok {'visible': True, 'color': 'yellow', 'type': 'SUV'}
+d42d45eb395d57f3 cam_l0_0 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'car'}
+ba7dfb7ed77b5e16 cam_f0_0 vehicle: ok {'visible': True, 'color': 'black', 'type': 'car'}
+ba7dfb7ed77b5e16 cam_f0_2 vehicle: ok {'visible': True, 'color': 'red', 'type': 'car'}
+ba7dfb7ed77b5e16 cam_b0_0 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'pickup truck'}
+ba7dfb7ed77b5e16 cam_b0_1 vehicle: ok {'visible': True, 'color': 'black', 'type': 'SUV'}
+ba7dfb7ed77b5e16 cam_l0_0 vehicle: ok {'visible': True, 'color': 'white', 'type': 'car'}
+c414d1a73d095b67 cam_f0_0 pedestrian: ok {'visible': True, 'color': 'black', 'type': 'pedestrian'}
+c414d1a73d095b67 cam_f0_1 pedestrian: ok {'visible': True, 'color': 'gray', 'type': 'pedestrian'}
+c414d1a73d095b67 cam_f0_4 vehicle: ok {'visible': True, 'color': 'black', 'type': 'SUV'}
+c414d1a73d095b67 cam_b0_0 pedestrian: ok {'visible': True, 'color': 'white', 'type': 'pedestrian'}
+c414d1a73d095b67 cam_b0_1 pedestrian: ok {'visible': True, 'color': 'gray', 'type': 'pedestrian'}
+c414d1a73d095b67 cam_b0_2 pedestrian: ok {'visible': True, 'color': 'black', 'type': 'pedestrian'}
+c414d1a73d095b67 cam_b0_3 pedestrian: ok {'visible': True, 'color': 'unknown', 'type': 'pedestrian'}
+c414d1a73d095b67 cam_b0_4 pedestrian: ok {'visible': True, 'color': 'orange', 'type': 'pedestrian'}
+c414d1a73d095b67 cam_r0_0 pedestrian: ok {'visible': True, 'color': 'white', 'type': 'pedestrian'}
+c414d1a73d095b67 cam_r0_1 pedestrian: ok {'visible': True, 'color': 'black', 'type': 'pedestrian'}
+c414d1a73d095b67 cam_r0_2 bicycle: ok {'visible': True, 'color': 'black', 'type': 'bicycle'}
+f9fb942be8c25e26 cam_b0_0 vehicle: ok {'visible': True, 'color': 'black', 'type': 'car'}
+f9fb942be8c25e26 cam_b0_1 vehicle: ok {'visible': True, 'color': 'blue', 'type': 'SUV'}
+f9fb942be8c25e26 cam_b0_2 pedestrian: ok {'visible': True, 'color': 'blue', 'type': 'pedestrian'}
+f9fb942be8c25e26 cam_b0_3 pedestrian: ok {'visible': False, 'color': 'unknown', 'type': 'unknown'}
+f9fb942be8c25e26 cam_b0_4 pedestrian: ok {'visible': True, 'color': 'blue', 'type': 'pedestrian'}
+f9fb942be8c25e26 cam_l0_0 vehicle: ok {'visible': True, 'color': 'black', 'type': 'SUV'}
+f9fb942be8c25e26 cam_l0_1 vehicle: ok {'visible': True, 'color': 'beige', 'type': 'car'}
+f9fb942be8c25e26 cam_r0_0 vehicle: ok {'visible': True, 'color': 'white', 'type': 'car'}
+f9fb942be8c25e26 cam_r0_1 vehicle: ok {'visible': True, 'color': 'white', 'type': 'car'}
+f9fb942be8c25e26 cam_r0_2 vehicle: ok {'visible': True, 'color': 'white', 'type': 'van'}
+f70d4c0e06c35ce7 cam_b0_0 vehicle: ok {'visible': True, 'color': 'black', 'type': 'car'}
+f70d4c0e06c35ce7 cam_b0_1 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'SUV'}
+4dd1a3b585cc5c58 cam_b0_0 vehicle: ok {'visible': True, 'color': 'white', 'type': 'car'}
+4dd1a3b585cc5c58 cam_b0_1 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'car'}
+1e85dadff8b552a1 cam_f0_1 pedestrian: ok {'visible': False, 'color': 'unknown', 'type': 'unknown'}
+e44b2ad39ebd54a0 cam_f0_0 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'car'}
+e44b2ad39ebd54a0 cam_f0_2 vehicle: ok {'visible': True, 'color': 'white', 'type': 'pickup truck'}
+e44b2ad39ebd54a0 cam_f0_3 vehicle: ok {'visible': True, 'color': 'white', 'type': 'pickup truck'}
+e44b2ad39ebd54a0 cam_b0_0 vehicle: ok {'visible': True, 'color': 'black', 'type': 'SUV'}
+e44b2ad39ebd54a0 cam_b0_1 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'car'}
+e44b2ad39ebd54a0 cam_b0_2 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'SUV'}
+e44b2ad39ebd54a0 cam_l0_0 vehicle: ok {'visible': True, 'color': 'gray', 'type': 'car'}
+e44b2ad39ebd54a0 cam_r0_0 pedestrian: ok {'visible': True, 'color': 'green', 'type': 'pedestrian'}
+e44b2ad39ebd54a0 cam_r0_1 vehicle: ok {'visible': True, 'color': 'white', 'type': 'car'}
+3646e3b98294559f cam_f0_0 vehicle: ok {'visible': True, 'color': 'black', 'type': 'SUV'}
+3646e3b98294559f cam_f0_3 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'car'}
+3646e3b98294559f cam_f0_4 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'car'}
+3646e3b98294559f cam_b0_0 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'car'}
+3646e3b98294559f cam_r0_0 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'SUV'}
+5a751ea37fa155d1 cam_f0_0 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'SUV'}
+5a751ea37fa155d1 cam_f0_2 vehicle: ok {'visible': True, 'color': 'gray', 'type': 'SUV'}
+5a751ea37fa155d1 cam_f0_3 vehicle: ok {'visible': True, 'color': 'black', 'type': 'car'}
+5a751ea37fa155d1 cam_l0_0 vehicle: ok {'visible': True, 'color': 'gray', 'type': 'car'}
+fd712cc7b7cf5f7b cam_l0_0 vehicle: ok {'visible': True, 'color': 'white', 'type': 'SUV'}
+fd712cc7b7cf5f7b cam_l0_2 vehicle: ok {'visible': True, 'color': 'gray', 'type': 'SUV'}
+e8e561a864ee5cfe cam_f0_0 vehicle: ok {'visible': True, 'color': 'white', 'type': 'van'}
+e8e561a864ee5cfe cam_f0_1 pedestrian: ok {'visible': True, 'color': 'gray', 'type': 'pedestrian'}
+e8e561a864ee5cfe cam_f0_3 vehicle: ok {'visible': True, 'color': 'gray', 'type': 'car'}
+e8e561a864ee5cfe cam_f0_4 pedestrian: ok {'visible': False, 'color': 'unknown', 'type': 'unknown'}
+e8e561a864ee5cfe cam_l0_0 pedestrian: ok {'visible': False, 'color': 'unknown', 'type': 'pedestrian'}
+e8e561a864ee5cfe cam_l0_1 vehicle: ok {'visible': True, 'color': 'white', 'type': 'car'}
+e8e561a864ee5cfe cam_l0_2 vehicle: ok {'visible': True, 'color': 'unknown', 'type': 'SUV'}
+e8e561a864ee5cfe cam_l0_3 pedestrian: ok {'visible': False, 'color': 'unknown', 'type': 'unknown'}
+e8e561a864ee5cfe cam_l0_4 pedestrian: ok {'visible': True, 'color': 'red', 'type': 'pedestrian'}
+e8e561a864ee5cfe cam_r0_0 pedestrian: ok {'visible': True, 'color': 'blue', 'type': 'pedestrian'}
+e8e561a864ee5cfe cam_r0_1 pedestrian: ok {'visible': True, 'color': 'white', 'type': 'pedestrian'}
+15c29fbe64bb5e8d cam_f0_0 vehicle: ok {'visible': True, 'color': 'white', 'type': 'SUV'}
+15c29fbe64bb5e8d cam_f0_3 vehicle: ok {'visible': True, 'color': 'black', 'type': 'pickup truck'}
+15c29fbe64bb5e8d cam_b0_0 vehicle: ok {'visible': True, 'color': 'white', 'type': 'car'}
+15c29fbe64bb5e8d cam_b0_1 vehicle: ok {'visible': True, 'color': 'white', 'type': 'car'}
+15c29fbe64bb5e8d cam_r0_0 pedestrian: ok {'visible': True, 'color': 'black', 'type': 'pedestrian'}
+15c29fbe64bb5e8d cam_r0_1 pedestrian: ok {'visible': False, 'color': 'unknown', 'type': 'pedestrian'}
+08222ee927fe5790 cam_f0_3 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'car'}
+08222ee927fe5790 cam_l0_0 vehicle: ok {'visible': True, 'color': 'black', 'type': 'SUV'}
+08222ee927fe5790 cam_r0_0 vehicle: ok {'visible': True, 'color': 'white', 'type': 'car'}
+08222ee927fe5790 cam_r0_1 vehicle: ok {'visible': True, 'color': 'white', 'type': 'car'}
+6b83b1d356b95ba0 cam_f0_0 vehicle: ok {'visible': True, 'color': 'black', 'type': 'SUV'}
+6b83b1d356b95ba0 cam_f0_2 vehicle: ok {'visible': True, 'color': 'white', 'type': 'pickup truck'}
+6b83b1d356b95ba0 cam_f0_3 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'SUV'}
+6b83b1d356b95ba0 cam_f0_4 vehicle: ok {'visible': True, 'color': 'gray', 'type': 'SUV'}
+6b83b1d356b95ba0 cam_b0_0 vehicle: ok {'visible': True, 'color': 'gray', 'type': 'SUV'}
+6b83b1d356b95ba0 cam_b0_1 vehicle: ok {'visible': True, 'color': 'gray', 'type': 'SUV'}
+6b83b1d356b95ba0 cam_b0_2 vehicle: ok {'visible': True, 'color': 'brown', 'type': 'SUV'}
+6b83b1d356b95ba0 cam_b0_3 vehicle: ok {'visible': True, 'color': 'gray', 'type': 'SUV'}
+6b83b1d356b95ba0 cam_l0_0 vehicle: ok {'visible': True, 'color': 'brown', 'type': 'SUV'}
+a38961d10b255895 cam_r0_0 pedestrian: ok {'visible': True, 'color': 'yellow', 'type': 'pedestrian'}
+a38961d10b255895 cam_r0_1 pedestrian: ok {'visible': False, 'color': 'unknown', 'type': 'unknown'}
+c0559e0a06ea5bb1 cam_f0_0 vehicle: ok {'visible': True, 'color': 'black', 'type': 'car'}
+c0559e0a06ea5bb1 cam_f0_2 vehicle: ok {'visible': True, 'color': 'black', 'type': 'car'}
+c0559e0a06ea5bb1 cam_f0_3 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'SUV'}
+c0559e0a06ea5bb1 cam_b0_0 vehicle: ok {'visible': True, 'color': 'white', 'type': 'car'}
+c0559e0a06ea5bb1 cam_b0_1 vehicle: ok {'visible': True, 'color': 'white', 'type': 'car'}
+c0559e0a06ea5bb1 cam_l0_0 vehicle: ok {'visible': True, 'color': 'black', 'type': 'SUV'}
+8a04edf7c5fb5bad cam_f0_2 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'SUV'}
+8a04edf7c5fb5bad cam_l0_0 vehicle: ok {'visible': True, 'color': 'black', 'type': 'SUV'}
+8a04edf7c5fb5bad cam_l0_1 vehicle: ok {'visible': True, 'color': 'gray', 'type': 'car'}
+8a04edf7c5fb5bad cam_l0_2 vehicle: ok {'visible': True, 'color': 'gray', 'type': 'SUV'}
+8a04edf7c5fb5bad cam_l0_3 vehicle: ok {'visible': True, 'color': 'white', 'type': 'car'}
+8a04edf7c5fb5bad cam_l0_4 vehicle: ok {'visible': True, 'color': 'white', 'type': 'car'}
+a3f8215b28465233 cam_f0_0 vehicle: ok {'visible': True, 'color': 'blue', 'type': 'car'}
+a3f8215b28465233 cam_f0_1 vehicle: ok {'visible': True, 'color': 'white', 'type': 'SUV'}
+a3f8215b28465233 cam_f0_2 pedestrian: ok {'visible': False, 'color': 'unknown', 'type': 'unknown'}
+a3f8215b28465233 cam_b0_0 pedestrian: ok {'visible': False, 'color': 'unknown', 'type': 'unknown'}
+a3f8215b28465233 cam_r0_0 pedestrian: ok {'visible': True, 'color': 'blue', 'type': 'pedestrian'}
+a3f8215b28465233 cam_r0_1 pedestrian: ok {'visible': True, 'color': 'white', 'type': 'pedestrian'}
+a3f8215b28465233 cam_r0_2 pedestrian: ok {'visible': False, 'color': 'unknown', 'type': 'pedestrian'}
+c48925696e0d528e cam_f0_0 vehicle: ok {'visible': True, 'color': 'black', 'type': 'SUV'}
+c48925696e0d528e cam_f0_2 pedestrian: ok {'visible': False, 'color': 'unknown', 'type': 'pedestrian'}
+c48925696e0d528e cam_b0_0 vehicle: ok {'visible': True, 'color': 'black', 'type': 'car'}
+c48925696e0d528e cam_r0_0 pedestrian: ok {'visible': False, 'color': 'unknown', 'type': 'unknown'}
+028ce33c385b53b7 cam_f0_0 vehicle: ok {'visible': True, 'color': 'black', 'type': 'SUV'}
+e4092327ac7456e5 cam_f0_1 vehicle: ok {'visible': True, 'color': 'white', 'type': 'van'}
+e4092327ac7456e5 cam_b0_0 vehicle: ok {'visible': True, 'color': 'gray', 'type': 'car'}
+e4092327ac7456e5 cam_b0_1 vehicle: ok {'visible': True, 'color': 'orange', 'type': 'pickup truck'}
+e4092327ac7456e5 cam_b0_2 pedestrian: ok {'visible': True, 'color': 'white', 'type': 'pedestrian'}
+e4092327ac7456e5 cam_b0_3 pedestrian: ok {'visible': True, 'color': 'white', 'type': 'pedestrian'}
+e4092327ac7456e5 cam_b0_4 pedestrian: ok {'visible': True, 'color': 'white', 'type': 'pedestrian'}
+e4092327ac7456e5 cam_l0_0 vehicle: ok {'visible': True, 'color': 'gray', 'type': 'SUV'}
+e4092327ac7456e5 cam_r0_0 vehicle: ok {'visible': True, 'color': 'gray', 'type': 'car'}
+e4092327ac7456e5 cam_r0_1 vehicle: ok {'visible': True, 'color': 'white', 'type': 'SUV'}
+e4092327ac7456e5 cam_r0_2 vehicle: ok {'visible': True, 'color': 'black', 'type': 'SUV'}
+e4092327ac7456e5 cam_r0_3 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'SUV'}
+e4092327ac7456e5 cam_r0_4 vehicle: ok {'visible': True, 'color': 'white', 'type': 'car'}
+6430ab6418235711 cam_f0_0 vehicle: ok {'visible': True, 'color': 'black', 'type': 'car'}
+6430ab6418235711 cam_f0_2 vehicle: ok {'visible': True, 'color': 'gray', 'type': 'SUV'}
+6430ab6418235711 cam_f0_3 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'SUV'}
+6430ab6418235711 cam_f0_4 vehicle: ok {'visible': True, 'color': 'white', 'type': 'SUV'}
+6430ab6418235711 cam_b0_0 vehicle: ok {'visible': True, 'color': 'red', 'type': 'car'}
+6430ab6418235711 cam_b0_1 vehicle: ok {'visible': True, 'color': 'blue', 'type': 'SUV'}
+88c3818a2b19550e cam_f0_0 pedestrian: ok {'visible': True, 'color': 'black', 'type': 'pedestrian'}
+88c3818a2b19550e cam_f0_1 pedestrian: ok {'visible': True, 'color': 'gray', 'type': 'pedestrian'}
+88c3818a2b19550e cam_f0_2 pedestrian: ok {'visible': True, 'color': 'black', 'type': 'pedestrian'}
+88c3818a2b19550e cam_b0_0 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'car'}
+88c3818a2b19550e cam_b0_1 pedestrian: ok {'visible': False, 'color': 'unknown', 'type': 'unknown'}
+88c3818a2b19550e cam_b0_2 pedestrian: ok {'visible': False, 'color': 'unknown', 'type': 'unknown'}
+88c3818a2b19550e cam_b0_3 pedestrian: ok {'visible': False, 'color': 'unknown', 'type': 'unknown'}
+88c3818a2b19550e cam_b0_4 pedestrian: ok {'visible': False, 'color': 'unknown', 'type': 'unknown'}
+88c3818a2b19550e cam_l0_0 vehicle: ok {'visible': True, 'color': 'white', 'type': 'car'}
+88c3818a2b19550e cam_l0_1 pedestrian: ok {'visible': False, 'color': 'unknown', 'type': 'unknown'}
+88c3818a2b19550e cam_l0_2 pedestrian: ok {'visible': True, 'color': 'unknown', 'type': 'pedestrian'}
+d0fbb1a2a6135728 cam_f0_1 vehicle: ok {'visible': True, 'color': 'blue', 'type': 'car'}
+d0fbb1a2a6135728 cam_l0_0 vehicle: ok {'visible': True, 'color': 'white', 'type': 'van'}
+d0fbb1a2a6135728 cam_l0_2 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'car'}
+d0fbb1a2a6135728 cam_l0_3 vehicle: ok {'visible': True, 'color': 'black', 'type': 'pickup truck'}
+d0fbb1a2a6135728 cam_l0_4 vehicle: ok {'visible': True, 'color': 'white', 'type': 'car'}
+84e0560b9f5a5af1 cam_f0_1 vehicle: ok {'visible': True, 'color': 'white', 'type': 'SUV'}
+84e0560b9f5a5af1 cam_b0_0 vehicle: ok {'visible': True, 'color': 'white', 'type': 'car'}
+84e0560b9f5a5af1 cam_b0_1 vehicle: ok {'visible': True, 'color': 'white', 'type': 'car'}
+84e0560b9f5a5af1 cam_r0_0 pedestrian: ok {'visible': True, 'color': 'green', 'type': 'pedestrian'}
+84e0560b9f5a5af1 cam_r0_1 pedestrian: ok {'visible': False, 'color': 'unknown', 'type': 'unknown'}
+f2ec3de323df5b8a cam_b0_0 vehicle: ok {'visible': True, 'color': 'white', 'type': 'SUV'}
+f2ec3de323df5b8a cam_b0_1 vehicle: ok {'visible': True, 'color': 'gray', 'type': 'pickup truck'}
+f2ec3de323df5b8a cam_b0_2 vehicle: ok {'visible': True, 'color': 'black', 'type': 'SUV'}
+f2ec3de323df5b8a cam_b0_3 vehicle: ok {'visible': True, 'color': 'black', 'type': 'SUV'}
+f2ec3de323df5b8a cam_l0_0 pedestrian: ok {'visible': True, 'color': 'black', 'type': 'pedestrian'}
+f2ec3de323df5b8a cam_l0_1 pedestrian: ok {'visible': True, 'color': 'black', 'type': 'pedestrian'}
+f2ec3de323df5b8a cam_l0_2 vehicle: ok {'visible': True, 'color': 'white', 'type': 'SUV'}
+f2ec3de323df5b8a cam_l0_3 vehicle: ok {'visible': True, 'color': 'black', 'type': 'SUV'}
+f2ec3de323df5b8a cam_l0_4 pedestrian: ok {'visible': True, 'color': 'black', 'type': 'pedestrian'}
+f2ec3de323df5b8a cam_r0_0 vehicle: ok {'visible': True, 'color': 'white', 'type': 'car'}
+f2ec3de323df5b8a cam_r0_1 pedestrian: ok {'visible': True, 'color': 'black', 'type': 'pedestrian'}
+9ac0839e023251e8 cam_b0_0 vehicle: ok {'visible': True, 'color': 'white', 'type': 'truck'}
+85e601304d3f5e9d cam_f0_0 vehicle: ok {'visible': True, 'color': 'white', 'type': 'van'}
+85e601304d3f5e9d cam_l0_0 pedestrian: ok {'visible': True, 'color': 'blue', 'type': 'pedestrian'}
+85e601304d3f5e9d cam_l0_1 pedestrian: ok {'visible': True, 'color': 'gray', 'type': 'pedestrian'}
+85e601304d3f5e9d cam_l0_2 pedestrian: ok {'visible': True, 'color': 'gray', 'type': 'pedestrian'}
+85e601304d3f5e9d cam_l0_3 pedestrian: ok {'visible': True, 'color': 'red', 'type': 'pedestrian'}
+85e601304d3f5e9d cam_l0_4 pedestrian: ok {'visible': True, 'color': 'white', 'type': 'pedestrian'}
+1a0b0be1750b53d9 cam_b0_0 bicycle: ok {'visible': True, 'color': 'orange', 'type': 'motorcycle'}
+1a0b0be1750b53d9 cam_b0_1 pedestrian: ok {'visible': True, 'color': 'white', 'type': 'pedestrian'}
+6951943bb8ab58f2 cam_f0_0 vehicle: ok {'visible': True, 'color': 'orange', 'type': 'bus'}
+4fa8b0610e435275 cam_f0_0 vehicle: ok {'visible': True, 'color': 'gray', 'type': 'SUV'}
+4fa8b0610e435275 cam_f0_1 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'SUV'}
+4fa8b0610e435275 cam_b0_0 vehicle: ok {'visible': True, 'color': 'white', 'type': 'car'}
+4fa8b0610e435275 cam_b0_1 vehicle: ok {'visible': True, 'color': 'black', 'type': 'SUV'}
+4fa8b0610e435275 cam_b0_2 vehicle: ok {'visible': True, 'color': 'black', 'type': 'car'}
+4fa8b0610e435275 cam_l0_0 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'car'}
+790354bbbd735a02 cam_f0_1 vehicle: ok {'visible': True, 'color': 'white', 'type': 'car'}
+790354bbbd735a02 cam_b0_0 vehicle: ok {'visible': True, 'color': 'white', 'type': 'pickup truck'}
+790354bbbd735a02 cam_b0_1 pedestrian: ok {'visible': False, 'color': 'unknown', 'type': 'pedestrian'}
+790354bbbd735a02 cam_b0_2 pedestrian: ok {'visible': True, 'color': 'gray', 'type': 'pedestrian'}
+790354bbbd735a02 cam_b0_3 pedestrian: ok {'visible': False, 'color': 'unknown', 'type': 'pedestrian'}
+790354bbbd735a02 cam_l0_0 vehicle: ok {'visible': True, 'color': 'white', 'type': 'SUV'}
+790354bbbd735a02 cam_l0_1 vehicle: ok {'visible': True, 'color': 'gray', 'type': 'car'}
+790354bbbd735a02 cam_r0_0 bicycle: ok {'visible': False, 'color': 'unknown', 'type': 'unknown'}
+790354bbbd735a02 cam_r0_1 pedestrian: ok {'visible': True, 'color': 'white', 'type': 'pedestrian'}
+790354bbbd735a02 cam_r0_2 pedestrian: ok {'visible': True, 'color': 'white', 'type': 'pedestrian'}
+790354bbbd735a02 cam_r0_3 pedestrian: ok {'visible': True, 'color': 'black', 'type': 'pedestrian'}
+790354bbbd735a02 cam_r0_4 pedestrian: ok {'visible': False, 'color': 'unknown', 'type': 'unknown'}
+b03a7c2bdbd45b8d cam_f0_0 vehicle: ok {'visible': True, 'color': 'white', 'type': 'car'}
+b03a7c2bdbd45b8d cam_b0_0 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'SUV'}
+b03a7c2bdbd45b8d cam_b0_1 pedestrian: ok {'visible': True, 'color': 'orange', 'type': 'pedestrian'}
+b03a7c2bdbd45b8d cam_b0_2 pedestrian: ok {'visible': True, 'color': 'black', 'type': 'pedestrian'}
+b03a7c2bdbd45b8d cam_b0_3 pedestrian: ok {'visible': True, 'color': 'white', 'type': 'pedestrian'}
+b03a7c2bdbd45b8d cam_b0_4 pedestrian: ok {'visible': True, 'color': 'white', 'type': 'pedestrian'}
+b03a7c2bdbd45b8d cam_r0_0 pedestrian: ok {'visible': True, 'color': 'white', 'type': 'pedestrian'}
+b03a7c2bdbd45b8d cam_r0_1 pedestrian: ok {'visible': True, 'color': 'gray', 'type': 'pedestrian'}
+b03a7c2bdbd45b8d cam_r0_2 pedestrian: ok {'visible': True, 'color': 'red', 'type': 'pedestrian'}
+b03a7c2bdbd45b8d cam_r0_3 pedestrian: ok {'visible': True, 'color': 'black', 'type': 'pedestrian'}
+b03a7c2bdbd45b8d cam_r0_4 pedestrian: ok {'visible': True, 'color': 'black', 'type': 'pedestrian'}
+599c1304206e5c47 cam_f0_0 vehicle: ok {'visible': True, 'color': 'orange', 'type': 'car'}
+599c1304206e5c47 cam_f0_2 vehicle: ok {'visible': True, 'color': 'black', 'type': 'SUV'}
+599c1304206e5c47 cam_f0_3 vehicle: ok {'visible': True, 'color': 'white', 'type': 'van'}
+599c1304206e5c47 cam_b0_0 vehicle: ok {'visible': True, 'color': 'white', 'type': 'car'}
+599c1304206e5c47 cam_b0_1 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'van'}
+599c1304206e5c47 cam_b0_2 vehicle: ok {'visible': True, 'color': 'white', 'type': 'car'}
+599c1304206e5c47 cam_l0_0 vehicle: ok {'visible': True, 'color': 'black', 'type': 'SUV'}
+56950336dfef57af cam_b0_0 vehicle: ok {'visible': True, 'color': 'black', 'type': 'SUV'}
+56950336dfef57af cam_l0_0 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'truck'}
+11810f87cdbf5b4f cam_l0_0 vehicle: ok {'visible': True, 'color': 'black', 'type': 'car'}
+11810f87cdbf5b4f cam_r0_0 vehicle: ok {'visible': True, 'color': 'blue', 'type': 'SUV'}
+11810f87cdbf5b4f cam_r0_1 vehicle: ok {'visible': True, 'color': 'gray', 'type': 'SUV'}
+11810f87cdbf5b4f cam_r0_2 pedestrian: ok {'visible': False, 'color': 'unknown', 'type': 'unknown'}
+865c6ef602fc5a86 cam_f0_0 vehicle: ok {'visible': True, 'color': 'orange', 'type': 'SUV'}
+865c6ef602fc5a86 cam_f0_2 vehicle: ok {'visible': True, 'color': 'orange', 'type': 'car'}
+865c6ef602fc5a86 cam_f0_3 vehicle: ok {'visible': True, 'color': 'gray', 'type': 'SUV'}
+865c6ef602fc5a86 cam_f0_4 vehicle: ok {'visible': True, 'color': 'black', 'type': 'SUV'}
+865c6ef602fc5a86 cam_b0_0 vehicle: ok {'visible': True, 'color': 'blue', 'type': 'SUV'}
+865c6ef602fc5a86 cam_b0_1 vehicle: ok {'visible': True, 'color': 'white', 'type': 'van'}
+865c6ef602fc5a86 cam_l0_0 vehicle: ok {'visible': True, 'color': 'black', 'type': 'SUV'}
+3d182f05141857aa cam_f0_0 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'SUV'}
+3d182f05141857aa cam_f0_2 vehicle: ok {'visible': True, 'color': 'orange', 'type': 'SUV'}
+3d182f05141857aa cam_b0_0 vehicle: ok {'visible': True, 'color': 'orange', 'type': 'car'}
+3d182f05141857aa cam_b0_1 vehicle: ok {'visible': True, 'color': 'white', 'type': 'car'}
+3d182f05141857aa cam_b0_2 vehicle: ok {'visible': True, 'color': 'white', 'type': 'car'}
+3d182f05141857aa cam_r0_0 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'car'}
+3d182f05141857aa cam_r0_1 vehicle: ok {'visible': True, 'color': 'white', 'type': 'SUV'}
+3d182f05141857aa cam_r0_2 vehicle: ok {'visible': True, 'color': 'black', 'type': 'SUV'}
+3d182f05141857aa cam_r0_3 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'van'}
+defdfdb835095fe3 cam_f0_0 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'SUV'}
+defdfdb835095fe3 cam_f0_2 pedestrian: ok {'visible': True, 'color': 'blue', 'type': 'pedestrian'}
+defdfdb835095fe3 cam_b0_0 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'SUV'}
+defdfdb835095fe3 cam_b0_1 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'car'}
+defdfdb835095fe3 cam_b0_2 vehicle: ok {'visible': True, 'color': 'white', 'type': 'SUV'}
+defdfdb835095fe3 cam_b0_3 vehicle: ok {'visible': True, 'color': 'red', 'type': 'car'}
+defdfdb835095fe3 cam_b0_4 vehicle: ok {'visible': True, 'color': 'white', 'type': 'car'}
+defdfdb835095fe3 cam_r0_0 pedestrian: ok {'visible': True, 'color': 'white', 'type': 'pedestrian'}
+defdfdb835095fe3 cam_r0_1 pedestrian: ok {'visible': True, 'color': 'blue', 'type': 'pedestrian'}
+defdfdb835095fe3 cam_r0_2 pedestrian: ok {'visible': True, 'color': 'orange', 'type': 'pedestrian'}
+2bd67db1bbb55ed7 cam_f0_0 vehicle: ok {'visible': True, 'color': 'white', 'type': 'car'}
+2bd67db1bbb55ed7 cam_f0_1 vehicle: ok {'visible': True, 'color': 'gray', 'type': 'van'}
+2bd67db1bbb55ed7 cam_b0_0 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'car'}
+2bd67db1bbb55ed7 cam_r0_0 pedestrian: ok {'visible': True, 'color': 'gray', 'type': 'pedestrian'}
+2bd67db1bbb55ed7 cam_r0_1 pedestrian: ok {'visible': True, 'color': 'white', 'type': 'pedestrian'}
+2bd67db1bbb55ed7 cam_r0_2 pedestrian: ok {'visible': True, 'color': 'gray', 'type': 'pedestrian'}
+2bd67db1bbb55ed7 cam_r0_3 pedestrian: ok {'visible': True, 'color': 'gray', 'type': 'pedestrian'}
+2bd67db1bbb55ed7 cam_r0_4 pedestrian: ok {'visible': True, 'color': 'white', 'type': 'pedestrian'}
+b364ad4a8c4f56d9 cam_f0_0 vehicle: ok {'visible': True, 'color': 'white', 'type': 'car'}
+b364ad4a8c4f56d9 cam_b0_0 vehicle: ok {'visible': True, 'color': 'gray', 'type': 'SUV'}
+b364ad4a8c4f56d9 cam_b0_1 pedestrian: ok {'visible': True, 'color': 'black', 'type': 'pedestrian'}
+b364ad4a8c4f56d9 cam_b0_2 vehicle: ok {'visible': True, 'color': 'black', 'type': 'SUV'}
+b364ad4a8c4f56d9 cam_b0_3 pedestrian: ok {'visible': False, 'color': 'unknown', 'type': 'unknown'}
+b364ad4a8c4f56d9 cam_b0_4 pedestrian: ok {'visible': True, 'color': 'gray', 'type': 'pedestrian'}
+b364ad4a8c4f56d9 cam_r0_0 pedestrian: ok {'visible': True, 'color': 'white', 'type': 'pedestrian'}
+b364ad4a8c4f56d9 cam_r0_1 pedestrian: ok {'visible': True, 'color': 'black', 'type': 'pedestrian'}
+b364ad4a8c4f56d9 cam_r0_2 pedestrian: ok {'visible': True, 'color': 'white', 'type': 'pedestrian'}
+b364ad4a8c4f56d9 cam_r0_3 pedestrian: ok {'visible': True, 'color': 'gray', 'type': 'pedestrian'}
+b364ad4a8c4f56d9 cam_r0_4 pedestrian: ok {'visible': True, 'color': 'orange', 'type': 'pedestrian'}
+922b157cb9d2536c cam_b0_0 vehicle: ok {'visible': True, 'color': 'brown', 'type': 'pickup truck'}
+922b157cb9d2536c cam_b0_1 vehicle: ok {'visible': True, 'color': 'white', 'type': 'van'}
+922b157cb9d2536c cam_l0_0 vehicle: ok {'visible': True, 'color': 'red', 'type': 'truck'}
+8d297a759d8253cf cam_r0_0 vehicle: ok {'visible': True, 'color': 'white', 'type': 'car'}
+8d297a759d8253cf cam_r0_1 vehicle: ok {'visible': True, 'color': 'black', 'type': 'car'}
+8d297a759d8253cf cam_r0_2 vehicle: ok {'visible': True, 'color': 'black', 'type': 'pickup truck'}
+e14a2e4d5fed5bbe cam_f0_0 vehicle: ok {'visible': True, 'color': 'black', 'type': 'pickup truck'}
+e14a2e4d5fed5bbe cam_b0_0 pedestrian: ok {'visible': False, 'color': 'unknown', 'type': 'unknown'}
+8af0c72f38795ca3 cam_f0_2 vehicle: ok {'visible': True, 'color': 'white', 'type': 'truck'}
+8af0c72f38795ca3 cam_f0_3 traffic_cone: ok {'visible': True, 'color': 'white', 'type': 'traffic cone'}
+8af0c72f38795ca3 cam_b0_0 vehicle: ok {'visible': True, 'color': 'black', 'type': 'SUV'}
+8af0c72f38795ca3 cam_l0_0 pedestrian: ok {'visible': True, 'color': 'orange', 'type': 'pedestrian'}
+8af0c72f38795ca3 cam_l0_1 pedestrian: ok {'visible': True, 'color': 'black', 'type': 'pedestrian'}
+8af0c72f38795ca3 cam_l0_2 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'car'}
+8af0c72f38795ca3 cam_r0_0 pedestrian: ok {'visible': True, 'color': 'white', 'type': 'pedestrian'}
+8af0c72f38795ca3 cam_r0_1 pedestrian: ok {'visible': True, 'color': 'blue', 'type': 'pedestrian'}
+8af0c72f38795ca3 cam_r0_2 pedestrian: ok {'visible': True, 'color': 'unknown', 'type': 'pedestrian'}
+8af0c72f38795ca3 cam_r0_3 pedestrian: ok {'visible': True, 'color': 'blue', 'type': 'pedestrian'}
+37ad2af51c595054 cam_f0_1 vehicle: ok {'visible': True, 'color': 'white', 'type': 'truck'}
+37ad2af51c595054 cam_b0_0 vehicle: ok {'visible': True, 'color': 'gray', 'type': 'car'}
+37ad2af51c595054 cam_b0_1 vehicle: ok {'visible': True, 'color': 'white', 'type': 'car'}
+37ad2af51c595054 cam_b0_2 vehicle: ok {'visible': True, 'color': 'black', 'type': 'car'}
+37ad2af51c595054 cam_l0_0 pedestrian: ok {'visible': True, 'color': 'gray', 'type': 'pedestrian'}
+37ad2af51c595054 cam_l0_1 vehicle: ok {'visible': True, 'color': 'gray', 'type': 'pedestrian'}
+9fec2176c0a85a92 cam_f0_0 vehicle: ok {'visible': True, 'color': 'blue', 'type': 'car'}
+9fec2176c0a85a92 cam_f0_4 vehicle: ok {'visible': True, 'color': 'gray', 'type': 'SUV'}
+9fec2176c0a85a92 cam_l0_0 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'SUV'}
+9fec2176c0a85a92 cam_l0_1 vehicle: ok {'visible': True, 'color': 'white', 'type': 'truck'}
+d64c1236be235c3a cam_f0_1 pedestrian: ok {'visible': True, 'color': 'gray', 'type': 'pedestrian'}
+d64c1236be235c3a cam_f0_2 pedestrian: ok {'visible': True, 'color': 'white', 'type': 'pedestrian'}
+d64c1236be235c3a cam_b0_0 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'van'}
+d64c1236be235c3a cam_b0_1 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'SUV'}
+d64c1236be235c3a cam_l0_0 pedestrian: ok {'visible': True, 'color': 'gray', 'type': 'pedestrian'}
+d64c1236be235c3a cam_l0_1 pedestrian: ok {'visible': True, 'color': 'black', 'type': 'pedestrian'}
+d64c1236be235c3a cam_l0_2 pedestrian: ok {'visible': True, 'color': 'gray', 'type': 'pedestrian'}
+d64c1236be235c3a cam_l0_3 pedestrian: ok {'visible': True, 'color': 'white', 'type': 'pedestrian'}
+d64c1236be235c3a cam_l0_4 pedestrian: ok {'visible': True, 'color': 'black', 'type': 'pedestrian'}
+72e19401a53e5ca6 cam_b0_0 vehicle: ok {'visible': True, 'color': 'white', 'type': 'car'}
+72e19401a53e5ca6 cam_b0_1 vehicle: ok {'visible': True, 'color': 'blue', 'type': 'car'}
+05fe906e67ba51bb cam_l0_0 vehicle: ok {'visible': True, 'color': 'black', 'type': 'SUV'}
+05fe906e67ba51bb cam_l0_2 pedestrian: ok {'visible': False, 'color': 'unknown', 'type': 'pedestrian'}
+05fe906e67ba51bb cam_l0_3 pedestrian: ok {'visible': True, 'color': 'white', 'type': 'pedestrian'}
+05fe906e67ba51bb cam_r0_0 pedestrian: ok {'visible': True, 'color': 'gray', 'type': 'pedestrian'}
+05fe906e67ba51bb cam_r0_1 pedestrian: ok {'visible': True, 'color': 'white', 'type': 'pedestrian'}
+ce50497738e353e4 cam_f0_2 vehicle: ok {'visible': True, 'color': 'white', 'type': 'SUV'}
+ce50497738e353e4 cam_f0_3 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'SUV'}
+ce50497738e353e4 cam_f0_4 vehicle: ok {'visible': True, 'color': 'white', 'type': 'SUV'}
+ce50497738e353e4 cam_b0_0 vehicle: ok {'visible': True, 'color': 'white', 'type': 'van'}
+ce50497738e353e4 cam_l0_0 pedestrian: ok {'visible': True, 'color': 'white', 'type': 'pedestrian'}
+ce50497738e353e4 cam_l0_1 pedestrian: ok {'visible': True, 'color': 'white', 'type': 'pedestrian'}
+ce50497738e353e4 cam_l0_2 pedestrian: ok {'visible': True, 'color': 'gray', 'type': 'pedestrian'}
+ce50497738e353e4 cam_l0_3 pedestrian: ok {'visible': True, 'color': 'brown', 'type': 'pedestrian'}
+ce50497738e353e4 cam_l0_4 vehicle: ok {'visible': True, 'color': 'gray', 'type': 'SUV'}
+b72470bc9dc455ac cam_l0_0 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'car'}
+b72470bc9dc455ac cam_l0_1 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'van'}
+fd26ca54aac65866 cam_f0_0 vehicle: ok {'visible': True, 'color': 'black', 'type': 'SUV'}
+fd26ca54aac65866 cam_f0_2 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'SUV'}
+fd26ca54aac65866 cam_f0_3 vehicle: ok {'visible': True, 'color': 'black', 'type': 'pickup truck'}
+fd26ca54aac65866 cam_l0_0 vehicle: ok {'visible': True, 'color': 'black', 'type': 'SUV'}
+fd26ca54aac65866 cam_l0_1 vehicle: ok {'visible': True, 'color': 'brown', 'type': 'pickup truck'}
+09d142a13744530f cam_f0_2 vehicle: ok {'visible': True, 'color': 'black', 'type': 'car'}
+09d142a13744530f cam_b0_0 vehicle: ok {'visible': True, 'color': 'white', 'type': 'van'}
+09d142a13744530f cam_l0_0 vehicle: ok {'visible': True, 'color': 'white', 'type': 'truck'}
+09d142a13744530f cam_l0_1 pedestrian: ok {'visible': True, 'color': 'blue', 'type': 'pedestrian'}
+09d142a13744530f cam_l0_2 pedestrian: ok {'visible': True, 'color': 'red', 'type': 'pedestrian'}
+bfe3248e464559c6 cam_f0_0 vehicle: ok {'visible': True, 'color': 'black', 'type': 'SUV'}
+bfe3248e464559c6 cam_f0_1 vehicle: ok {'visible': True, 'color': 'black', 'type': 'SUV'}
+bfe3248e464559c6 cam_l0_0 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'bus'}
+bfe3248e464559c6 cam_r0_0 vehicle: ok {'visible': True, 'color': 'white', 'type': 'SUV'}
+f73c6f1dc67e52d9 cam_f0_4 vehicle: ok {'visible': True, 'color': 'black', 'type': 'car'}
+f73c6f1dc67e52d9 cam_l0_0 vehicle: ok {'visible': True, 'color': 'brown', 'type': 'SUV'}
+f629ebb36dbf556c cam_b0_0 vehicle: ok {'visible': True, 'color': 'brown', 'type': 'car'}
+2b03708a95a157e0 cam_f0_1 vehicle: ok {'visible': True, 'color': 'gray', 'type': 'car'}
+2b03708a95a157e0 cam_f0_2 vehicle: ok {'visible': True, 'color': 'brown', 'type': 'van'}
+2b03708a95a157e0 cam_f0_3 bicycle: ok {'visible': True, 'color': 'black', 'type': 'motorcycle'}
+2b03708a95a157e0 cam_b0_0 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'car'}
+2b03708a95a157e0 cam_l0_0 vehicle: ok {'visible': True, 'color': 'gray', 'type': 'car'}
+2b03708a95a157e0 cam_l0_1 vehicle: ok {'visible': True, 'color': 'black', 'type': 'car'}
+2b03708a95a157e0 cam_r0_0 vehicle: ok {'visible': True, 'color': 'blue', 'type': 'car'}
+2b03708a95a157e0 cam_r0_1 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'car'}
+2b03708a95a157e0 cam_r0_2 pedestrian: ok {'visible': True, 'color': 'white', 'type': 'pedestrian'}
+6b0d8096ea8e52e9 cam_f0_1 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'car'}
+6b0d8096ea8e52e9 cam_b0_0 vehicle: ok {'visible': True, 'color': 'brown', 'type': 'pickup truck'}
+6b0d8096ea8e52e9 cam_b0_1 vehicle: ok {'visible': True, 'color': 'gray', 'type': 'car'}
+6b0d8096ea8e52e9 cam_r0_0 pedestrian: ok {'visible': True, 'color': 'brown', 'type': 'pedestrian'}
+6b0d8096ea8e52e9 cam_r0_1 pedestrian: ok {'visible': True, 'color': 'gray', 'type': 'pedestrian'}
+3010d891812c5ad0 cam_f0_2 pedestrian: ok {'visible': False, 'color': 'unknown', 'type': 'unknown'}
+3010d891812c5ad0 cam_b0_0 vehicle: ok {'visible': True, 'color': 'black', 'type': 'SUV'}
+3010d891812c5ad0 cam_b0_1 vehicle: ok {'visible': True, 'color': 'white', 'type': 'car'}
+3010d891812c5ad0 cam_b0_2 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'SUV'}
+3010d891812c5ad0 cam_b0_3 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'car'}
+3010d891812c5ad0 cam_l0_0 vehicle: ok {'visible': True, 'color': 'blue', 'type': 'SUV'}
+3010d891812c5ad0 cam_l0_1 pedestrian: ok {'visible': True, 'color': 'gray', 'type': 'pedestrian'}
+3010d891812c5ad0 cam_r0_0 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'SUV'}
+9657c0d1f5c85c9d cam_f0_0 vehicle: ok {'visible': True, 'color': 'white', 'type': 'car'}
+9657c0d1f5c85c9d cam_f0_2 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'SUV'}
+9657c0d1f5c85c9d cam_f0_3 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'SUV'}
+9657c0d1f5c85c9d cam_f0_4 vehicle: ok {'visible': True, 'color': 'blue', 'type': 'car'}
+9657c0d1f5c85c9d cam_b0_0 vehicle: ok {'visible': True, 'color': 'orange', 'type': 'car'}
+9657c0d1f5c85c9d cam_b0_1 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'car'}
+9657c0d1f5c85c9d cam_b0_2 vehicle: ok {'visible': True, 'color': 'white', 'type': 'SUV'}
+9657c0d1f5c85c9d cam_l0_0 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'car'}
+9afe30150d0952a8 cam_f0_0 vehicle: ok {'visible': True, 'color': 'gray', 'type': 'SUV'}
+9afe30150d0952a8 cam_r0_0 vehicle: ok {'visible': True, 'color': 'white', 'type': 'car'}
+9afe30150d0952a8 cam_r0_1 vehicle: ok {'visible': True, 'color': 'black', 'type': 'car'}
+9afe30150d0952a8 cam_r0_2 vehicle: ok {'visible': True, 'color': 'black', 'type': 'pickup truck'}
+8ddc87e943425dd8 cam_l0_0 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'SUV'}
+8ddc87e943425dd8 cam_l0_1 vehicle: ok {'visible': True, 'color': 'black', 'type': 'car'}
+8ddc87e943425dd8 cam_l0_2 pedestrian: ok {'visible': True, 'color': 'blue', 'type': 'pedestrian'}
+fe90a75ae70054dd cam_f0_1 vehicle: ok {'visible': True, 'color': 'gray', 'type': 'car'}
+463122faddbd556e cam_f0_1 pedestrian: ok {'visible': True, 'color': 'black', 'type': 'pedestrian'}
+463122faddbd556e cam_b0_0 vehicle: ok {'visible': True, 'color': 'blue', 'type': 'SUV'}
+463122faddbd556e cam_b0_1 vehicle: ok {'visible': True, 'color': 'gray', 'type': 'pickup truck'}
+0d8391b472965292 cam_f0_1 vehicle: ok {'visible': True, 'color': 'black', 'type': 'SUV'}
+0d8391b472965292 cam_b0_0 vehicle: ok {'visible': True, 'color': 'black', 'type': 'car'}
+c756455c4bb45d7b cam_f0_0 vehicle: ok {'visible': True, 'color': 'black', 'type': 'SUV'}
+c756455c4bb45d7b cam_f0_1 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'car'}
+c756455c4bb45d7b cam_b0_0 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'SUV'}
+c756455c4bb45d7b cam_l0_0 vehicle: ok {'visible': True, 'color': 'silver', 'type': 'car'}
+c756455c4bb45d7b cam_r0_0 vehicle: ok {'visible': True, 'color': 'white', 'type': 'SUV'}
+f59427887b385154 cam_f0_1 vehicle: ok {'visible': True, 'color': 'black', 'type': 'car'}
+f59427887b385154 cam_b0_0 vehicle: ok {'visible': True, 'color': 'gray', 'type': 'SUV'}
+f59427887b385154 cam_b0_1 vehicle: ok {'visible': True, 'color': 'gray', 'type': 'car'}
+f59427887b385154 cam_l0_1 pedestrian: ok {'visible': True, 'color': 'blue', 'type': 'pedestrian'}
+f59427887b385154 cam_l0_2 pedestrian: ok {'visible': True, 'color': 'gray', 'type': 'pedestrian'}
+f59427887b385154 cam_l0_3 vehicle: ok {'visible': True, 'color': 'black', 'type': 'car'}
+f59427887b385154 cam_r0_0 vehicle: ok {'visible': True, 'color': 'black', 'type': 'SUV'}
+f59427887b385154 cam_r0_1 vehicle: ok {'visible': True, 'color': 'white', 'type': 'car'}
+[train rank 0] /mnt/zhaozc_workspace/envs/drivorpython/bin/python -B /mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/scripts/data_generation/stage3_instance/build_dataset.py --prepared /mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage3_instance_pilot/train/shards/rank_0000/prepared --plan /mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage3_instance_pilot/train/shards/rank_0000/plan --attributes /mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage3_instance_pilot/train/shards/rank_0000/attributes --output /mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage3_instance_pilot/train/shards/rank_0000/instances --render 120
+instances cdec196208d65e81: cam_f0: the silver SUV in the center, in our lane; the traffic light for our lane is red; the lane lines of our lane | cam_b0: the blue van in the center, following us; the black car on the right, in another lane; the black pickup truck on the left, in another lane | cam_l0:  | cam_r0: the orange SUV in the center, beside us
+instances 076aafe7a1b65ccd: cam_f0: the pedestrian in white in the center, by the road | cam_b0: the pedestrian in white on the right, on the road | cam_l0: the black SUV on the left, beside us | cam_r0: the stop line in front of us; the silver car in the center, by the road
+instances f1a05680e8195ff2: cam_f0: the white car in the center, in our lane; the pedestrian in black on the right, near our lane; the lane lines of our lane | cam_b0: the black SUV in the center, following us; the pedestrian in brown on the left, by the road; the nearer pedestrian in black on the left, near our lane | cam_l0:  | cam_r0: the pedestrian on the left, near our lane; the nearer pedestrian in orange on the left, by the road; the farther pedestrian in orange on the left, by the road
+instances f8a8fb0636a65edf: cam_f0: the white van in the center, in our lane; the lane lines of our lane; the white SUV on the left, in another lane | cam_b0: the silver pickup truck on the right, by the road | cam_l0:  | cam_r0: the nearer pedestrian in white on the left, by the road; the farther pedestrian in white on the left, by the road; the pedestrian in black on the left, by the road
+instances 0ea47b4586de59a9: cam_f0: the lane lines of our lane; the crosswalk in front of us | cam_b0:  | cam_l0: the white truck on the right, in our lane; the stop line in front of us; the nearer white truck in the center, by the road | cam_r0: 
+instances c9c4642c90ae5df6: cam_f0: the lane lines of our lane; the white car on the right, in the next lane; the brown SUV in the center, in the next lane | cam_b0:  | cam_l0: the white van on the left, beside us; the gray SUV on the right, by the road | cam_r0: 
+instances 3295a8a6ddf152ae: cam_f0: the silver SUV in the center, in our lane; the pedestrian in blue in the center, near our lane; the traffic light for our lane is not red | cam_b0: the black SUV in the center, following us; the silver SUV on the right, in the next lane | cam_l0: the silver SUV in the center, beside us | cam_r0: the pedestrian on the left, near our lane
+instances 42e7e27ec6f55439: cam_f0: the silver car in the center, in our lane; the lane lines of our lane | cam_b0:  | cam_l0:  | cam_r0: the pedestrian in gray in the center, by the road; the pedestrian in orange on the right, by the road; the pedestrian in blue on the right, by the road
+instances 4192513dc7b6518c: cam_f0: the lane lines of our lane; the nearer traffic cone in the center, near our lane; the farther traffic cone in the center, near our lane | cam_b0:  | cam_l0:  | cam_r0: the pedestrian in yellow on the left, near our lane; the green truck on the left, in the next lane
+instances e451950324435385: cam_f0: the lane lines of our lane; the crosswalk in front of us | cam_b0: the black car in the center, following us | cam_l0: the silver car on the right, by the road | cam_r0: the white van on the right, by the road
+instances 0d3a6d224ac65052: cam_f0: the brown SUV in the center, in our lane; the white car on the left, in the next lane | cam_b0: the white car on the right, in another lane | cam_l0: the black pickup truck on the right, beside us; the black SUV in the center, by the road | cam_r0: the pedestrian in blue on the right, by the road; the pedestrian in blue in the center, by the road
+instances 951d1fa68a7e558c: cam_f0: the lane lines of our lane | cam_b0: the white car on the right, by the road | cam_l0: the pedestrian in blue on the left, by the road; the vehicle on the left, by the road | cam_r0: 
+instances 85be16890195532a: cam_f0: the red car in the center, in our lane; the lane lines of our lane; the orange car on the left, in the next lane | cam_b0:  | cam_l0:  | cam_r0: 
+instances b63a2c6614c25c10: cam_f0: the black SUV in the center, in our lane; the stop line in front of us; the pedestrian in beige on the right, by the road | cam_b0: the black SUV in the center, following us | cam_l0: the nearer white car in the center, by the road; the gray SUV on the left, by the road; the farther white car in the center, by the road | cam_r0: the pedestrian in gray in the center, near our lane; the pedestrian in gray on the right, by the road; the pedestrian in gray in the center, by the road
+instances 5a912018da8b516c: cam_f0: the black pickup truck in the center, in our lane; the lane lines of our lane; the gray SUV on the left, in another lane | cam_b0: the orange car in the center, following us | cam_l0: the nearer white car on the right, in another lane; the farther white car on the right, in another lane | cam_r0: 
+instances 79282ef4b96d51aa: cam_f0: the orange SUV on the left, crossing from the left | cam_b0:  | cam_l0:  | cam_r0: the stop line in front of us; the white truck on the right, by the road
+instances 33322f7fe3645d33: cam_f0: the nearer pedestrian in black in the center, by the road; the farther pedestrian in black in the center, by the road; the pedestrian in gray on the right, by the road | cam_b0: the green car in the center, in the next lane | cam_l0:  | cam_r0: the white pickup truck on the right, in our lane; the pedestrian in white in the center, near our lane; the pedestrian in orange in the center, near our lane
+instances 3d9434518d2756a1: cam_f0: the white truck in the center, in our lane; the lane lines of our lane; the orange car on the left, in the next lane | cam_b0: the silver car in the center, following us; the blue SUV on the right, in the next lane | cam_l0: the silver car on the right, by the road | cam_r0: 
+instances 77adf2a1873c571b: cam_f0: the lane lines of our lane; the crosswalk in front of us; the stop line in front of us | cam_b0:  | cam_l0: the gray SUV on the left, by the road; the silver car in the center, by the road; the black SUV in the center, by the road | cam_r0: 
+instances 72077b48cc565e7c: cam_f0: the white SUV in the center, in our lane; the lane lines of our lane; the nearer black car on the left, in the next lane | cam_b0: the silver car in the center, following us; the white van on the right, in the next lane | cam_l0:  | cam_r0: the white SUV on the left, in the next lane
+instances 35590f52919e5e0e: cam_f0:  | cam_b0: the black SUV on the left, in another lane; the white car on the left, in another lane | cam_l0: the stop line in front of us | cam_r0: 
+instances 0f291f5478a15859: cam_f0: the silver pickup truck in the center, in our lane; the black car on the left, in the next lane | cam_b0: the black car in the center, following us; the blue pickup truck on the right, in the next lane; the black car on the left, in the next lane | cam_l0:  | cam_r0: the black car in the center, in another lane
+instances 862d9dc396df5812: cam_f0: the traffic light for our lane is red; the crosswalk in front of us; the stop line in front of us | cam_b0: the silver SUV in the center, following us; the gray SUV on the right, in the next lane | cam_l0:  | cam_r0: the silver SUV on the left, by the road; the pedestrian in white in the center, by the road
+instances a7ebbf047f015b46: cam_f0: the black car in the center, in our lane; the traffic light for our lane is red; the white car on the left, in the next lane | cam_b0:  | cam_l0:  | cam_r0: 
+instances bf4cf74d095d50a6: cam_f0: the crosswalk in front of us; the lane lines of our lane; the stop line in front of us | cam_b0: the blue car on the left, in the next lane; the white van on the left, by the road | cam_l0: the silver SUV in the center, by the road | cam_r0: the silver car on the right, by the road
+instances 2c5175a7d5575a15: cam_f0: the lane lines of our lane; the stop line in front of us | cam_b0: the white car in the center, following us; the white van on the right, in the next lane; the silver van on the right, in the next lane | cam_l0:  | cam_r0: 
+instances 274aa2836d7c5091: cam_f0: the lane lines of our lane | cam_b0:  | cam_l0:  | cam_r0: the pedestrian in gray on the right, by the road; the pedestrian in black in the center, on the crosswalk; the pedestrian in beige in the center, on the road
+instances 65cd04a40cb25862: cam_f0: the lane lines of our lane; the stop line in front of us; the crosswalk in front of us | cam_b0:  | cam_l0:  | cam_r0: 
+instances fa4f726b18855e56: cam_f0: the lane lines of our lane; the pedestrian in white on the right, by the road; the pedestrian in gray on the right, by the road | cam_b0: the silver pickup truck in the center, following us; the white SUV in the center, in the next lane; the silver SUV in the center, in the next lane | cam_l0: the gray SUV on the right, in the next lane; the white SUV on the left, in another lane | cam_r0: the pedestrian in white on the left, by the road
+instances cd7025b34ffa52f5: cam_f0: the black SUV on the left, in our lane | cam_b0: the black SUV in the center, following us | cam_l0: the lane lines of our lane; the stop line in front of us; the crosswalk in front of us | cam_r0: the pedestrian in black in the center, by the road; the pedestrian in gray in the center, by the road
+instances 350ae65816295acc: cam_f0: the traffic light for our lane is red; the black SUV on the right, in the next lane; the stop line in front of us | cam_b0:  | cam_l0: the pedestrian in gray on the left, by the road; the pedestrian in black on the left, by the road; the pedestrian in black in the center, by the road | cam_r0: the pedestrian in black on the left, on the crosswalk; the pedestrian in beige on the right, by the road; the pedestrian in white on the right, by the road
+instances 375956f1843c59e8: cam_f0: the orange car on the right, in our lane; the lane lines of our lane; the silver SUV on the right, in the next lane | cam_b0: the pedestrian in black on the right, on the road; the pedestrian in white on the left, by the road; the pedestrian in black on the left, on the road | cam_l0:  | cam_r0: 
+instances 1ff3779f5ff95974: cam_f0: the white car in the center, in our lane; the lane lines of our lane; the white SUV in the center, in the next lane | cam_b0: the white SUV on the right, in the next lane; the silver car on the right, in the next lane; the orange pickup truck in the center, in the next lane | cam_l0: the black car in the center, by the road | cam_r0: 
+instances d6e6ab2532535021: cam_f0: the gray car in the center, in our lane; the traffic light for our lane is red; the lane lines of our lane | cam_b0: the black SUV in the center, in the next lane | cam_l0: the pedestrian in gray in the center, by the road; the pedestrian in white in the center, by the road; the pedestrian in beige in the center, by the road | cam_r0: the black car on the left, beside us
+instances 2e7e5d835fd2555b: cam_f0: the lane lines of our lane | cam_b0:  | cam_l0:  | cam_r0: 
+instances ba8325feb092515e: cam_f0: the white SUV in the center, in our lane; the lane lines of our lane; the white SUV in the center, in the next lane | cam_b0: the gray car in the center, following us | cam_l0:  | cam_r0: 
+instances ad45f53a937355d9: cam_f0: the traffic light for our lane is red; the stop line in front of us; the silver car in the center, by the road | cam_b0: the black car on the right, in the next lane; the red car on the left, in another lane; the silver car on the left, by the road | cam_l0: the lane lines of our lane | cam_r0: the pedestrian in black on the left, by the road; the pedestrian in blue in the center, by the road; the pedestrian in red on the left, by the road
+instances d12d90fc4ee257cb: cam_f0: the white car in the center, in our lane; the lane lines of our lane; the white car on the left, in the next lane | cam_b0: the black SUV on the right, in another lane | cam_l0: the gray SUV on the right, in another lane | cam_r0: 
+instances 0b73ecf845c4520c: cam_f0: the crosswalk in front of us; the stop line in front of us | cam_b0: the orange SUV on the left, in the next lane | cam_l0:  | cam_r0: 
+instances ce0049b7c1f75e71: cam_f0: the stop line in front of us | cam_b0: the orange pickup truck on the left, in the next lane; the nearer white car on the right, by the road; the farther white car on the right, by the road | cam_l0: the green SUV on the right, in another lane; the silver car in the center, in another lane; the white pickup truck on the right, by the road | cam_r0: the lane lines of our lane; the crosswalk in front of us; the white SUV in the center, oncoming
+instances 26d62f55fe175782: cam_f0: the silver car in the center, in our lane; the traffic light for our lane is red; the lane lines of our lane | cam_b0: the silver car on the left, in the next lane; the black SUV on the right, in the next lane | cam_l0:  | cam_r0: the white car in the center, by the road
+instances 269c7df83c805219: cam_f0: the white SUV on the left, by the road | cam_b0:  | cam_l0: the stop line in front of us; the white car on the right, by the road | cam_r0: the lane lines of our lane
+instances e4274af8f96e5360: cam_f0: the white van in the center, in our lane; the lane lines of our lane; the silver SUV on the left, in the next lane | cam_b0: the gray SUV in the center, in the next lane; the gray SUV on the right, by the road | cam_l0:  | cam_r0: 
+instances 553bb326e5435775: cam_f0: the white SUV in the center, in our lane; the white SUV on the right, in the next lane; the black car on the left, in the next lane | cam_b0: the blue car in the center, following us; the white truck on the left, in the next lane | cam_l0: the silver SUV on the right, in the next lane | cam_r0: 
+instances 3cdb1f604a365a53: cam_f0: the lane lines of our lane; the silver car in the center, in the next lane; the red SUV in the center, in the next lane | cam_b0: the white van on the right, by the road; the black car in the center, in the next lane | cam_l0: the white SUV in the center, beside us | cam_r0: 
+instances fa878580c0365258: cam_f0: the stop line in front of us; the lane lines of our lane | cam_b0: the black car on the right, in the next lane | cam_l0:  | cam_r0: 
+instances 9e9116a8ae515d64: cam_f0: the white truck in the center, in our lane; the white car in the center, in the next lane | cam_b0:  | cam_l0: the white car on the right, by the road; the pedestrian in black on the left, by the road | cam_r0: the traffic cone on the left, near our lane; the nearer pedestrian in yellow on the left, by the road; the farther pedestrian in yellow on the left, by the road
+instances 3cde3b2efbf45896: cam_f0: the black SUV in the center, in our lane; the lane lines of our lane; the black SUV on the right, by the road | cam_b0: the gray SUV on the left, by the road | cam_l0:  | cam_r0: the silver SUV on the right, by the road; the gray car on the right, by the road; the gray car in the center, by the road
+instances d42d45eb395d57f3: cam_f0: the lane lines of our lane | cam_b0: the black SUV in the center, following us; the yellow SUV in the center, in the next lane | cam_l0: the silver car on the right, in another lane | cam_r0: 
+instances ba7dfb7ed77b5e16: cam_f0: the black car in the center, in our lane; the lane lines of our lane; the red car on the left, in another lane | cam_b0: the silver pickup truck in the center, following us; the black SUV on the right, in another lane | cam_l0: the white car in the center, by the road | cam_r0: 
+instances c414d1a73d095b67: cam_f0: the pedestrian in black on the right, near our lane; the pedestrian in gray on the left, near our lane; the lane lines of our lane | cam_b0: the pedestrian in white in the center, near our lane; the pedestrian in gray in the center, near our lane; the pedestrian in black in the center, near our lane | cam_l0: the crosswalk in front of us | cam_r0: the pedestrian in white on the right, by the road; the pedestrian in black in the center, by the road; the cyclist in black in the center, by the road
+instances f9fb942be8c25e26: cam_f0: the traffic light for our lane is red | cam_b0: the black car in the center, following us; the blue SUV on the left, by the road; the pedestrian in blue on the right, near our lane | cam_l0: the black SUV on the right, in our lane; the beige car on the left, in another lane | cam_r0: the nearer white car on the right, in another lane; the farther white car on the right, in another lane; the white van in the center, in another lane
+instances f70d4c0e06c35ce7: cam_f0: the crosswalk in front of us; the stop line in front of us | cam_b0: the black car in the center, following us; the silver SUV on the right, in another lane | cam_l0:  | cam_r0: the lane lines of our lane
+instances 4dd1a3b585cc5c58: cam_f0: the lane lines of our lane; the crosswalk in front of us | cam_b0: the white car in the center, following us; the silver car on the right, in another lane | cam_l0:  | cam_r0: 
+instances 653c3343e5e551c0: cam_f0: the traffic light for our lane is red; the stop line in front of us | cam_b0:  | cam_l0:  | cam_r0: 
+instances 1e85dadff8b552a1: cam_f0: the traffic light for our lane is red | cam_b0:  | cam_l0:  | cam_r0: 
+instances e44b2ad39ebd54a0: cam_f0: the silver car in the center, in our lane; the lane lines of our lane; the white pickup truck on the left, in the next lane | cam_b0: the black SUV in the center, following us; the silver car on the right, in the next lane; the silver SUV on the right, in the next lane | cam_l0: the gray car on the right, by the road | cam_r0: the pedestrian in green on the left, near our lane; the white car in the center, in another lane
+instances 3646e3b98294559f: cam_f0: the black SUV in the center, in our lane; the lane lines of our lane; the stop line in front of us | cam_b0: the silver car on the right, in another lane | cam_l0:  | cam_r0: the silver SUV on the right, beside us
+instances 5a751ea37fa155d1: cam_f0: the silver SUV in the center, in our lane; the lane lines of our lane; the gray SUV on the right, by the road | cam_b0:  | cam_l0: the gray car on the right, in the next lane | cam_r0: 
+instances fd712cc7b7cf5f7b: cam_f0:  | cam_b0:  | cam_l0: the white SUV on the right, in our lane; the lane lines of our lane; the gray SUV in the center, in our lane | cam_r0: 
+instances e8e561a864ee5cfe: cam_f0: the white van in the center, in our lane; the pedestrian in gray in the center, near our lane; the lane lines of our lane | cam_b0:  | cam_l0: the white car on the left, by the road; the SUV on the left, by the road; the pedestrian in red in the center, by the road | cam_r0: the pedestrian in blue on the left, near our lane; the pedestrian in white on the left, by the road
+instances 15c29fbe64bb5e8d: cam_f0: the white SUV in the center, in our lane; the lane lines of our lane; the traffic light for our lane is not red | cam_b0: the white car on the right, following us; the white car on the left, in the next lane | cam_l0:  | cam_r0: the pedestrian in black in the center, by the road
+instances 08222ee927fe5790: cam_f0: the crosswalk in front of us; the lane lines of our lane; the stop line in front of us | cam_b0:  | cam_l0: the black SUV in the center, by the road | cam_r0: the white car on the right, by the road; the white car on the left, by the road
+instances 6b83b1d356b95ba0: cam_f0: the black SUV in the center, in our lane; the lane lines of our lane; the white pickup truck in the center, in our lane | cam_b0: the nearer gray SUV on the right, by the road; the farther gray SUV on the right, by the road; the brown SUV in the center, in the next lane | cam_l0: the brown SUV on the right, beside us | cam_r0: 
+instances a38961d10b255895: cam_f0: the lane lines of our lane | cam_b0:  | cam_l0:  | cam_r0: the pedestrian in yellow on the left, by the road
+instances c0559e0a06ea5bb1: cam_f0: the black car in the center, in our lane; the lane lines of our lane; the black car on the left, in the next lane | cam_b0: the white car in the center, following us; the white car on the right, in the next lane | cam_l0: the black SUV in the center, beside us | cam_r0: 
+instances 8a04edf7c5fb5bad: cam_f0: the lane lines of our lane; the crosswalk in front of us; the silver SUV on the left, by the road | cam_b0:  | cam_l0: the black SUV on the left, by the road; the gray car on the left, by the road; the gray SUV on the left, by the road | cam_r0: 
+instances a3f8215b28465233: cam_f0: the blue car in the center, in our lane; the white SUV on the left, in the next lane | cam_b0:  | cam_l0:  | cam_r0: the pedestrian in blue on the left, by the road; the pedestrian in white on the left, by the road
+instances c48925696e0d528e: cam_f0: the black SUV on the left, in our lane; the lane lines of our lane | cam_b0: the black car on the right, in the next lane | cam_l0:  | cam_r0: 
+instances 028ce33c385b53b7: cam_f0: the black SUV in the center, in our lane; the lane lines of our lane | cam_b0:  | cam_l0:  | cam_r0: 
+instances e4092327ac7456e5: cam_f0: the traffic light for our lane is red; the white van on the left, in the next lane | cam_b0: the gray car in the center, following us; the orange pickup truck on the left, by the road; the nearer pedestrian in white on the right, by the road | cam_l0: the gray SUV in the center, in our lane | cam_r0: the gray car on the right, in another lane; the white SUV on the right, in another lane; the black SUV in the center, by the road
+instances 6430ab6418235711: cam_f0: the black car on the left, in our lane; the lane lines of our lane; the gray SUV in the center, in the next lane | cam_b0: the red car on the right, in the next lane; the blue SUV in the center, in the next lane | cam_l0: the stop line in front of us | cam_r0: 
+instances 88c3818a2b19550e: cam_f0: the pedestrian in black in the center, by the road; the pedestrian in gray in the center, on the road; the pedestrian in black in the center, on the road | cam_b0: the silver car on the right, in the next lane | cam_l0: the white car on the right, in our lane; the pedestrian in the center, on the road | cam_r0: 
+instances d0fbb1a2a6135728: cam_f0: the stop line in front of us; the blue car on the left, in the next lane | cam_b0:  | cam_l0: the white van on the right, in our lane; the crosswalk in front of us; the silver car in the center, by the road | cam_r0: 
+instances 84e0560b9f5a5af1: cam_f0: the stop line in front of us; the white SUV on the right, by the road | cam_b0: the white car on the right, in the next lane; the white car on the left, in another lane | cam_l0: the lane lines of our lane | cam_r0: the pedestrian in green on the right, by the road
+instances f2ec3de323df5b8a: cam_f0: the lane lines of our lane | cam_b0: the white SUV in the center, following us; the gray pickup truck on the left, in the next lane; the nearer black SUV on the right, by the road | cam_l0: the pedestrian in black in the center, by the road; the nearer pedestrian in black in the center, on the crosswalk; the white SUV on the left, by the road | cam_r0: the white car on the left, in the next lane; the pedestrian in black on the left, by the road
+instances 9ac0839e023251e8: cam_f0: the lane lines of our lane | cam_b0: the white truck on the right, in the next lane | cam_l0:  | cam_r0: 
+instances 85e601304d3f5e9d: cam_f0: the white van in the center, in our lane | cam_b0:  | cam_l0: the pedestrian in blue on the left, by the road; the pedestrian in gray in the center, on the crosswalk; the pedestrian in gray on the left, on the crosswalk | cam_r0: 
+instances 48240889350c5e4d: cam_f0: the lane lines of our lane | cam_b0:  | cam_l0:  | cam_r0: 
+instances 1a0b0be1750b53d9: cam_f0: the traffic light for our lane is red; the crosswalk in front of us; the stop line in front of us | cam_b0: the cyclist in orange in the center, on the road; the pedestrian in white on the left, by the road | cam_l0:  | cam_r0: 
+instances 6951943bb8ab58f2: cam_f0: the orange bus in the center, in our lane; the lane lines of our lane; the stop line in front of us | cam_b0:  | cam_l0:  | cam_r0: 
+instances 4fa8b0610e435275: cam_f0: the gray SUV in the center, in our lane; the silver SUV on the left, in the next lane; the traffic light for our lane is not red | cam_b0: the white car in the center, following us; the black SUV on the right, in another lane; the black car on the right, in another lane | cam_l0: the silver car on the right, in the next lane | cam_r0: 
+instances 790354bbbd735a02: cam_f0: the lane lines of our lane; the white car on the right, in another lane | cam_b0: the white pickup truck in the center, following us; the pedestrian in gray on the left, by the road | cam_l0: the white SUV on the right, in the next lane; the gray car on the left, by the road | cam_r0: the pedestrian in white in the center, by the road; the pedestrian in white on the right, by the road; the pedestrian in black on the right, by the road
+instances b03a7c2bdbd45b8d: cam_f0: the white car on the right, by the road | cam_b0: the silver SUV in the center, following us; the pedestrian in orange on the left, on the crosswalk; the pedestrian in black on the left, on the crosswalk | cam_l0:  | cam_r0: the pedestrian in white on the right, near our lane; the pedestrian in gray on the left, in our lane; the pedestrian in red in the center, near our lane
+instances 599c1304206e5c47: cam_f0: the orange car in the center, in our lane; the lane lines of our lane; the black SUV on the left, in the next lane | cam_b0: the white car in the center, following us; the silver van on the right, in the next lane; the white car in the center, in the next lane | cam_l0: the black SUV in the center, beside us | cam_r0: 
+instances 56950336dfef57af: cam_f0: the lane lines of our lane | cam_b0: the black SUV on the right, in the next lane | cam_l0: the silver truck in the center, beside us | cam_r0: 
+instances 11810f87cdbf5b4f: cam_f0:  | cam_b0:  | cam_l0: the black car in the center, by the road | cam_r0: the blue SUV on the right, by the road; the gray SUV on the right, by the road
+instances 865c6ef602fc5a86: cam_f0: the orange SUV in the center, in our lane; the lane lines of our lane; the orange car on the left, in the next lane | cam_b0: the blue SUV in the center, following us; the white van on the right, in the next lane | cam_l0: the black SUV on the right, in another lane | cam_r0: 
+instances 3d182f05141857aa: cam_f0: the silver SUV in the center, in our lane; the lane lines of our lane; the orange SUV in the center, in the next lane | cam_b0: the orange car in the center, following us; the white car in the center, in the next lane; the white car on the left, by the road | cam_l0:  | cam_r0: the silver car on the right, by the road; the white SUV on the left, in another lane; the black SUV in the center, by the road
+instances defdfdb835095fe3: cam_f0: the silver SUV in the center, in our lane; the traffic light for our lane is red; the pedestrian in blue on the right, near our lane | cam_b0: the silver SUV in the center, following us; the silver car on the right, in the next lane; the white SUV in the center, following us | cam_l0:  | cam_r0: the pedestrian in white on the left, by the road; the pedestrian in blue in the center, by the road; the pedestrian in orange in the center, by the road
+instances 2bd67db1bbb55ed7: cam_f0: the white car on the right, in the next lane; the gray van in the center, in the next lane | cam_b0: the silver car on the left, by the road | cam_l0:  | cam_r0: the nearer pedestrian in gray in the center, by the road; the nearer pedestrian in white in the center, by the road; the farther pedestrian in gray in the center, by the road
+instances b364ad4a8c4f56d9: cam_f0: the white car in the center, in our lane; the lane lines of our lane | cam_b0: the gray SUV on the right, by the road; the pedestrian in black on the left, by the road; the black SUV in the center, in the next lane | cam_l0:  | cam_r0: the pedestrian in white in the center, by the road; the pedestrian in black in the center, by the road; the pedestrian in white on the left, by the road
+instances 922b157cb9d2536c: cam_f0: the lane lines of our lane | cam_b0: the brown pickup truck in the center, following us; the white van on the right, by the road | cam_l0: the red truck on the left, in another lane | cam_r0: 
+instances 8d297a759d8253cf: cam_f0: the stop line in front of us; the crosswalk in front of us | cam_b0:  | cam_l0: the lane lines of our lane | cam_r0: the white car in the center, by the road; the black car in the center, by the road; the black pickup truck on the left, by the road
+instances e14a2e4d5fed5bbe: cam_f0: the black pickup truck in the center, in our lane; the lane lines of our lane; the stop line in front of us | cam_b0:  | cam_l0:  | cam_r0: 
+instances 8af0c72f38795ca3: cam_f0: the lane lines of our lane; the crosswalk in front of us; the white truck on the left, oncoming | cam_b0: the black SUV in the center, following us | cam_l0: the pedestrian in orange in the center, on the crosswalk; the pedestrian in black in the center, by the road; the silver car on the left, by the road | cam_r0: the pedestrian in white on the right, by the road; the pedestrian in blue in the center, by the road; the pedestrian in the center, by the road
+instances 37ad2af51c595054: cam_f0: the lane lines of our lane; the white truck in the center, in the next lane; the stop line in front of us | cam_b0: the gray car on the left, in the next lane; the white car in the center, in the next lane; the black car in the center, in the next lane | cam_l0: the pedestrian in gray on the left, near our lane; the gray vehicle in the center, by the road | cam_r0: 
+instances b94a09f5d1b550ea: cam_f0: the lane lines of our lane; the crosswalk in front of us; the stop line in front of us | cam_b0:  | cam_l0:  | cam_r0: 
+instances 9fec2176c0a85a92: cam_f0: the blue car in the center, in our lane; the traffic light for our lane is red; the lane lines of our lane | cam_b0:  | cam_l0: the silver SUV in the center, in another lane; the white truck on the right, in another lane | cam_r0: 
+instances d64c1236be235c3a: cam_f0: the traffic light for our lane is red; the pedestrian in gray on the left, near our lane; the pedestrian in white on the left, near our lane | cam_b0: the silver van in the center, following us; the silver SUV on the left, in the next lane | cam_l0: the pedestrian in gray on the right, near our lane; the nearer pedestrian in black on the left, by the road; the pedestrian in gray on the left, by the road | cam_r0: 
+instances 72e19401a53e5ca6: cam_f0: the crosswalk in front of us | cam_b0: the white car on the left, by the road; the blue car on the right, in another lane | cam_l0:  | cam_r0: the lane lines of our lane
+instances 05fe906e67ba51bb: cam_f0: the stop line in front of us | cam_b0:  | cam_l0: the black SUV on the right, in the next lane; the crosswalk in front of us; the pedestrian in white on the left, by the road | cam_r0: the pedestrian in gray on the right, by the road; the pedestrian in white on the right, by the road
+instances ce50497738e353e4: cam_f0: the crosswalk in front of us; the lane lines of our lane; the white SUV on the right, in the next lane | cam_b0: the white van in the center, following us | cam_l0: the nearer pedestrian in white on the right, by the road; the farther pedestrian in white on the right, by the road; the pedestrian in gray in the center, on the road | cam_r0: 
+instances b72470bc9dc455ac: cam_f0: the lane lines of our lane; the crosswalk in front of us | cam_b0:  | cam_l0: the silver car in the center, in another lane; the silver van on the right, by the road | cam_r0: 
+instances fd26ca54aac65866: cam_f0: the black SUV in the center, in our lane; the lane lines of our lane; the silver SUV in the center, in the next lane | cam_b0:  | cam_l0: the black SUV on the left, beside us; the brown pickup truck in the center, beside us | cam_r0: 
+instances 09d142a13744530f: cam_f0: the lane lines of our lane; the crosswalk in front of us; the black car on the left, by the road | cam_b0: the white van on the right, in the next lane | cam_l0: the white truck in the center, by the road; the pedestrian in blue in the center, by the road; the pedestrian in red in the center, by the road | cam_r0: 
+instances bfe3248e464559c6: cam_f0: the black SUV in the center, in the next lane; the black SUV on the left, in the next lane | cam_b0:  | cam_l0: the silver bus on the left, by the road | cam_r0: the white SUV on the right, beside us
+instances f73c6f1dc67e52d9: cam_f0: the traffic light for our lane is red; the lane lines of our lane; the crosswalk in front of us | cam_b0:  | cam_l0: the brown SUV in the center, in another lane | cam_r0: 
+instances f629ebb36dbf556c: cam_f0: the lane lines of our lane | cam_b0: the brown car in the center, following us | cam_l0:  | cam_r0: 
+instances 2b03708a95a157e0: cam_f0: the stop line in front of us; the gray car in the center, in the next lane; the brown van on the left, by the road | cam_b0: the silver car in the center, following us | cam_l0: the gray car in the center, in another lane; the black car in the center, in another lane | cam_r0: the blue car on the left, crossing from the left; the silver car in the center, by the road; the pedestrian in white on the left, on the crosswalk
+instances 6b0d8096ea8e52e9: cam_f0: the lane lines of our lane; the silver car in the center, in the next lane | cam_b0: the brown pickup truck in the center, in the next lane; the gray car on the right, in another lane | cam_l0:  | cam_r0: the pedestrian in brown in the center, by the road; the pedestrian in gray in the center, by the road
+instances 3010d891812c5ad0: cam_f0: the stop line in front of us; the crosswalk in front of us | cam_b0: the black SUV on the left, in the next lane; the white car on the left, in another lane; the silver SUV on the right, in another lane | cam_l0: the blue SUV on the left, by the road; the pedestrian in gray on the right, by the road | cam_r0: the silver SUV in the center, beside us
+instances 9657c0d1f5c85c9d: cam_f0: the white car in the center, in our lane; the lane lines of our lane; the silver SUV on the right, in the next lane | cam_b0: the orange car on the left, in the next lane; the silver car on the right, in another lane; the white SUV in the center, in the next lane | cam_l0: the silver car on the right, in another lane | cam_r0: 
+instances 9afe30150d0952a8: cam_f0: the gray SUV on the left, in another lane | cam_b0:  | cam_l0: the lane lines of our lane; the crosswalk in front of us | cam_r0: the white car on the right, by the road; the black car in the center, by the road; the black pickup truck in the center, by the road
+instances 8ddc87e943425dd8: cam_f0: the lane lines of our lane; the stop line in front of us; the crosswalk in front of us | cam_b0:  | cam_l0: the silver SUV on the left, in another lane; the black car on the left, in another lane; the pedestrian in blue on the right, by the road | cam_r0: 
+instances fe90a75ae70054dd: cam_f0: the lane lines of our lane; the gray car in the center, in the next lane | cam_b0:  | cam_l0:  | cam_r0: 
+instances 463122faddbd556e: cam_f0: the crosswalk in front of us; the pedestrian in black in the center, by the road | cam_b0: the blue SUV on the left, in the next lane; the gray pickup truck in the center, in the next lane | cam_l0: the stop line in front of us; the lane lines of our lane | cam_r0: 
+instances 0d8391b472965292: cam_f0: the crosswalk in front of us; the black SUV in the center, oncoming; the stop line in front of us | cam_b0: the black car on the left, in the next lane | cam_l0:  | cam_r0: 
+instances c756455c4bb45d7b: cam_f0: the black SUV in the center, in our lane; the silver car on the left, by the road | cam_b0: the silver SUV on the right, in another lane | cam_l0: the silver car in the center, by the road | cam_r0: the white SUV on the left, by the road
+instances f59427887b385154: cam_f0: the stop line in front of us; the black car in the center, by the road | cam_b0: the gray SUV on the right, by the road; the gray car on the left, by the road | cam_l0: the crosswalk in front of us; the pedestrian in blue in the center, by the road; the pedestrian in gray in the center, by the road | cam_r0: the black SUV in the center, in another lane; the white car on the right, in another lane
+[train rank 0] complete: /mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage3_instance_pilot/train/shards/rank_0000

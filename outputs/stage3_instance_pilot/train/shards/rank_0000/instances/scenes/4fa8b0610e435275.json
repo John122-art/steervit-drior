@@ -173,7 +173,7 @@
           ]
         },
         {
-          "text": "the black SUV on the right, at the side of the road",
+          "text": "the black SUV on the right, in another lane",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
@@ -219,7 +219,7 @@
           ]
         },
         {
-          "text": "the black car on the right, at the side of the road",
+          "text": "the black car on the right, in another lane",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
@@ -267,64 +267,18 @@
       ]
     },
     "cam_l0": {
-      "text": "the white pickup truck in the center, in the next lane",
+      "text": "the silver car on the right, in the next lane",
       "categories": [
         "vehicle"
       ],
       "items": [
-        {
-          "text": "the white pickup truck in the center, in the next lane",
-          "kind": "agent",
-          "category": "vehicle",
-          "role": "adjacent",
-          "grounded": false,
-          "item_id": "cam_l0_0",
-          "distance": 3.77,
-          "gt_index": 12,
-          "map_ids": null,
-          "attributes": {
-            "visible": true,
-            "color": "white",
-            "type": "pickup truck"
-          },
-          "outline": [
-            [
-              [
-                794.9000244140625,
-                0.0
-              ],
-              [
-                0.0,
-                0.0
-              ],
-              [
-                0.0,
-                672.0
-              ],
-              [
-                794.9000244140625,
-                672.0
-              ],
-              [
-                794.9000244140625,
-                0.0
-              ]
-            ]
-          ],
-          "bbox": [
-            0.0,
-            0.0,
-            794.86,
-            672.0
-          ]
-        },
         {
           "text": "the silver car on the right, in the next lane",
           "kind": "agent",
           "category": "vehicle",
           "role": "adjacent",
           "grounded": true,
-          "item_id": "cam_l0_1",
+          "item_id": "cam_l0_0",
           "distance": 10.0,
           "gt_index": 10,
           "map_ids": null,

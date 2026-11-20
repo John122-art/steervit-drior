@@ -5,13 +5,13 @@
   "input_hash": "c900269db08d1e3265b85ed80f31c63207354d36b3fc9245949470b4ddef3c29",
   "scene_text": {
     "cam_f0": {
-      "text": "the nearer pedestrian in black in the center, at the side of the road",
+      "text": "the pedestrian in black in the center, by the road",
       "categories": [
         "pedestrian"
       ],
       "items": [
         {
-          "text": "the nearer pedestrian in black in the center, at the side of the road",
+          "text": "the pedestrian in black in the center, by the road",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",
@@ -57,7 +57,7 @@
           ]
         },
         {
-          "text": "the pedestrian in gray in the center, at the side of the road",
+          "text": "the pedestrian in gray in the center, on the road",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",
@@ -103,7 +103,7 @@
           ]
         },
         {
-          "text": "the farther pedestrian in black in the center, at the side of the road",
+          "text": "the pedestrian in black in the center, on the road",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",
@@ -257,58 +257,12 @@
           ]
         },
         {
-          "text": "the silver car on the left, in the next lane",
-          "kind": "agent",
-          "category": "vehicle",
-          "role": "adjacent",
-          "grounded": true,
-          "item_id": "cam_l0_2",
-          "distance": 4.37,
-          "gt_index": 22,
-          "map_ids": null,
-          "attributes": {
-            "visible": true,
-            "color": "silver",
-            "type": "car"
-          },
-          "outline": [
-            [
-              [
-                618.7999877929688,
-                398.70001220703125
-              ],
-              [
-                0.0,
-                398.70001220703125
-              ],
-              [
-                0.0,
-                672.0
-              ],
-              [
-                618.7999877929688,
-                672.0
-              ],
-              [
-                618.7999877929688,
-                398.70001220703125
-              ]
-            ]
-          ],
-          "bbox": [
-            0.0,
-            398.74,
-            618.75,
-            672.0
-          ]
-        },
-        {
-          "text": "the pedestrian in the center, at the side of the road",
+          "text": "the pedestrian in the center, on the road",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",
           "grounded": true,
-          "item_id": "cam_l0_3",
+          "item_id": "cam_l0_2",
           "distance": 20.09,
           "gt_index": 36,
           "map_ids": null,

@@ -229,7 +229,7 @@
           "bbox": null
         },
         {
-          "text": "the nearer white truck in the center, at the side of the road",
+          "text": "the nearer white truck in the center, by the road",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",

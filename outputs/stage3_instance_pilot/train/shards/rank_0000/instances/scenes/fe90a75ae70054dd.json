@@ -155,58 +155,9 @@
       "items": []
     },
     "cam_r0": {
-      "text": "the silver car on the left, in the next lane",
-      "categories": [
-        "vehicle"
-      ],
-      "items": [
-        {
-          "text": "the silver car on the left, in the next lane",
-          "kind": "agent",
-          "category": "vehicle",
-          "role": "adjacent",
-          "grounded": true,
-          "item_id": "cam_r0_0",
-          "distance": 7.73,
-          "gt_index": 71,
-          "map_ids": null,
-          "attributes": {
-            "visible": true,
-            "color": "silver",
-            "type": "car"
-          },
-          "outline": [
-            [
-              [
-                490.79998779296875,
-                380.6000061035156
-              ],
-              [
-                0.0,
-                380.6000061035156
-              ],
-              [
-                0.0,
-                672.0
-              ],
-              [
-                490.79998779296875,
-                672.0
-              ],
-              [
-                490.79998779296875,
-                380.6000061035156
-              ]
-            ]
-          ],
-          "bbox": [
-            0.0,
-            380.56,
-            490.83,
-            672.0
-          ]
-        }
-      ]
+      "text": "",
+      "categories": [],
+      "items": []
     }
   }
 }

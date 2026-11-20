@@ -25,6 +25,10 @@
         "frame": "route"
       },
       "distance": 13.121612888745169,
+      "place": {
+        "on_road": true,
+        "on_crosswalk": false
+      },
       "bbox": [
         399.3,
         319.11,
@@ -152,6 +156,10 @@
         "frame": "route"
       },
       "distance": 19.8272613830866,
+      "place": {
+        "on_road": true,
+        "on_crosswalk": false
+      },
       "bbox": [
         76.18,
         358.99,
@@ -213,6 +221,10 @@
         "frame": "route"
       },
       "distance": 24.632020298568143,
+      "place": {
+        "on_road": true,
+        "on_crosswalk": false
+      },
       "bbox": [
         210.24,
         356.33,
@@ -274,6 +286,10 @@
         "frame": "route"
       },
       "distance": 29.721774557055763,
+      "place": {
+        "on_road": true,
+        "on_crosswalk": false
+      },
       "bbox": [
         287.71,
         344.58,
@@ -335,6 +351,10 @@
         "frame": "ego"
       },
       "distance": 14.608757299843727,
+      "place": {
+        "on_road": true,
+        "on_crosswalk": false
+      },
       "bbox": [
         526.73,
         352.68,
@@ -396,6 +416,10 @@
         "frame": "ego"
       },
       "distance": 17.618870958786587,
+      "place": {
+        "on_road": false,
+        "on_crosswalk": false
+      },
       "bbox": [
         879.39,
         379.46,
@@ -457,6 +481,10 @@
         "frame": "ego"
       },
       "distance": 22.10515448289463,
+      "place": {
+        "on_road": false,
+        "on_crosswalk": false
+      },
       "bbox": [
         804.66,
         373.75,
@@ -518,6 +546,10 @@
         "frame": "route"
       },
       "distance": 14.739471992001178,
+      "place": {
+        "on_road": false,
+        "on_crosswalk": false
+      },
       "bbox": [
         236.51,
         387.45,
@@ -579,6 +611,10 @@
         "frame": "route"
       },
       "distance": 14.826490632052588,
+      "place": {
+        "on_road": true,
+        "on_crosswalk": false
+      },
       "bbox": [
         804.07,
         386.15,

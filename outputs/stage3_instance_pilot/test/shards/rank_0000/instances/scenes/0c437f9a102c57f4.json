@@ -254,64 +254,18 @@
       ]
     },
     "cam_b0": {
-      "text": "the red SUV on the right, in the next lane",
+      "text": "the silver car in the center, following us",
       "categories": [
         "vehicle"
       ],
       "items": [
-        {
-          "text": "the red SUV on the right, in the next lane",
-          "kind": "agent",
-          "category": "vehicle",
-          "role": "adjacent",
-          "grounded": true,
-          "item_id": "cam_b0_0",
-          "distance": 6.92,
-          "gt_index": 2,
-          "map_ids": null,
-          "attributes": {
-            "visible": true,
-            "color": "red",
-            "type": "SUV"
-          },
-          "outline": [
-            [
-              [
-                1148.0,
-                261.20001220703125
-              ],
-              [
-                852.0,
-                261.20001220703125
-              ],
-              [
-                852.0,
-                672.0
-              ],
-              [
-                1148.0,
-                672.0
-              ],
-              [
-                1148.0,
-                261.20001220703125
-              ]
-            ]
-          ],
-          "bbox": [
-            852.04,
-            261.18,
-            1148.0,
-            672.0
-          ]
-        },
         {
           "text": "the silver car in the center, following us",
           "kind": "agent",
           "category": "vehicle",
           "role": "following",
           "grounded": true,
-          "item_id": "cam_b0_1",
+          "item_id": "cam_b0_0",
           "distance": 16.05,
           "gt_index": 5,
           "map_ids": null,
@@ -354,13 +308,13 @@
       ]
     },
     "cam_l0": {
-      "text": "the blue car in the center, at the side of the road",
+      "text": "the blue car in the center, in another lane",
       "categories": [
         "vehicle"
       ],
       "items": [
         {
-          "text": "the blue car in the center, at the side of the road",
+          "text": "the blue car in the center, in another lane",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
@@ -406,7 +360,7 @@
           ]
         },
         {
-          "text": "the black van in the center, at the side of the road",
+          "text": "the black van in the center, by the road",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
@@ -454,13 +408,13 @@
       ]
     },
     "cam_r0": {
-      "text": "the pedestrian in the center, at the side of the road",
+      "text": "the pedestrian in the center, by the road",
       "categories": [
         "pedestrian"
       ],
       "items": [
         {
-          "text": "the pedestrian in the center, at the side of the road",
+          "text": "the pedestrian in the center, by the road",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",

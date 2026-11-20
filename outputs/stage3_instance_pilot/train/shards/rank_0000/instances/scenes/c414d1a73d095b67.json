@@ -338,13 +338,13 @@
       ]
     },
     "cam_b0": {
-      "text": "the pedestrian in white in the center, in our lane",
+      "text": "the pedestrian in white in the center, near our lane",
       "categories": [
         "pedestrian"
       ],
       "items": [
         {
-          "text": "the pedestrian in white in the center, in our lane",
+          "text": "the pedestrian in white in the center, near our lane",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",
@@ -390,7 +390,7 @@
           ]
         },
         {
-          "text": "the pedestrian in gray in the center, in our lane",
+          "text": "the pedestrian in gray in the center, near our lane",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",
@@ -436,7 +436,7 @@
           ]
         },
         {
-          "text": "the pedestrian in black in the center, in our lane",
+          "text": "the pedestrian in black in the center, near our lane",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",
@@ -551,13 +551,13 @@
       ]
     },
     "cam_r0": {
-      "text": "the pedestrian in white on the right, at the side of the road",
+      "text": "the pedestrian in white on the right, by the road",
       "categories": [
         "pedestrian"
       ],
       "items": [
         {
-          "text": "the pedestrian in white on the right, at the side of the road",
+          "text": "the pedestrian in white on the right, by the road",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",
@@ -603,7 +603,7 @@
           ]
         },
         {
-          "text": "the pedestrian in black in the center, at the side of the road",
+          "text": "the pedestrian in black in the center, by the road",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",
@@ -649,7 +649,7 @@
           ]
         },
         {
-          "text": "the cyclist in black in the center, at the side of the road",
+          "text": "the cyclist in black in the center, by the road",
           "kind": "agent",
           "category": "bicycle",
           "role": "nearby",

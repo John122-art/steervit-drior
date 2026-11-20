@@ -140,43 +140,12 @@
       ],
       "grounded": true,
       "mask_row": 0
-    },
-    {
-      "kind": "stop_line",
-      "category": "stop_line",
-      "camera": "cam_r0",
-      "role": "stop_line",
-      "distance": 2.05,
-      "map_ids": [
-        "49510"
-      ],
-      "priority": 2,
-      "item_id": "cam_r0_0",
-      "outline": [
-        [
-          [
-            1108.5999755859375,
-            672.0
-          ],
-          [
-            764.9000244140625,
-            556.0
-          ],
-          [
-            461.3999938964844,
-            672.0
-          ],
-          [
-            1108.5999755859375,
-            672.0
-          ]
-        ]
-      ],
-      "grounded": true,
-      "mask_row": 1
     }
   ],
   "rejected": {
-    "not_in_any_camera": 1
+    "not_in_any_camera": 1,
+    "stop_line_mostly_outside_cam_r0": 3,
+    "stop_line_mostly_outside_cam_f0": 2,
+    "stop_line_mostly_outside_cam_l0": 1
   }
 }

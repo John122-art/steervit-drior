@@ -314,7 +314,7 @@
           ]
         },
         {
-          "text": "the silver car on the right, at the side of the road",
+          "text": "the silver car on the right, in another lane",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
@@ -408,64 +408,18 @@
       ]
     },
     "cam_l0": {
-      "text": "the black pickup truck on the left, beside us",
+      "text": "the silver car on the right, in another lane",
       "categories": [
         "vehicle"
       ],
       "items": [
         {
-          "text": "the black pickup truck on the left, beside us",
-          "kind": "agent",
-          "category": "vehicle",
-          "role": "beside",
-          "grounded": true,
-          "item_id": "cam_l0_0",
-          "distance": 7.26,
-          "gt_index": 7,
-          "map_ids": null,
-          "attributes": {
-            "visible": true,
-            "color": "black",
-            "type": "pickup truck"
-          },
-          "outline": [
-            [
-              [
-                741.5999755859375,
-                266.20001220703125
-              ],
-              [
-                0.0,
-                266.20001220703125
-              ],
-              [
-                0.0,
-                672.0
-              ],
-              [
-                741.5999755859375,
-                672.0
-              ],
-              [
-                741.5999755859375,
-                266.20001220703125
-              ]
-            ]
-          ],
-          "bbox": [
-            0.0,
-            266.24,
-            741.58,
-            672.0
-          ]
-        },
-        {
-          "text": "the silver car on the right, at the side of the road",
+          "text": "the silver car on the right, in another lane",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
           "grounded": true,
-          "item_id": "cam_l0_1",
+          "item_id": "cam_l0_0",
           "distance": 28.23,
           "gt_index": 30,
           "map_ids": null,
@@ -508,58 +462,9 @@
       ]
     },
     "cam_r0": {
-      "text": "the white van in the center, in the next lane",
-      "categories": [
-        "vehicle"
-      ],
-      "items": [
-        {
-          "text": "the white van in the center, in the next lane",
-          "kind": "agent",
-          "category": "vehicle",
-          "role": "adjacent",
-          "grounded": false,
-          "item_id": "cam_r0_0",
-          "distance": 5.44,
-          "gt_index": 0,
-          "map_ids": null,
-          "attributes": {
-            "visible": true,
-            "color": "white",
-            "type": "van"
-          },
-          "outline": [
-            [
-              [
-                1131.300048828125,
-                231.8000030517578
-              ],
-              [
-                0.0,
-                231.8000030517578
-              ],
-              [
-                0.0,
-                672.0
-              ],
-              [
-                1131.300048828125,
-                672.0
-              ],
-              [
-                1131.300048828125,
-                231.8000030517578
-              ]
-            ]
-          ],
-          "bbox": [
-            0.0,
-            231.84,
-            1131.31,
-            672.0
-          ]
-        }
-      ]
+      "text": "",
+      "categories": [],
+      "items": []
     }
   }
 }

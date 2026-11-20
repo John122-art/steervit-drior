@@ -974,64 +974,18 @@
       ]
     },
     "cam_b0": {
-      "text": "the brown car on the left, in the next lane",
+      "text": "the black car on the left, by the road",
       "categories": [
         "vehicle"
       ],
       "items": [
         {
-          "text": "the brown car on the left, in the next lane",
-          "kind": "agent",
-          "category": "vehicle",
-          "role": "adjacent",
-          "grounded": true,
-          "item_id": "cam_b0_0",
-          "distance": 7.89,
-          "gt_index": 1,
-          "map_ids": null,
-          "attributes": {
-            "visible": true,
-            "color": "brown",
-            "type": "car"
-          },
-          "outline": [
-            [
-              [
-                151.3000030517578,
-                360.79998779296875
-              ],
-              [
-                0.0,
-                360.79998779296875
-              ],
-              [
-                0.0,
-                672.0
-              ],
-              [
-                151.3000030517578,
-                672.0
-              ],
-              [
-                151.3000030517578,
-                360.79998779296875
-              ]
-            ]
-          ],
-          "bbox": [
-            0.0,
-            360.78,
-            151.32,
-            672.0
-          ]
-        },
-        {
-          "text": "the black car on the left, at the side of the road",
+          "text": "the black car on the left, by the road",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
           "grounded": true,
-          "item_id": "cam_b0_1",
+          "item_id": "cam_b0_0",
           "distance": 12.2,
           "gt_index": 0,
           "map_ids": null,
@@ -1077,7 +1031,7 @@
           "category": "vehicle",
           "role": "nearby",
           "grounded": true,
-          "item_id": "cam_b0_2",
+          "item_id": "cam_b0_1",
           "distance": 28.6,
           "gt_index": 8,
           "map_ids": null,
@@ -1120,112 +1074,14 @@
       ]
     },
     "cam_l0": {
-      "text": "the white car in the center, in the next lane",
-      "categories": [
-        "vehicle"
-      ],
-      "items": [
-        {
-          "text": "the white car in the center, in the next lane",
-          "kind": "agent",
-          "category": "vehicle",
-          "role": "adjacent",
-          "grounded": false,
-          "item_id": "cam_l0_0",
-          "distance": 3.89,
-          "gt_index": 11,
-          "map_ids": null,
-          "attributes": {
-            "visible": true,
-            "color": "white",
-            "type": "car"
-          },
-          "outline": [
-            [
-              [
-                1136.0,
-                0.0
-              ],
-              [
-                0.0,
-                0.0
-              ],
-              [
-                0.0,
-                672.0
-              ],
-              [
-                1136.0,
-                672.0
-              ],
-              [
-                1136.0,
-                0.0
-              ]
-            ]
-          ],
-          "bbox": [
-            0.0,
-            0.0,
-            1136.0,
-            672.0
-          ]
-        }
-      ]
+      "text": "",
+      "categories": [],
+      "items": []
     },
     "cam_r0": {
-      "text": "the silver car on the right, in the next lane",
-      "categories": [
-        "vehicle"
-      ],
-      "items": [
-        {
-          "text": "the silver car on the right, in the next lane",
-          "kind": "agent",
-          "category": "vehicle",
-          "role": "adjacent",
-          "grounded": true,
-          "item_id": "cam_r0_0",
-          "distance": 4.44,
-          "gt_index": 2,
-          "map_ids": null,
-          "attributes": {
-            "visible": true,
-            "color": "silver",
-            "type": "car"
-          },
-          "outline": [
-            [
-              [
-                1148.0,
-                345.6000061035156
-              ],
-              [
-                919.0999755859375,
-                345.6000061035156
-              ],
-              [
-                919.0999755859375,
-                672.0
-              ],
-              [
-                1148.0,
-                672.0
-              ],
-              [
-                1148.0,
-                345.6000061035156
-              ]
-            ]
-          ],
-          "bbox": [
-            919.14,
-            345.63,
-            1148.0,
-            672.0
-          ]
-        }
-      ]
+      "text": "",
+      "categories": [],
+      "items": []
     }
   }
 }

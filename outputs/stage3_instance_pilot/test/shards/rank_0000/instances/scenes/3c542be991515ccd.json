@@ -293,52 +293,6 @@
             1148.0,
             583.47
           ]
-        },
-        {
-          "text": "the black pickup truck on the left, at the side of the road",
-          "kind": "agent",
-          "category": "vehicle",
-          "role": "nearby",
-          "grounded": true,
-          "item_id": "cam_b0_1",
-          "distance": 15.77,
-          "gt_index": 10,
-          "map_ids": null,
-          "attributes": {
-            "visible": true,
-            "color": "black",
-            "type": "pickup truck"
-          },
-          "outline": [
-            [
-              [
-                33.79999923706055,
-                527.5999755859375
-              ],
-              [
-                33.79999923706055,
-                321.29998779296875
-              ],
-              [
-                0.0,
-                321.29998779296875
-              ],
-              [
-                0.0,
-                527.5999755859375
-              ],
-              [
-                33.79999923706055,
-                527.5999755859375
-              ]
-            ]
-          ],
-          "bbox": [
-            0.0,
-            321.26,
-            33.85,
-            527.64
-          ]
         }
       ]
     },

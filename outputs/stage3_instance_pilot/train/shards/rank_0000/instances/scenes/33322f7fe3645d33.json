@@ -5,127 +5,18 @@
   "input_hash": "4885bcab32e60b9854ec4876dba8308e74ea2fc0b91f5a5d49d55908a0b1ca2d",
   "scene_text": {
     "cam_f0": {
-      "text": "the crosswalk in front of us",
+      "text": "the nearer pedestrian in black in the center, by the road",
       "categories": [
-        "crosswalk"
+        "pedestrian"
       ],
       "items": [
         {
-          "text": "the crosswalk in front of us",
-          "kind": "crosswalk",
-          "category": "crosswalk",
-          "role": "crosswalk",
-          "grounded": true,
-          "item_id": "cam_f0_0",
-          "distance": 7.88,
-          "gt_index": null,
-          "map_ids": [
-            "64321"
-          ],
-          "attributes": null,
-          "outline": [
-            [
-              [
-                485.70001220703125,
-                445.8999938964844
-              ],
-              [
-                495.70001220703125,
-                452.1000061035156
-              ],
-              [
-                495.70001220703125,
-                445.70001220703125
-              ],
-              [
-                485.70001220703125,
-                445.8999938964844
-              ]
-            ],
-            [
-              [
-                854.9000244140625,
-                672.0
-              ],
-              [
-                1148.0,
-                672.0
-              ],
-              [
-                1148.0,
-                520.7000122070312
-              ],
-              [
-                777.4000244140625,
-                435.5
-              ],
-              [
-                726.7000122070312,
-                437.29998779296875
-              ],
-              [
-                726.7000122070312,
-                441.29998779296875
-              ],
-              [
-                700.9000244140625,
-                441.29998779296875
-              ],
-              [
-                700.9000244140625,
-                438.29998779296875
-              ],
-              [
-                648.2000122070312,
-                440.20001220703125
-              ],
-              [
-                648.2000122070312,
-                450.5
-              ],
-              [
-                614.2000122070312,
-                450.5
-              ],
-              [
-                614.2000122070312,
-                447.0
-              ],
-              [
-                602.2000122070312,
-                447.0
-              ],
-              [
-                602.2000122070312,
-                456.20001220703125
-              ],
-              [
-                565.7999877929688,
-                456.20001220703125
-              ],
-              [
-                565.7999877929688,
-                465.1000061035156
-              ],
-              [
-                517.0,
-                465.1000061035156
-              ],
-              [
-                854.9000244140625,
-                672.0
-              ]
-            ]
-          ],
-          "bbox": null
-        },
-        {
-          "text": "the nearer pedestrian in black in the center, at the side of the road",
+          "text": "the nearer pedestrian in black in the center, by the road",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",
           "grounded": true,
-          "item_id": "cam_f0_1",
+          "item_id": "cam_f0_0",
           "distance": 16.29,
           "gt_index": 62,
           "map_ids": null,
@@ -166,12 +57,12 @@
           ]
         },
         {
-          "text": "the farther pedestrian in black in the center, at the side of the road",
+          "text": "the farther pedestrian in black in the center, by the road",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",
           "grounded": true,
-          "item_id": "cam_f0_2",
+          "item_id": "cam_f0_1",
           "distance": 16.87,
           "gt_index": 65,
           "map_ids": null,
@@ -209,6 +100,52 @@
             340.84,
             602.24,
             456.2
+          ]
+        },
+        {
+          "text": "the pedestrian in gray on the right, by the road",
+          "kind": "agent",
+          "category": "pedestrian",
+          "role": "nearby",
+          "grounded": true,
+          "item_id": "cam_f0_2",
+          "distance": 19.46,
+          "gt_index": 51,
+          "map_ids": null,
+          "attributes": {
+            "visible": true,
+            "color": "gray",
+            "type": "pedestrian"
+          },
+          "outline": [
+            [
+              [
+                769.2999877929688,
+                321.0
+              ],
+              [
+                769.2999877929688,
+                425.6000061035156
+              ],
+              [
+                833.0,
+                425.6000061035156
+              ],
+              [
+                833.0,
+                321.0
+              ],
+              [
+                769.2999877929688,
+                321.0
+              ]
+            ]
+          ],
+          "bbox": [
+            769.27,
+            321.03,
+            833.0,
+            425.65
           ]
         }
       ]

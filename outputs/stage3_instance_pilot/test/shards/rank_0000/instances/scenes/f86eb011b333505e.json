@@ -5,53 +5,18 @@
   "input_hash": "7f47ea6064958d76950de4c81d60ff297a1e2d718ca03c3b20527d8cef30789f",
   "scene_text": {
     "cam_f0": {
-      "text": "the stop line in front of us",
+      "text": "the crosswalk in front of us",
       "categories": [
-        "stop_line"
+        "crosswalk"
       ],
       "items": [
-        {
-          "text": "the stop line in front of us",
-          "kind": "stop_line",
-          "category": "stop_line",
-          "role": "stop_line",
-          "grounded": true,
-          "item_id": "cam_f0_0",
-          "distance": 3.94,
-          "gt_index": null,
-          "map_ids": [
-            "48968"
-          ],
-          "attributes": null,
-          "outline": [
-            [
-              [
-                1071.4000244140625,
-                672.0
-              ],
-              [
-                756.0999755859375,
-                514.2000122070312
-              ],
-              [
-                566.4000244140625,
-                672.0
-              ],
-              [
-                1071.4000244140625,
-                672.0
-              ]
-            ]
-          ],
-          "bbox": null
-        },
         {
           "text": "the crosswalk in front of us",
           "kind": "crosswalk",
           "category": "crosswalk",
           "role": "crosswalk",
           "grounded": true,
-          "item_id": "cam_f0_1",
+          "item_id": "cam_f0_0",
           "distance": 12.3,
           "gt_index": null,
           "map_ids": [
@@ -91,13 +56,13 @@
       ]
     },
     "cam_b0": {
-      "text": "the gray car on the right, at the side of the road",
+      "text": "the gray car on the right, by the road",
       "categories": [
         "vehicle"
       ],
       "items": [
         {
-          "text": "the gray car on the right, at the side of the road",
+          "text": "the gray car on the right, by the road",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",

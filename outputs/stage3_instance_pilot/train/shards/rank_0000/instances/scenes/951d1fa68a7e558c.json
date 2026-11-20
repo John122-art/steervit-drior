@@ -340,13 +340,13 @@
       ]
     },
     "cam_b0": {
-      "text": "the white car on the right, at the side of the road",
+      "text": "the white car on the right, by the road",
       "categories": [
         "vehicle"
       ],
       "items": [
         {
-          "text": "the white car on the right, at the side of the road",
+          "text": "the white car on the right, by the road",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
@@ -394,13 +394,13 @@
       ]
     },
     "cam_l0": {
-      "text": "the pedestrian in blue on the left, at the side of the road",
+      "text": "the pedestrian in blue on the left, by the road",
       "categories": [
         "pedestrian"
       ],
       "items": [
         {
-          "text": "the pedestrian in blue on the left, at the side of the road",
+          "text": "the pedestrian in blue on the left, by the road",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",
@@ -446,7 +446,7 @@
           ]
         },
         {
-          "text": "the vehicle on the left, at the side of the road",
+          "text": "the vehicle on the left, by the road",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",

@@ -62,7 +62,7 @@
           ]
         },
         {
-          "text": "the beige car on the right, at the side of the road",
+          "text": "the beige car on the right, by the road",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
@@ -161,64 +161,18 @@
       "items": []
     },
     "cam_r0": {
-      "text": "the white car on the right, beside us",
+      "text": "the lane lines of our lane",
       "categories": [
-        "vehicle"
+        "lane_lines"
       ],
       "items": [
-        {
-          "text": "the white car on the right, beside us",
-          "kind": "agent",
-          "category": "vehicle",
-          "role": "beside",
-          "grounded": true,
-          "item_id": "cam_r0_0",
-          "distance": 6.43,
-          "gt_index": 23,
-          "map_ids": null,
-          "attributes": {
-            "visible": true,
-            "color": "white",
-            "type": "car"
-          },
-          "outline": [
-            [
-              [
-                1148.0,
-                391.6000061035156
-              ],
-              [
-                778.9000244140625,
-                391.6000061035156
-              ],
-              [
-                778.9000244140625,
-                672.0
-              ],
-              [
-                1148.0,
-                672.0
-              ],
-              [
-                1148.0,
-                391.6000061035156
-              ]
-            ]
-          ],
-          "bbox": [
-            778.92,
-            391.57,
-            1148.0,
-            672.0
-          ]
-        },
         {
           "text": "the lane lines of our lane",
           "kind": "lane_lines",
           "category": "lane_lines",
           "role": "lane_lines",
           "grounded": true,
-          "item_id": "cam_r0_1",
+          "item_id": "cam_r0_0",
           "distance": 10.0,
           "gt_index": null,
           "map_ids": [
@@ -276,12 +230,12 @@
           "bbox": null
         },
         {
-          "text": "the black pickup truck in the center, at the side of the road",
+          "text": "the black pickup truck in the center, in another lane",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
           "grounded": true,
-          "item_id": "cam_r0_2",
+          "item_id": "cam_r0_1",
           "distance": 24.68,
           "gt_index": 33,
           "map_ids": null,

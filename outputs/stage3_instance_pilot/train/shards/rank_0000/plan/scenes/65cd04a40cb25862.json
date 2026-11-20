@@ -338,6 +338,10 @@
         "frame": "ego"
       },
       "distance": 23.32069016176827,
+      "place": {
+        "on_road": false,
+        "on_crosswalk": false
+      },
       "bbox": [
         754.06,
         261.93,

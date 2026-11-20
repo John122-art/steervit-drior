@@ -209,58 +209,9 @@
       "items": []
     },
     "cam_r0": {
-      "text": "the orange truck on the right, beside us",
-      "categories": [
-        "vehicle"
-      ],
-      "items": [
-        {
-          "text": "the orange truck on the right, beside us",
-          "kind": "agent",
-          "category": "vehicle",
-          "role": "beside",
-          "grounded": true,
-          "item_id": "cam_r0_0",
-          "distance": 7.29,
-          "gt_index": 0,
-          "map_ids": null,
-          "attributes": {
-            "visible": true,
-            "color": "orange",
-            "type": "truck"
-          },
-          "outline": [
-            [
-              [
-                1148.0,
-                93.80000305175781
-              ],
-              [
-                650.2999877929688,
-                93.80000305175781
-              ],
-              [
-                650.2999877929688,
-                629.5
-              ],
-              [
-                1148.0,
-                629.5
-              ],
-              [
-                1148.0,
-                93.80000305175781
-              ]
-            ]
-          ],
-          "bbox": [
-            650.31,
-            93.85,
-            1148.0,
-            629.5
-          ]
-        }
-      ]
+      "text": "",
+      "categories": [],
+      "items": []
     }
   }
 }

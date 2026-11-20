@@ -233,6 +233,10 @@
         "frame": "ego"
       },
       "distance": 5.9678635194297955,
+      "place": {
+        "on_road": true,
+        "on_crosswalk": false
+      },
       "bbox": [
         119.38,
         337.79,
@@ -280,67 +284,6 @@
     {
       "kind": "agent",
       "category": "vehicle",
-      "gt_index": 0,
-      "camera": "cam_b0",
-      "role": "adjacent",
-      "relation": {
-        "lon": -5.680449269169704,
-        "lat": -4.174158304322657,
-        "lane": "right",
-        "motion": "same",
-        "speed": 0.34502318762657097,
-        "relative_heading": 0.0094527599476808,
-        "distance": 7.04919154578427,
-        "frame": "ego"
-      },
-      "distance": 7.04919154578427,
-      "bbox": [
-        0.0,
-        0.0,
-        329.33,
-        672.0
-      ],
-      "occluded_fraction": 0.317,
-      "crossing_from": null,
-      "priority": 2,
-      "item_id": "cam_b0_1",
-      "crop": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage3_instance_pilot/test/shards/rank_0000/plan/crops/f68aaf95d7825182/cam_b0_1.jpg",
-      "crop_box_original": [
-        0,
-        0,
-        634,
-        1080
-      ],
-      "outline": [
-        [
-          [
-            329.29998779296875,
-            0.0
-          ],
-          [
-            0.0,
-            0.0
-          ],
-          [
-            0.0,
-            672.0
-          ],
-          [
-            329.29998779296875,
-            672.0
-          ],
-          [
-            329.29998779296875,
-            0.0
-          ]
-        ]
-      ],
-      "grounded": true,
-      "mask_row": 5
-    },
-    {
-      "kind": "agent",
-      "category": "vehicle",
       "gt_index": 1,
       "camera": "cam_r0",
       "role": "adjacent",
@@ -355,6 +298,10 @@
         "frame": "route"
       },
       "distance": 8.292511482735788,
+      "place": {
+        "on_road": false,
+        "on_crosswalk": false
+      },
       "bbox": [
         0.0,
         306.96,
@@ -397,12 +344,13 @@
         ]
       ],
       "grounded": true,
-      "mask_row": 6
+      "mask_row": 5
     }
   ],
   "rejected": {
+    "mostly_outside_image": 1,
     "not_in_any_camera": 1,
     "occluded": 3,
-    "stop_line_hidden_cam_r0": 1
+    "stop_line_mostly_outside_cam_r0": 1
   }
 }

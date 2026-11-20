@@ -9,6 +9,60 @@
   "route_offset": 0.44970898226490014,
   "items": [
     {
+      "kind": "crosswalk",
+      "category": "crosswalk",
+      "camera": "cam_f0",
+      "role": "crosswalk",
+      "distance": 8.92,
+      "map_ids": [
+        "18613"
+      ],
+      "priority": 2,
+      "item_id": "cam_f0_0",
+      "outline": [
+        [
+          [
+            368.70001220703125,
+            451.5
+          ],
+          [
+            324.79998779296875,
+            455.6000061035156
+          ],
+          [
+            253.3000030517578,
+            459.5
+          ],
+          [
+            206.6999969482422,
+            460.70001220703125
+          ],
+          [
+            201.60000610351562,
+            461.79998779296875
+          ],
+          [
+            1079.9000244140625,
+            503.6000061035156
+          ],
+          [
+            1035.4000244140625,
+            478.1000061035156
+          ],
+          [
+            376.20001220703125,
+            450.6000061035156
+          ],
+          [
+            368.70001220703125,
+            451.5
+          ]
+        ]
+      ],
+      "grounded": true,
+      "mask_row": 0
+    },
+    {
       "kind": "agent",
       "category": "pedestrian",
       "gt_index": 5,
@@ -25,6 +79,10 @@
         "frame": "route"
       },
       "distance": 27.131515729629736,
+      "place": {
+        "on_road": false,
+        "on_crosswalk": false
+      },
       "bbox": [
         521.7,
         330.19,
@@ -34,8 +92,8 @@
       "occluded_fraction": 0.0,
       "crossing_from": null,
       "priority": 4,
-      "item_id": "cam_f0_0",
-      "crop": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage3_instance_pilot/train/shards/rank_0000/plan/crops/463122faddbd556e/cam_f0_0.jpg",
+      "item_id": "cam_f0_1",
+      "crop": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage3_instance_pilot/train/shards/rank_0000/plan/crops/463122faddbd556e/cam_f0_1.jpg",
       "crop_box_original": [
         862,
         513,
@@ -67,7 +125,7 @@
         ]
       ],
       "grounded": true,
-      "mask_row": 0
+      "mask_row": 1
     },
     {
       "kind": "agent",
@@ -86,6 +144,10 @@
         "frame": "ego"
       },
       "distance": 10.2729693974207,
+      "place": {
+        "on_road": false,
+        "on_crosswalk": false
+      },
       "bbox": [
         0.0,
         269.44,
@@ -128,7 +190,7 @@
         ]
       ],
       "grounded": true,
-      "mask_row": 1
+      "mask_row": 2
     },
     {
       "kind": "agent",
@@ -147,6 +209,10 @@
         "frame": "ego"
       },
       "distance": 19.62971799919354,
+      "place": {
+        "on_road": false,
+        "on_crosswalk": false
+      },
       "bbox": [
         302.77,
         300.16,
@@ -189,60 +255,6 @@
         ]
       ],
       "grounded": true,
-      "mask_row": 2
-    },
-    {
-      "kind": "crosswalk",
-      "category": "crosswalk",
-      "camera": "cam_l0",
-      "role": "crosswalk",
-      "distance": 2.28,
-      "map_ids": [
-        "20725"
-      ],
-      "priority": 2,
-      "item_id": "cam_l0_0",
-      "outline": [
-        [
-          [
-            333.3999938964844,
-            571.5999755859375
-          ],
-          [
-            283.8999938964844,
-            593.2999877929688
-          ],
-          [
-            178.3000030517578,
-            628.2999877929688
-          ],
-          [
-            40.400001525878906,
-            664.5
-          ],
-          [
-            20.5,
-            669.5
-          ],
-          [
-            18.899999618530273,
-            672.0
-          ],
-          [
-            386.70001220703125,
-            672.0
-          ],
-          [
-            338.70001220703125,
-            571.2999877929688
-          ],
-          [
-            333.3999938964844,
-            571.5999755859375
-          ]
-        ]
-      ],
-      "grounded": true,
       "mask_row": 3
     },
     {
@@ -255,7 +267,7 @@
         "18355"
       ],
       "priority": 2,
-      "item_id": "cam_l0_1",
+      "item_id": "cam_l0_0",
       "outline": [
         [
           [
@@ -298,7 +310,7 @@
         "18243"
       ],
       "priority": 2,
-      "item_id": "cam_l0_2",
+      "item_id": "cam_l0_1",
       "outline": [
         [
           [
@@ -349,5 +361,8 @@
       "mask_row": 5
     }
   ],
-  "rejected": {}
+  "rejected": {
+    "crosswalk_mostly_outside_cam_l0": 1,
+    "crosswalk_mostly_outside_cam_r0": 1
+  }
 }

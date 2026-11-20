@@ -181,13 +181,13 @@
       ]
     },
     "cam_b0": {
-      "text": "the silver van on the right, at the side of the road",
+      "text": "the silver van on the right, in another lane",
       "categories": [
         "vehicle"
       ],
       "items": [
         {
-          "text": "the silver van on the right, at the side of the road",
+          "text": "the silver van on the right, in another lane",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",

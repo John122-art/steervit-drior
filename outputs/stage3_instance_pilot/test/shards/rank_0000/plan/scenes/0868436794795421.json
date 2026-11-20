@@ -25,6 +25,10 @@
         "frame": "route"
       },
       "distance": 19.210583442595258,
+      "place": {
+        "on_road": false,
+        "on_crosswalk": false
+      },
       "bbox": [
         502.22,
         301.63,

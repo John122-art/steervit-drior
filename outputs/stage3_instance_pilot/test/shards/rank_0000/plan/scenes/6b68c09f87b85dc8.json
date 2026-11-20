@@ -309,5 +309,8 @@
       "mask_row": 3
     }
   ],
-  "rejected": {}
+  "rejected": {
+    "crosswalk_mostly_outside_cam_r0": 1,
+    "stop_line_mostly_outside_cam_r0": 1
+  }
 }

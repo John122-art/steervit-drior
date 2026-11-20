@@ -98,68 +98,61 @@
             541.43,
             446.99
           ]
+        },
+        {
+          "text": "the stop line in front of us",
+          "kind": "stop_line",
+          "category": "stop_line",
+          "role": "stop_line",
+          "grounded": true,
+          "item_id": "cam_f0_2",
+          "distance": 24.71,
+          "gt_index": null,
+          "map_ids": [
+            "63396"
+          ],
+          "attributes": null,
+          "outline": [
+            [
+              [
+                185.8000030517578,
+                408.70001220703125
+              ],
+              [
+                143.0,
+                417.79998779296875
+              ],
+              [
+                350.8999938964844,
+                416.5
+              ],
+              [
+                350.8999938964844,
+                407.70001220703125
+              ],
+              [
+                185.8000030517578,
+                408.70001220703125
+              ]
+            ]
+          ],
+          "bbox": null
         }
       ]
     },
     "cam_b0": {
-      "text": "the brown bus on the left, beside us",
+      "text": "the black car on the left, in the next lane",
       "categories": [
         "vehicle"
       ],
       "items": [
-        {
-          "text": "the brown bus on the left, beside us",
-          "kind": "agent",
-          "category": "vehicle",
-          "role": "beside",
-          "grounded": true,
-          "item_id": "cam_b0_0",
-          "distance": 10.27,
-          "gt_index": 0,
-          "map_ids": null,
-          "attributes": {
-            "visible": true,
-            "color": "brown",
-            "type": "bus"
-          },
-          "outline": [
-            [
-              [
-                212.60000610351562,
-                0.0
-              ],
-              [
-                0.0,
-                0.0
-              ],
-              [
-                0.0,
-                672.0
-              ],
-              [
-                212.60000610351562,
-                672.0
-              ],
-              [
-                212.60000610351562,
-                0.0
-              ]
-            ]
-          ],
-          "bbox": [
-            0.0,
-            0.0,
-            212.59,
-            672.0
-          ]
-        },
         {
           "text": "the black car on the left, in the next lane",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
           "grounded": true,
-          "item_id": "cam_b0_1",
+          "item_id": "cam_b0_0",
           "distance": 10.71,
           "gt_index": 1,
           "map_ids": null,
@@ -207,51 +200,9 @@
       "items": []
     },
     "cam_r0": {
-      "text": "the stop line in front of us",
-      "categories": [
-        "stop_line"
-      ],
-      "items": [
-        {
-          "text": "the stop line in front of us",
-          "kind": "stop_line",
-          "category": "stop_line",
-          "role": "stop_line",
-          "grounded": true,
-          "item_id": "cam_r0_0",
-          "distance": 3.11,
-          "gt_index": null,
-          "map_ids": [
-            "63400"
-          ],
-          "attributes": null,
-          "outline": [
-            [
-              [
-                711.0,
-                672.0
-              ],
-              [
-                1148.0,
-                672.0
-              ],
-              [
-                1148.0,
-                610.7999877929688
-              ],
-              [
-                851.5999755859375,
-                580.2999877929688
-              ],
-              [
-                711.0,
-                672.0
-              ]
-            ]
-          ],
-          "bbox": null
-        }
-      ]
+      "text": "",
+      "categories": [],
+      "items": []
     }
   }
 }

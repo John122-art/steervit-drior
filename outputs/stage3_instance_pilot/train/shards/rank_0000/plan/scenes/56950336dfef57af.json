@@ -86,6 +86,10 @@
         "frame": "ego"
       },
       "distance": 14.922616996403447,
+      "place": {
+        "on_road": false,
+        "on_crosswalk": false
+      },
       "bbox": [
         796.96,
         353.94,
@@ -147,6 +151,10 @@
         "frame": "route"
       },
       "distance": 10.278333442252395,
+      "place": {
+        "on_road": true,
+        "on_crosswalk": false
+      },
       "bbox": [
         287.5,
         0.0,
@@ -164,7 +172,6 @@
         1920,
         1080
       ],
-      "rejected": "coverage_exceeded",
       "outline": [
         [
           [
@@ -189,7 +196,7 @@
           ]
         ]
       ],
-      "grounded": false,
+      "grounded": true,
       "mask_row": 2
     }
   ],

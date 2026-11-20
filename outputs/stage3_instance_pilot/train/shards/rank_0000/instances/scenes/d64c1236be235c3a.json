@@ -121,64 +121,18 @@
       ]
     },
     "cam_b0": {
-      "text": "the silver car on the left, in the next lane",
+      "text": "the silver van in the center, following us",
       "categories": [
         "vehicle"
       ],
       "items": [
-        {
-          "text": "the silver car on the left, in the next lane",
-          "kind": "agent",
-          "category": "vehicle",
-          "role": "adjacent",
-          "grounded": true,
-          "item_id": "cam_b0_0",
-          "distance": 5.07,
-          "gt_index": 152,
-          "map_ids": null,
-          "attributes": {
-            "visible": true,
-            "color": "silver",
-            "type": "car"
-          },
-          "outline": [
-            [
-              [
-                73.4000015258789,
-                408.1000061035156
-              ],
-              [
-                0.0,
-                408.1000061035156
-              ],
-              [
-                0.0,
-                672.0
-              ],
-              [
-                73.4000015258789,
-                672.0
-              ],
-              [
-                73.4000015258789,
-                408.1000061035156
-              ]
-            ]
-          ],
-          "bbox": [
-            0.0,
-            408.07,
-            73.37,
-            672.0
-          ]
-        },
         {
           "text": "the silver van in the center, following us",
           "kind": "agent",
           "category": "vehicle",
           "role": "following",
           "grounded": true,
-          "item_id": "cam_b0_1",
+          "item_id": "cam_b0_0",
           "distance": 7.3,
           "gt_index": 145,
           "map_ids": null,
@@ -224,7 +178,7 @@
           "category": "vehicle",
           "role": "nearby",
           "grounded": true,
-          "item_id": "cam_b0_2",
+          "item_id": "cam_b0_1",
           "distance": 10.89,
           "gt_index": 157,
           "map_ids": null,
@@ -267,13 +221,13 @@
       ]
     },
     "cam_l0": {
-      "text": "the pedestrian in gray on the right, in the next lane",
+      "text": "the pedestrian in gray on the right, near our lane",
       "categories": [
         "pedestrian"
       ],
       "items": [
         {
-          "text": "the pedestrian in gray on the right, in the next lane",
+          "text": "the pedestrian in gray on the right, near our lane",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",
@@ -319,7 +273,7 @@
           ]
         },
         {
-          "text": "the nearer pedestrian in black on the left, at the side of the road",
+          "text": "the nearer pedestrian in black on the left, by the road",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",
@@ -365,7 +319,7 @@
           ]
         },
         {
-          "text": "the pedestrian in gray on the left, at the side of the road",
+          "text": "the pedestrian in gray on the left, by the road",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",
@@ -413,58 +367,9 @@
       ]
     },
     "cam_r0": {
-      "text": "the brown car in the center, in the next lane",
-      "categories": [
-        "vehicle"
-      ],
-      "items": [
-        {
-          "text": "the brown car in the center, in the next lane",
-          "kind": "agent",
-          "category": "vehicle",
-          "role": "adjacent",
-          "grounded": true,
-          "item_id": "cam_r0_0",
-          "distance": 4.95,
-          "gt_index": 143,
-          "map_ids": null,
-          "attributes": {
-            "visible": true,
-            "color": "brown",
-            "type": "car"
-          },
-          "outline": [
-            [
-              [
-                1148.0,
-                400.3999938964844
-              ],
-              [
-                174.8000030517578,
-                400.3999938964844
-              ],
-              [
-                174.8000030517578,
-                672.0
-              ],
-              [
-                1148.0,
-                672.0
-              ],
-              [
-                1148.0,
-                400.3999938964844
-              ]
-            ]
-          ],
-          "bbox": [
-            174.81,
-            400.38,
-            1148.0,
-            672.0
-          ]
-        }
-      ]
+      "text": "",
+      "categories": [],
+      "items": []
     }
   }
 }

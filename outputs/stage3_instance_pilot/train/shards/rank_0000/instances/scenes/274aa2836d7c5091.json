@@ -75,104 +75,9 @@
       ]
     },
     "cam_b0": {
-      "text": "the silver SUV on the left, in the next lane",
-      "categories": [
-        "vehicle"
-      ],
-      "items": [
-        {
-          "text": "the silver SUV on the left, in the next lane",
-          "kind": "agent",
-          "category": "vehicle",
-          "role": "adjacent",
-          "grounded": true,
-          "item_id": "cam_b0_0",
-          "distance": 6.49,
-          "gt_index": 7,
-          "map_ids": null,
-          "attributes": {
-            "visible": true,
-            "color": "silver",
-            "type": "SUV"
-          },
-          "outline": [
-            [
-              [
-                128.3000030517578,
-                220.3000030517578
-              ],
-              [
-                0.0,
-                220.3000030517578
-              ],
-              [
-                0.0,
-                672.0
-              ],
-              [
-                128.3000030517578,
-                672.0
-              ],
-              [
-                128.3000030517578,
-                220.3000030517578
-              ]
-            ]
-          ],
-          "bbox": [
-            0.0,
-            220.27,
-            128.34,
-            672.0
-          ]
-        },
-        {
-          "text": "the black car on the right, in the next lane",
-          "kind": "agent",
-          "category": "vehicle",
-          "role": "adjacent",
-          "grounded": true,
-          "item_id": "cam_b0_1",
-          "distance": 7.26,
-          "gt_index": 4,
-          "map_ids": null,
-          "attributes": {
-            "visible": true,
-            "color": "black",
-            "type": "car"
-          },
-          "outline": [
-            [
-              [
-                1148.0,
-                364.3999938964844
-              ],
-              [
-                819.0,
-                364.3999938964844
-              ],
-              [
-                819.0,
-                672.0
-              ],
-              [
-                1148.0,
-                672.0
-              ],
-              [
-                1148.0,
-                364.3999938964844
-              ]
-            ]
-          ],
-          "bbox": [
-            819.02,
-            364.37,
-            1148.0,
-            672.0
-          ]
-        }
-      ]
+      "text": "",
+      "categories": [],
+      "items": []
     },
     "cam_l0": {
       "text": "",
@@ -180,13 +85,13 @@
       "items": []
     },
     "cam_r0": {
-      "text": "the pedestrian in gray on the right, at the side of the road",
+      "text": "the pedestrian in gray on the right, by the road",
       "categories": [
         "pedestrian"
       ],
       "items": [
         {
-          "text": "the pedestrian in gray on the right, at the side of the road",
+          "text": "the pedestrian in gray on the right, by the road",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",
@@ -232,7 +137,7 @@
           ]
         },
         {
-          "text": "the pedestrian in black in the center, at the side of the road",
+          "text": "the pedestrian in black in the center, on the crosswalk",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",
@@ -278,7 +183,7 @@
           ]
         },
         {
-          "text": "the pedestrian in beige in the center, at the side of the road",
+          "text": "the pedestrian in beige in the center, on the road",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",

@@ -5,13 +5,13 @@
   "input_hash": "b1678660245b8ad4d4855b28c34cfb4feca775370be02c3852b13172fa8b808e",
   "scene_text": {
     "cam_f0": {
-      "text": "the pedestrian in blue on the left, at the side of the road",
+      "text": "the pedestrian in blue on the left, on the crosswalk",
       "categories": [
         "pedestrian"
       ],
       "items": [
         {
-          "text": "the pedestrian in blue on the left, at the side of the road",
+          "text": "the pedestrian in blue on the left, on the crosswalk",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",
@@ -57,7 +57,7 @@
           ]
         },
         {
-          "text": "the pedestrian in yellow on the left, at the side of the road",
+          "text": "the pedestrian in yellow on the left, on the crosswalk",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",

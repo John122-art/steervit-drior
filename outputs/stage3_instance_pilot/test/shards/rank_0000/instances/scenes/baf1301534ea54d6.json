@@ -360,7 +360,7 @@
           ]
         },
         {
-          "text": "the silver SUV on the right, at the side of the road",
+          "text": "the silver SUV on the right, by the road",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
@@ -408,112 +408,14 @@
       ]
     },
     "cam_l0": {
-      "text": "the black SUV on the left, oncoming",
-      "categories": [
-        "vehicle"
-      ],
-      "items": [
-        {
-          "text": "the black SUV on the left, oncoming",
-          "kind": "agent",
-          "category": "vehicle",
-          "role": "oncoming",
-          "grounded": true,
-          "item_id": "cam_l0_0",
-          "distance": 4.12,
-          "gt_index": 24,
-          "map_ids": null,
-          "attributes": {
-            "visible": true,
-            "color": "black",
-            "type": "SUV"
-          },
-          "outline": [
-            [
-              [
-                369.5,
-                337.29998779296875
-              ],
-              [
-                0.0,
-                337.29998779296875
-              ],
-              [
-                0.0,
-                672.0
-              ],
-              [
-                369.5,
-                672.0
-              ],
-              [
-                369.5,
-                337.29998779296875
-              ]
-            ]
-          ],
-          "bbox": [
-            0.0,
-            337.29,
-            369.48,
-            672.0
-          ]
-        }
-      ]
+      "text": "",
+      "categories": [],
+      "items": []
     },
     "cam_r0": {
-      "text": "the traffic cone on the left, near our lane",
-      "categories": [
-        "traffic_cone"
-      ],
-      "items": [
-        {
-          "text": "the traffic cone on the left, near our lane",
-          "kind": "agent",
-          "category": "traffic_cone",
-          "role": "cone",
-          "grounded": true,
-          "item_id": "cam_r0_0",
-          "distance": 5.04,
-          "gt_index": 15,
-          "map_ids": null,
-          "attributes": {
-            "visible": true,
-            "color": "white",
-            "type": "traffic cone"
-          },
-          "outline": [
-            [
-              [
-                187.60000610351562,
-                591.7000122070312
-              ],
-              [
-                45.70000076293945,
-                591.7000122070312
-              ],
-              [
-                45.70000076293945,
-                672.0
-              ],
-              [
-                187.60000610351562,
-                672.0
-              ],
-              [
-                187.60000610351562,
-                591.7000122070312
-              ]
-            ]
-          ],
-          "bbox": [
-            45.7,
-            591.73,
-            187.58,
-            672.0
-          ]
-        }
-      ]
+      "text": "",
+      "categories": [],
+      "items": []
     }
   }
 }

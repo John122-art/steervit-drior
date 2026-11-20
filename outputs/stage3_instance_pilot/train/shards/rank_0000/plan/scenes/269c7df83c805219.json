@@ -25,6 +25,10 @@
         "frame": "route"
       },
       "distance": 20.409637097782227,
+      "place": {
+        "on_road": false,
+        "on_crosswalk": false
+      },
       "bbox": [
         1.75,
         291.37,
@@ -70,67 +74,6 @@
       "mask_row": 0
     },
     {
-      "kind": "agent",
-      "category": "pedestrian",
-      "gt_index": 12,
-      "camera": "cam_b0",
-      "role": "nearby",
-      "relation": {
-        "lon": -7.82930149982178,
-        "lat": 5.08971009477661,
-        "lane": "left",
-        "motion": "same",
-        "speed": 0.9554778909006739,
-        "relative_heading": 2.811694738803121,
-        "distance": 9.33826058878111,
-        "frame": "ego"
-      },
-      "distance": 9.33826058878111,
-      "bbox": [
-        1129.33,
-        349.66,
-        1148.0,
-        604.98
-      ],
-      "occluded_fraction": 0.0,
-      "crossing_from": null,
-      "priority": 4,
-      "item_id": "cam_b0_0",
-      "crop": "/mnt/zhaozc_workspace/project/LQH/Driv-calude_data/DrivoR-main/outputs/stage3_instance_pilot/train/shards/rank_0000/plan/crops/269c7df83c805219/cam_b0_0.jpg",
-      "crop_box_original": [
-        1873,
-        500,
-        1920,
-        1034
-      ],
-      "outline": [
-        [
-          [
-            1148.0,
-            349.70001220703125
-          ],
-          [
-            1129.300048828125,
-            349.70001220703125
-          ],
-          [
-            1129.300048828125,
-            605.0
-          ],
-          [
-            1148.0,
-            605.0
-          ],
-          [
-            1148.0,
-            349.70001220703125
-          ]
-        ]
-      ],
-      "grounded": true,
-      "mask_row": 1
-    },
-    {
       "kind": "stop_line",
       "category": "stop_line",
       "camera": "cam_l0",
@@ -166,7 +109,7 @@
         ]
       ],
       "grounded": true,
-      "mask_row": 2
+      "mask_row": 1
     },
     {
       "kind": "agent",
@@ -185,6 +128,10 @@
         "frame": "route"
       },
       "distance": 18.14554707222731,
+      "place": {
+        "on_road": false,
+        "on_crosswalk": false
+      },
       "bbox": [
         766.28,
         322.85,
@@ -227,7 +174,7 @@
         ]
       ],
       "grounded": true,
-      "mask_row": 3
+      "mask_row": 2
     },
     {
       "kind": "lane_lines",
@@ -322,10 +269,12 @@
         ]
       ],
       "grounded": true,
-      "mask_row": 4
+      "mask_row": 3
     }
   ],
   "rejected": {
-    "not_in_any_camera": 1
+    "not_in_any_camera": 1,
+    "mostly_outside_image": 1,
+    "stop_line_mostly_outside_cam_f0": 1
   }
 }

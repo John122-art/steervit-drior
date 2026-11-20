@@ -119,7 +119,7 @@
           "bbox": null
         },
         {
-          "text": "the white SUV on the left, at the side of the road",
+          "text": "the white SUV on the left, in another lane",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
@@ -167,13 +167,13 @@
       ]
     },
     "cam_b0": {
-      "text": "the silver pickup truck on the right, at the side of the road",
+      "text": "the silver pickup truck on the right, by the road",
       "categories": [
         "vehicle"
       ],
       "items": [
         {
-          "text": "the silver pickup truck on the right, at the side of the road",
+          "text": "the silver pickup truck on the right, by the road",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
@@ -226,13 +226,13 @@
       "items": []
     },
     "cam_r0": {
-      "text": "the nearer pedestrian in white on the left, at the side of the road",
+      "text": "the nearer pedestrian in white on the left, by the road",
       "categories": [
         "pedestrian"
       ],
       "items": [
         {
-          "text": "the nearer pedestrian in white on the left, at the side of the road",
+          "text": "the nearer pedestrian in white on the left, by the road",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",
@@ -278,7 +278,7 @@
           ]
         },
         {
-          "text": "the farther pedestrian in white on the left, at the side of the road",
+          "text": "the farther pedestrian in white on the left, by the road",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",
@@ -324,7 +324,7 @@
           ]
         },
         {
-          "text": "the pedestrian in black on the left, at the side of the road",
+          "text": "the pedestrian in black on the left, by the road",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",

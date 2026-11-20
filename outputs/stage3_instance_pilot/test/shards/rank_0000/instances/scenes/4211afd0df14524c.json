@@ -174,7 +174,7 @@
           "kind": "agent",
           "category": "vehicle",
           "role": "following",
-          "grounded": false,
+          "grounded": true,
           "item_id": "cam_b0_0",
           "distance": 5.33,
           "gt_index": 28,
@@ -216,7 +216,7 @@
           ]
         },
         {
-          "text": "the black SUV on the left, at the side of the road",
+          "text": "the black SUV on the left, by the road",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
@@ -262,7 +262,7 @@
           ]
         },
         {
-          "text": "the silver van on the left, at the side of the road",
+          "text": "the silver van on the left, by the road",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
@@ -310,13 +310,13 @@
       ]
     },
     "cam_l0": {
-      "text": "the white pickup truck on the left, at the side of the road",
+      "text": "the white pickup truck on the left, by the road",
       "categories": [
         "vehicle"
       ],
       "items": [
         {
-          "text": "the white pickup truck on the left, at the side of the road",
+          "text": "the white pickup truck on the left, by the road",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
@@ -364,58 +364,9 @@
       ]
     },
     "cam_r0": {
-      "text": "the black SUV in the center, in the next lane",
-      "categories": [
-        "vehicle"
-      ],
-      "items": [
-        {
-          "text": "the black SUV in the center, in the next lane",
-          "kind": "agent",
-          "category": "vehicle",
-          "role": "adjacent",
-          "grounded": true,
-          "item_id": "cam_r0_0",
-          "distance": 4.64,
-          "gt_index": 27,
-          "map_ids": null,
-          "attributes": {
-            "visible": true,
-            "color": "black",
-            "type": "SUV"
-          },
-          "outline": [
-            [
-              [
-                1148.0,
-                305.79998779296875
-              ],
-              [
-                367.70001220703125,
-                305.79998779296875
-              ],
-              [
-                367.70001220703125,
-                672.0
-              ],
-              [
-                1148.0,
-                672.0
-              ],
-              [
-                1148.0,
-                305.79998779296875
-              ]
-            ]
-          ],
-          "bbox": [
-            367.72,
-            305.81,
-            1148.0,
-            672.0
-          ]
-        }
-      ]
+      "text": "",
+      "categories": [],
+      "items": []
     }
   }
 }

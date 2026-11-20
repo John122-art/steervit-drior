@@ -110,64 +110,18 @@
       "items": []
     },
     "cam_l0": {
-      "text": "the gray bus on the left, at the side of the road",
+      "text": "the silver bus on the left, by the road",
       "categories": [
         "vehicle"
       ],
       "items": [
         {
-          "text": "the gray bus on the left, at the side of the road",
+          "text": "the silver bus on the left, by the road",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
           "grounded": true,
           "item_id": "cam_l0_0",
-          "distance": 19.33,
-          "gt_index": 16,
-          "map_ids": null,
-          "attributes": {
-            "visible": true,
-            "color": "gray",
-            "type": "bus"
-          },
-          "outline": [
-            [
-              [
-                204.10000610351562,
-                529.4000244140625
-              ],
-              [
-                204.10000610351562,
-                203.5
-              ],
-              [
-                0.0,
-                203.5
-              ],
-              [
-                0.0,
-                529.4000244140625
-              ],
-              [
-                204.10000610351562,
-                529.4000244140625
-              ]
-            ]
-          ],
-          "bbox": [
-            0.0,
-            203.52,
-            204.1,
-            529.36
-          ]
-        },
-        {
-          "text": "the silver bus on the left, at the side of the road",
-          "kind": "agent",
-          "category": "vehicle",
-          "role": "nearby",
-          "grounded": true,
-          "item_id": "cam_l0_1",
           "distance": 20.34,
           "gt_index": 17,
           "map_ids": null,

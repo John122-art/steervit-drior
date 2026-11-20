@@ -55,110 +55,22 @@
             658.33,
             565.2
           ]
-        },
-        {
-          "text": "the crosswalk in front of us",
-          "kind": "crosswalk",
-          "category": "crosswalk",
-          "role": "crosswalk",
-          "grounded": true,
-          "item_id": "cam_f0_1",
-          "distance": 6.3,
-          "gt_index": null,
-          "map_ids": [
-            "70686"
-          ],
-          "attributes": null,
-          "outline": [
-            [
-              [
-                268.3999938964844,
-                672.0
-              ],
-              [
-                1110.300048828125,
-                672.0
-              ],
-              [
-                1110.300048828125,
-                586.7000122070312
-              ],
-              [
-                348.70001220703125,
-                579.7000122070312
-              ],
-              [
-                268.3999938964844,
-                672.0
-              ]
-            ]
-          ],
-          "bbox": null
         }
       ]
     },
     "cam_b0": {
-      "text": "the white car on the left, in the next lane",
-      "categories": [
-        "vehicle"
-      ],
-      "items": [
-        {
-          "text": "the white car on the left, in the next lane",
-          "kind": "agent",
-          "category": "vehicle",
-          "role": "adjacent",
-          "grounded": true,
-          "item_id": "cam_b0_0",
-          "distance": 6.01,
-          "gt_index": 81,
-          "map_ids": null,
-          "attributes": {
-            "visible": true,
-            "color": "white",
-            "type": "car"
-          },
-          "outline": [
-            [
-              [
-                297.3999938964844,
-                240.39999389648438
-              ],
-              [
-                0.0,
-                240.39999389648438
-              ],
-              [
-                0.0,
-                672.0
-              ],
-              [
-                297.3999938964844,
-                672.0
-              ],
-              [
-                297.3999938964844,
-                240.39999389648438
-              ]
-            ]
-          ],
-          "bbox": [
-            0.0,
-            240.4,
-            297.39,
-            672.0
-          ]
-        }
-      ]
+      "text": "",
+      "categories": [],
+      "items": []
     },
     "cam_l0": {
-      "text": "the pedestrian in blue on the left, at the side of the road",
+      "text": "the pedestrian in blue on the left, by the road",
       "categories": [
         "pedestrian"
       ],
       "items": [
         {
-          "text": "the pedestrian in blue on the left, at the side of the road",
+          "text": "the pedestrian in blue on the left, by the road",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",
@@ -204,7 +116,7 @@
           ]
         },
         {
-          "text": "the pedestrian in gray in the center, at the side of the road",
+          "text": "the pedestrian in gray in the center, on the crosswalk",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",
@@ -250,7 +162,7 @@
           ]
         },
         {
-          "text": "the pedestrian in gray on the left, at the side of the road",
+          "text": "the pedestrian in gray on the left, on the crosswalk",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",
@@ -298,58 +210,9 @@
       ]
     },
     "cam_r0": {
-      "text": "the gray car in the center, in the next lane",
-      "categories": [
-        "vehicle"
-      ],
-      "items": [
-        {
-          "text": "the gray car in the center, in the next lane",
-          "kind": "agent",
-          "category": "vehicle",
-          "role": "adjacent",
-          "grounded": false,
-          "item_id": "cam_r0_0",
-          "distance": 3.61,
-          "gt_index": 4,
-          "map_ids": null,
-          "attributes": {
-            "visible": true,
-            "color": "gray",
-            "type": "car"
-          },
-          "outline": [
-            [
-              [
-                1148.0,
-                0.0
-              ],
-              [
-                100.0,
-                0.0
-              ],
-              [
-                100.0,
-                672.0
-              ],
-              [
-                1148.0,
-                672.0
-              ],
-              [
-                1148.0,
-                0.0
-              ]
-            ]
-          ],
-          "bbox": [
-            100.04,
-            0.0,
-            1148.0,
-            672.0
-          ]
-        }
-      ]
+      "text": "",
+      "categories": [],
+      "items": []
     }
   }
 }

@@ -104,7 +104,7 @@
           "bbox": null
         },
         {
-          "text": "the silver car on the right, at the side of the road",
+          "text": "the silver car on the right, by the road",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",

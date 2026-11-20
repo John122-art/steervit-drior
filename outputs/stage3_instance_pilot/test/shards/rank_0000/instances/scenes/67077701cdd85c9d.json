@@ -157,47 +157,9 @@
       ]
     },
     "cam_r0": {
-      "text": "the stop line in front of us",
-      "categories": [
-        "stop_line"
-      ],
-      "items": [
-        {
-          "text": "the stop line in front of us",
-          "kind": "stop_line",
-          "category": "stop_line",
-          "role": "stop_line",
-          "grounded": true,
-          "item_id": "cam_r0_0",
-          "distance": 2.05,
-          "gt_index": null,
-          "map_ids": [
-            "49510"
-          ],
-          "attributes": null,
-          "outline": [
-            [
-              [
-                1108.5999755859375,
-                672.0
-              ],
-              [
-                764.9000244140625,
-                556.0
-              ],
-              [
-                461.3999938964844,
-                672.0
-              ],
-              [
-                1108.5999755859375,
-                672.0
-              ]
-            ]
-          ],
-          "bbox": null
-        }
-      ]
+      "text": "",
+      "categories": [],
+      "items": []
     }
   }
 }

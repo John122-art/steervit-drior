@@ -25,45 +25,6 @@
           "attributes": null,
           "outline": null,
           "bbox": null
-        },
-        {
-          "text": "the stop line in front of us",
-          "kind": "stop_line",
-          "category": "stop_line",
-          "role": "stop_line",
-          "grounded": true,
-          "item_id": "cam_f0_1",
-          "distance": 6.59,
-          "gt_index": null,
-          "map_ids": [
-            "64317"
-          ],
-          "attributes": null,
-          "outline": [
-            [
-              [
-                0.0,
-                672.0
-              ],
-              [
-                1148.0,
-                672.0
-              ],
-              [
-                1148.0,
-                651.9000244140625
-              ],
-              [
-                0.0,
-                551.7999877929688
-              ],
-              [
-                0.0,
-                672.0
-              ]
-            ]
-          ],
-          "bbox": null
         }
       ]
     },
@@ -120,7 +81,7 @@
           ]
         },
         {
-          "text": "the blue SUV on the left, at the side of the road",
+          "text": "the blue SUV on the left, by the road",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
@@ -166,7 +127,7 @@
           ]
         },
         {
-          "text": "the pedestrian in blue on the right, in the next lane",
+          "text": "the pedestrian in blue on the right, near our lane",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",
@@ -266,7 +227,7 @@
           ]
         },
         {
-          "text": "the beige car on the left, at the side of the road",
+          "text": "the beige car on the left, in another lane",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
@@ -314,13 +275,13 @@
       ]
     },
     "cam_r0": {
-      "text": "the nearer white car on the right, at the side of the road",
+      "text": "the nearer white car on the right, in another lane",
       "categories": [
         "vehicle"
       ],
       "items": [
         {
-          "text": "the nearer white car on the right, at the side of the road",
+          "text": "the nearer white car on the right, in another lane",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
@@ -366,7 +327,7 @@
           ]
         },
         {
-          "text": "the farther white car on the right, at the side of the road",
+          "text": "the farther white car on the right, in another lane",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
@@ -412,7 +373,7 @@
           ]
         },
         {
-          "text": "the white van in the center, at the side of the road",
+          "text": "the white van in the center, in another lane",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",

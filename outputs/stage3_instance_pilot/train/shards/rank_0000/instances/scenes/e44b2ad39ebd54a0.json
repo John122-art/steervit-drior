@@ -331,64 +331,18 @@
       ]
     },
     "cam_l0": {
-      "text": "the silver SUV on the left, in the next lane",
+      "text": "the gray car on the right, by the road",
       "categories": [
         "vehicle"
       ],
       "items": [
         {
-          "text": "the silver SUV on the left, in the next lane",
-          "kind": "agent",
-          "category": "vehicle",
-          "role": "adjacent",
-          "grounded": true,
-          "item_id": "cam_l0_0",
-          "distance": 3.75,
-          "gt_index": 15,
-          "map_ids": null,
-          "attributes": {
-            "visible": true,
-            "color": "silver",
-            "type": "SUV"
-          },
-          "outline": [
-            [
-              [
-                397.29998779296875,
-                0.0
-              ],
-              [
-                0.0,
-                0.0
-              ],
-              [
-                0.0,
-                672.0
-              ],
-              [
-                397.29998779296875,
-                672.0
-              ],
-              [
-                397.29998779296875,
-                0.0
-              ]
-            ]
-          ],
-          "bbox": [
-            0.0,
-            0.0,
-            397.3,
-            672.0
-          ]
-        },
-        {
-          "text": "the gray car on the right, at the side of the road",
+          "text": "the gray car on the right, by the road",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
           "grounded": true,
-          "item_id": "cam_l0_1",
+          "item_id": "cam_l0_0",
           "distance": 12.98,
           "gt_index": 13,
           "map_ids": null,
@@ -431,64 +385,18 @@
       ]
     },
     "cam_r0": {
-      "text": "the black SUV on the right, beside us",
+      "text": "the pedestrian in green on the left, near our lane",
       "categories": [
-        "vehicle"
+        "pedestrian"
       ],
       "items": [
         {
-          "text": "the black SUV on the right, beside us",
-          "kind": "agent",
-          "category": "vehicle",
-          "role": "beside",
-          "grounded": true,
-          "item_id": "cam_r0_0",
-          "distance": 5.85,
-          "gt_index": 38,
-          "map_ids": null,
-          "attributes": {
-            "visible": true,
-            "color": "black",
-            "type": "SUV"
-          },
-          "outline": [
-            [
-              [
-                1148.0,
-                189.8000030517578
-              ],
-              [
-                626.2999877929688,
-                189.8000030517578
-              ],
-              [
-                626.2999877929688,
-                672.0
-              ],
-              [
-                1148.0,
-                672.0
-              ],
-              [
-                1148.0,
-                189.8000030517578
-              ]
-            ]
-          ],
-          "bbox": [
-            626.28,
-            189.81,
-            1148.0,
-            672.0
-          ]
-        },
-        {
-          "text": "the pedestrian in green on the left, in the next lane",
+          "text": "the pedestrian in green on the left, near our lane",
           "kind": "agent",
           "category": "pedestrian",
           "role": "nearby",
           "grounded": true,
-          "item_id": "cam_r0_1",
+          "item_id": "cam_r0_0",
           "distance": 9.47,
           "gt_index": 8,
           "map_ids": null,
@@ -529,12 +437,12 @@
           ]
         },
         {
-          "text": "the white car in the center, at the side of the road",
+          "text": "the white car in the center, in another lane",
           "kind": "agent",
           "category": "vehicle",
           "role": "nearby",
           "grounded": true,
-          "item_id": "cam_r0_2",
+          "item_id": "cam_r0_1",
           "distance": 19.05,
           "gt_index": 33,
           "map_ids": null,
